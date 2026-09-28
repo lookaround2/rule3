@@ -25,9 +25,13 @@
       "36/2020"
     ],
     "carrier_notes": {
+      "BOOK_A": [
+        "[Alta.Reg.124/10;128/15;36/20]"
+      ],
       "BOOK_B": "Alta. Reg. 128/2015, s. 3; 36/2020, s. 3"
     },
     "crosscheck_vs_official": {
+      "BOOK_A": "AGREES",
       "BOOK_B": "AGREES"
     }
   },

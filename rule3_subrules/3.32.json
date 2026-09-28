@@ -26,10 +26,14 @@
       "143/2011"
     ],
     "carrier_notes": {
+      "BOOK_A": [
+        "[Alta.Reg.124/10;143/11]"
+      ],
       "BOOK_B": "Alta. Reg. 143/2011, s. 4",
       "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.32 effective November 1, 2010 (Alta. Gaz. August 14, 2010); Alta.*\n\nReg. 143/2011, s. 4]"
     },
     "crosscheck_vs_official": {
+      "BOOK_A": "AGREES",
       "BOOK_B": "AGREES",
       "BOOK_C": "AGREES"
     }

@@ -22,9 +22,13 @@
       "143/2011"
     ],
     "carrier_notes": {
+      "BOOK_A": [
+        "[Alta.Reg.124/10;163/10;143/11]"
+      ],
       "BOOK_B": "Alta. Reg. 163/2010, s. 2; 143/2011, s. 6"
     },
     "crosscheck_vs_official": {
+      "BOOK_A": "AGREES",
       "BOOK_B": "AGREES"
     }
   },

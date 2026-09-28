@@ -24,10 +24,14 @@
       "72/2022"
     ],
     "carrier_notes": {
+      "BOOK_A": [
+        "[Alta.Reg.124/10;72/22]"
+      ],
       "BOOK_B": "Alta. Reg. 72/2022, s. 2",
       "BOOK_C": "*[Alta. Reg. 124/2010, r, 3.22 effective November 1, 2010 (Alta. Gaz. August 14, 2010); Alta.*\n\nReg. 72/2022 (Alta. Gaz. May 31, 2022]"
     },
     "crosscheck_vs_official": {
+      "BOOK_A": "AGREES",
       "BOOK_B": "AGREES",
       "BOOK_C": "AGREES"
     }

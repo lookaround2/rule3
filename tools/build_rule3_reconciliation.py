@@ -466,7 +466,7 @@ def amendment_check(off: dict, a: dict | None, b: dict | None, c: dict | None) -
         return out
     official = set(off["amending_regulations"])
     notes = {
-        "BOOK_A": re.findall(r"\[Alta\. Reg\.[^\]]*\]", (a or {}).get("operative_text_raw") or ""),
+        "BOOK_A": re.findall(r"\[Alta\.\s?Reg\.[^\]]*\]", (a or {}).get("operative_text_raw") or ""),
         "BOOK_B": (b or {}).get("amendment_note_raw"),
         "BOOK_C": (c or {}).get("amendment_note_raw"),
     }
@@ -487,20 +487,100 @@ def _sim(x: str, y: str) -> float:
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.2": {"BOOK_A": "same wording as official 3.2(1)-(6) (read by eye) except: editorial bracket labels '[Determining the appropriate "
+                       "judicial centre]' (after 'rule 3.3') and '[Resolving Issues and Preserving Rights]' (after 'Part 6'), the title in "
+                       "capitals ('How to Start an Action'), many spaces missing, and the amendment bracket '[Alta.Reg.124/10;143/11]' (official "
+                       "'AR 124/2010 s3.2;143/2011'). No substantive difference. The dropped raw text also held the page 3-4 footnote block, "
+                       "printed between clauses (2)(e) and (2)(f); kept here verbatim because Book A's footnotes are not split out: "
+                       "'1M & D Farm v.Man. Agric.Cr.Corp.[1999] 2 SCR 961, 245 NR 165. 2C.I.B.C.v.Green2015 SCC 60, [2015] 3 SCR 802. "
+                       "3Bara Academy of Bus.Sci. v.R.2001 ABCA 4 (28 Nov '00, filed 5 Jan '01),leave den(SCC 2001) 276 NR 396. "
+                       "41384034 Alta.v.1180263 Alta.2011 ABQB 599, [2011] AR Uned 663 (Sep 29). 5Homestead Housing Co-op.v.Barth(M) 2016 ABQB 538, "
+                       "JCE 1503 12328 (Sep 27). 6Keaton v.Keaton2017 ABQB 429, JCE 4803 180087 (Jul 10).' These six footnotes follow the "
+                       "commentary text that opens page 3-4 before the 3.2 title; which rule that text belongs to is not shown in the file."},
 }
 MANUAL_SEE_ALSO = {
     "3.1": ["Official text searched for 'rule 3.1', 'Rules 3.1' (including line-wrapped forms) and form headings '[Rule 3.1]': the only hit is the running page header 'Rule 3.1 AR 124/2010' (pdf p.49). No official rule cites 3.1 by number. BOOK_B (parts 01-10) has no 'Commentary § 3.1' section; BOOK_C's only text mentioning '3.1' is a displaced running head (see BOOK_C flag).",
             "FLAG on BOOK_A R.4.3 (p.4-6, line 207, Related Provisions): '3.1 (statement of defence)'. Official 3.1 is 'Rules govern Court actions'; 'Statement of defence' is the official title of rule 3.31, and official 4.3(3) speaks of a statement of defence being filed. The sources do not say which number was meant.",
             "BOOK_A related provisions that list 3.1 (searched all Book A files, line-wrapped forms included): R.1.1 (p.1-3, lines 45-46, wrapped) and R.1.7 (p.1-33, line 1624), both '3.1 (rules govern all proceedings)' - the label paraphrases the official title 'Rules govern Court actions'. Official 1.1(1): 'These rules govern the practice and procedure in (a) the Court of King's Bench of Alberta, and (b) the Court of Appeal of Alberta'.",
             
-        "BOOK_A has no rule text or notes for 3.1: its Part 3 file starts at book page 3-4 (pages 3-1 to 3-3 are not in it). Book A pointers into its own missing 3.1 note: p.3-7 (line 85, footnote text) 'See Sabir v. Gill and commentary on it, in R.3.1n.' and p.13-70 (line 3653, under R.13.13) 'See Sabir v. Gill, R.3.1 n.'; the case is cited in full at p.3-43 fn 1 and p.3-45 fn 8 (Sabir v. Gill 2023 ABKB 679) and at p.13-70 fn 3. The 3.1 note itself cannot be checked.",
+        "BOOK_A has no rule text or notes for 3.1: its Part 3 file starts at book page 3-4 (pages 3-1 to 3-3 are not in it). Book A pointers into its own missing 3.1 note: p.3-7 (line 85, footnote text) 'See Sabir v. Gill and commentary on it, in R.3.1n.' and p.13-70 (line 3653, under R.13.13) 'See Sabir v. Gill, R.3.1 n.'; the case is cited in full at p.3-43 fn 1 and p.3-45 fn 8 (Sabir v. Gill 2023 ABKB 679) and at p.13-68 fn 3 and p.13-102 fn 4 (Part 13). The 3.1 note itself cannot be checked.",
+    ],
+    "3.2": ["Official text (searched for 'rule 3.2', 'Rules 3.2', line-wrapped forms and form headings): rule 12.16(1) 'Despite rule 3.2(1), a proceeding under the Family Law Act must be started by filing a claim in Form FL-10'; Form 5 is headed '[Rule 3.2]' (3.2(4) and (5) name Form 5). Read by subject: 1.4 (procedural orders), 1.5 (rule contravention, non-compliance and irregularities), 3.8, 3.12 and 3.15 (named in the information note), 3.24(1) (set aside instead of declaring; cited in BOOK_A p.3-16, statement matches), 14.5(1)(j) and (4) (appeals by declared vexatious litigants; the subject of BOOK_B sections 1-2).",
+            "BOOK_A other Parts that cite 3.2 (all combined*.txt searched, line-wrapped forms included; page markers checked): R.1.3 p.1-12 'On the jurisdiction to grant declarations, see R.3.2n.' (3.2 Part C is about declarations); R.1.5 related provisions p.1-25 '3.2(6) (wrong form of action)'; R.6.3 related p.6-14 '3.2(3) (applications under statute)' and text p.6-22 'Rule 3.2(3) governs special statutory applications'; R.6.5 related p.6-57 '3.2 (starting an action)'; R.6.55 related p.6-166 '3.2(3) (commencing originating applications)'; R.9.21 related p.9-65 '3.2(3) (application in an action)'; R.12.7 (p.12-8) and R.12.8 (p.12-11) related '3.2 (commencing an action)' plus 'See a long note about the dangers, in R.3.2n. B.4.' (B.4 Procedure and Parties is about booking, filing and email-filing difficulties: pointer lands); R.12.9(1) related p.12-12 '3.2 (commencing an action); 3.69 (joining claims)'; R.12.10 p.12-13 'rule 3.2 [How to start an action], rule 3.25 [Contents of statement of claim]'; R.12.16 text p.12-18 and related p.12-19 '3.2 (commencing an action)' with commentary 'Rule 12.16(1) (claim form) expressly overrides R.3.2(1)' (mirrored in 3.2 A.3, p.3-8; official 12.16(1) confirms); R.14.75 p.14-221 'decision under R.3.2(2) is partly discretionary and is owed some deference ... whether the preconditions in R.3.2(2) are met is a question of law'. Inside Part 3: p.3-26 (line 586, R.3.8 note) 'see Sabir v. Gill and comments, in R.3.2n., supra' while 3.2's own p.3-7 fn 2 sends the reader on to R.3.1n. (the only mention of Sabir in 3.2's note).",
+            "FLAG on BOOK_A wrong-form pointers to 3.2(4): R.13.16 related provision '3.2(4) (wrong form of action)' (p.13-72, lines 3767-3769), R.1.5 fn 6 'Warnke v. Skrobek ... (striking out vs. summary judgment) and R.3.2(4)' (p.1-27, line 1347) and R.6.25 fn 8 'Grey v. Edmonton (City) 2005 ABQB 231 ... and R.3.2(4)' (p.6-124, line 6557). Official 3.2(4) fixes the form of an appeal or reference; the power to correct and continue an action started in the wrong form is 3.2(6) (which R.1.5's related provisions, p.1-25, list as '3.2(6) (wrong form of action)'). The sources do not say which subrule was meant. Grey v. Edmonton (City) is also cited in BOOK_A 3.2 p.3-6 fn 7.",
+            "BOOK_B: the single commentary section (§ 3.2:1) has five numbered parts printed 1, 2, 3, 4, 4 (two parts are numbered 4: 'Notice of the Proposed Order Must be Given to the Party To Be Affected' and 'Family Law Matters'); no number is missing. Rules quoted inside it match the official text: 6.4(b) (notice not required if serving notice might cause undue prejudice to the applicant) and 14.5(4) (no appeal under (1)(j) from an order denying a vexatious litigant permission to institute or continue proceedings). The Karas v. Mongeon quotation (para 22) says rule 3.2 provides that actions are commenced 'only by Statement of Claim, Originating Notice, and Notice of Appeal'; official 3.2(1)(b) says 'originating application' ('originating notice' appears only in (2)(d)). BOOK_B rule text = official; its amendment note 'Alta. Reg. 143/2011, s. 3' agrees with official 'AR 124/2010 s3.2;143/2011'.",
+            "Cross-book links (same decisions in more than one book): Karas v. Mongeon 2018 ABQB 149 (BOOK_B section 4; BOOK_A p.3-8 fn 2; BOOK_C rule 12.16 commentary); Kwadrans v. Kwadrans 2023 ABCA 203 (BOOK_B section 4 at para 25 and § 1.5:1 at para 35; BOOK_A p.3-7 fn 6 at paras 12-20; BOOK_A p.3-7 also says a Notice to Attend Family Docket Court is not a commencement document, as in BOOK_B); Blackburn v. Boucher 2018 ABQB 509 (BOOK_A p.3-8 fn 4; BOOK_C rule 12.16); Shell Can. Prods. v. Sunterra Beef (BOOK_C 3.2 commentary: 2013 ABQB 193 and 2014 ABCA 243; BOOK_A p.3-6 fn 6, p.3-8 fn 10, p.3-11 fn 4); Genstar Development v. Plains Midstream 2012 ABQB 457 is in BOOK_C only (no Book A file and no Book B file names Genstar). The README note that Shell and Genstar were seen as displaced 'Part 3 venue cases' in Part 2 (2.28, 2.29) is consistent: they recur here, in BOOK_C's 3.2 commentary about originating application versus statement of claim (not about venue).",
+            
+        "BOOK_B other Parts and BOOK_C (all rule*_part*.json and all Book C page files searched for 'rule 3.2', 'R.3.2', '[Rule 3.2' and 'label' forms): BOOK_B rule 12.16 text ('Despite rule 3.2(1)...') and BOOK_B rule 1.5 commentary (§ 1.5:1, quoting Kwadrans v. Kwadrans, 2023 ABCA 203, para 35: 'The general rule 1.5 should not be invoked if there is a specific rule that addresses the issue in question, here being rule 3.2(6)'). BOOK_C rule 12.16 (file 541-560): text 'Despite rule 3.2(1)' and commentary 'rule 12.16 overrides the requirement in rule 3.2(1) that an action be commenced only by statement of claim, originating notice, or notice of appeal' (citing Blackburn v. Boucher 2018 ABQB 509 para 25 and Karas v. Mongeon 2018 ABQB 149 paras 22-23) - the wording 'originating notice' is the same as in the Karas quotation; official 3.2(1)(b) says 'originating application'.",
     ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.2": "Read in full, pp.3-4 to 3-19. (1) Extraction order: paragraphs and footnote blocks are out of order (sentences resume after other "
+           "paragraphs, e.g. p.3-7 to 3-8) and footnotes are not split out; footnote numbers restart on each page (p.3-6 has 12, the twelfth "
+           "printed at the top of the page; p.3-7 has 11; p.3-8 has 10). Headings as printed: A.General (1 Effect of Errors in Commencement, "
+           "2 Examples, 3 Miscellaneous); B.Originating Applications (1 General, 2 No Disputed Facts, 3 Opposing an Originating Application, "
+           "4 Procedure and Parties); C.Declarations (1 General with (a) Introduction and (b) Tests, 2 Declarations Against the Crown, "
+           "3 Miscellaneous); D.Controverted Elections. "
+           "(2) p.3-6: 'it should be continued as a statement of claim under R.3.2(4)' - official 3.2(4) fixes the form of an appeal or reference; "
+           "the power to correct and continue an action started in the wrong form is 3.2(6) (see see_also for the same pattern in other rules). "
+           "(3) p.3-6: 'R.3.12 lets the court turn an Originating Application into a full-fledged suit', and Related Provisions '3.12 (converting "
+           "application to trial)': official 3.12 lets the Court, on application, direct that the rules for an action started by statement of claim "
+           "apply to the action started by originating application; it does not say the application becomes a suit. "
+           "(4) Related Provisions as printed: '12.16 (commencing an action under theFamily Law Act;13.15 (when a document is filed)' - closing "
+           "parenthesis missing after 'Act'. The labels for 1.5, 3.15, 3.68, 12.7-10, 12.16, 13.15 and 13.28 agree in subject with the official "
+           "titles; 3.12: see (3). "
+           "(5) p.3-13 fn 7 'TsuuT'ina Nation v. Min. of Env., supra': no full citation comes earlier in Book A (the name occurs first at p.3-13 fn 7, "
+           "then in full at p.3-14 fn 5: 2010 ABCA 137, 482 AR 198), so 'supra' points forward. Other supra/infra/Ibid references in these pages "
+           "resolve: O'Malley (#2) supra p.3-6 fn 4 -> fn 3 (2007 ABQB 574; a second decision under the same name, 2006 ABQB 364, is cited in "
+           "full on pp.3-7 and 3-9); Shell Can. Prods. v. Sunterra Beef infra p.3-6 fn 6 -> p.3-8 fn 10; Kingsway infra p.3-9 fn 3 -> fn 4; "
+           "TransAlta supra p.3-10 fn 5 -> p.3-9 fn 2; Re Hearing Office supra p.3-13 fn 8-9 -> fn 5; Nassichuk-Dean supra p.3-14 fn 2 -> p.3-13 fn 6; "
+           "Sheila Holmes supra p.3-16 fn 9 -> p.3-8 fn 10; Leung v. Smith supra p.3-17 fn 9 -> fn 4; Sideleau supra p.3-18 fn 6 -> fn 5. "
+           "(6) p.3-17 fn 7: 'the Act does not apply to time limits in the Rules: R.1.8' - official 1.8 applies the Interpretation Act except "
+           "sections 10, 12, 22(3) to (8), 23 (service of documents) and 26(1); it does not say the Act does not apply to time limits generally. "
+           "(7) p.3-19 lines 406-407: the title 'Determining the Appropriate Judicial Centre' (the title of 3.3) and footnotes '2 325303 Alta. v. "
+           "Prime Prop. Mgmt. 2011 ABQB 817, 531 AR 204' and '3 Many of the old boundaries seemed influenced by railway lines' are printed before the "
+           "text of 3.3 and end this commentary as built; nothing in 3.2 explains them (to be confirmed in the 3.3 pass). The footnotes '4 Apache Can. "
+           "v. Johnson 2005 ABCA 71 ...; 5 Nat. Hldg. v. Blair 2009 ABQB 351; 6 Odland v. Odland 2017 ABCA 397' at the top of p.3-19 go with "
+           "D.Controverted Elections. "
+           "(8) Pointers: p.3-13 '(a) Introduction See also R.3.24n.B.' points into Book A's note at R.3.24 (to be checked in the 3.24 pass); "
+           "p.3-8 'Part A.1 above' (A.1 says an Originating Application is never compulsory) and p.3-7 'See further Part B below' resolve; "
+           "p.3-10 fn 7 'R.3.2n.A.2.' resolves (Elite, Shell and Sheila Holmes are in A.2, p.3-8 fn 1 and 10). p.3-7 fn 2 'See Sabir v. Gill and "
+           "commentary on it, in R.3.1n.' points to the 3.1 note, which is not in the file. "
+           "(9) The sentence after the Related Provisions on p.3-5 ('The ceiling for civil suits in the Alberta Court of Justice went up to $50,000 in "
+           "August 2014 ... In 2022 the ceiling went up to $100,000') is about another court's jurisdiction, not in the Rules; not checked against "
+           "any source in the repository. Rule numbers cited in the commentary: official text read for 3.2(3), 3.2(4), 3.2(6), 3.12, 3.24(1) "
+           "(set aside instead of declaring - matches), 12.16(1) (matches) and 1.8; official title only for 1.4, 1.5, 3.8, 3.15, 3.68, 7.3, 9.24, "
+           "13.13, 13.16 (not read for the proposition each is cited for).",
 }
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.2": {
+        "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): it reads '3.3 [Determining the "
+                          "appropriate judicial centre]:' for 'rule 3.3', has line-break hyphens ('specifi- cally', 'proce- dure'), and subrule (3) "
+                          "is cut off after 'application to be made': the words 'to the Court, (a) if the application is made in an action in respect of "
+                          "which a commencement document has been filed, the application must be made under Part 6 unless' are missing, and in their "
+                          "place stand a footnote text ('2 George E. Woodbine, ed., , , ca. 1250, Bracton on the Laws and Customs of England Volume 2 "
+                          "translated by Samuel E. Thorne (Cambridge: The Belknap Press of Harvard University, 1968-1977) at 282.'), the running head "
+                          "'R. 3.1 48' and the bracket label '[Resolving Issues and Preserving Rights]'. The 3.1 commentary ends with footnote marker 2, "
+                          "so the Bracton text is that commentary's footnote. Amendment note agrees with official (143/2011).",
+        "drop_c_note": "garbled copy of the Book A information note (same words, out of order): the citation 'Thompson v. Procrane Inc (c.o.b. Sterling "
+                       "Crane) . , [2016] A.J. No. 237, 2016 ABCA 71 at para. 9 (Alta. C.A.).' stands where the number '13' of 'Part 13' should be "
+                       "(Book A: 'Part 13 [Technical Rules]'), the word 'pleadings' is printed after it (Book A: '(called pleadings)'), and "
+                       "'[Originating and rule 3.15 application for judicial review]' is scrambled (Book A: 'rule 3.15 [Originating application for "
+                       "judicial review]'); not retained. The same Procrane citation (para. 12) stands where a number is lost in Book C rules 10.47 "
+                       "and 10.53; the sources do not show its home rule.",
+        "commentary_flag": "'may only be used ... where the requirements of rule 3.3(2) are met': official 3.3(2) is about a party carrying on business "
+                           "in more than one Alberta location; the enumerated exceptions are in 3.2(2), so the citation looks like 3.2(2) (the sources "
+                           "do not say which was meant). Shell Canada Products v. Sunterra Beef (2013 ABQB 193; 2014 ABCA 243) is also cited in Book A "
+                           "3.2 (p.3-8 fn 10; p.3-11 fn 4); Genstar 2012 ABQB 457 is in no other book.",
+        "citation_names": {"2012 ABQB 457": "Genstar Development Co. v. Plains Midstream Canada ULC"},
+        "citation_notes": {"2012 ABQB 457": "printed as 'See also , [2012] A.J. No. Genstar Development Co. v. Plains Midstream Canada ULC 755, "
+                                            "2012 ABQB 457 (Alta. Q.B. (Master))': the name stands inside the A.J. number ([2012] A.J. No. 755); "
+                                            "name and number re-ordered from the book's own text.",
+                           "2013 ABQB 193": "also cited in Book A 3.2 p.3-8 fn 10 (554 AR 283)",
+                           "2014 ABCA 243": "also cited in Book A 3.2 p.3-11 fn 4 (577 AR 280, leave den)"},
+    },
     "3.1": {"commentary_flag": "footnote marker '2' ends this commentary but its text is not here: Book C prints it inside its rule 3.2 entry "
                                "('2 George E. Woodbine, ed., , , ca. 1250, Bracton on the Laws and Customs of England Volume 2 translated by "
                                "Samuel E. Thorne (Cambridge: The Belknap Press of Harvard University, 1968-1977) at 282.', followed by the running "

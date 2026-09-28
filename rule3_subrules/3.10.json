@@ -25,9 +25,13 @@
       "23/2021"
     ],
     "carrier_notes": {
+      "BOOK_A": [
+        "[Alta.Reg.124/10;122/12;23/21]"
+      ],
       "BOOK_B": "Alta. Reg. 122/2012, s. 3; 23/2021, s. 2"
     },
     "crosscheck_vs_official": {
+      "BOOK_A": "AGREES",
       "BOOK_B": "AGREES"
     }
   },
