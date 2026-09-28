@@ -1,0 +1,220 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.21",
+  "title": {
+    "official": "Limit on questioning",
+    "variants": {}
+  },
+  "division": {
+    "number": 2,
+    "heading": "Actions Started by Originating Application"
+  },
+  "subdivision": {
+    "number": 2,
+    "heading": "Additional Rules Specific to Originating Applications for Judicial Review"
+  },
+  "operative_text": {
+    "controlling": "3.21   On an originating application for judicial review, no person\nmay be questioned as a witness for the purpose of obtaining a\ntranscript for use at the hearing without the Court’s permission.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "7dea5d6719fa9c12ee28d6611503ad4e49de2a307c64bf93498c7dbff8774977"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.21 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          58
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Limit on Questioning",
+      "operative_text_raw": "3.21 On an originating application for judicial review,no person may be*questioned as a witness for the purpose of obtaining a transcript for use at the\n*hearing without the Court's permission.",
+      "operative_text_sha256": "afc0149180a3eba5524e1dc538998a3c28ce6bf39fc5221dba9bd152c2b00600",
+      "defined_terms": null,
+      "related_provisions": null,
+      "commentary": "witness under R.3.21 can be asked to produce records which are specific and well-defined and shown to be relevant.Not to fish.If a document is relevant, previous drafts of it are not necessarily relevant:Robertson *v.Wasylyshen (Edm.Police Service) (#9)2004 ABQB 243, 355 AR 281.See also R.3.22n.,infra.See*Apotex v.R., R.3.22n.,infra. 2Bergman v.Innisfree (Vill.)2020 ABQB 661, JCStP 1814 00364 (Oct 29) (¶'s 37-49);M?tis Nation of Alta. *Assn.&c. v.R. (Alta.)2021 ABQB 282, JCE 2003 19580 (Apr 12) (¶'s 86-99).\nDefined Terms\n\nCourt Related Provisions 6.8 (questioning of a witness before hearing) Presumably R.3.21 is read as if there were a comma after\"at the hearing\". Judicial review is conducted on the existing record, and allowing discovery or oral evidence is exceptional.\n\n*Evidence on Judicial Review*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-61",
+          "3-62"
+        ],
+        "offset_in_clean_text": [
+          193600,
+          194607
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Limit on questioning",
+      "operative_text_raw": null,
+      "commentary": [],
+      "paragraph_ids": [
+        "part3_rule_3_21_001",
+        "part3_part_3_court_actions_016"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part02_document.json"
+        ]
+      },
+      "operative_text_sha256": "0578fcf65a9cb57cb1b0ed30ddabb0e5431dae70d092cc9a359828820e0b49a9",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Limit on questioning",
+      "division_heading": null,
+      "operative_text_raw": null,
+      "operative_text_sha256": "de4c9396aee557ca0cea37b2e55013d1ea5f8bdcf2b5d3d609867ef6cb536c44",
+      "citations": [],
+      "commentary": [
+        {
+          "topic": "General Principles",
+          "text": "This is a common sense rule, since the record, by the time the matter reaches a judicial review, is established. Presumptively, no additional evidence should be considered on review.",
+          "citations": []
+        }
+      ],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "121-140_3_19 to 3_43.json",
+        "source_file": "121-140_revised.md"
+      },
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "NORMALIZATION_ONLY_DIFFERENCE",
+      "similarity": 1.0,
+      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.21",
+      "title_official": "Limit on questioning"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "NORMALIZATION_ONLY_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "EXACT_MATCH"
+    },
+    "result": "THREE_BOOK_SOURCE_RECONCILED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "afc0149180a3eba5524e1dc538998a3c28ce6bf39fc5221dba9bd152c2b00600",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-61",
+            "3-62"
+          ],
+          "offset_in_clean_text": [
+            193600,
+            194607
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "0578fcf65a9cb57cb1b0ed30ddabb0e5431dae70d092cc9a359828820e0b49a9",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part02_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "de4c9396aee557ca0cea37b2e55013d1ea5f8bdcf2b5d3d609867ef6cb536c44",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "121-140_3_19 to 3_43.json",
+          "source_file": "121-140_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "7dea5d6719fa9c12ee28d6611503ad4e49de2a307c64bf93498c7dbff8774977",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            58
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "5492339941ee183827d5ce12a01e17e6cb606f98548dda0981550096a236dfa7"
+  },
+  "information_notes": [],
+  "dedupe_log": [
+    "3.21 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.21 BOOK_C: operative text dropped (EXACT_MATCH)",
+    "3.21 BOOK_C commentary sentence split dropped",
+    "3.21 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

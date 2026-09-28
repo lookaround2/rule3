@@ -1,0 +1,302 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.49",
+  "title": {
+    "official": "Third party statement of defence and additional options",
+    "variants": {
+      "BOOK_B": "Third party statement of defence"
+    }
+  },
+  "division": {
+    "number": 3,
+    "heading": "Actions Started by Statement of Claim"
+  },
+  "subdivision": {
+    "number": 6,
+    "heading": "Third Party Claims"
+  },
+  "operative_text": {
+    "controlling": "3.49(1)  A statement of defence by a third party defendant\n(a) must be in Form 17,\n(b) must comply with the rules about pleadings in Part 13,\nDivision 3, and\n(c) may dispute either or both of the following:\n(i) the defendant’s liability to the plaintiff, or\n(ii) the third party defendant’s liability described in the\nthird party claim.\n(2)  If a third party defendant files a statement of defence, the third\nparty defendant must file it and serve it on each of the other parties\nwithin the applicable time after service of the third party claim on\nthe third party defendant.\n(3)  The applicable time is\n(a) 20 days if service is effected in Alberta,\n(b) one month if service is effected outside Alberta but in\nCanada, and\n(c) 2 months if service is effected outside Canada.\n(4)  A third party defendant may do either or both of the following:\n(a) make a claim against a third party co-defendant in\naccordance with rule 3.43;\n(b) make a counterclaim in accordance with rule 3.56(2).",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "e6de1ee06a7fbf737bda8244d40760ff2e40dc81fe50311e0c29a3affb23ec61"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010 s3.49;143/2011",
+    "amending_regulations": [
+      "143/2011"
+    ],
+    "carrier_notes": {
+      "BOOK_B": "Alta. Reg. 143/2011, s. 5"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_B": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          69,
+          70
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Third Party Statement of Defence and Additional Options",
+      "operative_text_raw": "3.49(1) A statement of defence by a third party defendant*(a)must be in Form 17,*(b)must comply with the rules about pleadings in Part 13 [Technical\n**Rules] Division 3 [Pleadings],and*(c)may dispute either or both of the following:*(i)the defendant's liability to the plaintiff,or\n1Alta.Treas.Brs.v. Toth2006 ABQB 83, 393 AR 269. 2Harrison v. XL Foods2014 ABQB 431, 592 AR 266.Rule 3.44n. 3Collacutt v. Briggs Bros.StudentTpt.2009 ABCA 17, 446 AR 191.\n*(ii)the third party defendant's liability described in the third*party claim.*must file it and serve it on each of the other parties within the applicable time*(3)The applicable time is\n*(a)20 days if service is effected in Alberta,\n*(2)If a third party defendant files a statement of defence,the third party defendant\n*after service of the third party claim on the third party defendant.\n*(b)one month if service is effected outside Alberta but in Canada,and\n*(c)2 months if service is effected outside Canada.*(4) A third party defendant may do either or both of the following:*(a)make a claim against a third party co-defendant in accordance with*rule 3.43 [How to make a claim against co-defendants];*(b) make a counterclaim in accordance with rule 3.56(2) [Right to**counterclaim].[Alta.Reg.124/10;143/11]",
+      "operative_text_sha256": "42e356d0689b1e7bfc316fdeeb650e007e08bf7976e996bb437885f47a87b851",
+      "defined_terms": "claim, file, plaintiff, pleading, rules, third party defendant",
+      "related_provisions": "3.31 (time to defend);13.2 (calculating time)",
+      "commentary": "On the time to defend, see R.3.31. A third party could not object that the defendant had consented to judgment by the plaintiff\n\nagainst the defendant, if the third party never denied the defendant's liability and had no right to a trial of that:res judicata. Whether there is a duty of care or not, need not be the same toward upstream producers and downstream consumers.\n\nA third party is clearly a \"party\" for questioning (examination for discovery) purposes, but whether it is an adverse party depends on the pleadings on the particular issue.Adversity is necessary to have questioning (examination for discovery) at all, but if there is adversity then one still has to go onto the second question of what topics are relevant and material.If the third party does not challenge the plaintiff's claim, the third party cannot be questioned (examined for discovery) about that.\n\n*Demand for Notice byThird Party Defendant*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-120",
+          "3-121"
+        ],
+        "offset_in_clean_text": [
+          385316,
+          387647
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Third party statement of defence",
+      "operative_text_raw": null,
+      "commentary": [
+        {
+          "section": "3.49:1",
+          "text": "Rule 3.49 See Alberta Rules of Court, Alta. Reg. 124/2010, r. 3.49. 1. Reason for Rule It is not difficult to understand the reason for the existence of the rule. The application of it prevents a defendant who may have nothing to lose by admitting liability from doing so to the prejudice of the third party who is the one who is ultimately liable … I believe that the parties who might be potentially ultimately liable should be given a full opportunity to defend both the defendants' claim against the third party, and the plaintiff's cliam against the defendant, regardless of whether the defendant admits liability to the plaintiff. I believe that this is the intention of the rule. Edmonton Savings & Credit Union Ltd. v. Wruk (1986), 45 Alta. L.R. (2d) 285 at 287-88 (Master)."
+        }
+      ],
+      "paragraph_ids": [
+        "part3_rule_3_49_001",
+        "part3_part_3_court_actions_006",
+        "part3_rule_3_49_002",
+        "part3_part_3_court_actions_008"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part05_document.json"
+        ]
+      },
+      "operative_text_sha256": "915699be50a7d768e5b0a6cdace6c34cf62dbe551205536feb571df031fd618c",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Third party statement of defence and additional options",
+      "division_heading": null,
+      "operative_text_raw": "(1) A statement of defence by a third party defendant (a) must be in Form 17, (b) must comply with the rules about pleadings in Part 13 [Technical Rules]\n[Pleadings]\n, Division 3 , and",
+      "operative_text_sha256": "e5a3dc1fcd53d3c9dcb91658977d50d9da7e94f0ac22f850002afb66eafeb598",
+      "citations": [],
+      "commentary": [],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "141-160_3_44 to 3_66.json",
+        "source_file": "141-160_revised.md"
+      }
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.6207,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "defendant (a) must",
+          "carrier": "defendant(a)must"
+        },
+        {
+          "op": "replace",
+          "official": "17, (b) must",
+          "carrier": "17,(b)must"
+        },
+        {
+          "op": "replace",
+          "official": "13,",
+          "carrier": "13"
+        },
+        {
+          "op": "replace",
+          "official": "3, and (c) may",
+          "carrier": "3,and(c)may"
+        },
+        {
+          "op": "replace",
+          "official": "following: (i) the",
+          "carrier": "following:(i)the"
+        },
+        {
+          "op": "replace",
+          "official": "plaintiff, or (ii) the",
+          "carrier": "plaintiff,or 1alta.treas.brs.v. toth2006 abqb 83, 393 ar 269. 2harrison v. xl foods2014 abqb 431, 592 ar 266.rule 3.44n. 3collacutt v. briggs bros.studenttpt.2009 abca 17, 446 ar 191. (ii)the"
+        },
+        {
+          "op": "replace",
+          "official": "third party claim. (2) if a third party defendant files a statement of defence, the third party defendant must",
+          "carrier": "thirdparty claim.must"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "time(3)the applicable"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "is (a)20 days if service is effected in alberta, (2)if a third party defendant files a statement of defence,the third party defendant"
+        },
+        {
+          "op": "replace",
+          "official": "(3) the applicable time is (a) 20 days if service is effected in alberta, (b) one",
+          "carrier": "(b)one"
+        },
+        {
+          "op": "replace",
+          "official": "canada, and (c) 2",
+          "carrier": "canada,and (c)2"
+        },
+        {
+          "op": "replace",
+          "official": "canada. (4)",
+          "carrier": "canada.(4)"
+        },
+        {
+          "op": "replace",
+          "official": "following: (a) make",
+          "carrier": "following:(a)make"
+        },
+        {
+          "op": "replace",
+          "official": "with rule 3.43; (b)",
+          "carrier": "withrule 3.43;(b)"
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "CARRIER_MISSING_TEXT",
+      "similarity": 0.2941,
+      "differences": [
+        {
+          "op": "delete",
+          "official": "(c) may dispute either or both of the following: (i) the defendant's liability to the plaintiff, or (ii) the third party defendant's liability described in the third party claim. (2) if a third party defendant files a statement of defence, the third party defendant must file it and serve it on each of the other parties within the applicable time after service of the third party claim on the third party defendant. (3) the applicable time is (a) 20 days if service is effected in alberta, (b) one month if service is effected outside alberta but in canada, and (c) 2 months if service is effected outside canada. (4) a third party defendant may do either or both of the following: (a) make a claim against a third party co-defendant in accordance with rule 3.43; (b) make a counterclaim in accordance with rule 3.56(2).",
+          "carrier": ""
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.49",
+      "title_official": "Third party statement of defence and additional options"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "CARRIER_MISSING_TEXT"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "42e356d0689b1e7bfc316fdeeb650e007e08bf7976e996bb437885f47a87b851",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-120",
+            "3-121"
+          ],
+          "offset_in_clean_text": [
+            385316,
+            387647
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "915699be50a7d768e5b0a6cdace6c34cf62dbe551205536feb571df031fd618c",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part05_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "e5a3dc1fcd53d3c9dcb91658977d50d9da7e94f0ac22f850002afb66eafeb598",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "141-160_3_44 to 3_66.json",
+          "source_file": "141-160_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "e6de1ee06a7fbf737bda8244d40760ff2e40dc81fe50311e0c29a3affb23ec61",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            69,
+            70
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "afcd37fbfbea0f77bda5150ddb98a4c333538ff1d6758496927c4830af724a4a"
+  },
+  "information_notes": [],
+  "dedupe_log": [
+    "3.49 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.49 BOOK_B: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

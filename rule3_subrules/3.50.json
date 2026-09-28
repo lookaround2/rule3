@@ -1,0 +1,246 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.50",
+  "title": {
+    "official": "Demand for notice by third party defendant",
+    "variants": {
+      "BOOK_A": "Demand for Notice byThird Party Defendant"
+    }
+  },
+  "division": {
+    "number": 3,
+    "heading": "Actions Started by Statement of Claim"
+  },
+  "subdivision": {
+    "number": 6,
+    "heading": "Third Party Claims"
+  },
+  "operative_text": {
+    "controlling": "3.50(1)  A demand for notice by a third party defendant must be in\nForm 18.\n(2)  If a third party defendant files a demand for notice, the third\nparty defendant must file it and serve it on each of the other parties\nwithin the applicable time after service of the third party claim on\nthe third party defendant.\n(3)  The applicable time is\n(a) 20 days if service is effected in Alberta,\n(b) one month if service is effected outside Alberta but in\nCanada, and\n(c) 2 months if service is effected outside Canada.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "ec534f6fbcaa0ae45cef43ec7d3518d9a1a7efb8657b42b31ad7083768cf8f52"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.50 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          70
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Demand for Notice byThird Party Defendant",
+      "operative_text_raw": "3.50(1) A demand for notice by a third party defendant must be in Form 18.*(2)If a third party defendant files a demand for notice, the third party defendant*must file it and serve it on each of the other parties within the applicable time*after service of the third party claim on the third party defendant.\n*(3)The applicable time is*(a)20 days if service is effected in Alberta,",
+      "operative_text_sha256": "12dafc39bc0b3c471351be28af038be3b06f51d43cd6490e8bbb989a79717b37",
+      "defined_terms": null,
+      "related_provisions": null,
+      "commentary": "1Quite similar to previous 1968 R.71(3).It came (via 1944 C.R.84) from 1914 R.52.Cf.Judic.Ord.r.61, Eng. O.16A r.5. 2Quite similar to previous 1968 R.71(4).It came from 1944 C.R.84.Cf.Judic.Ord. r.61, Eng.O.16A r.5. \n*(b)one month if service is effected outside Alberta but in Canada,and\n*(c)2 months if service is effected outside Canada.\nDefined Terms file, third party defendant Related Provisions 3.34 (demand for notice) *Effect of Demand for Notice*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-121",
+          "3-122"
+        ],
+        "offset_in_clean_text": [
+          387647,
+          388485
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Demand for notice by third party defendant",
+      "operative_text_raw": null,
+      "commentary": [],
+      "paragraph_ids": [
+        "part3_rule_3_50_001",
+        "part3_part_3_court_actions_010"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part05_document.json"
+        ]
+      },
+      "operative_text_sha256": "625992b02924d9b7839228b7ec865db7649725f720241c872e4b786960a32bd2",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Demand for notice by third party defendant",
+      "division_heading": null,
+      "operative_text_raw": null,
+      "operative_text_sha256": "df00d2f33e0baf3522e67eb46a44d0796936d2f451d8f7c756737a86f128ba6f",
+      "citations": [],
+      "commentary": [],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "141-160_3_44 to 3_66.json",
+        "source_file": "141-160_revised.md"
+      },
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.7547,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "18. (2) if",
+          "carrier": "18.(2)if"
+        },
+        {
+          "op": "replace",
+          "official": "defendant must",
+          "carrier": "defendantmust"
+        },
+        {
+          "op": "replace",
+          "official": "time after",
+          "carrier": "timeafter"
+        },
+        {
+          "op": "replace",
+          "official": "(3) the",
+          "carrier": "(3)the"
+        },
+        {
+          "op": "replace",
+          "official": "is (a) 20",
+          "carrier": "is(a)20"
+        },
+        {
+          "op": "delete",
+          "official": "(b) one month if service is effected outside alberta but in canada, and (c) 2 months if service is effected outside canada.",
+          "carrier": ""
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.50",
+      "title_official": "Demand for notice by third party defendant"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "EXACT_MATCH"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "12dafc39bc0b3c471351be28af038be3b06f51d43cd6490e8bbb989a79717b37",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-121",
+            "3-122"
+          ],
+          "offset_in_clean_text": [
+            387647,
+            388485
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "625992b02924d9b7839228b7ec865db7649725f720241c872e4b786960a32bd2",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part05_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "df00d2f33e0baf3522e67eb46a44d0796936d2f451d8f7c756737a86f128ba6f",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "141-160_3_44 to 3_66.json",
+          "source_file": "141-160_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "ec534f6fbcaa0ae45cef43ec7d3518d9a1a7efb8657b42b31ad7083768cf8f52",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            70
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "5c052673bcc2e88ffd02195b3ca47b98c161a090f472318527c86066227dfdc3"
+  },
+  "information_notes": [],
+  "dedupe_log": [
+    "3.50 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.50 BOOK_C: operative text dropped (EXACT_MATCH)",
+    "3.50 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

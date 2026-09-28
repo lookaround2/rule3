@@ -1,0 +1,241 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.12",
+  "title": {
+    "official": "Application of statement of claim rules to originating applications",
+    "variants": {}
+  },
+  "division": {
+    "number": 2,
+    "heading": "Actions Started by Originating Application"
+  },
+  "subdivision": {
+    "number": 1,
+    "heading": "General Rules"
+  },
+  "operative_text": {
+    "controlling": "3.12   At any time in an action started by originating application\nthe Court may, on application, direct that all or any rules applying\nto an action started by statement of claim apply to the action started\nby originating application.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "ba3dd43781f8982dba1d623811668e14a79aac0c31b1ef8a562d9dfc713acd1b"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.12 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          54
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Application of Statement of Claim Rules to Originating Applications",
+      "operative_text_raw": "3.12 At any time in an action started by originating application the Court may, on*application,direct that all or any rules applying to an action started by statement*of claim apply to the action started by originating application.",
+      "operative_text_sha256": "7f0b245ebee8e5c4c59ac576bc0ec9a05124c7926b43f09557d058e8e7b4d888",
+      "defined_terms": null,
+      "related_provisions": null,
+      "commentary": "before:Singh v.Kaler2017 ABCA 275, [2018] 3 WWR 284 (¶'s 65-70). 7See further the C.P.E., Chapter 33, Part I. 8Simonelli v. RockyView (M.D.)2004 ABQB 45, 350 AR 286 (¶'s 46-57).\n\n2Trial of an issue was ordered where the judicial review matter was complex and would require expert\n\n1Newell (Cty.) v. Dola2003 ABCA 371, 6 MPLR(4th) 292. evidence andoral history evidence:AthabascaTribal Council v.Min. of Env'l.Protection1998 ABQB 879, 233 AR 97;cf.Anderson v. R.2006 ABCA 158, 384 AR 371.See alsoCdn. Natural Res.v.Encana *Oil & Gas P'ship.2008 ABCA 267, 440 AR 338. 3Mathai v. George(M) 2018 ABQB 51, JCE 1703 09296 (Jan 22). 4Smith v. R.2004 ABQB 711.\n\n5On a contested will case, seeRe Serdahely Est.2002 ABQB 10, 309 AR 370. 6And so the suit was begun long before this new \"statement\", and limitation periods stopped running long\n\nInformation Note See also rule 3.10 [Application of Part 4 and Part 5].\n\nDefined Terms court, rules Related Provisions 1.7(2) (Rules fill gaps by analogy);3.2(4) (wrong form of action) Legislation expressly letting a municipality have a summary hearing for an injunction does not mandate that procedure, and if the evidence conflicts and there are credibility issues, it is\n\nappropriate to hold a hearing with evidence. There are many situations in which the court should direct trial of an issue. But at a late stage, absent any significant conflict of facts, and absent an order for other procedures, neither more pleadings, nor discovery, nor trial is proper.A special chambers\n\napplication should be held on the merits. The mere fact that the claim is for a declaration of constitutional rights does not give the respondent the right to have the Originating Application converted into an orthodox suit by statement of claim.\n\nThe procedure to follow to try an issue is not well known.The court should either itself define the precise questions to be tried, or should direct the exchange of pleadings.And it should direct who has the onus of proof. If the court directs pleadings, then the party who has the onus of proof should file a document called\"Statement of the Applicant's Claim\".This isnota statement of claim, does not start a new proceeding, uses the action number of the existing suit (Originating\n\nApplication), and there is no fee for filing it. It has no notice to defendant at the back, but otherwise alleges facts much the way that a statement of claim would.Its prayer for relief may be somewhat different.And at the end it does not say that it was issued, and the Clerk does not sign or seal it. By analogy, pleadings in an Originating Application should be deemed closed on the date of\n\nthe original scheduled hearing, and so if the material raised an extra issue, it also was properly before the court. *Questioning on Affidavit and QuestioningWitnesses*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-29",
+          "3-30"
+        ],
+        "offset_in_clean_text": [
+          84763,
+          87807
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Application of statement of claim rules to originating applications",
+      "operative_text_raw": "At any time in an action started by originating application the Court may, on application, direct that all or any rules applying to an action started by statement of claim apply to the action started by originating application.\nAt any time in an action started by originating application the Court may, on application, direct that all or any rules applying to an action started by statement of claim apply to the action started by originating application.",
+      "commentary": [
+        {
+          "section": "3.12:1",
+          "text": "Rule 3.12 See Alberta Rules of Court, Alta. Reg. 124/2010, r. 3.12. Not a New Action In Singh v. Kaler, 2017 ABCA 275, 2017 CarswellAlta 1538, 56 Alta. L.R. (6th) 256, in November, 2005, a Mr. Sihota filed a caveat to protect an interest which he claimed to have in certain land. On December 19, 2005, Kaler filed an originating notice seeking an order discharging the Sihota caveat and a declaration that Sihota had no interest in the land. In March, 2009, the originating notice and another action were consolidated into one Queen's Bench action. On February 1, 2013, Mr. Sihota filed a “statement of the claim”; on February 11, 2013, the respondents filed their “defence to the claim”. It was submitted that Mr. Sihota's “statement of the claim” was barred by the Limitations Act. The Court of Appeal held that “the statement of the claim” did not commence a new action, and that the effective date of the document filed by Mr. Sihota on February 1, 2013, was really December 19, 2005 (the date he filed his originating notice). The Court said, at paragraphs 66–69: 66 Rule 3.12 of the Alberta Rules of Court, Alta Reg 124/2010 provides: At any time in an action started by Originating Application the Court may, on application, direct that all or any rules applying to an action started by statement of claim apply to the action started by Originating Application. 67 The commentary in the Alberta Civil Procedure Handbook 2017 (Stevenson & Côté (Edmonton: Juriliber, 2017)) includes the following at 3–21 (emphasis in original): If the court directs pleadings, then the party who has the onus of proof should file a document called “Statement of the Applicant's Claim”. This is not a statement of claim, does not start a new proceeding, uses the action number of the existing suit (Originating Application), and there is no fee for filing it. Commentary in past editions of the Alberta Civil Procedure Handbook under the equivalent rule of the repealed Alberta Rules of Court, Alta Reg 390/68 suggests that this does not lead to a new action but rather states the procedure that requires pleadings in the existing action. In Canadian Gulf Oil Co v Crown Trust Co, 1954 CarswellAlta 65, 13 WWR (NS) 712 (Alta CA), an application was brought by originating notice. On return of the motion, the chambers judge directed an issue and the filing of a statement of claim and counterclaim. One of the parties to the action appealed on the basis that it “ought not to be forced into proceedings”: para 3. This Court held at para 5 (with emphasis added): The order appealed from should therefore be amended by striking out the words “Statement of Claim and Counterclaim” where they appear therein and substituting the words “Statement of its or his or their claim or counterclaim,” as the case may require. Other words may be used that are appropriate to indicate that it is the intention of the court to have an issue defined by the delivery of pleadings. It is not proper to direct the commencement of an action. 68 This applies here. Although the respondents were the claimants in the originating notice, by the March 23, 2009 consent order the appellant became the claimant. The March 22, 2012 consent order also defined the issue. The February 1, 2013 pleading did not start a new proceeding, i.e., it continued the originating notice filed December 19, 2005, and defined the issue to be pleaded and decided. The respondents were not prejudiced because they knew that Mr Sihota rejected their contention that he had no interest in the land and claimed an approximately 50% interest in the property. Each of these points was made in his affidavit in response to the originating notice. 69 The effective date of the February 1, 2013 Statement of the Claim is December 19, 2005 and it is self-evident that this was in time for the purposes of the Limitations Act. This is sufficient to allow Mr Sihota's appeal."
+        }
+      ],
+      "paragraph_ids": [
+        "part3_rule_3_12_001",
+        "part3_part_3_court_actions_032",
+        "part3_rule_3_12_002",
+        "part3_part_3_court_actions_034",
+        "part3_rule_3_12_003",
+        "part3_part_3_court_actions_036"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part01_document.json"
+        ]
+      },
+      "operative_text_sha256": "0a405a6ba48b4b92b3ecd5f5d383126a1faa8b87bb1472d3c19d02198ea99ed9"
+    },
+    "BOOK_C": {
+      "title": "Application of statement of claim rules to originating applications",
+      "division_heading": "Division 2 – ACTIONS STARTED BY ORIGINATING APPLICATION",
+      "operative_text_raw": null,
+      "operative_text_sha256": "94f10fcd91c4c2af40c3eceb62950bce67d144da09dc831ef0772f60032ecf9f",
+      "citations": [],
+      "commentary": [
+        {
+          "topic": "Statement of the Applicant’s Claim",
+          "text": "In some cases, the court has not required that new pleadings be filed, but that the originating application stand as the statement of claim and commenced by way of originating application, the party who has the onus of proof should file a document called “Statement of the Applicant’s Claim”. This is a statement of claim and not does not start a new proceeding; it uses the action number of the existing suit (originating",
+          "citations": []
+        }
+      ],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "101-120_2_28 to 3_18.json",
+        "source_file": "101-120_revised.md"
+      },
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "NORMALIZATION_ONLY_DIFFERENCE",
+      "similarity": 1.0,
+      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "CARRIER_HAS_EXTRA_TEXT",
+      "similarity": 0.6667,
+      "differences": [
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "at any time in an action started by originating application the court may, on application, direct that all or any rules applying to an action started by statement of claim apply to the action started by originating application."
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.12",
+      "title_official": "Application of statement of claim rules to originating applications"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "NORMALIZATION_ONLY_DIFFERENCE",
+      "BOOK_B": "CARRIER_HAS_EXTRA_TEXT",
+      "BOOK_C": "EXACT_MATCH"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "7f0b245ebee8e5c4c59ac576bc0ec9a05124c7926b43f09557d058e8e7b4d888",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-29",
+            "3-30"
+          ],
+          "offset_in_clean_text": [
+            84763,
+            87807
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "0a405a6ba48b4b92b3ecd5f5d383126a1faa8b87bb1472d3c19d02198ea99ed9",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part01_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "94f10fcd91c4c2af40c3eceb62950bce67d144da09dc831ef0772f60032ecf9f",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "101-120_2_28 to 3_18.json",
+          "source_file": "101-120_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "ba3dd43781f8982dba1d623811668e14a79aac0c31b1ef8a562d9dfc713acd1b",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            54
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "8683edc17ad020488136cf022cf6fdc2f5d16607215f672fc6a86d8e140bf49d"
+  },
+  "information_notes": [
+    {
+      "text": "See also rule 3.10 .\n[Application of Part  Patrus v. Alberta (Workers’ Compensation Board, Appeals Commission), [2011] A.J. No. 1346, and Part 5]",
+      "carriers": [
+        "BOOK_C"
+      ]
+    }
+  ],
+  "dedupe_log": [
+    "3.12 BOOK_C: operative text dropped (EXACT_MATCH)",
+    "3.12 BOOK_C commentary sentence split dropped",
+    "3.12 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

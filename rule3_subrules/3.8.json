@@ -1,0 +1,245 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.8",
+  "title": {
+    "official": "Originating applications and associated evidence",
+    "variants": {}
+  },
+  "division": {
+    "number": 2,
+    "heading": "Actions Started by Originating Application"
+  },
+  "subdivision": {
+    "number": 1,
+    "heading": "General Rules"
+  },
+  "operative_text": {
+    "controlling": "3.8(1)  An originating application must\n(a) be in Form 7,\n(b) state the claim and the basis for it,\n(c) state the remedy sought, and\n(d) identify the affidavit or other evidence to be used in\nsupport of the originating application.\n(2)  If an affidavit is filed to support an originating application, the\naffidavit must be confined to\n(a) a statement of facts within the personal knowledge of the\nperson swearing the affidavit, and\n(b) any other evidence that the person swearing the affidavit\ncould give at trial.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "e41c7129f284854849c66058c2cb8e5d9b4db5d56724ca25cbc7596758641994"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {},
+    "crosscheck_vs_official": {}
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          52,
+          53
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Originating Applications and associated evidence",
+      "operative_text_raw": "3.8(1) An originating application must*(a)be in Form 7,*(b)state the claim and the basis for it,*(c)state the remedy sought,and*(d)identify the affidavit or other evidence to be used in support of the\n*originating application.*3",
+      "operative_text_sha256": "50f1790cef8e3bc38ce6c85a738d7a9f5c3ecda8f6c118f5b4f2eec91830a69e",
+      "defined_terms": null,
+      "related_provisions": null,
+      "commentary": "52024 ABKB 209, JCC FL01 41775 (Apr 10) (¶'s 52-54). 6Tole v.Lucki2017 ABCA 79, [20017] AJ #184 (one JA). 7ANCTimber v. Min.of Agric.2019 ABQB 653, 5 Alta LR(7th) 102 (¶'s 81-83). *(2)If an affidavit is filed to support an originating application,the affidavit must*be confined to\n1Quite similar to previous 1968 R.305(1).It came from 1914 R.416 and 1944 C.R.348.Cf.Judic.Ordinance R.295, 1883 O.38 r.3, and 1897 Ont.R.519.Cf.C.O.O.XVIII r.3.These older Rules were more general. 2The July 8, 2020 Notice to the Profession about digital filing is now permanent as \"Guidelines for Documents Filed by Email or Digital Upload\", though sometimes later updated by announcements.See R.3.25n. 3Veniniv. Venini2023 ABKB 524, JCE 1503 06113 (AJ Sep 20) (¶'s 55, 57, 61-63). 4Canmore Apts.v.Cormode & Dickson Constr.2023 ABKB 659, JCC 2101 03737 (Nov 22) (¶ 30(2)).\n\n*(a)a statement of facts within the personal knowledge of the person*swearing the affidavit, and*(b)any other evidence that the person swearing the affidavit could give*at trial.*1 Information Note\n\nRules foraffidavits are contained in Part 13 [Technical Rules].See rule 13.18 [Types of affidavit] and the rules that follow that rule. Related Provisions 3.2 (how to start an action); 13.18 (contents of affidavits);13.19 (requirements for affidavit) On when an Originating Application is appropriate, see R.3.2n.B.There are notices to the profession giving guidelines for email or digitally-filed documents, in the \"News and Announcements\"\n\npart of the Court of King's Bench's website. See further R.13.14n.Rule 3.2n.B.4 contains long, detailed warnings about booking Originating Applications, and filing them (or anything else). There are now new potentially grave dangers, as there described. Ordinarily a party cannot get relief or go into issues, which are not in his originating pleading, and so an Originating Application seeking only declaratory relief (and costs) will not permit them.\n\nAnd there are other discretionary grounds to refuse declaratory relief). On hearsay in affidavits and substance, see R.13.18n, and theCanmorecase. On double or treble hearsay, seeL.Y.v.R.Y. *5\nAn affidavit by a legal assistant is unacceptable except for noncontroversial matters, but it is done too often.Someone asserting prejudice should himself swear, not file an affidavit by his lawyer's assistant, who is at two removes.Especially if the prejudice asserted is unlikely in the context of the undisputed history of the suit. The dubious nature of news stories from the media, or items from the internet, as exhibits to affidavits, is stressed in theANC Timbercase. However,\n\nsometimes a legal assistant has the most direct knowledge, e.g.of what communications did or did not occur.\n\n4ANC v. Min.of Agric.(¶'s 84-87). 5Condo.Corp. No.0210494 v. Rotzang2024 ABKB 111, JCC 1501 07104 (Feb 27) (¶'s 33-34). 6Quite similar to previous 1968 R.310.It came from Judic.Ord.r.302, and Eng.O.38 r.10, am.Dec.1885 and (re Div.cts.) 1938.Similar (except for last line) to 1914 R.423, and 1944 C.R.356, as am.by Alta.Reg. 163/59 (O.C.636-59).Cf.C.O.O.XVIII r.5. 7Tartal v.Human Rts. Comm'n.2023 ABKB 381, JCE 2303 04841 (Jun 26) (¶'s 48-51).\n\n8Tartal v.Human Rts. Comm'n.,supra(¶'s 52 ff.). 9Re Can.N. Grp.,infra. Hearsay in affidavits cannot be received respecting contempt or the penalty for it. Nor can opinions about the merits of the suit, advocacy, or speculation.\n\n1Imp.Finishing v.Moderno Homes2019 ABQB 64, JCC 1703 16342 (¶ 64).An affidavit was struck out, as the relevant part was a document tendered on the contents of a document, but nothing was said in the affidavit to show the truth of those contents.Inadmissible hearsay is not permitted in a final application. No principled exception to the hearsay rule was suggested (though the principled exception may apply to affidavits?):Holden (Village) v.Sen2019 ABQB 472, JCE 1503 12322 (Jan 21) (¶'s 57-60, 65-66). 2Kissel v. RockyView (Cty.)2020 ABQB 406, JCC 1901 11027 (Jul 16) (¶ 63).\n\nRule 3.8(2) is no bar to reciting an admission against interest in an affidavit. evidence or what seems unreliable.\n\n3Harco Hldg.2000 v. M.B.(M) 2010 ABQB 442, 500 AR 258.\n\nIn a civil case, consent or lack of objection by the opponent, lets the court admit hearsay Legal opinion and argument are generally improper in an affidavit, especially from a lay affiant. On powerof the court to decide when a document actually received is\"filed\", thus overruling\n\nthe Clerk, seeSabir v. Gilland comments, in R.3.2n.,supra. *Service of Originating Application and Evidence*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-24",
+          "3-26"
+        ],
+        "offset_in_clean_text": [
+          69895,
+          74683
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Originating applications and associated evidence",
+      "operative_text_raw": "(1) An originating application must (a) be in Form 7, (b) state the claim and the basis for it, (c) state the remedy sought, and (d) identify the affidavit or other evidence to be used in support of the originating application. (2) If an affidavit is filed to support an originating application, the affidavit must be confined to (a) a statement of facts within the personal knowledge of the person swearing the affidavit, and (b) any other evidence that the person swearing the affidavit could give at trial. 1. Test for amending originating application In Thomson v. Thomson, 2024 ABCA 293, the Court said: [28] The test for amending pleadings after they have closed is as follows: Assuming some modest amount of evidence is provided in support, any pleading may be amended, no matter how careless or late the party seeking the amendment, subject to four major exceptions: (a) The amendment would cause serious prejudice to the opposing party, not compensable in costs; (b) The amendment requested is hopeless; (c) Unless permitted by statute, the amendment seeks to add a new party or new cause of action after the expiry of a limitation period; or (d) There is an element of bad faith associated with the failure to plead the amendment in the first instance. [Emphasis added] Terrigno v Butzner, 2021 ABCA 18 at para 11, citing Attila Dogan Construction and Installation Co. v. AMEC Americas Ltd. 2014 ABCA 74 at para 25, additional reasons 2015 ABCA 9. The same test is applied where permission is required to amend an originating application: Aramark Remote Workplace Services Ltd v. Unite Here Local 47, 2023 ABKB 42 at paras 16, 17; Ingram v. Alberta (Chief Medical Officer of Health), 2021 ABQB 343 at paras 20-23, affirmed 2022 ABCA 97; Alberta March for Life Association v. Edmonton (City), 2020 ABQB 220 at para 14; McCargar v. Métis Nation of Alberta Association, 2017 ABQB 692 at paras 7–10, reversed in part 2018 ABCA 144.",
+      "commentary": [],
+      "paragraph_ids": [
+        "part3_rule_3_8_001",
+        "part3_part_3_court_actions_024"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part01_document.json"
+        ]
+      },
+      "operative_text_sha256": "c80e31eea8f5dd31d991b1d0e4d486f3bf2f423330f3243c4c45ab3e5ffcf369"
+    },
+    "BOOK_C": {
+      "title": "Originating applications and associated evidence",
+      "division_heading": "Division 2 – ACTIONS STARTED BY ORIGINATING APPLICATION",
+      "operative_text_raw": "(1) An originating application must (a) be in Form 7, (b) state the claim and the basis for it, (c) state the remedy sought, and (d) identify the affidavit or other evidence to be used in support of the originating application.",
+      "operative_text_sha256": "2a955d05d60455130d2e2e7e7cb5f4935caca0751a0559615bc21798ed45ccd1",
+      "citations": [],
+      "commentary": [],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "101-120_2_28 to 3_18.json",
+        "source_file": "101-120_revised.md"
+      }
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.45,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "must (a) be",
+          "carrier": "must(a)be"
+        },
+        {
+          "op": "replace",
+          "official": "7, (b) state",
+          "carrier": "7,(b)state"
+        },
+        {
+          "op": "replace",
+          "official": "it, (c) state",
+          "carrier": "it,(c)state"
+        },
+        {
+          "op": "replace",
+          "official": "sought, and (d) identify",
+          "carrier": "sought,and(d)identify"
+        },
+        {
+          "op": "replace",
+          "official": "application. (2) if an affidavit is filed to support an originating application, the affidavit must be confined to (a) a statement of facts within the personal knowledge of the person swearing the affidavit, and (b) any other evidence that the person swearing the affidavit could give at trial.",
+          "carrier": "application.3"
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "CARRIER_HAS_EXTRA_TEXT",
+      "similarity": 0.4241,
+      "differences": [
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "1. test for amending originating application in thomson v. thomson, 2024 abca 293, the court said: the test for amending pleadings after they have closed is as follows: assuming some modest amount of evidence is provided in support, any pleading may be amended, no matter how careless or late the party seeking the amendment, subject to four major exceptions: (a) the amendment would cause serious prejudice to the opposing party, not compensable in costs; (b) the amendment requested is hopeless; (c) unless permitted by statute, the amendment seeks to add a new party or new cause of action after the expiry of a limitation period; or (d) there is an element of bad faith associated with the failure to plead the amendment in the first instance. terrigno v butzner, 2021 abca 18 at para 11, citing attila dogan construction and installation co. v. amec americas ltd. 2014 abca 74 at para 25, additional reasons 2015 abca 9. the same test is applied where permission is required to amend an originating application: aramark remote workplace services ltd v. unite here local 47, 2023 abkb 42 at paras 16, 17; ingram v. alberta (chief medical officer of health), 2021 abqb 343 at paras 20-23, affirmed 2022 abca 97; alberta march for life association v. edmonton (city), 2020 abqb 220 at para 14; mccargar v. métis nation of alberta association, 2017 abqb 692 at paras 7-10, reversed in part 2018 abca 144."
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "CARRIER_MISSING_TEXT",
+      "similarity": 0.6357,
+      "differences": [
+        {
+          "op": "delete",
+          "official": "(2) if an affidavit is filed to support an originating application, the affidavit must be confined to (a) a statement of facts within the personal knowledge of the person swearing the affidavit, and (b) any other evidence that the person swearing the affidavit could give at trial.",
+          "carrier": ""
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.8",
+      "title_official": "Originating applications and associated evidence"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "CARRIER_HAS_EXTRA_TEXT",
+      "BOOK_C": "CARRIER_MISSING_TEXT"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "50f1790cef8e3bc38ce6c85a738d7a9f5c3ecda8f6c118f5b4f2eec91830a69e",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-24",
+            "3-26"
+          ],
+          "offset_in_clean_text": [
+            69895,
+            74683
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "c80e31eea8f5dd31d991b1d0e4d486f3bf2f423330f3243c4c45ab3e5ffcf369",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part01_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "2a955d05d60455130d2e2e7e7cb5f4935caca0751a0559615bc21798ed45ccd1",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "101-120_2_28 to 3_18.json",
+          "source_file": "101-120_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "e41c7129f284854849c66058c2cb8e5d9b4db5d56724ca25cbc7596758641994",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            52,
+            53
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "7a5eca8dcb2fe16aa81c64ade9fc1fefed5b9a6e56ba67ebebec7c8e9909ff80"
+  },
+  "information_notes": [],
+  "dedupe_log": []
+}

@@ -1,0 +1,240 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.31",
+  "title": {
+    "official": "Statement of defence",
+    "variants": {}
+  },
+  "division": {
+    "number": 3,
+    "heading": "Actions Started by Statement of Claim"
+  },
+  "subdivision": {
+    "number": 3,
+    "heading": "Defence to Statement of Claim, Reply to Defence and Demand for Notice"
+  },
+  "operative_text": {
+    "controlling": "3.31(1)  If a defendant files a statement of defence, the statement\nof defence must\n(a) be in Form 11, and\n(b) comply with the rules about pleadings in Part 13, Division\n3.\n(2)  The defendant must file the statement of defence and serve it\non the plaintiff within the applicable time after service of the\nstatement of claim.\n(3)  The applicable time is\n(a) 20 days if service is effected in Alberta,\n(b) one month if service is effected outside Alberta but in\nCanada, and\n(c) 2 months if service is effected outside Canada.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "6d69b0d757012346c55498c57ceb2d9c01a8e0fb29c3ddfac6987ce1b33276a7"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.31 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          61,
+          62
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Statement of Defence",
+      "operative_text_raw": "3.31(1) If a defendant files a statement of defence,the statement of defence must*(a)be in Form 11,and\n*(b)comply with the rules about pleadings in Part 13 [Technical Rules],*Division 3 [Pleadings].*(2)The defendant must file the statement of defence and serve it on the plaintiff*within the applicable time after service of the statement of claim.*(3)The applicable time is*(a)20 days if service is effected in Alberta,\n*(b)one month if service is effected outside Alberta but in Canada,and*(c)2 months if service is effected outside Canada.",
+      "operative_text_sha256": "8b9b947ba453cb7917f81dafe5ef55a4e62f34da1457a30c76262990de6493ed",
+      "defined_terms": "years]. defendant, file, plaintiff, pleading, rules",
+      "related_provisions": "3.59 (defence of set-off);12.11 (defence and demand for notice in family law); 12.12 (time for service in family law litigation);13.3 (calculating time) A Ministerial Order 27/2020 extends many time limits for 75 days from March 17, 2020 to June 1, 2020, because of the Covid epidemic and its effect on courthouses.The Order has Parts 1 and 2, and has somewhat different effects in each.See notes to Rr.3.8 and 3.25.There is some general discussion of that Order in theO'Chiesecase. There are notices to the profession giving guidelines for email or digitally filed documents, and about mandatory email filing.Both are found in the\"News and Announcements\"part of the Court of King's Bench website. Any pleading must be filed and served within the deadlines set by statutes and Rules.In Alberta it is customary to file first any pleading after a statement of claim, then serve it.Statutory limitation of actions periods set the deadlines to issue a statement of claim.The time to serve a statement of claim is set by R.3.26, and the time to serve a third party notice is set by R.3.45. Usually the time to defend against a statement of claim or third party notice served within Alberta is 20 days, but one month to defend against a claim served outside Alberta, and 2 months if served outside Canada.Under Rr.13.3 and 13.4, one excludes the partial day at the beginning (i.e., the day of service) in computing these times.The times can be varied before or after they expire, under R.13.5.It is not hard to get most of these times extended, unless default judgment or the like has occurred in themeantime (for then evidence of merit is needed). But times set by statutes (and by a few express Rules) cannot be extended. It is very common for defence lawyers to get from the plaintiff's lawyers an agreed extension of time to file and serve a statement of defence.Indeed, lawyers for plaintiffs should not refuse such requests without good reason.The mere impatience of the plaintiff is not enough reason to refuse an extension. On the other hand, the defence must realize that it cannot take advantage of any times which expire during such an agreed extension. Since statements of claim are often served just before the limitation period expires, the defence solicitor should immediately carefully determine whether the right parties have been named, and whether the obvious causes of action have been pleaded. If they have not, a defence should be promptly drafted and served, without even seeking any extension of time to defend.That way the plaintiff cannot argue that any limitations defence have been waived. Oddly, the lawyers for both sides frequently do a very poor job of wording or recording agreed time extensions.Sometimes they do it by telephone with no written confirmation.Often letter writers become coy, and use very indirect language.Instead, one should write plainly:\"I ask that you extend the usual time for me to file and serve a defence\", or \"I promise not to note you in default without giving at least x days'written notice\", or similar words. 3Goodzeck Est.v. Goodzeck2019 NWTCA 4,Y #A1-AP-2019-000002 (one JA) (¶'s 9-10). 4Howard v.Dzineku2024 ABKB 79, JCE FL03 72431 (Feb 12) (¶'s 10-15);Kwadrans v. Kwadrans2023 ABCA 203, Calg 2201 00005 AC. A defendant or third party may defend before he or she is served, even after thetime for service has expired. 1B.M.v.Rogozinsky (#2)(M) 2014 ABQB 771, 603 AR 261. 2Alta.W. Mtge.Cap. Corp.v. 955492 Alta.(M) 2016 ABQB 641,JCC 0901 10328 (Nov 17) (¶'s 16-21).The defendant had had experienced legal advice in the meantime. A statement of defence must disclose an arguable ground of defence, to resist its being struck out. See further R.3.68n. The usual lax test for amendments to pleadings does not exist where a defendant wants to file a new statement of defence seven years after her previous one was struck, and wants to withdraw an admission in it, though the plaintiff gives evidence that the admission was true. On the Clerk accepting for filing a defective pleading, cf.theGoodzeckcase. A mere notice to attend does not commence a suit, so if there is an existing suit which is not about two issues, a notice toattend mentioning those two issues does not mean there is then an existing suit on those topics.The proceeding requested would have to wait until the plaintiff started an action on those two topics. *Additional Options for Defendant*",
+      "commentary": null,
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-80",
+          "3-82"
+        ],
+        "offset_in_clean_text": [
+          255800,
+          261703
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Statement of defence",
+      "operative_text_raw": null,
+      "commentary": [
+        {
+          "section": "3.31:1",
+          "text": "Rule 3.31 See Alberta Rules of Court, Alta. Reg. 124/2010, r. 3.31. 1. Effect of Late Delivery Do not ignore a late statement of defence. … a defence delivered after the proper time cannot be disregarded even though it is not delivered until after the plaintiff has served notice of motion for judgment… In such a case the court will have regard to the contents of the defence delivered out of time and deal with the case in such a manner that justice can be done…Aldridge v. Dogwood Sales Agencies Ltd. (1958), 25 W.W.R. 591 at 591-92 (B.C. S.C.). 2. One Cannot Deliver a Statement of Defence after Judgment A defendant cannot deliver a defence after the action has gone to judgment. A judgment closes out belated defences, on the simple ground that a judgment creates issue estoppel for any issues that were or could have been raised in the action…Alberta Treasury Branches v. Naber (1994), 161 A.R. 393 (Master), at 397, per Master Funduk. 3. Filing Defence before Service of Claim In Martin v. Dukart (1997), 58 Alta. L.R. (3d) 171 (Master), the plaintiff filed, but did not serve, a statement of claim in relation to a motor vehicle accident. The defendant learned of the action, filed and served a statement of defence, and, among other things, served the plaintiff with an appointment for examinations for discovery. The defendant applied for an order compelling the plaintiff to attend for discovery. At pp. 173-74, Master Alberstat said: There may be good reason why a plaintiff holds off service of the statement of claim. In this case the plaintiff wanted the injury claimed to resolve itself before proceeding. The statement of claim may be issued to preserve a cause of action in the face of a limitation period, but it may be that more time is required to investigate the circumstances. The question therefore is whether or not a defendant learning of a claim can defend without being formally served. A defendant can file a defence at any time he or she has notice of a claim. The plaintiff's action at that time, if the plaintiff does not want to proceed, would be to apply to the court for a stay, which if the circumstances dictate would be granted. There are situations that can justify a stay of a plaintiff's own action such as requiring an injury to resolve itself before proceeding. In such a case the filing of the statement of claim to preserve the action might be justified. The court in such a situation has the discretion to stay [an] action if it feels it is justified. Another situation which is more common is the commencement of proceedings in debt. In such a case the defendant may be prejudiced by having a potential claim reported to credit reporting agencies. A defendant in such a case in the absence of service of the statement of claim can file a defence and press on to trial if the debt is denied. If a defendant files a defence without having been served a statement of claim and the plaintiff decides to discontinue the action the question then arises as to the allocation of costs. If that problem does arise the court has complete discretion and may allow a discontinuance without costs but may, if the case warrants it, award costs to a defendant."
+        }
+      ],
+      "paragraph_ids": [
+        "part3_rule_3_31_001",
+        "part3_part_3_court_actions_018",
+        "part3_rule_3_31_002",
+        "part3_part_3_court_actions_020"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part03_document.json"
+        ]
+      },
+      "operative_text_sha256": "efa0ff9b8e829079e34a0d91021ae92f78cda8e94a8db5c9f85fe31a14699ac5",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Statement of defence",
+      "division_heading": null,
+      "operative_text_raw": "(1) If a defendant files a statement of defence, the statement of defence must (a) be in Form 11, and (b) comply with the rules about pleadings in Part 13 [Technical Rules], Division  months. .\n[Pleadings]\n(2) The defendant must file the statement of defence and serve it on the plaintiff within the applicable time after service of the statement of claim.\n(3) The applicable time is (a) 20 days if service is effected in Alberta, (b) one month if service is effected outside Alberta but in Canada, and (c) 2 months if service is effected outside Canada.",
+      "operative_text_sha256": "6e86b9b598ddcfb8f626b474b48d82dc14bc3b20e85e49c4d1a7c1f037b28ff4",
+      "citations": [],
+      "commentary": [],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "121-140_3_19 to 3_43.json",
+        "source_file": "121-140_revised.md"
+      }
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "NORMALIZATION_ONLY_DIFFERENCE",
+      "similarity": 1.0,
+      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.9894,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "3.",
+          "carrier": "months.."
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.31",
+      "title_official": "Statement of defence"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "NORMALIZATION_ONLY_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "WORDING_DIFFERENCE"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "8b9b947ba453cb7917f81dafe5ef55a4e62f34da1457a30c76262990de6493ed",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-80",
+            "3-82"
+          ],
+          "offset_in_clean_text": [
+            255800,
+            261703
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "efa0ff9b8e829079e34a0d91021ae92f78cda8e94a8db5c9f85fe31a14699ac5",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part03_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "6e86b9b598ddcfb8f626b474b48d82dc14bc3b20e85e49c4d1a7c1f037b28ff4",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "121-140_3_19 to 3_43.json",
+          "source_file": "121-140_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "6d69b0d757012346c55498c57ceb2d9c01a8e0fb29c3ddfac6987ce1b33276a7",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            61,
+            62
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "a7f8b81873c14d03b0c4c99f29e19d6de2aba161dd017da151c7ef3a0dc69dbe"
+  },
+  "information_notes": [
+    {
+      "text": "The words\"service is effected\"link to the rules about service of documents in Part 11 [Service of Documents]. In those rules, various methods of service are described, each one describing the date service is effected.See rule 11.9(2) [Service on corporations] for an example of this;and note the lead-in words to rule 11.9(2) \"Service is effected under this rule \". 1O'Chiese F.N.v. DLA Piper (Can.)2022 ABCA 197, 49 Alta LR(7th) 280. 2See the C.P.E., Chapter 17, for example. 3A defendant cannot destroy the plaintiff's legitimate claim, or part of it, by intentionally not filing the statement of defence until the time to renew a patent or other right, has expired:ABP Technologyv. Voyetra Turtle *Beach[2022] EWCA Civ 594 (May 4). For how time is counted, see rule 13.3 [Counting days] and rule 13.4 [Counting months and",
+      "carriers": [
+        "BOOK_A"
+      ]
+    },
+    {
+      "text": "The words “service is effected” link to the rules about service of documents in",
+      "carriers": [
+        "BOOK_C"
+      ]
+    }
+  ],
+  "dedupe_log": [
+    "3.31 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.31 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

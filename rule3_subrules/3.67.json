@@ -1,0 +1,319 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.67",
+  "title": {
+    "official": "Close of pleadings",
+    "variants": {}
+  },
+  "division": {
+    "number": 4,
+    "heading": "Request for Particulars, Amendments to Pleadings and Close of Pleadings"
+  },
+  "subdivision": null,
+  "operative_text": {
+    "controlling": "3.67(1)  This rule applies to pleadings between the following:\n(a) a plaintiff and a defendant;\n(b) a plaintiff-by-counterclaim and a\ndefendant-by-counterclaim;\n(c) a third party plaintiff and a third party defendant;\n(d) a plaintiff and a third party defendant.\n(2)  Pleadings close when\n(a) a reply is filed and served by a plaintiff, plaintiff-by-\ncounterclaim or third party plaintiff, as the case may be,\nor\n(b) the time for filing and serving a reply expires,\nwhichever is earlier.\n(3)  The close of pleadings against one party represents the close of\npleadings against all parties to that pleading.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "804d3f48a38dfac16c7e9f52b76a35fd590d136409961e3a6ef4e9314b07f91f"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.67 effective November 1, 2010 (Alta. Gaz. August 14, 2010]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          76
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Close of Pleadings",
+      "operative_text_raw": "3.67(1)This rule applies to pleadings between the following:\n*(a)a plaintiff and a defendant;*(b)a plaintiff-by-counterclaim and a defendant-by-counterclaim;*(c)a third party plaintiff and a third party defendant;*(d)a plaintiff and a third party defendant.*(2) Pleadings close when*(a)a reply is filed and served by a plaintiff,plaintiff-by-counterclaim or\n*third party plaintiff,as the case may be,or*(b)the time for filing and serving a reply expires,*whichever is earlier.*8*(3)The close of pleadings against one party represents the close of pleadings*against all parties to that pleading.\n*9",
+      "operative_text_sha256": "3c015eef4f0ee4eb62cb6320dd193503e4f949131de4c4a1cdf27295f8a09847",
+      "defined_terms": "defendant, file, party, plaintiff, pleading, third party defendant, third party plaintiff",
+      "related_provisions": "3.33(3) (time for reply);3.62 (amendments);3.65 (amendments by order)",
+      "commentary": "See also R.3.62n. *DIVISION 5 SIGNIFICANT DEFICIENCIES IN CLAIMS *Court Options to DealWith Significant Deficiencies*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-159",
+          "3-160"
+        ],
+        "offset_in_clean_text": [
+          517088,
+          518784
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Close of pleadings",
+      "operative_text_raw": "(1) This rule applies to pleadings between the following: (a) a plaintiff and a defendant; (b) a plaintiff-by-counterclaim and a defendant-by-counterclaim; (c) a third party plaintiff and a third party defendant; (d) a plaintiff and a third party defendant. (2) Pleadings close when (a) a reply is filed and served by a plaintiff, plaintiff-by-counterclaim or third party plaintiff, as the case may be, or (b) the time for filing and serving a reply expires, whichever is earlier. (3) The close of pleadings against one party represents the close of pleadings against all parties to that pleading.",
+      "commentary": [],
+      "paragraph_ids": [
+        "part3_rule_3_67_001",
+        "part3_part_3_court_actions_002"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part07_document.json"
+        ]
+      },
+      "operative_text_sha256": "e7ecf5a99e41b28edeb62d5896545d54266645070526c10080e0055506f326b1"
+    },
+    "BOOK_C": {
+      "title": "Close of pleadings",
+      "division_heading": null,
+      "operative_text_raw": "(1) This rule applies to pleadings between the following:\n(a) a plaintiff and a defendant;\n(b) a plaintiff-by-counterclaim and a defendant-by-counterclaim;\n(c) a third party plaintiff and a third party defendant;\n(d) a plaintiff and a third party defendant.\n(2) Pleadings close when (a) a reply is filed and served by a plaintiff, plaintiff-by-counterclaim or third party plaintiff, as the case may be, or (b) the time for filing and serving a reply expires, whichever is earlier.\n(3) The close of pleadings against one party represents the close of pleadings against all parties to that pleading.",
+      "operative_text_sha256": "bfc2adfb97360975750b572fa2c6f7c19ded2ba6c1ae3db0017dc5009dfe452b",
+      "citations": [],
+      "commentary": [
+        {
+          "topic": "General Principles",
+          "text": "Close of pleadings is very important. It is the point when all of the issues in the action are framed. It is the starting point for the need for leave of the court or consent of all parties to amend pleadings pursuant to rule 3.62. Pleadings close when any one of the enumerated parties serves a reply, or the time for filing and serving a reply ( Hislop v. Murray, [2012] AWLD 4638, 219 ACWS (3d) 248 at para. 22 (Alta. Q.B. (Master)). days from receipt of the statement of defence) expires, whichever is earlier. Importantly, the close of pleadings against one party is the close of pleadings against all parties to that particular pleading.",
+          "citations": []
+        },
+        {
+          "topic": "General Principles",
+          "text": "Rule 4.4(1) compels parties in standard actions to: close pleadings; disclose information under Part 5; attempt one of the dispute resolution processes described in rule 4.16(1) (unless the requirement is waived by the court); and apply for a trial date within a reasonable time. These are the usual steps required in all actions. Rule 4.4(2) permits",
+          "citations": []
+        }
+      ],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "161-180_3_67 to 4_7.json",
+        "source_file": "161-180_revised.md"
+      },
+      "merged_duplicate_entries": [
+        {
+          "file": "161-180_3_67 to 4_7.json",
+          "parsed_title": "Close of pleadings",
+          "role": "kept as rule entry",
+          "rule_text_of_merged_entry": null
+        },
+        {
+          "file": "161-180_3_67 to 4_7.json",
+          "parsed_title": "[Close of pleadings].",
+          "role": "merged into it",
+          "rule_text_of_merged_entry": null
+        }
+      ]
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.7241,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "(1) this",
+          "carrier": "(1)this"
+        },
+        {
+          "op": "replace",
+          "official": "(a) a",
+          "carrier": "(a)a"
+        },
+        {
+          "op": "replace",
+          "official": "defendant; (b) a",
+          "carrier": "defendant;(b)a"
+        },
+        {
+          "op": "replace",
+          "official": "defendant-by-counterclaim; (c) a",
+          "carrier": "defendant-by-counterclaim;(c)a"
+        },
+        {
+          "op": "replace",
+          "official": "defendant; (d) a",
+          "carrier": "defendant;(d)a"
+        },
+        {
+          "op": "replace",
+          "official": "defendant. (2)",
+          "carrier": "defendant.(2)"
+        },
+        {
+          "op": "replace",
+          "official": "when (a) a",
+          "carrier": "when(a)a"
+        },
+        {
+          "op": "replace",
+          "official": "plaintiff, plaintiff-by- counterclaim",
+          "carrier": "plaintiff,plaintiff-by-counterclaim"
+        },
+        {
+          "op": "replace",
+          "official": "plaintiff, as",
+          "carrier": "plaintiff,as"
+        },
+        {
+          "op": "replace",
+          "official": "be, or (b) the",
+          "carrier": "be,or(b)the"
+        },
+        {
+          "op": "replace",
+          "official": "expires, whichever",
+          "carrier": "expires,whichever"
+        },
+        {
+          "op": "replace",
+          "official": "earlier. (3) the",
+          "carrier": "earlier.8(3)the"
+        },
+        {
+          "op": "replace",
+          "official": "pleadings against",
+          "carrier": "pleadingsagainst"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "9"
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "NORMALIZATION_ONLY_DIFFERENCE",
+      "similarity": 1.0,
+      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "NORMALIZATION_ONLY_DIFFERENCE",
+      "similarity": 1.0,
+      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.67",
+      "title_official": "Close of pleadings"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "NORMALIZATION_ONLY_DIFFERENCE",
+      "BOOK_C": "NORMALIZATION_ONLY_DIFFERENCE"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "3c015eef4f0ee4eb62cb6320dd193503e4f949131de4c4a1cdf27295f8a09847",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-159",
+            "3-160"
+          ],
+          "offset_in_clean_text": [
+            517088,
+            518784
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "e7ecf5a99e41b28edeb62d5896545d54266645070526c10080e0055506f326b1",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part07_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "bfc2adfb97360975750b572fa2c6f7c19ded2ba6c1ae3db0017dc5009dfe452b",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "161-180_3_67 to 4_7.json",
+          "source_file": "161-180_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "804d3f48a38dfac16c7e9f52b76a35fd590d136409961e3a6ef4e9314b07f91f",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            76
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "11c478294ecb80f86e1c411d50c9685634e99edd647e120028d1a6611ba394b5"
+  },
+  "information_notes": [
+    {
+      "text": "The time for filing and service of a reply is covered in earlier rules in this Part.For example, rule 3.33 [Reply to a defence] requires the plaintiff's reply to be filed and served on the defendant within10 days after service of the statement of defence on the plaintiff.See also rule 3.54(2) [Plaintiff's reply to third party defence]. 1Quite similar to previous 1968 R.129(1). It came from 1944 C.Rr.184, 186, and 187, and from 1914 Rr.252, 254, 255, and from Judic.Ord.Rr.127 and 156.See 1883 O.19 r.27, O.25 r.4, and O.38 r.11. 2Quite similar to previous 1968 R.307.It came from an abbreviated version of 1914 Rr.252 and 253 (which covered pleadings too).Cf.1944 C.Rr.184, 185, and Judic.Ord.r.127, and Eng.1883 O.38 r.1, and Ont. 1897 R.297.Cf.C.O.O.XXXV r.60.",
+      "carriers": [
+        "BOOK_A"
+      ]
+    },
+    {
+      "text": "The time for filing and service of a reply is covered in earlier rules in this Part.\nFor example, rule 3.33 requires the plaintiff’s reply to be [Reply to a defence] filed and served on the defendant within  Hislop v. Murray, [2012] AWLD 4638, 219 ACWS (3d) 248 at para. 22 (Alta. Q.B. (Master)). days after service of the statement of defence on the plaintiff. See also rule 3.54(2) [Plaintiff’s reply to third party defence].",
+      "carriers": [
+        "BOOK_C"
+      ]
+    }
+  ],
+  "dedupe_log": [
+    "3.67 BOOK_C commentary sentence split dropped",
+    "3.67 BOOK_C commentary sentence split dropped",
+    "3.67 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

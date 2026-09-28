@@ -1,0 +1,271 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.5",
+  "title": {
+    "official": "Transfer of action",
+    "variants": {}
+  },
+  "division": {
+    "number": 1,
+    "heading": "Court Actions and Their Venue"
+  },
+  "subdivision": null,
+  "operative_text": {
+    "controlling": "3.5   The Court may order that an action be transferred from one\njudicial centre to another\n(a) if the Court is satisfied that it would be unreasonable for\nthe action to be carried on in the judicial centre in which it\nis located, or\n(b) at the request of the parties.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "453d0ab5d61fc6491af9762448650731c195e530f3c2d6c70e3539514a985101"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "[Alta. Reg. 124/2010, r. 3.5 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          52
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Transfer of Action",
+      "operative_text_raw": "3.5The Court may order that an action be transferred from one judicial centre*to another\n*(a)if the Court is satisfied that it would be unreasonable for the action*to be carried on in the judicial centre in which it is located,or*(b)at the request of the parties.*2",
+      "operative_text_sha256": "d962441b3aa625bb6c36cb558f15fad7b72bf514a21644f63e8f88fa67df46b2",
+      "defined_terms": "Court, judicial centre",
+      "related_provisions": "3.4(2) (transfer of action where land claimed)",
+      "commentary": "See an article.\n\nshould be transferred if R.3.3 was not complied with.Rule 3.3 creates a presumption that the location R.3.3 dictates is the suitable one. commenced.\n\n\"unreasonable\", and case law differs on how strict a test that should be. Location of counsel is not an important factor, but location of witnesses and the respondent's financial resources (inter\n\nthe balance of convenience favoured it:Spartek Sys. v.Brown2009 ABQB 705, 481 AR 213.\n\n11Behielsv.Tibu,supra(¶ 51).\n\nIt must be closest to the residence of one of the parties.The place picked by the plaintiff can and An application under this Rule is brought in the judicial centre in which the proceedings were\n\nABQB 942;Wickstromv.Wetter2007 ABQB 402, 419 AR 393;seeChristensen v. Proprietary Ind.,\n\na lawsuit requires strong cogent reasons, not just aprima faciecase. The test in R.3.5(2) is\n\nRule 3.3 does not allow a chambers judge to pick the place of trial on wide or vague grounds. The onus is otherwise on a party seeking transfer of a suit to a different judicial centre. Moving alia) are. The place of former assets litigated over is not important. Electronic means of appearing are relevant, but somewhat less satisfactory. That a party has\n\nlater (during the suit) moved is not on its own a compelling reason to move the suit, and here was neutral. Number of witnesses cannot be weighed until the number actually required or permitted is determined, along with whether they have to come in person. Stress of going to trial may be\n\nrelevant, but what accommodation for that stress could be made, is also weighty. The test for transferring an action is balance of convenience, having regard to such factors as the location of the parties, expense, the number of witnesses who will have to travel and stage of the lawsuit now. The location of counsel is not a significant factor in deciding the\n\n1Lund (2017) 56 Alta LRev 429 (#4). 2Odland v. Odland2017 ABCA 397, Calg 1701 0127 AC (Nov 27). 3Regular v. Regular,infra;Behielsv.Tibu2024 ABKB 12, JCE 1503 08564 (Jan 5) (¶ 8).Where neither party gave evidence about residence of witnesses, nor assets nor financial resources, the court decided balance of convenience on number of parties in related lawsuits, and their common case management: *Sobeys Cap.Inc.v.Gulf & Pac.Eq.Corp.2018 ABQB 151, JCC 1601 00082 (Feb 28) (¶'s 22-25);Odland\n*v. Odland,supra. 4Behielsv.Tibu,supra(¶ 64). 5Odland v. Odland,supra.The balance of convenience is suggested inPac.Inv.v.Wood Buffalo,supra. Capriciousness or arbitrariness need not be shown, to get a transfer:ibid.The case law is reviewed and this Handbook is approved:ibid. 6See n.7 below.\n\n7But financial capacity is not very weighty:Behielsv.Tibu,supra(¶ 15(7)). 8Regular v. Regular2016 ABQB 570, 46 Alta LR(6th) 385;Odland v.Odland,supra;Pac. Inv. & Dev. v. *Wood Buffalo,supra. 9Behielsv.Tibu,supra(¶ 16). 10Behielsv.Tibu,supra(¶'s 30-31, 38). 12Behielsv.Tibu,supra(¶ 61).\n\n13Schafer v.Lenhardt(CA 2/6 Feb) 1998 ABCA 47;Silver Springs Oil Recovery v.UMA Eng. (#2)2004 *infra, andJ.T.A.v. D.G.K. (Arnold v.Kephart)2001 ABQB 612, 301 AR 389;Behielsv.Tibu,supra(¶ 12).The criteria for changing the judicial centre (set by all the cases) speak of convenience to the parties, based on travel by witnesses and parties;or occasionally, local jury bias:See the C.P.E., Chapter 23.No case regulates venue by where the cause of action arose, still less on where property is (subject to claims for possession of land to R.3.4);those are pointless formalisms.That similar suits are being case managed\n\nelsewhere is not important:Wickstromv.Wetter,supra.An action was transferred to the Judicial District where the plaintiff operated and the cause of action arose.That the officer of the plaintiff resided inTexas and it was easier for him to travel to Calgary was not sufficient.Nor did it matter that three of the defendants resided in Calgary and the related action had begun there.The majority of the parties lived in Red Deer and\n\nbalance. The court may decline to transferan action until after a summary judgment is dealt with. And a suit could be transferred after most discoveries, but before trial.\n\n15;1944 C.R.831.Cf.Ont.1897 R.15. 5Ferguson v.Rubik(M) 2002 ABQB 779, 324 AR 349. 6Min.of Justice v. Mohamed2018 ABQB 897, JCL 1806 00556 (Nov 2).\n\nIf one litigant lives outside the province, then the other litigant probably has a right to have the proceedings transferred to the city where it and its counsel are.The fact that the Clerk has lost some filed documents through no fault of either party, is no reason to deny such a transfer of venue.\n\n2Christensen v. Proprietary Ind.,supra. 3Oleynik v.Univ.of Calg.2011 ABCA 281, [2011] AR Uned 360 (Oct 5). 4Quite similar to previous 1968 R.715, 716.It came from 1944 C.R.830, 1914 R.517.Cf.Ont.1897 Rr.14,\n\n*Where an Action is Carried On*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-21",
+          "3-23"
+        ],
+        "offset_in_clean_text": [
+          60450,
+          65673
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Transfer of action",
+      "operative_text_raw": null,
+      "commentary": [
+        {
+          "section": "3.5:1",
+          "text": "Rule 3.5 See Alberta Rules of Court, Alta. Reg. 124/2010, r. 3.5. 1. Venue for Application Applications must be made in the judicial district in which the action was commenced, that is, an application to transfer must be made in the judicial district from which the applicant wants the action transferred. See Royal Trust Corp. of Canada v. Fillo (1981), 17 Alta. L.R. (2d) 283 (Q.B.). 2. Onus of Proof and Balance of Convenience In Odland v. Odland, 2017 ABCA 397, 2017 CarswellAlta 2490, 63 Alta. L.R. (6th) 55, 12 C.P.C. (8th) 24, the Court said: 19 In our view, rule 3.3 operates much like a presumption. If the action is commenced in compliance with rule 3.3, it is presumed that it was brought in the correct judicial centre. If a defendant wishes to challenge the plaintiff's choice, the defendant must rebut that presumption and bears the burden of establishing that the plaintiff's choice was unreasonable. In contrast, if the plaintiff does not commence the action in compliance with rule 3.3, the plaintiff does not obtain the benefit of the presumption and it will be necessary for the plaintiff to establish that the choice of judicial centre was reasonable. Balance of Convenience for Assessing Rule 3.5 Applications 20 We endorse the approach that reasonableness is determined on the balance of convenience: Regular at para 7; Pacific Investments at para 41; Abou-Morad v Aboumourad, 2015 ABQB 584 at para 1, [2015] A.J. No. 1007 (QL). 21 The following factors were considered under the balance of convenience in Regular at paragraph 9: a) the number of parties or witnesses in the current and proposed judicial centre; b) the nature of the issues in the lawsuit; c) the relationship between the parties in respect of the issues in the lawsuit (e.g. where relevant interactions between the parties relating to issues took place); d) the parties' financial resources; e) the stage of proceedings; f) the convenience of location for pre-trial motions; and g) the location of relevant assets. 22 Generally, the location of counsel is not a decisive factor: Pacific Investments at para 38; Regular at para 8. A party can retain counsel in whichever city they wish, but counsel will be expected to make themselves available in the proper judicial centre: Keaton v Keaton, 2017 ABQB 429 at para 2, [2017] A.J. No. 712 (QL). See also: Behiels v. Tibu, 2024 ABKB 12 for a review of the law (both cases and an academic article). 3. Procedure In Odland v. Odland, 2017 ABCA 397, 2017 CarswellAlta 2490, 63 Alta. L.R. (6th) 55, 12 C.P.C. (8th) 24, the Court set out two acceptable procedures for bringing an application to transfer an action: 24 The case law suggests two different procedures are used for transferring an action. First, the defendant can apply to have the action transferred under rule 3.5 because the balance of convenience favors another judicial centre. This appears to be the more common process. Second, the defendant may apply for a declaration that the action was not commenced in compliance with rule 3.3 and once that declaration has been made, the defendant applies to transfer the action to a different judicial centre pursuant to rule 3.5. This was the procedure followed in Pacific Investments. Either procedure is satisfactory. 4. Location of Counsel's Office In our view, the location of the principle place of business of counsel for the parties should not be a significant factor in deciding the balance of convenience. Counsel should follow the case, not the reverse. F.T. Anderson & Associates v. Kent (9th October 1981), Doc. Calgary 13478 (C.A.) (unreported). 5. “Unreasonable” In Regular v. Regular, 2016 ABQB 570, 2016 CarswellAlta 1948, Justice Renke said: 5 It is clear that the onus of proof lies on the party applying for the transfer of an action to another judicial centre: Christensen v Proprietary Industries Inc., 2002 ABQB 97, Watson J, as he then was, at para 60; Wickstrom v Wetter, 2007 ABQB 402, Graesser J at para 8; 325303 Alberta Ltd v Prime Property Management, 2011 ABQB 817, Michalyshyn J at para 19; Abou-Morad v Aboumourad, 2015 ABQB 584, Veit J at para 1. 6 There are two lines of authority respecting the interpretation of the “unreasonableness” criterion in rule 3.5. In Siver v Siver, 2010 ABQB 755, Justice Veit adopted a literal or plain meaning approach to rule 3.5. The inquiry under rule 3.5 concerns whether carrying on the action in the current judicial centre is “unreasonable,” in the sense of being arbitrary or irrational, having “no logical grounding:” at paras 14–16. This test is highly deferential to the original judicial centre selection. Alternatively, satisfying this test is difficult for a party seeking to change the judicial centre. 7 The weight of authority is that rule 3.5 imposes a “balance of convenience” test. This test was imported from authorities that considered the preceding version of the rules. The authorities do not discuss whether the language of rule 3.5 should entail a revised approach to rule 3.5. Regardless, the “balance of convenience” approach is supported by Abou-Morad v Aboumourad at para 1; 325303 Alberta Ltd v Prime Property Management at paras 19 and 27; and Wickstrom v Wetter at para 5. Earlier authorities include Christensen v Proprietary Industries Inc at para 60; Apache Canada Ltd v Johnson, 2005 ABCA 71 at para 5; Schafer v Lenhardt, 1998 ABCA 47 at para 3; Silver Springs Oil Recovery Inc v UMA Engineering Ltd, 2004 ABQB 942 at para 6; and CS v AJ, 2004 ABQB 73. 8 In the application of the balance of convenience test, the location of counsel is not a decisive factor: Christensen v Proprietary Industries Inc. at para 61; Silver Springs Oil Recovery Inc v UMA Engineering Ltd at para 7 (contra, Siver v Siver at para 18; but in that case, because of conflicts, counsel in the proposed judicial centre may not have been available: at para 20). 9 Factors important in the application of the balance of convenience test include the following: a) the number of parties or witnesses in the current judicial centre and the proposed judicial centre: Schafer v Lenhardt at para 2; Silver Springs Oil Recovery Inc v UMA Engineering Ltd at para 7; Wickstrom v Wetter at para 15; 325303 Alberta Ltd v Prime Property Management at paras 24 and 27. b) the nature of the issues in the lawsuit: Apache Canada Ltd v Johnson at para 7. c) the relationship between the parties in respect of the issues in the lawsuit (e.g. where relevant interactions between the parties relating to issues took place): Apache Canada Ltd v Johnson paras 7 and 9. d) the parties' respective financial resources: Siver v Siver at para 19. e) the stage of proceedings: Siver v Siver at para 22. The following additional factors are relevant, although of lesser weight: f) the convenience of location for pre-trial motions: Christensen v Proprietary Industries Inc at para 62. g) the location of relevant assets: Christensen v Proprietary Industries Inc at para 63; see Canadian Imperial Bank of Commerce v. Nemeth, 2013 ABQB 290, Schlosser M at para 28."
+        }
+      ],
+      "paragraph_ids": [
+        "part3_rule_3_5_001",
+        "part3_part_3_court_actions_016",
+        "part3_rule_3_5_002",
+        "part3_part_3_court_actions_018"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part01_document.json"
+        ]
+      },
+      "operative_text_sha256": "cd349f68ff60bc75bad316cc571ab2bc15687accd25000d09f7693b51980b846",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Transfer of action",
+      "division_heading": null,
+      "operative_text_raw": "The Court may order that an action be transferred from one judicial centre to another (a) if the Court is satisfied that it would be unreasonable for the action to be carried on in the judicial centre in which it is located, or",
+      "operative_text_sha256": "1663d8770c82f2fada125a7b7e76df43525474a8c1493513294d600ee5f0d3cc",
+      "citations": [],
+      "commentary": [
+        {
+          "topic": "Onus",
+          "text": "The onus to prove that an action should be transferred to another judicial centre lies on the party applying for the transfer of an action to another judicial centre. Regular v. Regular, [2016] A.J. No. 1042, 2016 ABQB 570 at para. 5 (Alta. Q.B.). Rule 3.3 operates “much like a presumption”; so long as the action is commenced in compliance with this rule, then the court will generally presume that it was brought in the correct judicial centre.\nHowever, if the plaintiff’s choice does not comply with rule 3.3, the onus is on the plaintiff to establish that its choice of judicial centre was reasonable, once challenged. Odland v. Odland, [2017] A.J. No. 1265, 2017 ABCA 397 at paras. 1, 19 (Alta. C.A.).\nTest for ‘unreasonableness’ – In order to show that it would be unreasonable for the action to be carried on in the judicial centre in which it is located, a party must show that the current judicial centre is “unreasonable” in the sense of being arbitrary or irrational, and having no logical grounding. This test is highly deferential to the original judicial centre selection made by the plaintiff, or originating Applicant. Regular v. Regular, [2016] A.J. No. 1042, 2016 ABQB 570 at para. 6 (Alta. Q.B.), endorsed in Odland v. Odland Sobeys Capital , [2017] A.J. No. 1265, 2017 ABCA 397 paras. 20-23 (Alta. C.A.); and Inc. v. Gulf & Pacific Equities Corp., [2018] A.J. No. 231, 2018 ABQB 151 at paras. 3-19 (Alta. Q.B.).\nBalance of Convenience Test – Rule 3.5 imposes a “balance of convenience” test. Odland v. Odland Sobeys , [2017] A.J. No. 1265, 2017 ABCA 397 at paras. 19-23 (Alta. C.A.); Capital Inc. v. Gulf & Pacific Equities Corp., [2018] A.J. No. 231, 2018 ABQB 151 at paras. 13-25 (Alta. Q.B.); and , [2016] A.J. No. 1042, 2016 ABQB 570 at para. 7 (Alta. Q.B.). Regular v. Regular Factors important in the application of the balance of convenience test include: a) the number of parties or witnesses in the current judicial centre and the proposed judicial centre...; b) the nature of the issues in the lawsuit...; c) the relationship between the parties in respect of the issues in the lawsuit (e.g. where relevant interactions between the parties relating to issues took place)...; d) the parties’ respective financial resources...; and e) the stage of proceedings... . Regular v. Regular, [2016] A.J. No. 1042, 2016 ABQB 570 at para. 9 (Alta. Q.B.); the factors were considered and applied at length in a case where both plaintiff and plaintiff by counterclaim had proposed Edmonton as place of trial; but many years later, after plaintiff had discontinued claim and plaintiff by counterclaim had moved to Calgary, plaintiff by counterclaim sought a change of venue: , Behiels v. Tibu Two additional factors of lesser weight are the convenience of location for pre-trial motions and the location of relevant assets. Regular v. Regular, [2016] A.J. No. 1042, 2016 ABQB 570 at para. 9 (Alta. Q.B.). The location of counsel is not a decisive factor",
+          "citations": [
+            {
+              "neutral_citation": "2016 ABQB 570",
+              "style_of_cause": "Regular v. Regular"
+            },
+            {
+              "neutral_citation": "2017 ABCA 397",
+              "style_of_cause": "Odland v. Odland"
+            },
+            {
+              "neutral_citation": "2018 ABQB 151",
+              "style_of_cause": "Inc. v. Gulf"
+            }
+          ]
+        }
+      ],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "101-120_2_28 to 3_18.json",
+        "source_file": "101-120_revised.md"
+      }
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.8298,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "centre to",
+          "carrier": "centreto"
+        },
+        {
+          "op": "replace",
+          "official": "(a) if",
+          "carrier": "(a)if"
+        },
+        {
+          "op": "replace",
+          "official": "action to",
+          "carrier": "actionto"
+        },
+        {
+          "op": "replace",
+          "official": "located, or (b) at",
+          "carrier": "located,or(b)at"
+        },
+        {
+          "op": "replace",
+          "official": "parties.",
+          "carrier": "parties.2"
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "CARRIER_MISSING_TEXT",
+      "similarity": 0.9247,
+      "differences": [
+        {
+          "op": "delete",
+          "official": "(b) at the request of the parties.",
+          "carrier": ""
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.5",
+      "title_official": "Transfer of action"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "CARRIER_MISSING_TEXT"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "d962441b3aa625bb6c36cb558f15fad7b72bf514a21644f63e8f88fa67df46b2",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-21",
+            "3-23"
+          ],
+          "offset_in_clean_text": [
+            60450,
+            65673
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "cd349f68ff60bc75bad316cc571ab2bc15687accd25000d09f7693b51980b846",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part01_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "1663d8770c82f2fada125a7b7e76df43525474a8c1493513294d600ee5f0d3cc",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "101-120_2_28 to 3_18.json",
+          "source_file": "101-120_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "453d0ab5d61fc6491af9762448650731c195e530f3c2d6c70e3539514a985101",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            52
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "d745331d3f533138c1a1beadf7eb34e926356971ed5373e3490bd3a9f8549178"
+  },
+  "information_notes": [],
+  "dedupe_log": [
+    "3.5 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.5 BOOK_C citation context dropped (2016 ABQB 570): verbatim in kept text",
+    "3.5 BOOK_C citation context dropped (2017 ABCA 397): verbatim in kept text",
+    "3.5 BOOK_C citation context dropped (2018 ABQB 151): verbatim in kept text",
+    "3.5 BOOK_C commentary sentence split dropped",
+    "3.5 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.23",
+  "title": {
+    "official": "Stay of decision",
+    "variants": {}
+  },
+  "division": {
+    "number": 2,
+    "heading": "Actions Started by Originating Application"
+  },
+  "subdivision": {
+    "number": 2,
+    "heading": "Additional Rules Specific to Originating Applications for Judicial Review"
+  },
+  "operative_text": {
+    "controlling": "3.23(1)  The Court may stay the operation of a decision or act\nsought to be set aside under an originating application for judicial\nreview pending final determination of the originating application.\n(2)  Despite subrule (1), no order to stay is to be made if, in the\nCourt’s opinion, the stay would be detrimental either to the public\ninterest or to public safety.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "d9117791a16dc1e411224dc5459ffaf321a40073630cff42c3c4ed54f6d66052"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.23 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          59
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Stay of Decision",
+      "operative_text_raw": "3.23(1)The Court may stay the operation of a decision or act sought to be set aside*under an originating application for judicial review pending final determination*of the originating application.*(2)Despite subrule (1),no order to stay is to be made if,in the Court's opinion,\n*the stay would be detrimental either to the public interest or to public safety.*3",
+      "operative_text_sha256": "48c53d5558832514650f56331b72dba545b6667a4a2bbc95e42f02db5071d6c3",
+      "defined_terms": "Court, order",
+      "related_provisions": "3.68 (stays of deficient claims)",
+      "commentary": "See also R.3.15n.E.5. One justice of appeal may give a stay. A stay may be given to hold the status quo pending more information and then a hearing. The test for a stay should be like the 3-part test for an interlocutory injunction.\n\n1U.F.C.W. U. Local 401 v.Westfair Foods2010 ABCA 120, 477 AR 315 (¶'s 6-8).In deciding whether hearsay evidence is admissible on an application for judicial review, one has to look not just at the pleadings, but also at the relief sought at the end of argument.Therefore where a new hearing is being sought, maybe hearsay might be admissible, but not where certain aspects were to be finally prohibited or taken off the table:Alta.Teachers'Assn. v.Info.& Privacy Comm'r.,supra.\n\n2Oleynik v.Univ.of Calg.2023 ABKB 43, JCC 2201 04192 (Jan 25). 3Quite similar to previous 1987 R.753.15, new in 1987 (, with liberty to file a new proper brief);Oleynik v. *Univ. of Calg.2023 ABCA 265, Calg 2301 0034 AC (Sep 25) (¶'s 20 ff.). 4Johnston v. Dir. ofVital Statistics2007 ABCA 394, 422 AR 175 (one JA);A.B.v.College of Physicians &\n\nWhere the court or tribunal impugned did nothing, there is nothing to stay or which can be stayed. A stay of what is not ordered in the impugned order is not possible, but the applicant can ask the court or tribunal below to fix the problem.\n\nA standard-form contract (for cell phone service) called for arbitration of disputes.Consumer legislation made a contract contracting out of class-action procedure void.So for the parts of the suit covered, a stay was improper.But other parts of the suit should be stayed for arbitration. A stay was given where the case was not urgent, and the Regulation impugned would cause large loss to some chain stores hard to calculate and so irreparable.\n\nstep in an administrative or professional discipline proceeding is very undesirable, and rarely permitted.So a stay of all further proceedings pending judicial review of the first stage of those\n\n6Quite similar to previous 1987 R.753.05.It was new in 1987. 7Quite similar to previous 1987 R.753.06.It was new in 1987. 8Quite similar to previous 1987 R.753.07.It was new in 1987.\n\n1Johnston v. Dir. ofVital Statistics,supra. 2Weidenfeld v. Min.for Seniors2023 ABCA 14, Calg 2201 0272 AC (one JA Jan 16). 3Seidel v.TELUS Comm'ns.2011 SCC 15, [2011] 1 SCR 531. 4SobeysW. v.Alta.College of Pharmacists2014 ABQB 333, JCE 1403 06927 (Jun 4).(See 2015 ABCA 32.) 5Akinnawonu v. College,supra(¶'s 10-12).\n\nSplitting up judicial review and allowing more than one judicial review application after each\n\nproceedings is properly denied, especially if none of the three tests for a stay is met.\n\n*Additional Remedies on Judicial Review*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-65",
+          "3-66"
+        ],
+        "offset_in_clean_text": [
+          206037,
+          209151
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Stay of decision",
+      "operative_text_raw": null,
+      "commentary": [
+        {
+          "section": "3.23:1",
+          "text": "Rule 3.23 See Alberta Rules of Court, Alta. Reg. 124/2010, r. 3.23. 1. Jurisdiction to grant a stay In Société Culturelle Mamowapik v. Alberta (Gaming & Liquor Commission), 2000 ABCA 148, 2000 CarswellAlta 485, 261 A.R. 198, 83 Alta. L.R. (3d) 266, the applicant had its bingo licence revoked by the Commission. The applicant sought a stay of the Commission's order pending the hearing of a judicial review application. The learned Chambers judge in the Court of Queen's Bench refused to grant a stay. The applicant then sought an order from Russell, J.A., sitting alone, reversing the Chambers decision. In concluding that she did not have jurisdiction, her Ladyship said, at pp. 267-268: The applicants rely on Rule 753.15(1) of the Alberta Rules of Court in seeking relief. Unless otherwise provided by statute, that Rule permits the court hearing the application for judicial review, to stay the operation of the decision sought to be set aside pending final determination of the review. That Rule does not permit a further application de novo before a single judge of this court. This court does not have jurisdiction to stay the Board's decision in judicial review proceedings. Counsel for the applicants properly interpreted paragraph F (5) of the Consolidated Court of Appeal Practice Directions, to permit applications for a stay to be heard by a single judge. But a stay of an order refusing a stay is a hollow remedy. What the applicants really seek is a reversal of the stays, which are tantamount to an appeal of those decisions. Although the refusal of the stay, may be the subject of an appeal to this court, those appeals must be heard by a panel consisting of a quorum of judges. . . . . . The present applications for a stay of a refusal of a stay are similar in that they amount to a rehearing of the interlocutory stay applications or sitting on an appeal of them, neither of which I have jurisdiction to preside over, sitting as a single judge of this Court. 2. Test for a stay under the Rule In Fawcett v. College of Physicians and Surgeons of the Province of Alberta, 2019 ABQB 788, 2019 CarswellAlta 2133, Justice Little said: [7] The parties agree that pursuant to authorities including Johnston v Alberta (Director of Vital Statistics), 2007 ABCA 394 and Sobeys West Inc. v Alberta College of Pharmacists, 2014 ABQB 333, the test for a stay under Rule 3.23 is the same as for an interlocutory injunction as set out in RJR-MacDonald v Canada (Attorney General) and which may be summarized as follows: 1. Whether there is a serious issue to be tried. 2. Whether the applicant would suffer irreparable harm if the application were refused. 3. Whether the balance of convenience favours the applicant. 3. This Rule only addresses staying the operation of the actual order or decision This Rule allows the reviewing Court to enter a stay of the operation of the actual order or decision which is sought to be set aside through the judicial review. The Rule does not address the ability of the Court whose decision is the subject of the judicial review to continue with the proceedings before that Court. That Court's jurisdiction in relation to those proceedings is suspended by operation of law (see the annotation under Rule 3.15: “Service of notice of the application suspends proceedings in the Alberta Court of Justice”)."
+        }
+      ],
+      "paragraph_ids": [
+        "part3_rule_3_23_001",
+        "part3_part_3_court_actions_022",
+        "part3_rule_3_23_002",
+        "part3_part_3_court_actions_024"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part02_document.json"
+        ]
+      },
+      "operative_text_sha256": "4536edabcbcebf1fc3a2f7cebeb8cfbf9b10314162d1d1b5ce897d7c9f11e7b0",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Stay of decision",
+      "division_heading": null,
+      "operative_text_raw": null,
+      "operative_text_sha256": "20311451fecf59c5721982cfb053852ebb5ebafee3611c535714e2f048eb606e",
+      "citations": [],
+      "commentary": [
+        {
+          "topic": "General Principles",
+          "text": "The established test on an application under this rule is the tripartite test for an interlocutory injunction articulated by the Supreme Court of Canada in RJR- MacDonald Inc. v. Canada (Attorney General). An applicant must establish that:  [1994] S.C.J. No. 17, [1994] 1 S.C.R. 311 at paras. 87-93 (S.C.C.). See also , T. (P.) v. Alberta • there is a serious issue to be tried;\n• the applicant will suffer irreparable harm if no injunction is granted; and • the balance of convenience between the parties favours granting the injunction (stay).\nSerious Issue – In assessing whether there is a serious issue to be tried, the Supreme Court in said the court must make a preliminary assessment of the merits of RJR-MacDonald Inc. the case but a prolonged assessment is not necessary. “Serious question” means “an arguable paras. 40-41 (Alta. Q.B.). See also, , [2019]\nMohamed v. College of Physicians and Surgeons of Alberta A.J. No. 1134, 2019 ABQB 657 at para. 11 (Alta. Q.B.). See also Northern Air Charters (P.R.) Inc. v.\nAlberta Health Services Oleynik , [2023] A.J. No. 375, 2023 ABCA 114 at paras. 6-12 (Alta. C.A.); and v University of Calgary Koester v.\n, [2023] A.J. No. 987, 2023, ABCA 265 at paras. 7-11 (Alta. C.A.);\nWheatland (County), [2024] A.J. No. 261, 2024 ABKB  OmniArch Capital Corp. v. Bishop, [2020] A.J. No. 200, 2020 ABQB 102 at paras. 57-62 (Alta. Q.B.). at paras. 34- Fort McKay First Nation v. Alberta (Minister of Environment and Sustainable Resource Development) Greater St. Albert , [2014] A.J. No. 60, 2014 ABQB 32 at paras. 21-22 (Alta. Q.B.) and Roman Catholic Separate School, District No. 734 v. Buterman, [2013] A.J. No. 909, 2013 ABQB 485 at para. 86 (Alta. Q.B.). (Alta. K.B.).\n[2024] A.J. No. 261, 2024 ABKB  OmniArch Capital Corp. v. Bishop, [2020] A.J. No. 200, 2020 ABQB 102 at paras. 57-62 (Alta. Q.B.). at paras. 34- Fort McKay First Nation v. Alberta (Minister of Environment and Sustainable Resource Development) Greater St. Albert , [2014] A.J. No. 60, 2014 ABQB 32 at paras. 21-22 (Alta. Q.B.) and Roman Catholic Separate School, District No. 734 v. Buterman, [2013] A.J. No. 909, 2013 ABQB 485 at para. 86 (Alta. Q.B.). (Alta. K.B.).\n[2019] A.J. No. 512, 2019 ABCA 158 at para. 20 (Alta. C.A.); ANC Timber Ltd. v. Alberta (Minister of Agriculture and Forestry), [2019] A.J. No. 1121, 2019 ABQB 653 at para. 38 (Alta. Q.B.).",
+          "citations": [
+            {
+              "neutral_citation": "2019 ABQB 657",
+              "style_of_cause": "Mohamed v. College of Physicians and Surgeons of Alberta A.J. No. 1134"
+            },
+            {
+              "neutral_citation": "2023 ABCA 114",
+              "style_of_cause": null
+            },
+            {
+              "neutral_citation": "2020 ABQB 102",
+              "style_of_cause": "ABKB  OmniArch Capital Corp. v. Bishop"
+            },
+            {
+              "neutral_citation": "2014 ABQB 32",
+              "style_of_cause": "Fort McKay First Nation v. Alberta"
+            },
+            {
+              "neutral_citation": "2013 ABQB 485",
+              "style_of_cause": "District No. 734 v. Buterman"
+            },
+            {
+              "neutral_citation": "2019 ABCA 158",
+              "style_of_cause": "District No. 734 v. Buterman"
+            },
+            {
+              "neutral_citation": "2019 ABQB 653",
+              "style_of_cause": "ANC Timber Ltd. v. Alberta"
+            }
+          ]
+        }
+      ],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "121-140_3_19 to 3_43.json",
+        "source_file": "121-140_revised.md"
+      },
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.8205,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "(1) the",
+          "carrier": "(1)the"
+        },
+        {
+          "op": "replace",
+          "official": "aside under",
+          "carrier": "asideunder"
+        },
+        {
+          "op": "replace",
+          "official": "determination of",
+          "carrier": "determinationof"
+        },
+        {
+          "op": "replace",
+          "official": "application. (2) despite",
+          "carrier": "application.(2)despite"
+        },
+        {
+          "op": "replace",
+          "official": "(1), no",
+          "carrier": "(1),no"
+        },
+        {
+          "op": "replace",
+          "official": "if, in",
+          "carrier": "if,in"
+        },
+        {
+          "op": "replace",
+          "official": "safety.",
+          "carrier": "safety.3"
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.23",
+      "title_official": "Stay of decision"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "EXACT_MATCH"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "48c53d5558832514650f56331b72dba545b6667a4a2bbc95e42f02db5071d6c3",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-65",
+            "3-66"
+          ],
+          "offset_in_clean_text": [
+            206037,
+            209151
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "4536edabcbcebf1fc3a2f7cebeb8cfbf9b10314162d1d1b5ce897d7c9f11e7b0",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part02_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "20311451fecf59c5721982cfb053852ebb5ebafee3611c535714e2f048eb606e",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "121-140_3_19 to 3_43.json",
+          "source_file": "121-140_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "d9117791a16dc1e411224dc5459ffaf321a40073630cff42c3c4ed54f6d66052",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            59
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "3a40d9d7500a352fe8e0dfc65762fbfe181ec6af4abd99be8dec54877ba0683b"
+  },
+  "information_notes": [],
+  "dedupe_log": [
+    "3.23 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.23 BOOK_C: operative text dropped (EXACT_MATCH)",
+    "3.23 BOOK_C citation context dropped (2019 ABQB 657): verbatim in kept text",
+    "3.23 BOOK_C citation context dropped (2023 ABCA 114): verbatim in kept text",
+    "3.23 BOOK_C citation context dropped (2020 ABQB 102): verbatim in kept text",
+    "3.23 BOOK_C citation context dropped (2014 ABQB 32): verbatim in kept text",
+    "3.23 BOOK_C citation context dropped (2013 ABQB 485): verbatim in kept text",
+    "3.23 BOOK_C citation context dropped (2019 ABCA 158): verbatim in kept text",
+    "3.23 BOOK_C citation context dropped (2019 ABQB 653): verbatim in kept text",
+    "3.23 BOOK_C commentary sentence split dropped",
+    "3.23 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

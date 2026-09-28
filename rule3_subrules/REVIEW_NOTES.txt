@@ -1,0 +1,234 @@
+REVIEW NOTES - Alberta Rules of Court Part 3 (rules 3.1-3.77). One block per rule; pass lines are added with
+ARC_PART=3 python3 tools/edit_helpers.py review-line 3.N "[1st pass] ...". No manual pass has been done yet.
+
+3.1 Rules govern Court actions
+     (builder output only; no manual review yet)
+
+3.2 How to start an action
+     (builder output only; no manual review yet)
+
+3.3 Determining the appropriate judicial centre
+     (builder output only; no manual review yet)
+
+3.4 Claim for possession of land
+     (builder output only; no manual review yet)
+
+3.5 Transfer of action
+     (builder output only; no manual review yet)
+
+3.6 Where an action is carried on
+     (builder output only; no manual review yet)
+
+3.7 Post-judgment transfer of action
+     (builder output only; no manual review yet)
+
+3.8 Originating applications and associated evidence
+     (builder output only; no manual review yet)
+
+3.9 Service of originating application and evidence
+     (builder output only; no manual review yet)
+
+3.10 Application of Part 4 and Part 5
+     (builder output only; no manual review yet)
+
+3.11 Service and filing of affidavits and other evidence in reply and response
+     (builder output only; no manual review yet)
+
+3.12 Application of statement of claim rules to originating applications
+     (builder output only; no manual review yet)
+
+3.13 Questioning on affidavit and questioning witnesses
+     (builder output only; no manual review yet)
+
+3.14 Originating application evidence (other than judicial review)
+     (builder output only; no manual review yet)
+
+3.15 Originating application for judicial review
+     (builder output only; no manual review yet)
+
+3.16 Originating application for judicial review: habeas corpus
+     (builder output only; no manual review yet)
+
+3.17 Attorney General’s right to be heard
+     (builder output only; no manual review yet)
+
+3.18 Notice to obtain record of proceedings
+     (builder output only; no manual review yet)
+
+3.19 Sending in certified record of proceedings
+     (builder output only; no manual review yet)
+
+3.20 Other circumstances when record of proceedings may be required
+     (builder output only; no manual review yet)
+
+3.21 Limit on questioning
+     (builder output only; no manual review yet)
+
+3.22 Evidence on judicial review
+     (builder output only; no manual review yet)
+
+3.23 Stay of decision
+     (builder output only; no manual review yet)
+
+3.24 Additional remedies on judicial review
+     (builder output only; no manual review yet)
+
+3.25 Contents of statement of claim
+     (builder output only; no manual review yet)
+
+3.26 Time for service of statement of claim
+     (builder output only; no manual review yet)
+
+3.27 Extension of time for service
+     (builder output only; no manual review yet)
+
+3.28 Effect of not serving statement of claim in time
+     (builder output only; no manual review yet)
+
+3.29 Notice of extension of time for service
+     (builder output only; no manual review yet)
+
+3.30 Defendant’s options
+     (builder output only; no manual review yet)
+
+3.31 Statement of defence
+     (builder output only; no manual review yet)
+
+3.32 Additional options for defendant
+     (builder output only; no manual review yet)
+
+3.33 Reply to defence
+     (builder output only; no manual review yet)
+
+3.34 Demand for notice by defendant
+     (builder output only; no manual review yet)
+
+3.35 Judgment or order by agreement
+     (builder output only; no manual review yet)
+
+3.36 Judgment in default of defence and noting in default
+     (builder output only; no manual review yet)
+
+3.37 Application for judgment against defendant noted in default
+     (builder output only; no manual review yet)
+
+3.38 Judgment for recovery of property
+     (builder output only; no manual review yet)
+
+3.39 Judgment for debt or liquidated demand
+     (builder output only; no manual review yet)
+
+3.40 Continuation of action following judgment
+     (builder output only; no manual review yet)
+
+3.41 When no defence is filed in foreclosure action
+     (builder output only; no manual review yet)
+
+3.42 Limitation on when judgment or noting in default may occur
+     (builder output only; no manual review yet)
+
+3.43 How to make claim against co-defendant
+     (builder output only; no manual review yet)
+
+3.44 When third party claim may be filed
+     (builder output only; no manual review yet)
+
+3.45 Form of third party claim
+     (builder output only; no manual review yet)
+
+3.46 Third party defendant becomes party
+     (builder output only; no manual review yet)
+
+3.47 Third party defendant’s options
+     (builder output only; no manual review yet)
+
+3.48 Plaintiff’s options
+     (builder output only; no manual review yet)
+
+3.49 Third party statement of defence and additional options
+     (builder output only; no manual review yet)
+
+3.50 Demand for notice by third party defendant
+     (builder output only; no manual review yet)
+
+3.51 Effect of demand for notice
+     (builder output only; no manual review yet)
+
+3.52 Consequences of not filing third party statement of defence
+     (builder output only; no manual review yet)
+
+3.53 Judgment against third party defendant
+     (builder output only; no manual review yet)
+
+3.54 Plaintiff’s reply to third party defence
+     (builder output only; no manual review yet)
+
+3.55 Application of rules to third party claims
+     (builder output only; no manual review yet)
+
+3.56 Right to counterclaim
+     (builder output only; no manual review yet)
+
+3.57 Contents of counterclaim
+     (builder output only; no manual review yet)
+
+3.58 Status of counterclaim
+     (builder output only; no manual review yet)
+
+3.59 Claiming set-off
+     (builder output only; no manual review yet)
+
+3.60 Application of rules to counterclaims
+     (builder output only; no manual review yet)
+
+3.61 Request for particulars
+     (builder output only; no manual review yet)
+
+3.62 Amending pleading
+     (builder output only; no manual review yet)
+
+3.63 Identifying amendments to pleadings
+     (builder output only; no manual review yet)
+
+3.64 Time limit for application to disallow amendment to pleading
+     (builder output only; no manual review yet)
+
+3.65 Permission of Court to amendment before or after close of pleadings
+     (builder output only; no manual review yet)
+
+3.66 Costs
+     (builder output only; no manual review yet)
+
+3.67 Close of pleadings
+     (builder output only; no manual review yet)
+
+3.68 Court options to deal with significant deficiencies
+     (builder output only; no manual review yet)
+
+3.69 Joining claims
+     (builder output only; no manual review yet)
+
+3.70 Parties joining to bring action
+     (builder output only; no manual review yet)
+
+3.71 Separating claims
+     (builder output only; no manual review yet)
+
+3.72 Consolidation or separation of claims and actions
+     (builder output only; no manual review yet)
+
+3.73 Incorrect parties not fatal to actions
+     (builder output only; no manual review yet)
+
+3.74 Adding, removing or substituting parties after close of pleadings
+     (builder output only; no manual review yet)
+
+3.75 Adding, removing or substituting parties to originating application
+     (builder output only; no manual review yet)
+
+3.76 Action to be taken when defendant or respondent added
+     (builder output only; no manual review yet)
+
+3.77 Subsequent encumbrancers not parties in foreclosure action
+     (builder output only; no manual review yet)
+

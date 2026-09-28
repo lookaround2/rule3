@@ -11,7 +11,8 @@ rule2_subrules/REVIEW_NOTES.txt (what was found, rule by rule). Those two files 
    content that adds nothing is dropped, always with a one-line note saying what was dropped and why.
    Method: skill "arc-rules-production-lifecycle", mode SOURCE_RECONCILIATION (no graph writes).
    Done so far: Part 2 (rules 2.1 - 2.32), eight manual passes; see WORKFLOW section 5.
-   Next: other Parts (see section 6).
+   Part 3 (rules 3.1 - 3.77): all four sources are in the repo and the builder has run (section 11); no manual pass yet.
+   Next: Part 3 Pass 1, then other Parts (see section 6).
 
 2. FILES
    Alberta_Rules_of_Court.txt        OFFICIAL - whole Rules incl. forms and Appendix definitions (controls)
@@ -153,3 +154,14 @@ rule2_subrules/REVIEW_NOTES.txt (what was found, rule by rule). Those two files 
    5. Calibration (optional, recommended): run the pass plan blind on a few Part 2 rules and compare the
       findings with REVIEW_NOTES.txt, which is the answer key for Part 2 after 8 passes. Anything missed
       points to a checklist line that needs to be clearer.
+
+11. PART 3 (started 2026-09-28) - read rule3_subrules/WORKFLOW.txt
+   Builder:  python3 tools/build_rule3_reconciliation.py   -> rule3_subrules/3.N.json + _index.json
+   Validate: source tools/qa_display_helpers.sh; gate_all3   (all 77 true)
+   Helpers:  ARC_PART=3 python3 tools/show_rule_notes.py 2 | extract_note_refs.py | edit_helpers.py ...
+   Sources:  official Alberta_Rules_of_Court.txt; Book A "combined rule3.txt" (pages 3-4 to 3-246; rule 3.1 absent);
+             Book B rule3_part01..10_document.json (also in the repo now: Parts 1 and 4-15 of Book B, files rule1_*, rule4_* ...);
+             Book C 101-120 ... 161-180 JSON files (rule 3.10 absent). All other 121-740 Book C files cover Parts 3-15.
+   Not Part 3 sources: second_book.zip (Book C again), rule3.*.json in the root (graph blueprints).
+   Known limits of the Book A Part 3 extraction (spaces dropped, footnotes not split, columns out of order) are listed in
+   rule3_subrules/WORKFLOW.txt. Expect many WORDING_DIFFERENCE hints for Book A; they are extraction noise until read by hand.

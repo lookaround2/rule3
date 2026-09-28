@@ -1,0 +1,274 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.69",
+  "title": {
+    "official": "Joining claims",
+    "variants": {}
+  },
+  "division": {
+    "number": 6,
+    "heading": "Refining Claims and Changing Parties"
+  },
+  "subdivision": {
+    "number": 1,
+    "heading": "Joining and Separating Claims and Parties"
+  },
+  "operative_text": {
+    "controlling": "3.69(1)  A party may join 2 or more claims in an action unless the\nCourt otherwise orders.\n(2)  A party may sue or be sued in different capacities in the same\naction.\n(3)  If there is more than one defendant or respondent, it is not\nnecessary for each to have an interest\n(a) in all the remedies claimed or sought, or\n(b) in each claim included in the action.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "64734bd6d0a3dfc6c6487772c7e86658cbea0aef0789d7c19d1f126745af70a1"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.69 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          78
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Joining Claims",
+      "operative_text_raw": "3.69(1) A party may join 2 or more claims in an action unless the Court otherwise\n*orders.*8*(2) A party may sue or be sued in different capacities in the same action.*(3)If there is more than one defendant or respondent,it is not necessary for each*to have an interest*(a)in all the remedies claimed or sought,or\n*(b)in each claim included in the action.*9",
+      "operative_text_sha256": "d1bcdb5e9039c4cc6d3acdad20174b630fe068e0934a8862848c6c01db0b5934",
+      "defined_terms": null,
+      "related_provisions": null,
+      "commentary": "2Onischuk v.R.2013 ABCA 129, Calg 1201 0014 AC (Apr 22). 3J.W.v. J.C.2003 ABCA 348, 346 AR 128;Robertson v.Edm. Police Service2006 ABCA 302, 401 AR 49. Except to open up defaults:see R.9.5n. 4Reece v. Edmonton (City)2011 ABCA 238, 513 AR 199,leave den(SCC 26 Apr '12). 5A.U.P.E.v. R.(Alta.)2021 ABCA 416, Edm 2103 0148 AC (Dec 14) (¶ 17),leave den(SCC 4 Aug '22). 6A.U.P.E.v. R.(Alta.),supra(¶ 27).\n\n7A.U.P.E.v. R.(Alta.),supra(¶'s 23-25). 8Downtown E.Side SexWorkers v. A.-G.Can.2012 SCC 45, [2012] 2 SCR 524 (¶'s 23, 62-72). \n1See the C.P.E., Chapter 10; Abrams and McGuinness,Canadian Civil Procedure Law, 166 ff.(2nd ed.2010);\n\nHals.Laws of Canada,Civil Procedure, 302 ff.(2d reissue 2012).\n\nInformation Note This rule and the following rules of this Division apply to all actions, whether started by statement of claim or by originating application.\n\nDefined Terms\n\nclaim, Court, defendant, party Related Provisions 2.6 (representative actions);2.9 (class actions);12.9 (joining claim for divorce and matrimonial property);12.10 (joining claim for unjust enrichment);12.13 (joint claims for divorce);14.9 (joinder of appeals). *A.Introduction\nThere should not be as many separate lawsuits as there are parties or causes of action. Though the language is permissive, in most cases it is preferable to read \"may\"as \"should,\" because it is usually to everyone's benefit to keep things together.Accordingly, defendants should be left in an action unless they can demonstrate that they should be treated separately.From a plaintiff's perspective, this will help avoid the pitfalls of inadvertent election, release or waiver. *B.Standing\n*1.References Who has enough standing to sue or be a party is considered in Chapters 7 and 8 of the Civil Procedure Encyclopedia, and Rr.2.10 n.C, 3.68 n.D.4 and 3.69 n.B above. *2.Nature of Standing or Interest The basic rule is that a plaintiff needs some legitimate right or interest, and that an unaffected\n\nbusybody cannot sue. A person without standing cannot apply to the court or sue, e.g.for child guardianship. There is a considerable discussion of standing (private vs.public), in theReece No standing means this topic is not the plaintiff's business. case.\n\nPublic interest standing needs a serious justiciable issue. Usually whether a plaintiff has standing is best decided conclusively at the early stage, not after pleadings, discovery, evidence, experts, and a trial, all of which would be wasted if there were no standing.Here the judge was not asked to decide standing only on an interim basis, nor to decide merely that it was not obviously absent.It was proper to make the decision on standing\n\npermanent. The laws of standing are purposive, and balance access to justice with conservation of judicial resources.Existence of a parallel claim is not conclusive, and if the question is alternative avenues of challenge, they must be practical, and dangers must be weighed. See also R.2.10 n.C.\n\nA non-profit body concerned with the welfare of certain classes of person can be the sole plaintiff in a suit over the constitutionality of certain legislation, and get public interest standing. The court has a discretion whether to allow this, and can revisit the question later in the suit.The\n\n6Reference re Greenhouse Gas Pollution Pricing Act (#5?)2019 ABCA 361, Edm 1903 0157 AC (one JA Oct 3). 7Leon's Furniture v. Info. & Privacy Comm'r.2011 ABCA 94, 502 AR 110;Ont. Enr. Bd.v.PowerWorkers' *U.(Ont. Power Generation)2015 SCC 44, [2015] 3 SCR 147. 8A.-G.Alta. v.Malin2016 ABCA 396, 406 DLR(4th) 368 (¶'s 65-70). 9Zoocheck Can.v.Min. of Agric.2019 ABCA 208, Edm 1703 0244 AC (¶'s 19-24).\n\nanother party's right of action. That issue is important, but seemsto be lost sight of in many cases decided outside Qu?bec.\n\nto intervene or otherwise take part are not necessarily full parties.\n\nplaintiff needs genuine interest and must not be a busybody.The suit needs all those directly intended to be heard.Important are whether there is any other good way to litigate the issue, and In Qu?bec, standing is not procedural, and requires a substantive right to enforce, a \"sufficient\n\nwhether the plaintiff likely can prosecute thesuit and present it in a well-developed, concrete, factual setting.Lack of evidence is very important in some lawsuits, which turn on individual facts. Others do not. interest\". The plaintiff under trial law must plead and prove facts to establish that. TheSupreme\n\n\n\nCourt defined\"sufficient interest\" for standing as something direct and personal, not based on\n\n4Brunette v. Legault,supra. 5On judgment creditors and assignees, see R.4.34 andQualiglass Hldg.v.Zurich Indem.Co. of Can.2004 ABQB 577, 368 AR 171.\n\n2No?l v. Soc.d'?nergie de la Baie James2001 SCC 39, [2001] 2 SCR 207;Brunette v.Legault Joly\n\nThe common law on standing is not abolished by references in the Rules to\"a person adverse in interest\".Not everyone who chooses to participate is a person interested, and persons allowed\n\n*Thiffault2018 SCC 55, [2018] 3 SCR 481.\nPublic interest and special viewpoints often arise when some non-profit or government body or\n\n*3.The FirstTribunal's Standing\nhas ruled on a matter has no such stake or interest, only a duty.Nor is his appeal a reasonable\n\nThe standing in court of a tribunal, under appeal or judicial review, is discussed. Public interest standing to appeal requires a real stake or genuine interest in the case, and a judge of a court who and effective way to bring the matter before the courts, which is the final test for public interest standing.\n\n*4.Public Interest official seeks to intervene in an existing lawsuit or appeal.See Rr.2.10, and 14.58.A different topic is a request by such a body to the court to let itstarta court proceeding, especially where there is likely no one with standing to raise the topic.A strict test is necessary, to prevent overburdening the courts, especially with busybody plaintiffs, and to keep courts within their constitutional limits. The branches of the test are a serious justifiable issue, a real stake or genuine interest on the\n\npart of the proposed plaintiff, and whether this is a reasonable and effective way to get the matter before the courts. 1A.-G.B.C. v.Council of Cdns.With Disabilities2022 SCC 27. 3Brunette v. Legault,supra.\n\n7N.E.Bottle Depot v. Beverage Container Mgmt.Bd.2000 ABQB 572, 269 AR 248.But would it not depend on the circumstances?Would a competitor a mile away have standing in a planning dispute over sideyard setbacks? 8MacDonald v. Alta.Health Serv.2013 ABQB 404, 565 AR 216. 9Downtown Eastside SexWorkers Utd. AgainstViolence Socy.v. A.-G.Can.2012 SCC 45, [2012] 2 SCR 524;cf.Scenic Acres Comm'y. Assn.v. Calgary (City)2015 ABQB 586, 40 MPLR(5th) 239.\n\nAn association is often held to have standing where most or all of its members would be affected and so themselves have standing. Taxpayers of a municipality have always been held to have a sufficient interest to sue for wrongful waste of the municipality's funds.\n\n10Nette v. Stiles (#4)2012 ABQB 290, 540 AR 24.\n\n4Tran v.College of Physicians & Surgeons2017 ABQB 337, 55 Alta LR(6th) 310.\n\n*5.Examples\n\nAR 280.A Society of various entities interested in land planning, had standing, a genuine interest, and was only the effective way to litigate the question;developers would be in danger if they sued directly!Urban *Dev.Inst. v.Leduc (City)2006 ABQB 62, 399 AR 357.A union or professional association can sue for a declaration even if its member also sues.Public interest standing is discretionary and generous, and unions can often sue to defend their individual members'interests.Litigation is expensive, and having one's union litigate for one is effective.The union is not a busybody:Health Sci.Assn. v.Alta. College of Paramedics\n\n2016 ABQB 723, 2016 CarswellAta 2481, JCE 1503 19424 (Dec 22) (¶'s 63-77). 3Remmers v.Lipinski (Vogel v.Hall)2001 ABCA 188, 293 AR 156,leave den(SCC 2002) 317 AR 218. Where any decision would affect Alberta Children andYouth Services, and where if a new hearing was ordered they would have to be a party, an application by them to be made a party to the appeal was granted: *Silverman v. Human Rts.Comm.2012 ABCA 276, [2012] AR Uned 425 (one JA Sep 21). 5Oommen (Chapman Est.) v. Ramjohn (#1)2015 ABCA 34, 593 AR 376 (one JA),leave den2015 ABCA\n\n58,leave den(SCC 13 Aug '15). 6A.-G.Can. v.183358982023 ABKB 357, JCE 2303 08199 (AJ Jun 14).\n\n1or allowed to intervene.\n\n381 (one JA).Yet cf.the surprising decision inT.-D.Bank v. Real Est.Council of Alta.2002 ABQB 69, 316\n\n2Urban Dev.Inst. v.Rockyview (M.D.)2002 ABQB 651, 321 AR 253;Urban Dev. Inst.v.Leduc (City)2006 ABQB 62, 399 AR 357.Cf.Imp. Oil v.R. (Lynnview Ridge Residents'Assn.)2005 ABCA 375, 376 AR\n\non behalf of the estate without a lawyer, even if he has self-appointed himself as litigation\n\ntax Assessment.\n\nprocedural unfairness before the discipline body. Where there have been no letters probate yet, one of two co-executors cannot alone sue representative.\n\nNational Revenue or) Attorney General Canada would not be a creditor until there was an official\n\nthe obstetrical unit at one hospital, one local physician had standing as a person aggrieved and\n\nConversely, in a professional discipline matter, the complainant has no more interest in the\n\nmerits than any other member of the public, and has standing to go to court only on questions of A creditor would have standing to move to revive a dissolved company, but the (Minister of A competitor has standing, in a judicial review motion? When there were proposals to close could be heard.\n\nA person may not have standing to take part in this litigation just because there was parallel litigation and it raises many of the same issues, especially where the existing parties have capacity to run the litigation. A contingent commercial interest is not enough, especially where a quasi- insurer previously elected not to take part in the suit against its member.\n\ndifferent defendants.\n\n*6.Procedure\n*C.Derivative Suits\n750, 336 AR 219. 9Goska Nowak P.C.v.Robinson2011 ABQB 385, 16 CPC(7th) 134;1036122 Alta. v.Khurana2010 ABQB 490, 498 AR 183,revd2012 ABCA 10, 519 AR 221. 10Quite similar to previous 1968 R.36, 46.It came from 1944 C.R.48.The origin was the 1896 amendment to Eng.O.16 r.1 to counteract decisions in the 1890's requiring that the same relief be claimed against the\n\nSometimes the question of standing is not clear enough on the existing record for a summary decision.\n\na claim because it is not based on a firm evidentiary or factual record, is not under paragraph (2) (b) either, as the cause of action might be a recognized one, but raised in the abstract, so then there is no bar to evidence.\n\napplications.A challenge to the plaintiff's standing is not primarily under R.3.68(2)(b) (\"no reasonable claim or defence\"), and so there is no bar to hearing evidence.Without standing no issues can be raised, and the most appropriate remedy is a stay.And an application to strike out\n\nOne should distinguish derivative, collective, and combined claims. If the suit is brought under theBusiness Corporations Act, the proposed plaintiff must be a\"complainant\"under that Act,\n\nthe directors must have got notice, the application for the suit must be in good faith, and the suit must be in the company's best interests. \"Good faith\"means merely not frivolous or vexatious, objectively or subjectively. \"Best interests\" involves likelihood of success whether the suit would be economical, whether it would alienate customers or harm the company's reputation. On a\n\nderivative company suit and overlap with a parallel suit, see theWinfieldcase.\n\n41719349 Alta.v.1824766 Alta.2023 ABKB 207, JCC 2101 04454 (Apr 12) (¶ 27).\n\n3Lameman v. A.-G.Can.(Papaschase I.B.v.R.) (#1)2004 ABQB 655, 365 AR 1.\n\n7Winfield v. Daniel2004 ABQB 40, 21 Alta LR(4th) 337. 8Dix v. R.2001 ABQB 256, 290 AR 281.The opposite seems to be true in Alberta:Apotex v.R.2003 ABQB\n\nRule 3.68(1) is not limited to striking out claims;paragraph (d) allows stays of actions or *D. Miscellaneous On how to sue the federal government under theCrown Liability Proceedings Act,see theDix\n\ncase. On problems of a suit by a company then struck off but later revived, see theGoskaand *Khuranacases. *Parties Joining to Bring Action\n*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-219",
+          "3-223"
+        ],
+        "offset_in_clean_text": [
+          743329,
+          755980
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Joining claims",
+      "operative_text_raw": null,
+      "commentary": [
+        {
+          "section": "3.69:1",
+          "text": "Rule 3.69 See Alberta Rules of Court, Alta. Reg. 124/2010, r. 3.69. 1. Permissive Nature of Rule Rule 32 allows a plaintiff to unite several causes of action in one action. However it does not require him to do so. Bank of Nova Scotia v. Guenette (1986), 75 A.R. 361 at 368 (Master). One action may contain alternative claims based on different causes of action. See Elliott v. Barry (1920), 15 Alta. L.R. 329 (C.A.). Also, Hyndman J.A. said: I had thought that there was no doubt about the right to rely upon and claim several different rights “alternatively although they may be inconsistent”… … the plaintiff may claim alternative remedies and is not put to his election until his right to relief is established either after default of defence when he may prove for judgment, or after the evidence is concluded on a trial. Campbell v. Munro (1922), 17 Alta. L.R. 272 at 275, 276 (C.A.). Where a plaintiff was suing in contract on six separate invoices, including interest charges, Master Funduk stated: I have already concluded that each is a separate contract. The plaintiff is uniting six causes of action in this action, which is permissible: R. 32. Satelite Painting Enterprises Ltd. v. Yukon Trailer Service Ltd. (1992), 85 Alta. L.R. (2d) 328 at 331 (Master)."
+        }
+      ],
+      "paragraph_ids": [
+        "part3_rule_3_69_001",
+        "part3_part_3_court_actions_008",
+        "part3_rule_3_69_002",
+        "part3_part_3_court_actions_010"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part09_document.json"
+        ]
+      },
+      "operative_text_sha256": "9abaa7ab3abf3510c866f6253e3e671b8db07e23181cb522b4ce71aa235a903b",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Joining claims",
+      "division_heading": null,
+      "operative_text_raw": "(1) A party may join  C. (L.) v. Alberta (Metis Settlements Child & Family Services, Region 10), [2011] A.J. No. 36, 2011 ABQB 12 at para. 103 (Alta. Q.B.). or more claims in an action unless the Court otherwise orders.\n(2) A party may sue or be sued in different capacities in the same action.\n(3) If there is more than one defendant or respondent, it is not necessary for each to have an interest (a) in all the remedies claimed or sought, or (b) in each claim included in the action.",
+      "operative_text_sha256": "a54cc5d5fa2f73567af83077fd31cfb4846b7c8570721cfc3c921f98210758cc",
+      "citations": [
+        {
+          "neutral_citation": "2011 ABQB 12",
+          "style_of_cause": null
+        }
+      ],
+      "commentary": [
+        {
+          "topic": "General",
+          "text": "It is permissible to include different claims in the same pleading if they arise out of the\nInformation Note This rule and the following rules of this Division apply to all actions, whether started by statement of claim or by originating application.",
+          "citations": []
+        }
+      ],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "161-180_3_67 to 4_7.json",
+        "source_file": "161-180_revised.md"
+      }
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.8062,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "orders. (2)",
+          "carrier": "orders.8(2)"
+        },
+        {
+          "op": "replace",
+          "official": "action. (3) if",
+          "carrier": "action.(3)if"
+        },
+        {
+          "op": "replace",
+          "official": "respondent, it",
+          "carrier": "respondent,it"
+        },
+        {
+          "op": "replace",
+          "official": "each to",
+          "carrier": "eachto"
+        },
+        {
+          "op": "replace",
+          "official": "interest (a) in",
+          "carrier": "interest(a)in"
+        },
+        {
+          "op": "replace",
+          "official": "sought, or (b) in",
+          "carrier": "sought,or (b)in"
+        },
+        {
+          "op": "replace",
+          "official": "action.",
+          "carrier": "action.9"
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.85,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "2",
+          "carrier": "c. (l.) v. alberta (metis settlements child & family services, region 10), a.j. no. 36, 2011 abqb 12 at para. 103 (alta. q.b.)."
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.69",
+      "title_official": "Joining claims"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "WORDING_DIFFERENCE"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "d1bcdb5e9039c4cc6d3acdad20174b630fe068e0934a8862848c6c01db0b5934",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-219",
+            "3-223"
+          ],
+          "offset_in_clean_text": [
+            743329,
+            755980
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "9abaa7ab3abf3510c866f6253e3e671b8db07e23181cb522b4ce71aa235a903b",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part09_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "a54cc5d5fa2f73567af83077fd31cfb4846b7c8570721cfc3c921f98210758cc",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "161-180_3_67 to 4_7.json",
+          "source_file": "161-180_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "64734bd6d0a3dfc6c6487772c7e86658cbea0aef0789d7c19d1f126745af70a1",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            78
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "c38b34950b7ce5f494b00ebc23ac86dd6657ab358a935db212349972ecaab392"
+  },
+  "information_notes": [],
+  "dedupe_log": [
+    "3.69 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.69 BOOK_C citation context dropped (2011 ABQB 12): verbatim in kept text",
+    "3.69 BOOK_C commentary sentence split dropped",
+    "3.69 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.6",
+  "title": {
+    "official": "Where an action is carried on",
+    "variants": {}
+  },
+  "division": {
+    "number": 1,
+    "heading": "Court Actions and Their Venue"
+  },
+  "subdivision": null,
+  "operative_text": {
+    "controlling": "3.6(1)  An action must be\n(a) carried on in the judicial centre in which the statement of\nclaim or originating application was filed, or\n(b) if the action is transferred in accordance with rule 3.4 or\nrule 3.5, continued in the judicial centre to which the\naction is transferred, and all subsequent documents in the\naction must be titled accordingly.\n(2)  Despite subrule (1), an application and an originating\napplication may be heard or a trial may be held in any place\nspecified by the Court other than the judicial centre.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "b2c740bf7c9bf25a290f0d8b32691bc1a90421af457b8dfd77ea509c6ad810c8"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.6 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          52
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Where an Action is Carried On",
+      "operative_text_raw": "3.6(1) An action must be*(a)carried on in the judicial centre in which the statement of claim or*originating application was filed,or*(b)if the action is transferred in accordance with rule 3.4 [Claim for\n**possession of land] or rule 3.5 [Transfer of an action],continued*in that judicial centre to which the action is transferred,and all*subsequent documents in the action must be titled accordingly.*(2)Despite subrule (1),an application and an originating application may be*heard or a trial may be held in any place specified by the Court other than the*judicial centre.\n*4",
+      "operative_text_sha256": "96968743664adca4c4e03bfc48473f1d6f0eff67f8714a1b01feb6efb8f63cf7",
+      "defined_terms": "judicial centre",
+      "related_provisions": "3.2 (how to start an action); 6.2(venue of applications);6.9 (jurisdiction of[applications judges] ?masters?);14.8(5) (venue of appeals);14.84 (place of filing)",
+      "commentary": "Different Rules and tests apply to three different questions:where an action is to be started, moving the court file to a different judicial district, and where the trial is to be held. Rule 3.3 prevents abusive choice of a plainly unsuitable court-house to run a suit, e.g., one far away from everyone connected with the suit, except maybe the plaintiff's lawyer. Aside from that, R.3.6(2) is often not very important.First, it speaks of where an action is\n\ncarried on which includes place of trial, and many suits (especially foreclosures) never go to trial, and all interlocutory steps are taken before trial.Second, the fact that R.3.6 compels certain places to be suggested for trial decides very little, for R.3.5 lets the court change the judicial centre at any time.No applications judge or justice would enforce R.3.6 if 5 minutes later that was to be undone by an order under R.3.5.But on a statutory application (ex parte), the judge was critical of not following R.3.6(1)(a) requiring that applications be in the judicial centre where the\n\naction was started.Counsel should have first got a direction under R.3.6(2). 1Christensen v. Proprietary Ind.2002 ABQB 97, 309 AR 201;Silver Springs v.UMA Eng.,supra; cf. *Hansraj v. Ao (#2)2002 ABQB 772, 314 AR 283,affdon this point 2004 ABCA 223, 354 AR 91, 34 Alta LR(4th) 199;cf.C.S. v.A.J.,infra;Behielsv.Tibu,supra(¶'s 12, 15(5), 15(6)).There is a curious decision, using instead a lax almost subjective test:Siver v.Siver2010 ABQB 755, [2010] AR Uned 964 (Dec 1).See\n\nfurther the C.P.E., Chapter 23, Part C.\n\n1Keaton v.Keaton2017 ABQB 429, JCE 4803 180087 (Jul 10) (discussing especially family law litigation). See R.3.6(1).See further the C.P.E., Chapter 23, Part E.And keeping a motion in the suitable place may be a ground to move before a justice not an applications judge, if the justice is available sooner there:Seabolt *Watershed Assn.v.Brown2002 ABQB 795, 333 AR 193. 2A child support and custody motion was left at the judicial centre originally chosen, with a discussion of the criteria. On a motion, there are no live witnesses to be inconvenienced:C.S. v.A.J.2004 ABQB 73, 50 Alta\n\nLR(4th) 91. 3Quite similar to previous 1968 R.405.It was new in 1968. If an action has not yet been transferred, motions should be brought in the judicial centre where the action was commenced. Pre-trial steps need not be carried on where the trial is to be\n\nheld, provided that the plaintiff's choice is reasonable and the balance of convenience respecting\n\napplications is even.\n\n*Post-judgmentTransfer of Action*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-23",
+          "3-24"
+        ],
+        "offset_in_clean_text": [
+          65673,
+          69033
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Where an action is carried on",
+      "operative_text_raw": null,
+      "commentary": [],
+      "paragraph_ids": [
+        "part3_rule_3_6_001",
+        "part3_part_3_court_actions_020"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part01_document.json"
+        ]
+      },
+      "operative_text_sha256": "dd17b3e6a9820e35792e5b87d72ef526019469570c64c65d4d4efc7c678e593f",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Where an action is carried on",
+      "division_heading": null,
+      "operative_text_raw": "(1) An action must be (a) carried on in the judicial centre in which the statement of claim or originating application was filed, or [Transfer of an action] or rule 3.5 , continued in the judicial centre to which the action is transferred, and all subsequent documents in the action must be titled accordingly.\n(2) Despite subrule (1), an application and an originating application may be heard or a trial may be held in any place specified by the Court other than the judicial centre.",
+      "operative_text_sha256": "41054210960f057a443bacadbf4fb20f2fb9a4a3e1068abe19a9ffb872b47997",
+      "citations": [],
+      "commentary": [
+        {
+          "topic": "General Principles",
+          "text": "As noted, justices of the Court of King’s Bench have province-wide jurisdiction. In judicial centres with sporadic sittings, it is sometimes necessary to have interlocutory applications, or even trial heard elsewhere to ensure timely relief.",
+          "citations": []
+        }
+      ],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "101-120_2_28 to 3_18.json",
+        "source_file": "101-120_revised.md"
+      }
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.7738,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "be (a) carried",
+          "carrier": "be(a)carried"
+        },
+        {
+          "op": "replace",
+          "official": "or originating",
+          "carrier": "ororiginating"
+        },
+        {
+          "op": "replace",
+          "official": "filed, or (b) if",
+          "carrier": "filed,or(b)if"
+        },
+        {
+          "op": "replace",
+          "official": "3.5, continued in the",
+          "carrier": "3.5,continuedin that"
+        },
+        {
+          "op": "replace",
+          "official": "transferred, and all subsequent",
+          "carrier": "transferred,and allsubsequent"
+        },
+        {
+          "op": "replace",
+          "official": "accordingly. (2) despite",
+          "carrier": "accordingly.(2)despite"
+        },
+        {
+          "op": "replace",
+          "official": "(1), an",
+          "carrier": "(1),an"
+        },
+        {
+          "op": "replace",
+          "official": "be heard",
+          "carrier": "beheard"
+        },
+        {
+          "op": "replace",
+          "official": "the judicial",
+          "carrier": "thejudicial"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "4"
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "CARRIER_MISSING_TEXT",
+      "similarity": 0.9357,
+      "differences": [
+        {
+          "op": "delete",
+          "official": "(b) if the action is transferred in accordance with rule 3.4",
+          "carrier": ""
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.6",
+      "title_official": "Where an action is carried on"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "CARRIER_MISSING_TEXT"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "96968743664adca4c4e03bfc48473f1d6f0eff67f8714a1b01feb6efb8f63cf7",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-23",
+            "3-24"
+          ],
+          "offset_in_clean_text": [
+            65673,
+            69033
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "dd17b3e6a9820e35792e5b87d72ef526019469570c64c65d4d4efc7c678e593f",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part01_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "41054210960f057a443bacadbf4fb20f2fb9a4a3e1068abe19a9ffb872b47997",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "101-120_2_28 to 3_18.json",
+          "source_file": "101-120_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "b2c740bf7c9bf25a290f0d8b32691bc1a90421af457b8dfd77ea509c6ad810c8",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            52
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "e5fb90a8da62bd2efef87bd43f59619b3e4eb3133559c3af8efdd9dbd9234d8c"
+  },
+  "information_notes": [],
+  "dedupe_log": [
+    "3.6 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.6 BOOK_C commentary sentence split dropped",
+    "3.6 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

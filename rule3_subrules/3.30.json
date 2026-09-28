@@ -1,0 +1,239 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.30",
+  "title": {
+    "official": "Defendant’s options",
+    "variants": {}
+  },
+  "division": {
+    "number": 3,
+    "heading": "Actions Started by Statement of Claim"
+  },
+  "subdivision": {
+    "number": 3,
+    "heading": "Defence to Statement of Claim, Reply to Defence and Demand for Notice"
+  },
+  "operative_text": {
+    "controlling": "3.30   A defendant who is served with a statement of claim may do\none or more of the following:\n(a) apply to the Court to set aside service in accordance with\nrule 11.31;\n(b) apply to the Court for an order under rule 3.68;\n(c) file and serve a statement of defence or demand for notice.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "7a608e2158c4f10546f3e76b9492e84ac86598d226f9bef2d739458d92dfb5e3"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {},
+    "crosscheck_vs_official": {}
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          61
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Defendant's Options",
+      "operative_text_raw": "3.30 A defendant who is served with a statement of claim may do one or more*of the following:*(a)apply to the Court to set aside service in accordance with rule 11.31*[Setting aside service];\n*(b)apply to the Court for an order under rule 3.68 [Court options to deal**with significant deficiencies];*1*(c)file and serve a statement of defence or demand for notice.",
+      "operative_text_sha256": "63d16fdf52d52a11e17659505895ed3044f7aada33e4edea59bfac9030b7144d",
+      "defined_terms": "Court, defendant, file, order",
+      "related_provisions": "3.34 (demand for notice)",
+      "commentary": "This Rule makes it clear that adefendant can move to strike the statement of claim before filing a defence. *Statement of Defence*",
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-80"
+        ],
+        "offset_in_clean_text": [
+          254959,
+          255800
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Defendant's options",
+      "operative_text_raw": null,
+      "commentary": [],
+      "paragraph_ids": [
+        "part3_rule_3_30_001",
+        "part3_part_3_court_actions_016"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part03_document.json"
+        ]
+      },
+      "operative_text_sha256": "e7612ddf92c335c8a925e6b29558c9eba4da418e4b4d16950d3afb6b57718b5b",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Defendant’s options",
+      "division_heading": null,
+      "operative_text_raw": "A defendant who is served with a statement of claim may do one or more of the following:\n(a) apply to the Court to set aside service in accordance with rule 11.31 [Setting aside service];\n(b) apply to the Court for an order under rule 3.68 [Court options to deal with significant deficiencies];",
+      "operative_text_sha256": "77d8775a9576851d5d92b499a597f63f9666a1bbffd5e09a95ca1617fa2f10ef",
+      "citations": [],
+      "commentary": [],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "121-140_3_19 to 3_43.json",
+        "source_file": "121-140_revised.md"
+      }
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.8654,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "more of",
+          "carrier": "moreof"
+        },
+        {
+          "op": "replace",
+          "official": "following: (a) apply",
+          "carrier": "following:(a)apply"
+        },
+        {
+          "op": "replace",
+          "official": "(b) apply",
+          "carrier": "(b)apply"
+        },
+        {
+          "op": "replace",
+          "official": "3.68; (c) file",
+          "carrier": "3.68;1(c)file"
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "CARRIER_MISSING_TEXT",
+      "similarity": 0.8776,
+      "differences": [
+        {
+          "op": "delete",
+          "official": "(c) file and serve a statement of defence or demand for notice.",
+          "carrier": ""
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.30",
+      "title_official": "Defendant’s options"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "CARRIER_MISSING_TEXT"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "63d16fdf52d52a11e17659505895ed3044f7aada33e4edea59bfac9030b7144d",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-80"
+          ],
+          "offset_in_clean_text": [
+            254959,
+            255800
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "e7612ddf92c335c8a925e6b29558c9eba4da418e4b4d16950d3afb6b57718b5b",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part03_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "77d8775a9576851d5d92b499a597f63f9666a1bbffd5e09a95ca1617fa2f10ef",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "121-140_3_19 to 3_43.json",
+          "source_file": "121-140_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "7a608e2158c4f10546f3e76b9492e84ac86598d226f9bef2d739458d92dfb5e3",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            61
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "d05b89a8349a9265cd0cbfaf7c9edb7d60888328e080e6c0f2760c4bb08f6a35"
+  },
+  "information_notes": [
+    {
+      "text": "The rule relating to a demand for notice is rule 3.34 [Demand for notice by defendant].In foreclosure actions a notice of address for service may be filed and served under rule 11.24 [Notice of address for service in foreclosure actions].",
+      "carriers": [
+        "BOOK_A"
+      ]
+    }
+  ],
+  "dedupe_log": [
+    "3.30 BOOK_B: operative text dropped (EXACT_MATCH)"
+  ]
+}

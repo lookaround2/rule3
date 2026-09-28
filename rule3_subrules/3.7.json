@@ -1,0 +1,230 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.7",
+  "title": {
+    "official": "Post-judgment transfer of action",
+    "variants": {
+      "BOOK_A": "Post-judgmentTransfer of Action"
+    }
+  },
+  "division": {
+    "number": 1,
+    "heading": "Court Actions and Their Venue"
+  },
+  "subdivision": null,
+  "operative_text": {
+    "controlling": "3.7(1)  After judgment or an order has been entered in a judicial\ncentre, a judgment creditor, on notice to each of the other parties,\nmay request a temporary transfer of the action to a different judicial\ncentre for purposes of an application to enforce the judgment or\norder.\n(2)  An order granting a temporary transfer of an action under\nsubrule (1), and any order resulting from an application referred to\nin subrule (1), must be filed in the judicial centre from which the\naction has temporarily been transferred.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "8f8e01783403b40c99a337a49b12106c6c7123c5e20a880c867cc5b68d17d016"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.7 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          52
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Post-judgmentTransfer of Action",
+      "operative_text_raw": "3.7(1) After judgment or an order has been entered in a judicial centre,a judgment*creditor, on notice to each of the other parties,may request a temporary transfer*of the action to a different judicial centre for purposes of an application to*enforce the judgment or order.*(2)An order granting a temporary transfer of an action under subrule (1),and\n*any order resulting from an application referred to in subrule (1),must be filed in*the judicial centre from which the action has temporarily been transferred.",
+      "operative_text_sha256": "d548ac76e568899876b2c9f3b3be2ddf3aa30d84f05c902b76726f690c1a8e24",
+      "defined_terms": "judgment, judgment creditor, judicial centre, order",
+      "related_provisions": "9.5 (entry of judgments and orders) *DIVISION 2 ACTIONS STARTED BY ORIGINATING APPLICATION *Subdivision 1 General Rules *Originating Applications and associated evidence*",
+      "commentary": null,
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-24"
+        ],
+        "offset_in_clean_text": [
+          69033,
+          69895
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Post-judgment transfer of action",
+      "operative_text_raw": null,
+      "commentary": [],
+      "paragraph_ids": [
+        "part3_rule_3_7_001",
+        "part3_part_3_court_actions_022"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part01_document.json"
+        ]
+      },
+      "operative_text_sha256": "88b040c41f42b5bfa2e735c0a5bc692dbb57527703d308ddb4e4cfdfea262c51",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Post-judgment transfer of action",
+      "division_heading": null,
+      "operative_text_raw": null,
+      "operative_text_sha256": "57e0733a736e0e627005e2e08e01616c5d1d3c6f27e1b31679f43e4195337fa9",
+      "citations": [],
+      "commentary": [
+        {
+          "topic": "General Principles",
+          "text": "This rule permits a judgment creditor to temporarily move an action for the purposes of enforcement. It allows the judgment creditor, if required, to move the action to the judicial centre in which the enforcement is to take place.",
+          "citations": []
+        }
+      ],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "101-120_2_28 to 3_18.json",
+        "source_file": "101-120_revised.md"
+      },
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "NORMALIZATION_ONLY_DIFFERENCE",
+      "similarity": 1.0,
+      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.7",
+      "title_official": "Post-judgment transfer of action"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "NORMALIZATION_ONLY_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "EXACT_MATCH"
+    },
+    "result": "THREE_BOOK_SOURCE_RECONCILED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "d548ac76e568899876b2c9f3b3be2ddf3aa30d84f05c902b76726f690c1a8e24",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-24"
+          ],
+          "offset_in_clean_text": [
+            69033,
+            69895
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "88b040c41f42b5bfa2e735c0a5bc692dbb57527703d308ddb4e4cfdfea262c51",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part01_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "57e0733a736e0e627005e2e08e01616c5d1d3c6f27e1b31679f43e4195337fa9",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "101-120_2_28 to 3_18.json",
+          "source_file": "101-120_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "8f8e01783403b40c99a337a49b12106c6c7123c5e20a880c867cc5b68d17d016",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            52
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "eb7166097519cdd4621d3f30100e384c959b8ee37b8ce752a8a4fcce8ad265dd"
+  },
+  "information_notes": [
+    {
+      "text": "For enforcement of judgments and orders see Part 9 [Judgments and Orders].",
+      "carriers": [
+        "BOOK_A"
+      ]
+    },
+    {
+      "text": "For enforcement of judgments and orders see Part  Odland v. Odland Sobeys , [2017] A.J. No. 1265, 2017 ABCA 397 at paras. 19-23 (Alta. C.A.); Capital Inc. v. Gulf & Pacific Equities Corp., [2018] A.J. No. 231, 2018 ABQB 151 at paras. 13-25 (Alta. Q.B.); and , [2016] A.J. No. 1042, 2016 ABQB 570 at para. 7 (Alta. Q.B.). Regular v. Regular [Judgments and Orders].",
+      "carriers": [
+        "BOOK_C"
+      ]
+    }
+  ],
+  "dedupe_log": [
+    "3.7 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.7 BOOK_C: operative text dropped (EXACT_MATCH)",
+    "3.7 BOOK_C commentary sentence split dropped",
+    "3.7 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}

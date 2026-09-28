@@ -1,0 +1,291 @@
+{
+  "index": "_index.json (source registry, normalization profile, denominators, part-level notes)",
+  "rule": "3.20",
+  "title": {
+    "official": "Other circumstances when record of proceedings may be required",
+    "variants": {
+      "BOOK_A": "Other CircumstancesWhen Record of Proceedings May Be Required"
+    }
+  },
+  "division": {
+    "number": 2,
+    "heading": "Actions Started by Originating Application"
+  },
+  "subdivision": {
+    "number": 2,
+    "heading": "Additional Rules Specific to Originating Applications for Judicial Review"
+  },
+  "operative_text": {
+    "controlling": "3.20(1)  The Court may make an order for the production of the\ncertified record of proceedings of a person or body if the conditions\ndescribed in subrule (2) are met.\n(2)  The conditions are:\n(a) the originating application for judicial review is for an\norder other than an order to set aside a decision or act;\n(b) the certified record of proceedings is required to establish\nthe claim;\n(c) the person or body that is the subject of the originating\napplication has not sent to the court clerk the certified\nrecord of proceedings within a reasonable time after the\noriginating applicant’s written request for the person or\nbody to do so.\n(3)  If the Court orders the certified record of proceedings to be\nsent to the court clerk, rules 3.18(3) and 3.19 apply, unless the\nCourt otherwise orders.",
+    "controlling_carrier": "OFFICIAL",
+    "sha256": "4f77263206690479d951c99c9ea4fcd2776e461148a2f9ef848b92af08d420c7"
+  },
+  "amendment_history": {
+    "official": "AR 124/2010",
+    "amending_regulations": [],
+    "carrier_notes": {
+      "BOOK_C": "*[Alta. Reg. 124/2010, r. 3.20 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]*"
+    },
+    "crosscheck_vs_official": {
+      "BOOK_C": "AGREES"
+    }
+  },
+  "sources": {
+    "OFFICIAL": {
+      "locator": {
+        "file": "Alberta_Rules_of_Court.txt",
+        "pdf_pages": [
+          58
+        ]
+      }
+    },
+    "BOOK_A": {
+      "title": "Other CircumstancesWhen Record of Proceedings May Be Required",
+      "operative_text_raw": "3.20(1)The Court may make an order for the production of the certified record of*proceedings of a person or body if the conditions described in subrule (2) are*met.*(2)The conditions are:*(a)the originating application for judicial review is for an order other\n*than an order to set aside a decision or act;*(b)the certified record of proceedings is required to establish the claim;*(c)the person or body that is the subject of the originating application*has not sent to the court clerk the certified record of proceedings*within a reasonable time after the originating applicant's written*request for the person or body to do so.\n*(3)If the Court orders the certified record of proceedings to be sent to the court*clerk,rule 3.18(3) [Notice to obtain record of proceedings] and 3.19 [Sending**in certified copy of record of proceedings] apply,unless the Court otherwise*orders.*3",
+      "operative_text_sha256": "570d2d7a322abb2ed123fd10456696f7a114ecc5af97289d04b3a4112b37b8e9",
+      "defined_terms": "claim, Court, court clerk, order This certified record is traditionally called\"the return\".On trying to add to it, see R.3.21 and notes. The court used its discretion under R.3.20 to call for a return where the relief sought against that respondent wasmandamusonly. If there is a dispute whether some relevant records are privileged, the court hearing judicial review can and should call for the papers and inspect them. *Limit on Questioning*",
+      "related_provisions": null,
+      "commentary": null,
+      "footnotes": [],
+      "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
+      "locator": {
+        "file": "combined rule3.txt",
+        "book_pages": [
+          "3-61"
+        ],
+        "offset_in_clean_text": [
+          192259,
+          193600
+        ]
+      }
+    },
+    "BOOK_B": {
+      "title": "Other circumstances when record of proceedings may be required",
+      "operative_text_raw": null,
+      "commentary": [],
+      "paragraph_ids": [
+        "part3_rule_3_20_001",
+        "part3_part_3_court_actions_014"
+      ],
+      "locator": {
+        "files": [
+          "rule3_part02_document.json"
+        ]
+      },
+      "operative_text_sha256": "f0c1411e616ed729d724ef0e8938feb33ce214e2a7e618179de4fe2b9848941a",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
+    },
+    "BOOK_C": {
+      "title": "Other circumstances when record of proceedings may be required",
+      "division_heading": null,
+      "operative_text_raw": "(1) The Court may make an order for the production of the certified record of proceedings of a person or body if the conditions described in subrule (2) are met.\n(2) The conditions are:\n(a) the originating application for judicial review is for an order other than an order to set aside a decision or act;\n(b) the certified record of proceedings is required to establish the claim;\n(c) the person or body that is the subject of the originating application has not sent to the court clerk the certified record of proceedings within a reasonable time after the originating applicant’s written request for the person or body to do so.\n(3) If the Court orders the certified record of proceedings to be sent to the court clerk, rules 3.18(3) and 3.19 [Notice to obtain record of proceedings]\n[Sending in certified copy of record of proceedings] apply, unless the Court otherwise orders.",
+      "operative_text_sha256": "f6755fffcc07fae503a2595cb4fd514e5c623bff4eee546846eb64a8c5f82daf",
+      "citations": [],
+      "commentary": [
+        {
+          "topic": "General Principles",
+          "text": "This rule provides a mechanism to compel the record of a person or body, but where the conditions in sub-rule 2 are met. only Rules 3.18 to 3.20 can apply to originating applications for matters other than judicial review. In Campbell v. Alberta (Chief Electoral Offıcer),  [2018] A.J. No. 390, 2018 ABQB 248 (Alta. Q.B.). Feehan J. (now J.A.) reasoned that rules 3.18 to 3.20 can apply to originating applications for statutory reviews. This is because there is no guidance in the rules regarding the form and remedies for certified record production in originating applications for statutory reviews. Therefore, the court can, pursuant to rule 1.7(2), elect to apply rules 3.18 to 3.20 by analogy. However, this is subject to any",
+          "citations": [
+            {
+              "neutral_citation": "2018 ABQB 248",
+              "style_of_cause": "In Campbell v. Alberta"
+            }
+          ]
+        }
+      ],
+      "misattributed_entries": [],
+      "locator": {
+        "file": "121-140_3_19 to 3_43.json",
+        "source_file": "121-140_revised.md"
+      }
+    }
+  },
+  "comparison_vs_official": {
+    "BOOK_A": {
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.8249,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "(1) the",
+          "carrier": "(1)the"
+        },
+        {
+          "op": "replace",
+          "official": "of proceedings",
+          "carrier": "ofproceedings"
+        },
+        {
+          "op": "replace",
+          "official": "are met. (2) the",
+          "carrier": "aremet.(2)the"
+        },
+        {
+          "op": "replace",
+          "official": "are: (a) the",
+          "carrier": "are:(a)the"
+        },
+        {
+          "op": "replace",
+          "official": "act; (b) the",
+          "carrier": "act;(b)the"
+        },
+        {
+          "op": "replace",
+          "official": "claim; (c) the",
+          "carrier": "claim;(c)the"
+        },
+        {
+          "op": "replace",
+          "official": "application has",
+          "carrier": "applicationhas"
+        },
+        {
+          "op": "replace",
+          "official": "proceedings within",
+          "carrier": "proceedingswithin"
+        },
+        {
+          "op": "replace",
+          "official": "written request",
+          "carrier": "writtenrequest"
+        },
+        {
+          "op": "replace",
+          "official": "(3) if",
+          "carrier": "(3)if"
+        },
+        {
+          "op": "replace",
+          "official": "court clerk, rules",
+          "carrier": "courtclerk,rule"
+        },
+        {
+          "op": "replace",
+          "official": "apply, unless",
+          "carrier": "apply,unless"
+        },
+        {
+          "op": "replace",
+          "official": "otherwise orders.",
+          "carrier": "otherwiseorders.3"
+        }
+      ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_C": {
+      "status": "NORMALIZATION_ONLY_DIFFERENCE",
+      "similarity": 1.0,
+      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "version_identity": "SAME_VERSION_PROVEN"
+    }
+  },
+  "three_book_gate": {
+    "schema_version": "arc-three-book-gate-v1",
+    "rule_identity": {
+      "instrument": "Alta. Reg. 124/2010",
+      "rule": "3.20",
+      "title_official": "Other circumstances when record of proceedings may be required"
+    },
+    "three_book_mode": "OPTIONAL_CORROBORATION",
+    "required_carriers": [
+      "OFFICIAL"
+    ],
+    "source_registry_sha256": "302ed4a7dce65db21652199e149ae19a39df89593448575b3579f38035ca4f89",
+    "normalization_profile": {
+      "id": "arc-rule3-compare-norm",
+      "version": "1",
+      "sha256": "092b7ed9ea0dc5fa4c9a741f20c689807b2fb5d0dbbe3e0d35645ae03f539204"
+    },
+    "version_identity": "SAME_VERSION_PROVEN",
+    "carrier_version_identity": {
+      "BOOK_A": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_B": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2025 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      },
+      "BOOK_C": {
+        "result": "SAME_VERSION_PROVEN",
+        "basis": "carrier post-dates 2024 >= last Part 3 amendment year 2022 per official amendment history; no Part 3 amendment after that date appears in the June 1, 2026 consolidation"
+      }
+    },
+    "pairwise_vs_official": {
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
+      "BOOK_C": "NORMALIZATION_ONLY_DIFFERENCE"
+    },
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
+    "independent_origin_count": 4,
+    "carriers": {
+      "BOOK_A": {
+        "carrier_id": "BOOK_A",
+        "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
+        "text_sha256": "570d2d7a322abb2ed123fd10456696f7a114ecc5af97289d04b3a4112b37b8e9",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-a-annotated-part3",
+        "locator": {
+          "file": "combined rule3.txt",
+          "book_pages": [
+            "3-61"
+          ],
+          "offset_in_clean_text": [
+            192259,
+            193600
+          ]
+        }
+      },
+      "BOOK_B": {
+        "carrier_id": "BOOK_B",
+        "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
+        "text_sha256": "f0c1411e616ed729d724ef0e8938feb33ce214e2a7e618179de4fe2b9848941a",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-b-fradsham",
+        "locator": {
+          "files": [
+            "rule3_part02_document.json"
+          ]
+        }
+      },
+      "BOOK_C": {
+        "carrier_id": "BOOK_C",
+        "artifact_sha256": "9077b1ca2f4dfe8995238d64559361ffa8156226fc3dfaf9e5d80776ddba7301",
+        "text_sha256": "f6755fffcc07fae503a2595cb4fd514e5c623bff4eee546846eb64a8c5f82daf",
+        "source_role": "ANNOTATED_RULES",
+        "origin_id": "book-c-annotated-pp101-180",
+        "locator": {
+          "file": "121-140_3_19 to 3_43.json",
+          "source_file": "121-140_revised.md"
+        }
+      },
+      "OFFICIAL": {
+        "carrier_id": "OFFICIAL",
+        "artifact_sha256": "6058edb4e0c56a434c9468487174fb453e7505c212576866ee5f0fd1855085fe",
+        "text_sha256": "4f77263206690479d951c99c9ea4fcd2776e461148a2f9ef848b92af08d420c7",
+        "source_role": "FIRST_HAND_RULE_CARRIER",
+        "origin_id": "ab-kings-printer-consolidation-2026-06-01",
+        "locator": {
+          "file": "Alberta_Rules_of_Court.txt",
+          "pdf_pages": [
+            58
+          ]
+        }
+      }
+    },
+    "gate_artifact_sha256": "ed6f4c19b47e341bd515bd9ea0ee2ca848cece32a210442d99e140378c490c36"
+  },
+  "information_notes": [],
+  "dedupe_log": [
+    "3.20 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.20 BOOK_C citation context dropped (2018 ABQB 248): verbatim in kept text",
+    "3.20 BOOK_C commentary sentence split dropped",
+    "3.20 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+  ]
+}
