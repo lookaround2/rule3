@@ -32,7 +32,7 @@
     },
     "BOOK_A": {
       "title": "Time Limit for Application to Disallow Amendment to Pleading",
-      "operative_text_raw": "3.64(1) On application,the Court may disallow an amendment to a pleading or a*part of it.*(2)The application must be filed within 10 days after service on the applicant of*the amended pleading.*1",
+      "operative_text_raw": null,
       "operative_text_sha256": "cd0454bbb66b0dbe5ad1a971e8fdc5a63af5eb0bafd65561c9dddbefb066a755",
       "defined_terms": "Court, file, pleading",
       "related_provisions": "3.68 (deficient pleadings)",
@@ -48,7 +48,9 @@
           432805,
           433417
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.64(1)-(2) (read by eye) except: the title in title case ('Time Limit for Application to Disallow Amendment to Pleading', printed before the rule number); missing spaces; '*' line marks; the footnote marker '1' after the last word. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The history footnote 1 ('Quite similar to previous 1968 R.131. It came from 1944 C.R.193. Cf. Judic.Ord. r.181, and 1883 O.28 r.4.') matching the marker is printed at p.3-137 line 3867 in the built 3.63 record.",
+      "commentary_review_flag": "Read in full, p.3-137 (lines 3871-3874): rule text, Defined Terms 'Court, file, pleading' (the Appendix defines each), Related Provisions '3.68 (deficient pleadings)' and a two-sentence note; no Information Note. The built record: defined_terms, related_provisions and the note in the commentary field (ending with the heading of 3.65 'Permission of Court to Amendment Before or After Close of Pleadings' and the marker '3'); nothing dropped. (1) Related Provisions: '3.68 (deficient pleadings)' - official 3.68 is 'Court options to deal with significant deficiencies'. (2) Note read against the official text: 'Rule 3.64 lets the court disallow unilateral pleadings, presumably when they violate the Rules' - 3.64(1) says 'the Court may disallow an amendment to a pleading or a part of it' and states no ground; 'there is a short time limit for applying to disallow; that Rule and R.1.5(2) and (3) show that a belated application to disallow a R.3.64 amendment may well fail' - 3.64(2) sets 10 days after service on the applicant of the amended pleading; official 1.5(2) (an application under 1.5 must be filed within a reasonable time after the applicant becomes aware) and 1.5(3) (no application by a party who has taken a further step in the action knowing of the prejudice) were read and agree with the note's statement that a belated application may fail. (3) History: fn 1 (1968 R.131; 1944 C.R.193; Judic.Ord. r.181; 1883 O.28 r.4) is this rule's (marker '1' after (2)); it is printed in the 3.63 record. (4) Book A prints no other note; Book B and Book C print no commentary. Pointers to 3.64: Book A p.3-161 (line 4765) '3.64 (striking amendments)' in the related provisions of a rule not identified here; no other citation found (cross-reference helper: official, all Book A, B, C files)."
     },
     "BOOK_B": {
       "title": "Time limit for application to disallow amendment to pleading",
@@ -69,7 +71,7 @@
     "BOOK_C": {
       "title": "Time limit for application to disallow amendment to pleading",
       "division_heading": "Division 4 – REQUEST FOR PARTICULARS, AMENDMENTS TO PLEADINGS AND CLOSE OF PLEADINGS",
-      "operative_text_raw": "(1) On application, the Court may disallow an amendment to a pleading or a part of it.\n(2) The application must be filed within 10 days after service on the applicant",
+      "operative_text_raw": null,
       "operative_text_sha256": "a5552e278fa729221a983e29f80357121ea2d82293ae90ae811e118ebb438344",
       "citations": [],
       "commentary": [],
@@ -77,41 +79,16 @@
       "locator": {
         "file": "141-160_3_44 to 3_66.json",
         "source_file": "141-160_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): subrule (1) equals the official text; (2) breaks off after 'the application must be filed within 10 days after service on the applicant' (the page end); the rest of (2) ('of the amended pleading.') is missing. No amendment note (official 'AR 124/2010' only) and no commentary are printed for 3.64 in Book C."
     }
   },
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.7692,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "application, the",
-          "carrier": "application,the"
-        },
-        {
-          "op": "replace",
-          "official": "a part",
-          "carrier": "apart"
-        },
-        {
-          "op": "replace",
-          "official": "it. (2) the",
-          "carrier": "it.(2)the"
-        },
-        {
-          "op": "replace",
-          "official": "of the",
-          "carrier": "ofthe"
-        },
-        {
-          "op": "replace",
-          "official": "pleading.",
-          "carrier": "pleading.1"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.64(1)-(2) (read by eye) except: the title in title case ('Time Limit for Application to Disallow Amendment to Pleading', printed before the rule number); missing spaces; '*' line marks; the footnote marker '1' after the last word. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The history footnote 1 ('Quite similar to previous 1968 R.131. It came from 1944 C.R.193. Cf. Judic.Ord. r.181, and 1883 O.28 r.4.') matching the marker is printed at p.3-137 line 3867 in the built 3.63 record."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -121,14 +98,8 @@
     "BOOK_C": {
       "status": "CARRIER_MISSING_TEXT",
       "similarity": 0.9394,
-      "differences": [
-        {
-          "op": "delete",
-          "official": "of the amended pleading.",
-          "carrier": ""
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): subrule (1) equals the official text; (2) breaks off after 'the application must be filed within 10 days after service on the applicant' (the page end); the rest of (2) ('of the amended pleading.') is missing. No amendment note (official 'AR 124/2010' only) and no commentary are printed for 3.64 in Book C."
     }
   },
   "three_book_gate": {
@@ -229,6 +200,8 @@
   },
   "information_notes": [],
   "dedupe_log": [
-    "3.64 BOOK_B: operative text dropped (EXACT_MATCH)"
+    "3.64 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.64 BOOK_A: raw text dropped, differences editorial only (manual review)",
+    "3.64 BOOK_C: raw text dropped, differences editorial only (manual review)"
   ]
 }
