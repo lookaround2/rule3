@@ -40,7 +40,7 @@
     },
     "BOOK_A": {
       "title": "Separating Claims",
-      "operative_text_raw": "3.71(1)When 2 or more claims are made in an action or when 2 or more parties*join or are joined in an action,the Court may make an order under this rule if the*Court is satisfied that the joined claims or parties, or both,may\n*(a)unduly complicate or delay the action, or*(b)cause undue prejudice to a party.*(2)The Court may, by order,do one or more of the following orders:*(a)order separate trials,hearings, applications or other proceedings;*(b)order one or more of the claims to be asserted in another action;*(c)order a party to be compensated by a costs award for having to\n*attend part of a trial, hearing,application or proceeding in which the*party has no interest;*(d)excuse a party from having to attend all or part of a trial,hearing,*application or proceeding in which the party has no interest.*2",
+      "operative_text_raw": null,
       "operative_text_sha256": "90bfcafa55ec8a1a6783aa3ec695e639f32642548c2cb01efee1227f9b74470b",
       "defined_terms": "claim, costs award, Court, order, party",
       "related_provisions": "3.46(3) (third party claims)",
@@ -57,7 +57,9 @@
           761274,
           764232
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.71(1)-(2) (read by eye) except: (2) reads 'do one or more of the following orders:' where the official has 'do one or more of the following:' (the word 'orders' is added); the text is printed in pieces ((1) to 'or both, may' at p.3-225 line 7307, (a)-(2)(c) lead-in at line 7308, the rest of (c) and (d) at line 7309); the footnote marker '2' after (2)(d); the title in title case ('Separating Claims', printed after the end of the 3.70 note, with the Subdivision heading of Subdivision 1 not repeated); missing spaces and '*' line marks. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). The one added word is the only wording difference. This rule's history footnote 2 ('Quite similar to previous 1968 R.47's end. It came from 1944 C.R.58; Judic.Ord.r.30; Eng.O.16 r.5', p.3-225) is printed at line 7299 in the built 3.70 record and is kept there.",
+      "commentary_review_flag": "Read in full, p.3-225 (line 7307) to p.3-226 (line 7341): rule text, Information Note, Defined Terms 'claim, costs award, Court, order, party', Related Provisions '3.46(3) (third party claims)' and the note (no lettered headings; the last part discusses consolidation and misjoinder), with footnotes as printed. The built record: defined_terms, related_provisions (28 characters), the information note (Book A's copy; Book C's copy sits in its commentary) and the commentary field (the note, p.3-225 line 7313 to p.3-226 line 7341, with footnotes 7-8, 5-6, 3 and others printed among the sentences); the raw-text field held only the rule text. The extraction interleaves columns and footnotes on p.3-226 so many sentences are split across non-adjacent lines (e.g. 'The tests under R.3.71 have to do with undueness, not minor' at line 7315 is completed at p.3-226 line 7328-7332 by 'new wrong acts by the Crown ...' and by the expropriation example; 'The criteria for consolidation of suits are discussed in, I.C. Farms v. Hironaka' is completed by the citation '2005 ABQB 71' at line 7326 (printed with the name at line 7473, in the 3.72 note), and 'Alberta authority is reviewed in' by the pieces at lines 7326 and 7337); the wording is kept as printed. (1) Information Note: 'Rule 3.46(3) [Third party defendant becomes a party] says that third party claims are to be tried with the main action unless the Court otherwise orders under this rule' agrees with official 3.46(3) ('must be tried with the other claims in the action unless the Court otherwise orders under rule 3.71'); the bracket label adds 'a' to the official title of 3.46 ('Third party defendant becomes party'). Related Provision '3.46(3) (third party claims)' agrees. (2) Statements read against the official text: 'On separating trial of different issues, see R.7.1' (official 7.1 'Application to resolve particular questions or issues') agrees in substance; 'The tests under R.3.71 have to do with undueness, not minor prejudice or complication' agrees with 3.71(1)(a)-(b) ('unduly complicate or delay', 'undue prejudice'); 'Actions are expected to have only one trial, and severance of issues for trials is exceptional' is not in the text of 3.71; 'A claim which depends upon a resolution of another claim ... may be said to be premature or misjoined, but there is a tendency to sever and stay that kind of claim' agrees in substance with principle (4) in Book B's part 10 commentary (Thames Steel v. Portman: contingent claim 'premature'); the consolidation, misjoinder and 'duplication with another suit' passages concern 3.72 and 3.74 (not 3.71's orders) and are read there. (3) History: footnote 2 (1968 R.47's end; 1944 C.R.58; Judic.Ord.r.30; Eng.O.16 r.5) is 3.71's (marker '2' follows (2)(d)); it is printed in the 3.70 record, and the 3.69 footnote 9 is the beginning of the same old R.47. The pieces 'R.229; via 1944 C.R.268.' and '5On the tests for consolidation, see Fontaine v. Haslam 2007 ABQB 27' at p.3-226 (line 7337) complete 3.72's history footnote 4 ('Quite similar to previous 1968 R.229 ... 1914', printed at the start of the 3.72 record) and give its footnote 5; they are 3.72's and are kept in this record's commentary field. The last line of the segment (line 7344) is 3.72's footnote 1 ('Fitzmaurice v. CEDA Reactor (2011) 528 AR 190 (no neutral cite given)'). (4) Other rules' pointers to this rule (searched combined rule3.txt, combined_rule2.txt to combined_rule15.txt and combined rule1.txt for '3.71'): combined_rule12.txt line 3465 '... under rule 3.71 [Separating claims]' (title matches), combined_rule7.txt line 80 Related Provisions '3.71 (separating claims)'; official 3.46(3) cites 3.71. Book A's own note names R.3.71 once (line 7315). (5) The cases in the note (Altex Enr. v. Meyer 2020 ABCA 368, Kerswell v. Benoit 2022 ABQB 93, Klychak v. Samchuk 2012 ABQB 85, Munro v. Munro 2011 ABCA 279, Anokhina v. Banovic 2019 ABQB 774, Crocker v. A.M.A. 2007 ABCA 104, I.C. Farms v. Hironaka 2005 ABQB 71 and Fontaine v. Haslam 2007 ABQB 27) were not checked; the expropriation and wrongful-dismissal/theft examples are not attributed to a case by name in the printed lines."
     },
     "BOOK_B": {
       "title": "Separating claims",
@@ -86,14 +88,9 @@
     "BOOK_C": {
       "title": "Separating claims",
       "division_heading": null,
-      "operative_text_raw": "(1) When  C. (L.) v. Alberta (Metis Settlements Child & Family Services, Region 10), [2011] A.J. No. 36, 2011 ABQB 12 at para. 103 (Alta. Q.B.). or more claims are made in an action or when  C. (L.) v. Alberta (Metis Settlements Child & Family Services, Region 10), [2011] A.J. No. 36, 2011 ABQB 12 at para. 103 (Alta. Q.B.). or more parties join or are joined in an action, the Court may make an order under this rule if the Court is satisfied that the joined claims or parties, or both, may (a) unduly complicate or delay the action, or (b) cause undue prejudice to a party.\n(2) The Court may, by order, do one or more of the following:\n(a) order separate trials, hearings, applications or other proceedings;\n(b) order one or more of the claims to be asserted in another action;\n(c) order a party to be compensated by a costs award for having to attend part of a trial, hearing, application or proceeding in which the party has no interest;\n(d) excuse a party from having to attend all or part of a trial, hearing, application or proceeding in which the party has no interest.",
+      "operative_text_raw": null,
       "operative_text_sha256": "91cb70dba7463eada8cd046b9a4f76585a508929b9692a27ff91d082a0079e8e",
-      "citations": [
-        {
-          "neutral_citation": "2011 ABQB 12",
-          "style_of_cause": null
-        }
-      ],
+      "citations": [],
       "commentary": [
         {
           "topic": "General",
@@ -103,108 +100,25 @@
               "neutral_citation": "2020 ABCA 265",
               "style_of_cause": "Domenic Construction Ltd. v. Primewest Capital Corp."
             }
-          ]
+          ],
+          "review_flag": "(1) The commentary is one sentence with its citation: 'Joinder of two or more claims is permissible unless the claim becomes so complex as to be unmanageable. Domenic Construction Ltd. v. Primewest Capital Corp., [2020] A.J. No. 753, 2020 ABCA 265 at para. 22 (Alta. C.A.).' - it agrees in substance with 3.71(1)(a) ('unduly complicate or delay the action') and with Book A's 'tests under R.3.71 have to do with undueness'; it is not in Book A or Book B (searched: combined rule3.txt, rule3_part09/part10_document.json for 'so complex as to be unmanageable': none). (2) Book C's copy of the information note ('Rule 3.46(3) [Third party defendant becomes a party] says that third party claims are to be tried with the main action unless the Court otherwise orders under this rule') is printed after the commentary and equals Book A's (the built record kept Book A's copy). (3) The citation record 'Domenic Construction Ltd. v. Primewest Capital Corp., 2020 ABCA 265' is correctly built."
         }
       ],
       "misattributed_entries": [],
       "locator": {
         "file": "161-180_3_67 to 4_7.json",
         "source_file": "161-180_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): in (1) the number '2' is missing twice ('When [ ] or more claims are made in an action or when [ ] or more parties join') and this citation stands in each place: 'C. (L.) v. Alberta (Metis Settlements Child & Family Services, Region 10), [2011] A.J. No. 36, 2011 ABQB 12 at para. 103 (Alta. Q.B.).'; the rest of (1) and (2)(a)-(d) equal the official text (no difference in (2)). The amendment note '[Alta. Reg. 124/2010, r. 3.71 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation).",
+      "citations_note": "C. (L.) v. Alberta, 2011 ABQB 12 (para. 103) is not a 3.71 authority: it stands where the number '2' is lost, twice, in 3.71(1) (the same displacement as in Book C's 3.69 and 3.70 entries; see the 3.69 citation note)."
     }
   },
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.7845,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "(1) when",
-          "carrier": "(1)when"
-        },
-        {
-          "op": "replace",
-          "official": "parties join",
-          "carrier": "partiesjoin"
-        },
-        {
-          "op": "replace",
-          "official": "action, the",
-          "carrier": "action,the"
-        },
-        {
-          "op": "replace",
-          "official": "the court",
-          "carrier": "thecourt"
-        },
-        {
-          "op": "replace",
-          "official": "both, may (a) unduly",
-          "carrier": "both,may (a)unduly"
-        },
-        {
-          "op": "replace",
-          "official": "or (b) cause",
-          "carrier": "or(b)cause"
-        },
-        {
-          "op": "replace",
-          "official": "party. (2) the",
-          "carrier": "party.(2)the"
-        },
-        {
-          "op": "replace",
-          "official": "order, do",
-          "carrier": "order,do"
-        },
-        {
-          "op": "replace",
-          "official": "following: (a) order",
-          "carrier": "following orders:(a)order"
-        },
-        {
-          "op": "replace",
-          "official": "trials, hearings,",
-          "carrier": "trials,hearings,"
-        },
-        {
-          "op": "replace",
-          "official": "proceedings; (b) order",
-          "carrier": "proceedings;(b)order"
-        },
-        {
-          "op": "replace",
-          "official": "action; (c) order",
-          "carrier": "action;(c)order"
-        },
-        {
-          "op": "replace",
-          "official": "hearing, application",
-          "carrier": "hearing,application"
-        },
-        {
-          "op": "replace",
-          "official": "the party",
-          "carrier": "theparty"
-        },
-        {
-          "op": "replace",
-          "official": "interest; (d) excuse",
-          "carrier": "interest;(d)excuse"
-        },
-        {
-          "op": "replace",
-          "official": "trial, hearing, application",
-          "carrier": "trial,hearing,application"
-        },
-        {
-          "op": "replace",
-          "official": "interest.",
-          "carrier": "interest.2"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.71(1)-(2) (read by eye) except: (2) reads 'do one or more of the following orders:' where the official has 'do one or more of the following:' (the word 'orders' is added); the text is printed in pieces ((1) to 'or both, may' at p.3-225 line 7307, (a)-(2)(c) lead-in at line 7308, the rest of (c) and (d) at line 7309); the footnote marker '2' after (2)(d); the title in title case ('Separating Claims', printed after the end of the 3.70 note, with the Subdivision heading of Subdivision 1 not repeated); missing spaces and '*' line marks. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). The one added word is the only wording difference. This rule's history footnote 2 ('Quite similar to previous 1968 R.47's end. It came from 1944 C.R.58; Judic.Ord.r.30; Eng.O.16 r.5', p.3-225) is printed at line 7299 in the built 3.70 record and is kept there."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -214,18 +128,6 @@
     "BOOK_C": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.8629,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "2",
-          "carrier": "c. (l.) v. alberta (metis settlements child & family services, region 10), a.j. no. 36, 2011 abqb 12 at para. 103 (alta. q.b.)."
-        },
-        {
-          "op": "replace",
-          "official": "2",
-          "carrier": "c. (l.) v. alberta (metis settlements child & family services, region 10), a.j. no. 36, 2011 abqb 12 at para. 103 (alta. q.b.)."
-        }
-      ],
       "version_identity": "SAME_VERSION_PROVEN"
     }
   },
@@ -341,6 +243,9 @@
     "3.71 BOOK_C citation context dropped (2011 ABQB 12): verbatim in kept text",
     "3.71 BOOK_C citation context dropped (2020 ABCA 265): verbatim in kept text",
     "3.71 BOOK_C commentary sentence split dropped",
-    "3.71 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.71 BOOK_C: rule text dropped (manual review)",
+    "3.71 BOOK_C: displaced citations dropped ['2011 ABQB 12'] (manual review)",
+    "3.71 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.71 BOOK_A: raw text dropped, differences editorial only (manual review)"
   ]
 }
