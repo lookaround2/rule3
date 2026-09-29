@@ -387,6 +387,13 @@ def parse_book_b() -> tuple[dict, dict]:
             o["commentary"].append({"section": None, "text": t})
     amend_re = re.compile(r"\s*(Alta\. Reg\. \d+/\d{4}, s\. \d+(?:\([a-z0-9]+\))*(?:[;,] ?(?:Alta\. Reg\. )?\d+/\d{4}, s\. \d+(?:\([a-z0-9]+\))*)*)\s*$")
     for r, o in out.items():
+        marker = MANUAL_BOOK_B_SPLIT.get(r)
+        if marker and marker in o["operative_text_raw"]:
+            # manual decision: the source prints commentary in the same paragraph as the rule text, without a 'Commentary §' header
+            k = o["operative_text_raw"].index(marker)
+            o["commentary"].insert(0, {"section": None, "text": o["operative_text_raw"][k:].strip(),
+                                       "note": f"printed in the same source paragraph as the rule text, with no 'Commentary §' header; split at '{marker}' (manual review)"})
+            o["operative_text_raw"] = o["operative_text_raw"][:k].rstrip()
         m = amend_re.search(o["operative_text_raw"])
         o["amendment_note_raw"] = m.group(1) if m else None
         if m:
@@ -495,9 +502,22 @@ def _sim(x: str, y: str) -> float:
 
 
 # Manual decisions for Part 3 are recorded here (see README section 4 / tools/edit_helpers.py). All start empty.
+MANUAL_BOOK_B_SPLIT = {
+    "3.8": "1. Test for amending originating application",
+}
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.8": {"BOOK_A": "same wording as official 3.8(1)-(2) (read by eye) except missing spaces, '*' line marks and the footnote markers '3' (after (1)(d)) and '1' (after "
+                       "(2)(b)). No amendment bracket; the official text lists no amendment for 3.8. No substantive difference. The raw text also held the p.3-25 "
+                       "footnote block (footnotes 1-7 of that page), kept here verbatim: '1Quite similar to previous 1968 R.305(1).It came from 1914 R.416 and 1944 "
+                       "C.R.348.Cf.Judic.Ordinance R.295, 1883 O.38 r.3, and 1897 Ont.R.519.Cf.C.O.O.XVIII r.3.These older Rules were more general. 2The July 8, 2020 "
+                       "Notice to the Profession about digital filing is now permanent as \"Guidelines for Documents Filed by Email or Digital Upload\", though "
+                       "sometimes later updated by announcements.See R.3.25n. 3Veniniv. Venini2023 ABKB 524, JCE 1503 06113 (AJ Sep 20) (¶'s 55, 57, 61-63). "
+                       "4Canmore Apts.v.Cormode & Dickson Constr.2023 ABKB 659, JCC 2101 03737 (Nov 22) (¶ 30(2)). 52024 ABKB 209, JCC FL01 41775 (Apr 10) "
+                       "(¶'s 52-54). 6Tole v.Lucki2017 ABCA 79, [20017] AJ #184 (one JA). 7ANCTimber v. Min.of Agric.2019 ABQB 653, 5 Alta LR(7th) 102 "
+                       "(¶'s 81-83).' Footnote 5 (2024 ABKB 209) is the citation of L.Y. v. R.Y., whose name is printed in the commentary ('On double or treble "
+                       "hearsay, see L.Y. v. R.Y.'); footnote 6 prints the year as '[20017]'."},
     "3.7": {"BOOK_A": "same wording as official 3.7(1)-(2) (read by eye) except missing spaces and '*' line marks; the title is printed 'Post-judgmentTransfer of Action'. "
                        "No amendment bracket; the official text lists no amendment for 3.7. No substantive difference. This rule's history footnote is "
                        "presumably p.3-24 fn 3 ('Quite similar to previous 1968 R.405. It was new in 1968.'), which is printed in the built 3.6 commentary and "
@@ -579,8 +599,38 @@ MANUAL_SEE_ALSO = {
             
         "BOOK_B: rule text only (paragraph part3_part_3_court_actions_022), equal to the official 3.7, no commentary, no amendment note on either side; BOOK_B's next paragraph is the running head 'Part 3. Court Actions Division 2. Actions Started by Originating Application Subdivision 1. General Rules'. BOOK_C: rule text and amendment note ('Alta. Reg. 124/2010, r. 3.7 effective November 1, 2010') agree with the official text; one 'General Principles' paragraph (flagged); its information note is garbled (see BOOK_C note). No Book B or Book C file cites 3.7 by number.",
     ],
+    "3.8": ["Official text (searched for 'rule 3.8', 'rules 3.8 ...', lists, line-wrapped forms and form headings): rules 12.26(1) (application under section 22.1 of the Divorce Act: '(i) an originating application in accordance with rule 3.8(1); (ii) a supporting affidavit in accordance with rule 3.8(2) to which are attached as exhibits ...'), 12.27(1)-(2) (originating application 'in accordance with rule 3.8(1)', affidavit 'in accordance with rule 3.8(2)'), 12.30 and 12.33(1) (originating application in accordance with rule 3.8(1)); Form 7 is headed '[Rule 3.8]' (3.8(1)(a) names Form 7). By subject: 3.9 (service), 3.12, 3.13 (questioning on affidavit), 3.15, 13.18 and 13.19 (affidavits), 6.11 (evidence at application hearings).",
+            "BOOK_A other Parts and Part 3 (all combined*.txt searched, line-wrapped forms included; pages from the page markers; rule numbers read from the text): R.12.26 (p.12-23), R.12.27 (p.12-27; related p.12-28), R.12.30 (p.12-30), R.12.33 (p.12-31; related p.12-32) quote 'in accordance with rule 3.8(1)/(2) [Originating applications and associated evidence]' (title matches official); R.12.27 and R.12.33 related provisions '3.8 (originating applications)'; R.6.1 related p.6-3 (line 61) and R.6.3 related p.6-14 (line 633) '3.8 (originating applications)'; R.9.42 (p.9-91), R.9.50 (p.9-95) and R.9.52 (p.9-97) related '3.8 (originating applications)'; R.13.18 related p.13-74 (line 3837) '3.8(2) (affidavits used for originating applications)'. Inside Part 3: 3.2 information note p.3-5 ('rule 3.8 [Originating applications and associated evidence]'); 3.22 note p.3-65 lines 1712 and 1719 'Under Rr.3.8(2), 13.18, judicial review is final, not interlocutory' and 'Violation of Rr.3.8(2), 13.18 bars the offending parts, not the whole affidavit'; 3.25 note p.3-70 line 1879 'See R.3.8n.'; 3.31 note p.3-81 line 2199 'See notes to Rr.3.8 and 3.25' (rule attribution from the nearest earlier rule marker in the file).",
+            "BOOK_B: rule text = official; one commentary part, '1. Test for amending originating application' (Thomson v. Thomson 2024 ABCA 293 para 28 quoting the four exceptions to amending pleadings; then Terrigno v Butzner 2021 ABCA 18, Attila Dogan 2014 ABCA 74, Aramark 2023 ABKB 42, Ingram 2021 ABQB 343 affd 2022 ABCA 97, Alberta March for Life 2020 ABQB 220, McCargar 2017 ABQB 692 rev'd in part 2018 ABCA 144). It is printed inside the rule-text paragraph with no 'Commentary §' header; split off by manual decision (MANUAL_BOOK_B_SPLIT). Same authorities elsewhere: Thomson v. Thomson 2024 ABCA 293 also in BOOK_B rule3_part06_document.json; Attila Dogan, McCargar and Terrigno v. Butzner also in BOOK_A Part 3 (and other Parts) and other BOOK_B Part 3 files - to be linked in the 3.65 (amendment) pass; Aramark and Alberta March for Life appear only here.",
+            
+        "BOOK_B other Parts and BOOK_C (all Book B files and all Book C page files searched): BOOK_B rule 12.x text (rule12_part01_document.json) and BOOK_C (file 561-580) repeat the official wording that cites 3.8(1) and 3.8(2) (rules 12.26, 12.27, 12.30, 12.33); BOOK_B rule15_part02_document.json (paragraph part15_address_038, a Hague Convention practice notice, item 15) says the party seeking the return of a child 'must file an Originating Application (Form 7) pursuant to Rule 3.8'. The 3.2 information notes in Book A and Book C name 3.8 with its title (see the 3.2 review note).",
+    ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.8": "Read in full, p.3-24 (line 547) to p.3-26 (line 586). (1) Footnotes: p.3-25 has 1-7 (kept in the text note); p.3-26 has 9. Footnotes 1-5 there "
+           "belong to this note (1 Imp. Finishing v. Moderno Homes 2019 ABQB 64 para. 64; 2 Kissel v. Rocky View (Cty.) 2020 ABQB 406 para. 63; 3 Harco Hldg. "
+           "2000 v. M.B. (M) 2010 ABQB 442, 500 AR 258; 4 ANC v. Min. of Agric. paras. 84-87; 5 Condo. Corp. No. 0210494 v. Rotzang 2024 ABKB 111 paras. 33-34); "
+           "footnotes 6-9 (6 history 'Quite similar to previous 1968 R.310 ...', 7 Tartal v. Human Rts. Comm'n 2023 ABKB 381 paras. 48-51, 8 Tartal supra, "
+           "9 Re Can.N. Grp. infra) are 3.9's - the marker '6' is printed after 3.9's text (line 587) and 3.9's page 3-27 footnotes 1-4 continue with "
+           "Re Can.N. Grp. and Tartal - but sit inside the built 3.8 commentary. "
+           "(2) 'ANC Timber v. Min. of Agric. 2019 ABQB 653' (p.3-25 fn 7) is short-cited 'ANC v. Min. of Agric.' (p.3-26 fn 4); 'Tole v. Lucki 2017 ABCA "
+           "79, [20017] AJ #184' has an extra digit in the printed year. "
+           "(3) Related Provisions: '13.18 (contents of affidavits)' - official 13.18 is 'Types of affidavit' (an affidavit may be sworn on personal knowledge or "
+           "on information and belief, with the source disclosed; 13.18(3) requires personal knowledge if it supports an application that may dispose of a claim); "
+           "the requirements are in 13.19 ('Requirements for affidavits'), whose label agrees. The information note calls 13.18 'Types of affidavit' (matches). "
+           "3.2 agrees. "
+           "(4) Sabir pointer, p.3-26 line 586: 'On power of the court to decide when a document actually received is \"filed\", thus overruling the Clerk, see "
+           "Sabir v. Gill and comments, in R.3.2n., supra' - Sabir v. Gill has no full citation before p.3-43 fn 1 (2023 ABKB 679), and 3.2's own note (p.3-7 "
+           "fn 2) sends the reader on to R.3.1n., which is not in the file; 'supra' therefore points nowhere earlier. "
+           "(5) Other pointers: 'R.3.2n.B' and 'Rule 3.2n.B.4' resolve (3.2 Part B; B.4 Procedure and Parties carries the booking and filing warnings); "
+           "'R.13.14n.' (official 13.14 is 'Endorsements on documents') and p.3-25 fn 2 'See R.3.25n.' are not checked here (to be checked in the 13.14 and 3.25 "
+           "passes). "
+           "(6) The sentence 'Ordinarily a party cannot get relief or go into issues, which are not in his originating pleading, and so an Originating "
+           "Application seeking only declaratory relief (and costs) will not permit them' is also in 3.2 (p.3-16, C.3 Miscellaneous); the following sentence "
+           "ends with an unmatched ')' ('to refuse declaratory relief)'). "
+           "(7) Statements of law without a source in the repository (not checked): hearsay in affidavits cannot be received respecting contempt or the penalty; "
+           "Rule 3.8(2) is no bar to reciting an admission against interest; consent or lack of objection lets the court admit hearsay in a civil case; an "
+           "affidavit by a legal assistant is unacceptable except for noncontroversial matters. No Defined Terms line is printed for 3.8.",
     "3.7": "Read in full, p.3-24 (lines 542-545): rule text, information note, defined terms, related provision; no commentary. The built related-provisions "
            "field runs on into 'DIVISION 2 ACTIONS STARTED BY ORIGINATING APPLICATION *Subdivision 1 General Rules *Originating Applications and associated "
            "evidence*': these are headings printed after this rule (they match the official Division 2 'Actions Started by Originating Application', "
@@ -717,6 +767,10 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.8": {"drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): it holds subrule (1)(a)-(d) only; subrule (2) "
+                              "('If an affidavit is filed to support an originating application, the affidavit must be confined to ...') is not in the file, "
+                              "and no amendment note and no commentary are printed for 3.8. The Division heading printed for it ('Division 2 - ACTIONS STARTED BY "
+                              "ORIGINATING APPLICATION') agrees with the official Division 2."},
     "3.7": {
         "drop_c_note": "garbled copy of Book A's information note ('For enforcement of judgments and orders see Part 9 [Judgments and Orders]'): the number '9' is "
                        "lost and this text stands in its place: 'Odland v. Odland Sobeys , [2017] A.J. No. 1265, 2017 ABCA 397 at paras. 19-23 (Alta. C.A.); Capital "
