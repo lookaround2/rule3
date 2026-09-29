@@ -12,3 +12,4 @@ Errors found so far: 3.12 p.3-9->3-8; 3.15 p.3-46->3-42; 3.16 El Sayed pages; 3.
 Pending idea: 3.67/3.68 add that Hislop v. Murray [2012] AR Uned 494 is cited in Book A R.4 (p.4-7 line 285; p.4-94 line 5022) and R.15 (p.15-5 line 176).
 Resume: python3 tools/build_rule3_reconciliation.py; python3 tools/pass2/chk.py N; read python3 tools/pass2/blk.py N; edit via tools/pass2/p2lib.py (Fix.rep / Fix.note / save).
 NOTE: scripts in tools/pass2 expect to be copied to /tmp/w (they import each other from /tmp/w and cache /tmp/w/norm.pkl). Rules 3.38-3.43 [2nd pass] lines written; continue from 3.44.
+Rules 3.44-3.57 [2nd pass] lines written; continue from 3.58.
