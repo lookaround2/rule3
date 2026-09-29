@@ -15,14 +15,16 @@ Every function refuses to act unless its anchor text occurs exactly once, so a t
 After any edit: python3 tools/build_rule2_reconciliation.py, then gate_all (tools/qa_display_helpers.sh),
 then re-read the rebuilt JSON to confirm the decision landed.
 """
+import os
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BUILDER = ROOT / "tools" / "build_rule2_reconciliation.py"
-REVIEW = ROOT / "rule2_subrules" / "REVIEW_NOTES.txt"
-WORKFLOW = ROOT / "rule2_subrules" / "WORKFLOW.txt"
+PART = os.environ.get("ARC_PART", "2")   # set ARC_PART=3 for Part 3
+BUILDER = ROOT / "tools" / f"build_rule{PART}_reconciliation.py"
+REVIEW = ROOT / f"rule{PART}_subrules" / "REVIEW_NOTES.txt"
+WORKFLOW = ROOT / f"rule{PART}_subrules" / "WORKFLOW.txt"
 PART_LEVEL = ("     Book C lists 2.11-2.21", "     Book C amendment notes")
 
 
@@ -40,16 +42,20 @@ def add_see_also(rule: str, text: str) -> None:
     start = s.index("MANUAL_SEE_ALSO = {")
     end = s.index("\n}\n", start)
     block = s[start:end]
-    if block.count(anchor) != 1:
-        sys.exit(f"refused: {anchor!r} occurs {block.count(anchor)} times in MANUAL_SEE_ALSO")
     esc = text.replace("\\", "\\\\").replace('"', '\\"')
-    block = block.replace(anchor, anchor + '"' + esc + '",\n            ', 1)
+    if block.count(anchor) == 0:
+        # first entry for this rule: create the list
+        block = block + f'\n    "{rule}": [\n        "{esc}",\n    ],'
+    elif block.count(anchor) != 1:
+        sys.exit(f"refused: {anchor!r} occurs {block.count(anchor)} times in MANUAL_SEE_ALSO")
+    else:
+        block = block.replace(anchor, anchor + '"' + esc + '",\n            ', 1)
     BUILDER.write_text(s[:start] + block + s[end:], encoding="utf-8")
 
 
 def add_review_line(rule: str, text: str) -> None:
     lines = REVIEW.read_text(encoding="utf-8").split("\n")
-    head = re.compile(r"^2\.(\d+)\b")
+    head = re.compile(rf"^{PART}\.(\d+)\b")
     target = int(rule.split(".")[1])
     starts = [k for k, l in enumerate(lines) if (m := head.match(l)) and int(m.group(1)) == target]
     if not starts:

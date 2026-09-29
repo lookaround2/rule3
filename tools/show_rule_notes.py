@@ -5,10 +5,12 @@ Usage: python3 tools/show_rule_notes.py 9 10          (rules 2.9 and 2.10)
        python3 tools/show_rule_notes.py --full 24     (do not cut long values; footnote lists included)
 """
 import json
+import os
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+PART = os.environ.get("ARC_PART", "2")   # set ARC_PART=3 for Part 3
 
 
 def main() -> int:
@@ -16,8 +18,8 @@ def main() -> int:
     full = "--full" in args
     rules = [a for a in args if a != "--full"]
     for i in rules:
-        d = json.loads((ROOT / "rule2_subrules" / f"2.{i}.json").read_text(encoding="utf-8"))
-        print(f"######## 2.{i}", d["title"]["official"], d["title"].get("variants"))
+        d = json.loads((ROOT / f"rule{PART}_subrules" / f"{PART}.{i}.json").read_text(encoding="utf-8"))
+        print(f"######## {PART}.{i}", d["title"]["official"], d["title"].get("variants"))
         for x in d.get("see_also", []):
             print(" SA:", x if isinstance(x, str) else json.dumps(x, ensure_ascii=False))
 

@@ -101,3 +101,15 @@ pretty_sources() {
     python3 -c "import json,sys;json.dump(json.load(open(sys.argv[1])),open(sys.argv[2],'w'),indent=4,ensure_ascii=False)" "$f" "$out/${f%.json}.pretty.json"
   done
 }
+
+# ---- Part 3 -------------------------------------------------------------------------------------------------
+# Validate every Part 3 subrule's gate record. Usage: gate_all3 [first] [last]   (default 1 77)
+gate_all3() {
+  local g; g=$(mktemp)
+  for i in $(seq "${1:-1}" "${2:-77}"); do
+    python3 -c "import json;json.dump(json.load(open('rule3_subrules/3.$i.json'))['three_book_gate'],open('$g','w'))"
+    printf '3.%s ' "$i"; python3 tools/validate_three_book_gate.py "$g" | grep -o '"valid": [a-z]*'
+  done
+  rm -f "$g"
+}
+# Python helpers take the Part from the environment: ARC_PART=3 python3 tools/show_rule_notes.py 2
