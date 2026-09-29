@@ -508,6 +508,8 @@ MANUAL_BOOK_B_SPLIT = {
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.11": {"BOOK_A": "same wording as official 3.11(1)-(3) (read by eye) except missing spaces, '*' line marks, the title in capitals and the footnote marker '3' after "
+                        "(3)(b). No amendment bracket; the official text lists no amendment for 3.11. No substantive difference."},
     "3.10": {"BOOK_A": "same wording as official 3.10(1)-(2) (read by eye) except bracket labels '[Managing Litigation]' (Part 4), '[Disclosure of Information]' (Part 5), "
                        "'[Responsibilities of parties to manage litigation]' (after 4.1; the official title is 'Responsibility of parties to manage litigation'), '[What the "
                        "responsibility includes]' (4.2) and '[Discontinuance of claim]' (4.36), missing spaces and '*' line marks; the amendment bracket "
@@ -625,8 +627,29 @@ MANUAL_SEE_ALSO = {
             
         "BOOK_B and BOOK_C other Parts (all files searched): BOOK_B rule12_part01_document.json (12.34(1) 'Despite Rule 3.10, Part 4 applies to ...'; 12.37(1) 'Despite rule 3.10, Part 5 applies to ...'); BOOK_C file 161-180 (rule 4.2 information note: 'See rule 3.10 [Application of statement of ...] and rule 3.12 ...', garbled) and file 561-580 (12.34, 12.37 texts and, in 12.37's commentary, 'Rule 3.10 says that the disclosure rules in Part 5 do not apply to actions started ...'). BOOK_B has no commentary on 3.10 (rule text and amendment note 'Alta. Reg. 122/2012, s. 3; 23/2021, s. 2' only, agreeing with the official).",
     ],
+    "3.11": ["Official text (searched for 'rule 3.11', lists, line-wrapped forms and form headings): 12.26(4) ('Despite rule 3.11(1) and 12.44(2), if the respondent to the application under this rule intends to rely on an ...') and 12.27(4) ('Despite rule 3.11(1), if the respondent to an application to vary a custody order ...'); no form heading names 3.11. By subject: 6.6 (response and reply to application: 6.6(1)-(3) parallel 3.11(1)-(3)), 3.9 (service time for the originating application), 3.13 (questioning on affidavits), 13.18-13.19 (affidavits), 12.44.",
+            "BOOK_A other Parts and Part 3 (all combined*.txt; pages from the markers; rule numbers from the text): R.6.6 related provisions p.6-59 (line 3096) '3.11 (reply materials for originating applications)' (matches: 6.6 is the ordinary-application counterpart); R.13.18 note p.13-74 (line 3867) 'On deadlines for affidavits, see Rr.3.11, 6.6, and 12.44' and R.13.18 checklist p.13-85 (line 4447) 'Filed and served reasonable time before motion (if to oppose motion or to reply) Rr.3.11, 6.6'; R.12.26(4) p.12-24 and R.12.27(4) p.12-28 quote 'Despite rule 3.11(1) [Service and filing of affidavits and other evidence in reply and response] ...' (title matches the official). Inside Part 3: none besides 3.11's own note and the 3.9 pointer above.",
+            
+        "BOOK_B and BOOK_C other Parts (all files searched): BOOK_B rule12_part01_document.json (12.26(4) 'Despite rule 3.11(1) and 12.44(2)'; 12.27(4) 'Despite rule 3.11(1)'); BOOK_C: no other file cites 3.11 (only its own 3.11 commentary 'Rule 3.11(3) makes it clear ...'). BOOK_B has no 3.11 commentary (rule text only, equal to the official 3.11).",
+    ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.11": "Read in full, p.3-28 (line 634) to p.3-29 (line 670). (1) Defined Terms 'costs award, party' (the Appendix defines both) and Related Provisions '6.6 (late "
+            "responses to application)': official 6.6 is 'Response and reply to application' - a near copy of 3.11 for ordinary applications; its subrule (3) deals with lack of "
+            "reasonable notice (costs; no reliance without permission), so the label covers only 6.6(3). "
+            "(2) Footnotes on p.3-29 (seven, printed among the paragraphs): 1 'This is unpredictable. The Court of King's Bench has a Sharepoint document management service, "
+            "but counsel cannot access it directly to upload materials ...'; 2 Abel v. Modi 2020 ABQB 530, JCC 1801 14851 (Sep 11) (paras. 14-21); 3 Re Sultan Mgmt. Grp. 2023 ABCA "
+            "110, Edm 2203 0085 AC (Mar 31); 4 Karmali v. Donorworx (M) 2015 ABQB 105, 610 AR 258, and TAQA Drilling Solutions v. Yar Hldg. 2021 ABQB 309, JCE 2003 08740 "
+            "(Apr 26) (paras. 17-25); 5 dictum in GG & HH v. 2306084 Alta. 2022 ABQB 58, JCC 2101 07555 (para. 23); 6 'id. at para. 23'; 7 Bromley v. Robertson 2019 ABQB 79, JCC FL01 "
+            "27788 (para. 1(1)). The built commentary ends with the title of 3.12. "
+            "(3) Extraction: paragraphs are interleaved and sentences are split ('But a party wishing to enforce quick cross-' ... 'examination must give a formal notice and "
+            "serve conduct money'; 'A supporting affidavit had been presented ... as the Bankruptcy Act' ... 'On order of filing and service, see R.3.9n.'). "
+            "(4) Pointers: 'On order of filing and service, see R.3.9n.' resolves (3.9's note: filing and service is sequential, file then serve); 'On late responses to an "
+            "application, see R.6.6n.' (to be checked in the 6.6 pass; official 6.6 is the matching rule). The backlog passage here ('a bad backlog in the Clerk's office led to its "
+            "being stamped and filed almost two months late', line 662) is the same case as the one in R.13.41's note (p.13-102). "
+            "(5) Statements of law and practice without a source in the repository (not checked): the Court of King's Bench appearance defaults in Edmonton and Calgary and the "
+            "request form to the Manager, Court Coordination; that a non-party cannot file affidavits; that a party has the right to run its own case; that a late affidavit "
+            "was dealt with only in costs and accepted; that cross-examination requires formal notice and conduct money.",
     "3.10": "Read in full, p.3-27 (line 616) to p.3-28 (line 633): rule text, information note, defined terms, commentary; no Related Provisions are printed. "
             "(1) Footnotes (p.3-28, line 626, printed after the running head): 1 Mathai v. George (M) 2018 ABQB 51, JCE 1703 09296 (Jan 22) (the 'Mathai case' of the "
             "commentary); 2 James H. Meek Tr. v. San Juan Res. 2005 ABCA 448, 376 AR 202, affg 2005 ABQB 9, 356 AR 72; 3 history: 'Quite similar to previous 1996 R.314.1. It was "
@@ -817,6 +840,15 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.11": {
+        "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): subrule (2)(a) stops after 'serve the response affidavit or other evidence on "
+                          "the respondent a' and the words 'reasonable time before the originating application is to be heard or considered, and (b) limit the response to replying to the "
+                          "respondent's affidavit or other evidence.' are missing; subrules (1) and (3) equal the official text. Amendment note agrees (no amending regulation).",
+        "commentary_flag": "agrees with official 3.11(1)-(3) (reasonable time; response evidence; without reasonable notice a party may not rely on the evidence unless the Court permits, "
+                           "and costs may be awarded). The 'common outcome' sentences (option to proceed with the late affidavit considered and lateness dealt with in costs, or an adjournment "
+                           "with thrown-away costs) are practice commentary with no source in Books A or B (Book A's note, p.3-29, describes one late affidavit accepted with the delay dealt "
+                           "with in costs). Not repeated elsewhere.",
+    },
     "3.9": {
         "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): the number '10' before 'days or more before the date scheduled for "
                           "hearing' is lost and this text stands in its place: 'Regular v. Regular, [2016] A.J. No. 1042, 2016 ABQB 570 at para. 9 (Alta. Q.B.); the factors were "
