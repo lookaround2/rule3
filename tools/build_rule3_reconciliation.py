@@ -498,6 +498,12 @@ def _sim(x: str, y: str) -> float:
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.6": {"BOOK_A": "same wording as official 3.6(1)-(2) (read by eye) except: bracket labels '[Claim for possession of land]' (after 'rule 3.4') and "
+                       "'[Transfer of an action]' (after 'rule 3.5'), missing spaces, '*' line marks, the footnote marker '4' after (2), and one word in (1)(b): "
+                       "'continued in that judicial centre to which the action is transferred' where the official text says 'continued in the judicial centre to "
+                       "which the action is transferred' ('that' for 'the'; no change of meaning). No amendment bracket; the official text lists no amendment "
+                       "for 3.6. This rule's history footnote 4 ('Quite similar to previous 1968 R.715, 716 ...') is printed in the built 3.5 commentary "
+                       "(p.3-23) and is kept verbatim there."},
     "3.5": {"BOOK_A": "same wording as official 3.5 (read by eye) except missing spaces, '*' line marks, the title and number run together ('3.5The Court') "
                        "and the footnote marker '2' after clause (b). No amendment bracket; the official text lists no amendment for 3.5. No substantive "
                        "difference. This rule's history footnote (p.3-21 fn 2, 'Quite similar to previous 1968 R.12 ...') is printed inside the built text "
@@ -558,8 +564,36 @@ MANUAL_SEE_ALSO = {
             
         "Cross-book links (same decisions in more than one book): Odland v. Odland 2017 ABCA 397 (BOOK_B paras. 19-22, 24; BOOK_C; BOOK_A fn 2, fn 5, fn 8 and p.3-19 fn 6); Regular v. Regular 2016 ABQB 570 (BOOK_B, quoted at paras. 5-9; BOOK_C; BOOK_A fn 3 and 8); Behiels v. Tibu 2024 ABKB 12 (BOOK_A fn 3, 4, 7, 9-13; BOOK_B 'See also: Behiels v. Tibu, 2024 ABKB 12 for a review of the law'; BOOK_C prints only the name); Sobeys Capital Inc. v. Gulf & Pacific Equities Corp. 2018 ABQB 151 (BOOK_A fn 3; BOOK_C, name in pieces); Pac. Inv. & Dev. v. Wood Buffalo (R.M.) 2017 ABQB 469 (BOOK_A; BOOK_B 'Pacific Investments' inside Odland); Christensen v. Proprietary Industries 2002 ABQB 97, Wickstrom v. Wetter 2007 ABQB 402, Schafer v. Lenhardt 1998 ABCA 47, Silver Springs Oil Recovery v. UMA Eng. 2004 ABQB 942, C.S. v. A.J. 2004 ABQB 73 (BOOK_B in Regular para 7; BOOK_A; C.S. v. A.J. is at BOOK_A p.3-24 fn 2); Siver v. Siver 2010 ABQB 755 (BOOK_B in Regular paras. 6-9; BOOK_A p.3-23 line 525, in the note on 3.6: 'There is a curious decision, using instead a lax almost subjective test'); Keaton v. Keaton 2017 ABQB 429 (BOOK_B in Odland para 22; BOOK_A p.3-24 fn 1 and p.3-4). BOOK_B's Regular para 5 cites Abou-Morad v. Aboumourad 2015 ABQB 584 and 325303 Alberta v. Prime Property Management 2011 ABQB 817 (both also in BOOK_A p.3-19/3-20, note 3.3). BOOK_A p.3-22 'An application under this Rule is brought in the judicial centre in which the proceedings were commenced' matches BOOK_B section 1 (Royal Trust Corp. of Canada v. Fillo).",
     ],
+    "3.6": ["Official text (searched for 'rule 3.6', 'rules 3.5 and 3.6', lists, line-wrapped forms and form headings): no other official rule cites 3.6 by number and no form heading names it. By subject: 3.3, 3.4 and 3.5 (where the action starts and moves), 3.7 (temporary transfer after judgment), 6.2 and 6.9 (applications and how the Court considers them; 6.9(2) judge or applications judge), 6.10 (electronic hearing) and 8.18 (trial conducted by electronic hearing), 14.8(5) and 14.84 (place of filing appeals).",
+            "BOOK_A other Parts and Part 3 (all combined*.txt searched, line-wrapped forms included; page markers checked): R.14.84 related provisions p.14-252 (line 13355) '3.6 (place of proceedings); 14.8(5) (venue of appeals)'; R.6.2 related provisions p.6-3 (line 80) '3.6 (venue for applications)' and R.6.2 footnote p.6-8 '4 See R.3.6.'; R.6.3 related p.6-14 (line 633) '3.6 (venue)'; R.6.16 related p.6-104 (line 5519) '3.6 (venue)'; R.6.18 note p.6-105 (line 5583) 'no need for the cross-examination to take place in the city where the trial will be: Baltimore v. Baltimore ...; but see R.3.6'. Inside Part 3: 3.3 related provision and commentary '3.6(2) (movement of motions and trials)' (p.3-19 line 413, p.3-20 line 444; official 3.6(2) confirms: hearing or trial in a place specified by the Court other than the judicial centre); 3.5 (p.3-23 line 518 text and 3.6's own note).",
+            "BOOK_B: rule text only (paragraph part3_part_3_court_actions_020), equal to the official 3.6; no commentary section for 3.6; no amendment note on either side. BOOK_C: one 'General Principles' paragraph (kept, flagged). Neither book (all Book B files and all Book C page files searched) cites 3.6 by number except 3.6's own text.",
+            
+        "Cross-book: the venue-change authorities that BOOK_B gives under 3.5 are used by BOOK_A under 3.6 as well: Siver v. Siver 2010 ABQB 755 (BOOK_A p.3-23 line 525, 'a curious decision, using instead a lax almost subjective test'; BOOK_B 3.5 commentary, Regular paras. 6-9), Keaton v. Keaton 2017 ABQB 429 (BOOK_A p.3-24 fn 1 and p.3-4 fn 6; BOOK_B 3.5, Odland para 22), C.S. v. A.J. 2004 ABQB 73 (BOOK_A p.3-24 fn 2; BOOK_B 3.5, Regular para 7), Silver Springs v. UMA Eng. and Christensen v. Proprietary Industries (BOOK_A; BOOK_B 3.5, Regular). Hansraj v. Ao: BOOK_A cites 2002 ABQB 772 (#2), affd on this point 2004 ABCA 223; BOOK_B cites 2004 ABCA 223 in its rule 1.5 commentary ('Time Requirements of the Rule'), so it is the same appeal cited for a different point.",
+    ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.6": "Read in full, p.3-23 (from line 517) to p.3-24 (line 540). (1) Footnotes: p.3-23 has footnotes 1-6 shared with 3.5 (see the 3.5 flag); this "
+           "rule's own are fn 1 (line 525: Christensen v. Proprietary Ind. 2002 ABQB 97, 309 AR 201; Silver Springs v. UMA Eng. supra; Hansraj v. Ao (#2) 2002 "
+           "ABQB 772, 314 AR 283, affd on this point 2004 ABCA 223, 354 AR 91; C.S. v. A.J. infra; Behiels v. Tibu supra (paras. 12, 15(5), 15(6)); the text "
+           "then adds Siver v. Siver 2010 ABQB 755, [2010] AR Uned 964 (Dec 1)) and fn 4 (history, marker printed after 3.6's text; the footnote text is at "
+           "the end of the built 3.5 commentary). Page 3-24 has footnotes 1-3: 1 Keaton v. Keaton 2017 ABQB 429 ('See R.3.6(1). See further the C.P.E., Chapter "
+           "23, Part E') and Seabolt Watershed Assn. v. Brown 2002 ABQB 795, 333 AR 193; 2 C.S. v. A.J. 2004 ABQB 73, 50 Alta LR(4th) 91; 3 'Quite similar to "
+           "previous 1968 R.405. It was new in 1968.' - fn 3 is printed under the running head R.3.7(1) and, since 3.6 already has its history note (fn 4 on "
+           "p.3-23), is presumably 3.7's; the book does not show. The built commentary ends with 3.7's title. "
+           "(2) p.3-23 line 523: 'the fact that R.3.6 compels certain places to be suggested for trial' - official 3.6 says nothing about suggesting a place of "
+           "trial: 3.6(1) fixes where the action is carried on (the centre where the claim or originating application was filed, or the centre it was "
+           "transferred to) and 3.6(2) lets the Court specify another place for an application, an originating application or a trial. Line 523 also "
+           "paraphrases 3.6(1)(a) as 'requiring that applications be in the judicial centre where the action was started'; the official text says 'An action "
+           "must be carried on in the judicial centre ...'. "
+           "(3) Related Provisions as read against the official text: '6.2 (venue of applications)' - official 6.2 ('Application to the Court to exercise its "
+           "authority') says a person may apply when the Court has authority and says nothing about venue; '6.9 (jurisdiction of[applications judges] "
+           "?masters?)' - official 6.9 is 'How the Court considers applications', and 6.9(2) says 'Applications may be decided by a judge or applications "
+           "judge'; the label is printed with an editorial bracket and question marks; 3.2, 14.8(5) and 14.84 agree in subject. "
+           "(4) supra/infra: Silver Springs supra -> 3.5 fn 13 (2004 ABQB 942); Behiels supra -> 3.5 fn 3 (2024 ABKB 12); C.S. v. A.J. infra -> p.3-24 fn 2; "
+           "Christensen supra (p.3-23 fn 2) -> p.3-23 fn 1. "
+           "(5) Statements of law without a source in the repository (not checked): a motion may be moved before a justice rather than an applications judge if "
+           "the justice is available sooner; pre-trial steps need not be carried on where the trial is to be held if the plaintiff's choice is reasonable and the "
+           "balance of convenience on applications is even; motions belong in the centre where the action was commenced if it has not been transferred.",
     "3.5": "Read in full, pp.3-22 to 3-23 (lines 473-515). (1) Extraction: columns are out of order and words are split across paragraphs (e.g. "
            "'the respondent's financial resources (inter' ... 'alia) are'; 'The test in R.3.5(2) is' ... '\"unreasonable\", and case law differs on how strict a "
            "test that should be'); footnotes are not split out. Page 3-22 has footnotes 1-13: 1 Lund (2017) 56 Alta LRev 429 (#4) ('See an article' is the "
@@ -665,6 +699,15 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.6": {
+        "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): in (1) the words '(b) if the action is transferred in "
+                          "accordance with rule 3.4 [Claim for possession of land]' are missing, and the label '[Transfer of an action]' stands before 'or rule 3.5 ,'; "
+                          "subrule (2) equals the official text. Amendment note agrees (no amending regulation).",
+        "commentary_flag": "'As noted, justices of the Court of King's Bench have province-wide jurisdiction' refers back to Book C's 3.3 commentary (same sentence "
+                           "idea; not in Books A or B). It agrees in substance with official 3.6(2) (a hearing or trial 'in any place specified by the Court other than "
+                           "the judicial centre'); the further statement about 'judicial centres with sporadic sittings' has no source in the repository. Book B has no "
+                           "commentary on 3.6.",
+    },
     "3.5": {
         "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): it stops after clause (a) ('... in which it is "
                           "located, or') and clause (b) 'at the request of the parties.' is missing; the rest equals the official text. Amendment note agrees "
