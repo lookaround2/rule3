@@ -47,7 +47,7 @@
     },
     "BOOK_A": {
       "title": "Evidence on Judicial Review",
-      "operative_text_raw": "3.22When making a decision about an originating application for judicial review,*the Court may consider the following evidence only:*(a)the certified copy of the record of proceedings of the person or*body that is the subject of the application,if any;\n*(b)if questioning was permitted under rule 3.21 [Limit on questioning],*a transcript of that questioning;*(b.1)if the originating application is for relief other than an order in the*nature of certiorari or an order to set aside a decision or act,an*affidavit from any party to the application;*(c)anything permitted by any other rule or by an enactment;\n*(d)any other evidence permitted by the Court. [Alta.Reg.124/10;72/22]",
+      "operative_text_raw": null,
       "operative_text_sha256": "312ee0e3fc950b647f6838572f5824738ce03be721930b60f550216d89e4f766",
       "defined_terms": "Court, enactment",
       "related_provisions": "R.3.68(4) (striking out affidavits). *A.History The May 2022 amendment adding paragraph (b.1) in effect largely seems to permit any evidence by the applicant if the application is for judicial review, is not likecertiorarior to quash anything.For example, it is for prohibition ormandamusorhabeas corpus.Presumably some reply to such evidence might be possible in the right circumstances. *B.General Rule Despite wide references to evidence in R.3.16, R.3.22 much limits the evidence admissible. This application should usually be on the existing record, with extra evidence only in exceptional 1Oleynik v.Univ.of Calg. (#1)2013 ABCA 105, 66 Alta LR(5th) 136,affg2012 ABQB 189, JCC 1101 09075 (Mar 23), seeMilner Power v. A.E.U.B.2007 ABCA 265, 417 AR 115, andOperative Plasterers'and *Cement Masons'Int. Assn.v. R.2007 ABQB 34, 413 AR 184.Abuse of process, inadmissibility, immunity (non-compellability), absence of relevance, and a bar on fishing, all limit or bar the right to use them.A circumstances. and fresh evidence on the Judicial review is generally conducted on the record, merits that was not before the tribunal is not allowed. After all, often the merits, or re-deciding them, are not the issue. On appeal, a decision on judicial review was sent back to King's Bench 1401 05661 (Feb 19). 8Syncrude v. Min.of Enr.2023 ABKB 317, JCC 2001 08134 (May 26) (¶'s 47, 57-63).Quaere. *of Can.2016 ABQB 673, file 1607 13004 X1 (Nov 30).A citation of some cases begins with some brief because affidavits before King's Bench contained facts which may or may not have been before the administrative tribunal.One could not tell, because (by agreement) the record filed was Where the return filed by the tribunal is incomplete, the record can be supplemented by affidavits. incomplete. And an affidavit may set out or call attention to a limited amount of background information merely to orient the reviewing court. wide scope for such exceptions, in theSyncrudecase. 310 (¶'s 26-27).Even if aboriginal rights or honor of the Crown is involved:Ft. McKay F.N. v. R.(Alta.)2014 ABQB 32, 581 AR 124 (¶'s 23 ff.).If the tribunal gives no transcripts, an affidavit describing the course of the hearing is proper:U.F.C.W.U.Local 401 v.Westfair Foods2010 ABCA 120, 477 AR 315.The A number of exceptions, allowing moreevidence for judicial review, are listed, butgiving a very JCE 1003 10565 (¶'s 34-42);Tran v. College of Physicians & Surgeons2017 ABQB 337, 55 Alta LR(6th)",
@@ -64,7 +64,9 @@
           194607,
           206037
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.22 lead-in and (a), (b), (b.1), (c), (d) (read by eye) except the bracket label '[Limit on questioning]' after 'rule 3.21' (matches the official title of 3.21), the title in title case ('Evidence on Judicial Review'), missing spaces and '*' line marks. The amendment bracket '[Alta.Reg.124/10;72/22]' agrees with the official 'AR 124/2010 s3.22;72/2022'. No substantive difference. The Defined Terms ('Court, enactment') and Related Provisions ('R.3.68(4) (striking out affidavits)') follow the rule text; the note that follows them is inside the built related_provisions and commentary fields (nothing dropped).",
+      "commentary_review_flag": "Read in full, p.3-62 (line 1635) to p.3-65 (line 1722): rule text, Defined Terms, Related Provisions and the note (A History, B General Rule, C Special Events Not in the Record, D Procedure), with its footnotes as printed. The built record puts the Related Provisions line and the first half of the note in the related_provisions field (up to 'Tran v. College of Physicians & Surgeons 2017 ABQB 337') and the rest in the commentary field (to the title of 3.23, 'Stay of Decision', line 1724); nothing was dropped. The extraction interleaves columns and footnotes on pp.3-63 to 3-65, so many sentences are split across lines that are not adjacent (for example the sentence 'If the tribunal gives no transcripts, an affidavit describing the course of the hearing is proper' is printed in pieces at lines 1660 and 1674-1680); the wording is kept as printed and the order of the pieces was not repaired. (1) Defined Terms 'Court, enactment': the Appendix defines both ('Court' line 40688, 'enactment' line 40727). Related Provisions 'R.3.68(4) (striking out affidavits)': official 3.68(4)(a) lets the Court 'strike out all or part of an affidavit that contains frivolous, irrelevant or improper information' (agrees). (2) History note (p.3-62, line 1639): 'The May 2022 amendment adding paragraph (b.1)' agrees with the official amendment line 'AR 124/2010 s3.22;72/2022' and with (b.1) in the text; the gloss 'in effect largely seems to permit any evidence by the applicant' goes beyond (b.1), which permits 'an affidavit from any party to the application' (not any evidence, and from any party, not only the applicant) when the relief is other than certiorari or an order to set aside. (3) Statements read against the official text: 'Despite wide references to evidence in R.3.16, R.3.22 much limits the evidence admissible' agrees with 3.22 ('the following evidence only') and 3.16(2) ('affidavit or other evidence'); 'An examination's transcript cannot be considered at a judicial review hearing, without the court's permission' agrees with 3.22(b) and 3.21; 'Rules 6.8 and 6.11(1)(g) do apply to motions for judicial review' - official 6.8 is 'Questioning witness before hearing' and official 6.11(1)(g) is oral evidence with the Court's permission; 'Under Rr.3.8(2), 13.18, judicial review is final, not interlocutory' and 'the need for \"source\" and \"grounds\" in an affidavit': official 13.18(2) requires the source of the information and 13.18(3) personal knowledge for an application that may dispose of all or part of a claim; the current 13.18(1)-(3) does not use the word 'grounds' (it says 'information known to the person swearing the affidavit and that person's belief'). (4) Pointers: 'See R.3.21' and 'R.3.21n.' land (3.21 and its note); 'a return under Rr.3.19 and 3.20' lands; 'C.P.E., Chapter 79, Part Q.5' points to another work; 'R.3.16' lands. (5) Other rules' pointers to this rule: 3.15 note p.3-44 (line 1088) 'See further R.3.22 and notes to it', p.3-52 (line 1372) 'On which evidence is admissible, see R.3.22', 3.16 note p.3-55 (line 1463) 'On \"the evidence\", see R.3.22n.' and 3.21 note p.3-62 (line 1630) 'See also R.3.22n., infra' all land. Book A's R.4.31 note (combined_rule4.txt, p.4-74, line 3836) says 'On a defendant participating in or contributing to the delay in the suit, see new R.3.22(b.1)' and that 'The May 2022 amendment adds a new topic ... whether the applicant (defendant) \"participated in or contributed to\" the delay': the words 'participated in or contributed to the delay' are in official 4.31(3) (also amended by 72/2022: 'AR 124/2010 s4.31;140/2013;72/2022'); official 3.22(b.1) is about affidavits on judicial review, so '3.22(b.1)' in that note looks like a slip for 4.31(3) (evidence: official 4.31(3) text and the R.4.31 note's own words). (6) Citations: 'Univ. of Alta. v. Info. & Privacy Comm'r. 2011 ABQB 699, 528 AR 58' (p.3-63, line 1672) - Book B prints the same case as '2011 ABQB 699, 2011 CarswellAlta 2050, 525 A.R. 58' (528 v. 525 AR; not decided here); '... & Surgeons (#_) 2019 ABQB 582, JCE 1803 01472 (Jul 31)' has a blank '#_' placeholder (p.3-63, line 1667; the name 'Makis v. College of Physicians' is printed at line 1674); 'White v. W.C.B. Appeals Comm. 2006 ABQB 359, 400 AR 183' (Book B gives 57 Alta. L.R. (4th) 282, 41 Admin. L.R. (4th) 141 and no AR); 'Operative Plasterers' ... v. R. 2007 ABQB 34, 413 AR 184' agrees with Book B's 3.19 commentary; 'Alta. Liquor Store Assn. v. Gaming & Liquor Comm. 2006 ABQB 904, 406 AR 104' agrees with Book B and the 3.15 note; 'Dodd v. Regis. of Motor Vehicle Serv. 2010 ABQB 184, 500 AR 194' agrees with Book B's neutral citation; 'Oleynik v. Univ. of Calg.' appears as '(#1) 2013 ABCA 105, 66 Alta LR(5th) 136, affg 2012 ABQB 189' and '2023 ABKB 43' here and '2023 ABCA 265' in the 3.15 note. (7) Statements of law and the cases were not checked; the first-half text 'Abuse of process, inadmissibility, immunity (non-compellability), absence of relevance, and a bar on fishing, all limit or bar the right to use them' is Book A's summary."
     },
     "BOOK_B": {
       "title": "Evidence on judicial review",
@@ -92,7 +94,7 @@
     "BOOK_C": {
       "title": "Evidence on judicial review",
       "division_heading": null,
-      "operative_text_raw": "When making a decision about an originating application for judicial review, the Court may consider the [Limit on questioning] a transcript of that questioning;\n(b.1) if the originating application is for relief other than an order in the nature of certiorari or an order to set aside a decision or act, an affidavit from any party to the application;\n(c) anything permitted by any other rule or by an enactment;\n(d) any other evidence permitted by the Court.",
+      "operative_text_raw": null,
       "operative_text_sha256": "6d9e08a9c4a3dd3f6f41078d612ce5a6d1378bb8b989c3817c5fe330fb314ec6",
       "citations": [],
       "commentary": [
@@ -106,23 +108,28 @@
             },
             {
               "neutral_citation": "2019 ABQB 809",
-              "style_of_cause": "Eastern Irrigation District v. Alberta"
+              "style_of_cause": "Eastern Irrigation District v. Alberta (Irrigation Council Appeal Panel)",
+              "note": "printed 'Eastern Irrigation District v. Alberta (Irrigation Council Appeal Panel), [2019] A.J. No. 1385, 2019 ABQB 809 at paras. 29 30': the built name stopped at 'Alberta'"
             },
             {
               "neutral_citation": "2011 ABQB 699",
-              "style_of_cause": null
+              "style_of_cause": "University of Alberta (Governors) v. Alberta (Information and Privacy Commissioner)",
+              "note": "printed 'University of Alberta (Governors) v. Alberta (Information and Privacy Commissioner), [2011] A.J. No. 1303, 2011 ABQB 699 at paras. 14-18': no name was built"
             },
             {
               "neutral_citation": "2019 ABQB 610",
-              "style_of_cause": "Allergan Inc. v. Alberta"
+              "style_of_cause": "Allergan Inc. v. Alberta (Minister of Justice and Solicitor General)",
+              "note": "printed 'Allergan Inc. v. Alberta (Minister of Justice and Solicitor General), [2019] A.J. No. 1073, 2019 ABQB 610 at para. 50': the built name stopped at 'Alberta'"
             },
             {
               "neutral_citation": "2022 ABCA 343",
-              "style_of_cause": "Reinink v. Alberta"
+              "style_of_cause": "Reinink v. Alberta (Labour Relations Board)",
+              "note": "printed 'Reinink v. Alberta (Labour Relations Board), [2022] A.J. No. 1246, 2022 ABCA 343 at para. 12 (Alta. C.A.)' twice"
             },
             {
               "neutral_citation": "2023 ABCA 265",
-              "style_of_cause": "Reinink v. Alberta"
+              "style_of_cause": "Oleynik v. University of Calgary",
+              "note": "printed 'see also , [2023] A.J. No. 987, 2023 ABCA 265 at para. Oleynik v. University of Calgary 7 (Alta. C.A.)': the name is displaced after 'para.' (para. 7); the built name 'Reinink v. Alberta' was wrong; Book A's 3.15 note cites it as 'Oleynik v. Univ. of Calg. 2023 ABCA 265'"
             },
             {
               "neutral_citation": "2021 ABQB 282",
@@ -130,24 +137,29 @@
             },
             {
               "neutral_citation": "2019 ABCA 316",
-              "style_of_cause": "Metis Nation of Alberta Assn. v. Alberta"
+              "style_of_cause": "JK v. Gowrishankar",
+              "note": "printed 'see also , [2019] A.J. No. 1167, 2019 ABCA 316 at para. 60 (Alta. C.A.); JK v. Gowrishankar Reinink v. ...': the name 'JK v. Gowrishankar' stands after the citation in the gap left by 'see also ,'; the built name 'Metis Nation of Alberta Assn. v. Alberta' was wrong (the Metis case is 2021 ABQB 282)"
             },
             {
               "neutral_citation": "2011 ABQB 550",
-              "style_of_cause": null
+              "style_of_cause": "TLA Food Services Ltd. v. 1144707 Alberta Ltd.",
+              "note": "printed 'TLA Food Services Ltd. v. 1144707 Alberta Ltd., [2011] A.J. No. 975, 2011 ABQB 550 at para. 50 (Alta. Q.B.)': no name was built"
             },
             {
               "neutral_citation": "2006 ABQB 904",
-              "style_of_cause": "Store Assn. v. Alberta"
+              "style_of_cause": "Alberta Liquor Store Assn. v. Alberta (Gaming and Liquor Commission)",
+              "note": "printed 'Alberta Liquor , ... citing Store Assn. v. Alberta (Gaming and Liquor Commission), [2006] A.J. No. 1597, 2006 ABQB 904 at': 'Alberta Liquor' is displaced to the previous line; Book A and Book B print 'Alberta Liquor Store Assn.'; the built name was 'Store Assn. v. Alberta'"
             }
-          ]
+          ],
+          "review_flag": "(1) The commentary is one item (the raw text is interleaved: two lines after 'ABQB 106' hold displaced pieces). It begins 'Rule 3.22 limits the type of evidence that can be submitted on an originating application for judicial review' (agrees with the official 'the following evidence only'). (2) The list of circumstances is printed with 'standing' twice, as '(3) because there is an issue of standing' and '(5) to address standing' (Book A and Book B list standing once); item (6) 'to provide background information ... or to provide opinion evidence on technical matters' is preceded by 'or, we suggest more rarely' (Book A's note allows 'a limited amount of background information merely to orient the reviewing court'). (3) Pieces are displaced: the FCA citation '[2012] F.C.J. No. 93, 2012 FCA 22 at para. 20 (F.C.A.)' has no case name in the file; 'Telecommunications Workers Union v. Telus Communications Inc. ... [2016] A.J. No. 170, 2016 ABQB [ ] at para. 7' repeats the earlier citation (2016 ABQB 106, para. 5) with the number '106' lost; 'Alberta Liquor' is separated from 'Store Assn. v. Alberta (Gaming and Liquor Commission), [2006] A.J. No. 1597, 2006 ABQB 904'; the text stops at 'ABQB 904 at' (page end). (4) The neutral citations that Book A or Book B also print agree (2016 ABQB 106 with Book A's 'Telecom. Workers U. v. Telus Comm'ns.'; 2011 ABQB 699; 2006 ABQB 904; 2021 ABQB 282 (Métis Nation, also in Book A's 3.21 note); 2023 ABCA 265 (Oleynik, also in Book A's 3.15 note)). The citation names were rebuilt from the pieces (see the citation notes)."
         }
       ],
       "misattributed_entries": [],
       "locator": {
         "file": "121-140_3_19 to 3_43.json",
         "source_file": "121-140_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): the lead-in stops after 'the Court may consider the' and the words 'following evidence only: (a) the certified copy of the record of proceedings of the person or body that is the subject of the application, if any; (b) if questioning was permitted under rule 3.21,' are missing; the bracket label '[Limit on questioning]' stands in their place, followed by the tail of (b) 'a transcript of that questioning;'. Paragraphs (b.1), (c) and (d) equal the official text. The amendment note '[Alta. Reg. 124/2010, r, 3.22 effective November 1, 2010 (Alta. Gaz. August 14, 2010); Alta. Reg. 72/2022 (Alta. Gaz. May 31, 2022]' agrees with the official 'AR 124/2010 s3.22;72/2022' (printed 'r, 3.22' and without the closing parenthesis after '2022')."
     }
   },
   "comparison_vs_official": {
@@ -155,7 +167,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.22 lead-in and (a), (b), (b.1), (c), (d) (read by eye) except the bracket label '[Limit on questioning]' after 'rule 3.21' (matches the official title of 3.21), the title in title case ('Evidence on Judicial Review'), missing spaces and '*' line marks. The amendment bracket '[Alta.Reg.124/10;72/22]' agrees with the official 'AR 124/2010 s3.22;72/2022'. No substantive difference. The Defined Terms ('Court, enactment') and Related Provisions ('R.3.68(4) (striking out affidavits)') follow the rule text; the note that follows them is inside the built related_provisions and commentary fields (nothing dropped)."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -165,13 +178,6 @@
     "BOOK_C": {
       "status": "CARRIER_MISSING_TEXT",
       "similarity": 0.8152,
-      "differences": [
-        {
-          "op": "delete",
-          "official": "following evidence only: (a) the certified copy of the record of proceedings of the person or body that is the subject of the application, if any; (b) if questioning was permitted under rule 3.21,",
-          "carrier": ""
-        }
-      ],
       "version_identity": "SAME_VERSION_PROVEN"
     }
   },
@@ -273,6 +279,11 @@
     "gate_artifact_sha256": "8c07536bf2c80a35610edd23a186110502cca161893beaed345e43b770d064f1"
   },
   "information_notes": [],
+  "see_also": [
+    "BOOK_B and BOOK_C other Parts (all files searched): no Book B file other than rule3_part02_document.json cites 3.22 by number; no Book C file other than its own 3.22 entry (121-140 file). BOOK_B 3.22: rule text (paragraph part3_part_3_court_actions_018) EXACT_MATCH with the official; amendment note 'Alta. Reg. 72/2022, s. 2' agrees with 'AR 124/2010 s3.22;72/2022'; one commentary section 'Commentary § 3.22:1' (about 14,000 characters, READ IN FULL): two numbered parts, no gap: 1 New Evidence (University of Alberta v. Alberta (Information & Privacy Commissioner), 2011 ABQB 699, quoting Slatter J. in Alberta Liquor Store Assn v. Alberta (Gaming and Liquor Commission), 2006 ABQB 904, and Caron v. Alberta (Human Rights Commission, Chief Commissioner), 2013 ABQB 13), 2 When is permission required? (Abdulghafoor v. University of Calgary, 2021 ABQB 187, quoting Bergman v Innisfree (Village), 2020 ABQB 661). Cautions: part 2 quotes Jeffrey J.: 'The wording of Rule 3.22(d) says the court's permission is required before questioning, if a transcript ... (\"no one may be questioned ... without the Court's permission\")' - those quoted words are the sense of official 3.21 ('no person may be questioned as a witness ... without the Court's permission'), not 3.22(d) ('any other evidence permitted by the Court'), and the quotation says 'no one' where the official 3.21 says 'no person' (quoted as printed in the judgment); part 1 refers to the former 'Rule 406' and 'Rule 753.08'; Book B prints Univ. of Alta. as '525 A.R. 58', Book A as '528 AR 58'. BOOK_C 3.22: rule text CARRIER_MISSING_TEXT (lead-in and (a), first part of (b) missing; dropped with note); amendment note agrees with the official; commentary kept with a flag and ten citation names rebuilt.",
+    "BOOK_A other Parts and Part 3 (all combined*.txt searched, line-wrapped forms included; pages from the markers; the citing rule from the marker lines): 3.15 note p.3-44 (line 1088, note E.8 Evidence) 'See further R.3.22 and notes to it' and p.3-52 (line 1372) 'On which evidence is admissible, see R.3.22' (both land: 3.22's note is the evidence note); 3.16 note p.3-55 (line 1463) 'On \"the evidence\", see R.3.22n.' (lands); 3.21 note p.3-62 (line 1630) 'See also R.3.22n., infra' and 'See Apotex v. R., R.3.22n., infra' (land; full cite in the 3.22 note, p.3-64, line 1689); combined_rule4.txt p.4-74 (line 3836), R.4.31 note: 'On a defendant participating in or contributing to the delay in the suit, see new R.3.22(b.1), and the commentary on it near the end of Part B above' (does not land: the words 'participated in or contributed to' are in official 4.31(3); see the flag); no other Book A file cites 3.22 (the hits in combined_rule13.txt are rule 13.22).",
+    "OFFICIAL text (searched for '3.22' and 'rule 3.22', 'rules 3.22', lists, line-wrapped forms and form headings): no other official rule cites 3.22 by number (hits: the table of contents, its own heading and the running page header 'Rule 3.22'; '13.22' is a different rule); no form heading names it. By subject (read): 3.21 (questioning; permission), 3.19 and 3.20 (certified record), 3.16(2) and 3.15(5) (affidavit or other evidence), 3.8(2) (affidavit confined to), 3.68(4)(a) (striking out affidavits), 6.8 and 6.11(1) (evidence and questioning at applications), 13.18 (affidavits), 4.31(3) (participated in or contributed to the delay: amended by the same AR 72/2022)."
+  ],
   "dedupe_log": [
     "3.22 BOOK_B: operative text dropped (EXACT_MATCH)",
     "3.22 BOOK_C citation context dropped (2016 ABQB 106): verbatim in kept text",
@@ -286,7 +297,9 @@
     "3.22 BOOK_C citation context dropped (2011 ABQB 550): verbatim in kept text",
     "3.22 BOOK_C citation context dropped (2006 ABQB 904): verbatim in kept text",
     "3.22 BOOK_C commentary sentence split dropped",
+    "3.22 BOOK_C: rule text dropped (manual review)",
     "3.22 BOOK_B: amendment note moved to amendment_history.carrier_notes (was duplicated)",
-    "3.22 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.22 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.22 BOOK_A: raw text dropped, differences editorial only (manual review)"
   ]
 }
