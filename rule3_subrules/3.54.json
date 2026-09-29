@@ -41,7 +41,7 @@
     },
     "BOOK_A": {
       "title": "Plaintiff's Reply toThird Party Defence",
-      "operative_text_raw": "3.54(1) A plaintiff or third party plaintiff may file a reply to a statement of defence*filed by a third party defendant.*(2) If a plaintiff or third party plaintiff files a reply, the reply must*(a)be in Form 20,*(b)comply with the rules about pleadings in Part 13 [Technical Rules],\n*Division 3 [Pleadings],and*(c)be filed and served on the third party defendant and each of the*other parties within 10 days after service of the statement of defence*by the third party defendant on the plaintiff.",
+      "operative_text_raw": null,
       "operative_text_sha256": "977661023364b3681566ea8040f6300e57eeebb2ae4d0d028df710e1a6deec7a",
       "defined_terms": "file, plaintiff, pleading, rules, third party defendant, third party plaintiff",
       "related_provisions": "13.10 (specific requirements for replies) *Application of Rules toThird Party Claims*",
@@ -57,7 +57,9 @@
           390819,
           391516
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.54(1)-(2) (read by eye) except: the bracket labels '[Technical Rules]' after 'Part 13' and '[Pleadings]' after 'Division 3' (both match the official headings); the text is printed in two pieces (p.3-123 lines 3474-3475); the title in title case ('Plaintiff's Reply to Third Party Defence', straight apostrophe, printed before the rule number); missing spaces; '*' line marks. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No footnote marker. No substantive difference.",
+      "commentary_review_flag": "Read in full, p.3-123 (lines 3474-3477): rule text (two pieces), Defined Terms 'file, plaintiff, pleading, rules, third party defendant, third party plaintiff' (the Appendix defines each), Related Provisions '13.10 (specific requirements for replies)'; no Information Note and no note of its own. The built record: defined_terms, related_provisions (with the heading of 3.55 'Application of Rules to Third Party Claims' after it); commentary is empty; nothing dropped. (1) Related Provisions: '13.10 (specific requirements for replies)' - official 13.10 is 'Pleadings: specific requirements for replies' (shortened label; the same label as in the 3.33 record). (2) Book A prints no commentary for 3.54 and Book B prints none (rule text only); Book C's commentary (386 characters, complete: 'the plaintiff or third party plaintiff may reply to a statement of defence filed by a third party defendant ... The plaintiff has the right to respond to the third party's pleadings about why the defendant is not liable to the plaintiff') agrees with 3.54(1) and with 3.49(1)(c)(i). (3) Pointers to 3.54: Book A p.3-159 (line 4728) 'See also rule 3.54(2) [Plaintiff's reply to third party defence]' (in the note of a rule not identified here; the label is the official title with a straight apostrophe); official Form 20 '[Rule 3.54]' and Form 21's note '(rules 3.54(2)(b) and 13.10)' - 3.54(2)(b) is the Part 13 Division 3 pleading rule, and reply content is 13.10; Book C's 141-160 file prints the running head 'R. 3.54' inside the text of the counterclaim rule (3.56(1)-(2)) and Book C's 161-180 file repeats the 'See also rule 3.54(2)' pointer."
     },
     "BOOK_B": {
       "title": "Plaintiff's reply to third party defence",
@@ -78,7 +80,7 @@
     "BOOK_C": {
       "title": "Plaintiff’s reply to third party defence",
       "division_heading": null,
-      "operative_text_raw": "(1) A plaintiff or third party plaintiff may file a reply to a statement of defence filed by a third party defendant.\n(2) If a plaintiff or third party plaintiff files a reply, the reply must (a) be in Form 20, (b) comply with the rules about pleadings in Part 13 [Technical Rules], Division 3 , and [Pleadings]\n(c) be filed and served on the third party defendant and each of the other parties within 10 days after service of the statement of defence by the third party defendant on the plaintiff.",
+      "operative_text_raw": null,
       "operative_text_sha256": "996b578dada88f9d3b713953fdd52ce598a60c70162aaaf338f5f0234810d2e3",
       "citations": [],
       "commentary": [
@@ -92,7 +94,8 @@
       "locator": {
         "file": "141-160_3_44 to 3_66.json",
         "source_file": "141-160_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; the labels '[Technical Rules]' and '[Pleadings]' are printed as in Book A but '[Pleadings]' is displaced after 'Division 3 , and' at the end of the line; no other difference. The amendment note '[Alta. Reg. 124/2010, r. 3.54 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation)."
     }
   },
   "comparison_vs_official": {
@@ -100,7 +103,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.54(1)-(2) (read by eye) except: the bracket labels '[Technical Rules]' after 'Part 13' and '[Pleadings]' after 'Division 3' (both match the official headings); the text is printed in two pieces (p.3-123 lines 3474-3475); the title in title case ('Plaintiff's Reply to Third Party Defence', straight apostrophe, printed before the rule number); missing spaces; '*' line marks. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No footnote marker. No substantive difference."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -111,7 +115,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; the labels '[Technical Rules]' and '[Pleadings]' are printed as in Book A but '[Pleadings]' is displaced after 'Division 3 , and' at the end of the line; no other difference. The amendment note '[Alta. Reg. 124/2010, r. 3.54 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation)."
     }
   },
   "three_book_gate": {
@@ -214,6 +219,8 @@
   "dedupe_log": [
     "3.54 BOOK_B: operative text dropped (EXACT_MATCH)",
     "3.54 BOOK_C commentary sentence split dropped",
-    "3.54 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.54 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.54 BOOK_A: raw text dropped, differences editorial only (manual review)",
+    "3.54 BOOK_C: raw text dropped, differences editorial only (manual review)"
   ]
 }
