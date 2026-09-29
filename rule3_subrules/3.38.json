@@ -35,11 +35,11 @@
     },
     "BOOK_A": {
       "title": null,
-      "operative_text_raw": "3.38 Subject to rule 3.41 [When no defence is filed in a foreclosure action],if a\n[Footnote 7 from prior page] 7Argent v. Gray,infra(¶ 44).But the plaintiff may not be able to get judgment against the defendant either, as but negligence and causation still are:Argent v.Gray2015 ABQB 292, 617 AR 45. 1Stevens v.Winchester Land & Prop.2009 ABQB 24, 3 Alta LR(5th) 354. 2Royal Bank of Can.v.Place2010 ABQB 733 (Nov 24) (¶'s 46-47).",
-      "operative_text_sha256": "a3cd92f15285392d34a61d3f1dd4c3660a016bb8556c074f5e079c4f81d95482",
-      "defined_terms": null,
+      "operative_text_raw": "3.38 Subject to rule 3.41 [When no defence is filed in a foreclosure action],if a\n[Footnote 7 from prior page] 7Argent v. Gray,infra(¶ 44).But the plaintiff may not be able to get judgment against the defendant either, as but negligence and causation still are:Argent v.Gray2015 ABQB 292, 617 AR 45. 1Stevens v.Winchester Land & Prop.2009 ABQB 24, 3 Alta LR(5th) 354. 2Royal Bank of Can.v.Place2010 ABQB 733 (Nov 24) (¶'s 46-47).\neven if they are not mentioned in the statement of claim.But notice of a damage assessment is needed;these are not damages. In a foreclosure the basic facts cannot be in dispute, where the defendant filed no defence, was noted in default, and has not even tried to open up the noting.\nor even insolvent, it is premature to make a declaration that this claim would survive any later bankruptcy.But if requested, the formal judgment could affirm that the judgment makes no ruling about s.78 of theBankruptcy Act.\nR.9.15(2).No evidence to support a time extension was given.No evidence to show an arguable defence was given despite the plaintiff's comprehensive evidence, disclosing everything.\nWhen default judgment is sought and there is no evidence that the defendant is bankrupt 3 At this stage, a defendant who inadvertently did not defend must move quickly.Some defendants did not defend because they misunderstood some earlier orders.They complained promptly of the noting in default, but did not move to set aside within the 20-day time limit set by\n*Judgment for Recovery of Property*statement of claim includes a claim for the recovery of property and one or more*defendants do not file a statement of defence or demand for notice, the plaintiff*may enter judgment against that defendant or those defendants for therecovery*of that property,and the plaintiff is entitled to a costs award.*5",
+      "operative_text_sha256": "3d7eb2a41ae38ab1d65a0d631f9b1642e7b0d5dd70c7751d796d86ee335b3a39",
+      "defined_terms": "claim, costs award, defendant, file, judgment, plaintiff, property The Rule inCherry v.Boltbeecreates a sort of set-off where someone has a claim on a fund, but is also required to make a contribution to help that fund.It is not considered to be a true set- off. *Judgment for Debt or Liquidated Demand*",
       "related_provisions": null,
-      "commentary": "even if they are not mentioned in the statement of claim.But notice of a damage assessment is needed;these are not damages. In a foreclosure the basic facts cannot be in dispute, where the defendant filed no defence, was noted in default, and has not even tried to open up the noting.\n\nor even insolvent, it is premature to make a declaration that this claim would survive any later bankruptcy.But if requested, the formal judgment could affirm that the judgment makes no ruling about s.78 of theBankruptcy Act.\n\nR.9.15(2).No evidence to support a time extension was given.No evidence to show an arguable defence was given despite the plaintiff's comprehensive evidence, disclosing everything.\n\nWhen default judgment is sought and there is no evidence that the defendant is bankrupt 3 At this stage, a defendant who inadvertently did not defend must move quickly.Some defendants did not defend because they misunderstood some earlier orders.They complained promptly of the noting in default, but did not move to set aside within the 20-day time limit set by\n\n*Judgment for Recovery of Property*statement of claim includes a claim for the recovery of property and one or more*defendants do not file a statement of defence or demand for notice, the plaintiff*may enter judgment against that defendant or those defendants for therecovery*of that property,and the plaintiff is entitled to a costs award.*5\nDefined Terms claim, costs award, defendant, file, judgment, plaintiff, property The Rule inCherry v.Boltbeecreates a sort of set-off where someone has a claim on a fund, but is also required to make a contribution to help that fund.It is not considered to be a true set- off.\n\n*Judgment for Debt or Liquidated Demand*",
+      "commentary": null,
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -93,37 +93,47 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.1913,
+      "similarity": 0.2781,
       "differences": [
         {
           "op": "replace",
-          "official": "3.41, if",
-          "carrier": "3.41,if"
+          "official": "3.41,",
+          "carrier": "3.41,if a 7argent v. gray,infra(¶ 44).but the plaintiff may not be able to get judgment against the defendant either, as but negligence and causation still are:argent v.gray2015 abqb 292, 617 ar 45. 1stevens v.winchester land & prop.2009 abqb 24, 3 alta lr(5th) 354. 2royal bank of can.v.place2010 abqb 733 (nov 24) (¶'s 46-47). even"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "they are not mentioned in the statement of claim.but notice of"
         },
         {
           "op": "replace",
-          "official": "statement of claim includes a claim for the recovery of property and one or more defendants do not file a statement of defence or demand for notice,",
-          "carrier": "7argent v. gray,infra(¶ 44).but"
+          "official": "statement",
+          "carrier": "damage assessment is needed;these are not damages. in a foreclosure the basic facts cannot be in dispute, where the defendant filed no defence, was noted in default, and has not even tried to open up the noting. or even insolvent, it is premature to make a declaration that this claim would survive any later bankruptcy.but if requested, the formal judgment could affirm that the judgment makes no ruling about s.78 of thebankruptcy act. r.9.15(2).no evidence to support a time extension was given.no evidence to show an arguable defence was given despite the plaintiff's comprehensive evidence, disclosing everything. when default judgment is sought and there is no evidence that the defendant is bankrupt 3 at this stage, a defendant who inadvertently did not defend must move quickly.some defendants did not defend because they misunderstood some earlier orders.they complained promptly of the noting in default, but did not move to set aside within the 20-day time limit set by judgment for recovery of propertystatement"
         },
         {
           "op": "replace",
-          "official": "enter",
-          "carrier": "not be able to get"
+          "official": "more defendants",
+          "carrier": "moredefendants"
         },
         {
           "op": "replace",
-          "official": "that",
-          "carrier": "the"
+          "official": "plaintiff may",
+          "carrier": "plaintiffmay"
         },
         {
           "op": "replace",
-          "official": "or those defendants for the recovery",
-          "carrier": "either, as but negligence and causation still are:argent v.gray2015 abqb 292, 617 ar 45. 1stevens v.winchester land & prop.2009 abqb 24, 3 alta lr(5th) 354. 2royal bank"
+          "official": "the recovery of",
+          "carrier": "therecoveryof"
         },
         {
           "op": "replace",
-          "official": "that property, and the plaintiff is entitled to a costs award.",
-          "carrier": "can.v.place2010 abqb 733 (nov 24) (¶'s 46-47)."
+          "official": "property, and",
+          "carrier": "property,and"
+        },
+        {
+          "op": "replace",
+          "official": "award.",
+          "carrier": "award.5"
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -189,7 +199,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "a3cd92f15285392d34a61d3f1dd4c3660a016bb8556c074f5e079c4f81d95482",
+        "text_sha256": "3d7eb2a41ae38ab1d65a0d631f9b1642e7b0d5dd70c7751d796d86ee335b3a39",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -240,7 +250,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "bb83c4ebfa48c3ab7dceeae1f1ec13ca240a0f1b150065bdfbabce2cc58e5ce2"
+    "gate_artifact_sha256": "88962199fe9d5a134085759528c6531f72f2c163f3c2895d3d5b12fef674c7ea"
   },
   "information_notes": [],
   "dedupe_log": [

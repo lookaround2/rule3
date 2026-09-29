@@ -39,11 +39,11 @@
     },
     "BOOK_A": {
       "title": "Reply to Defence",
-      "operative_text_raw": "3.33(1) A plaintiff may file a reply to a statement of defence.*(2) If the plaintiff files a reply, the reply must*(a)be in Form 12,and*(b)comply with the rules about pleadings in Part 13 [Technical Rules],*Division 3 [Pleadings].\n*(3)The plaintiff must file the reply and serve it on the defendant within 10 days*after service of the statement of defence on the plaintiff.",
-      "operative_text_sha256": "edad31d192cd392740b5ceaf7487b01b2ff58619cd864099f7ad86919d23f3e2",
-      "defined_terms": null,
-      "related_provisions": null,
-      "commentary": "*A.-G.Can.(M) 2017 ABQB 293, JCC 1201 10180 (Apr 27). 5Quite similar to previous 1968 R.146.It came from 1914 R.161 (amended) which allowed the judge to dispense with service and did not say a motion was necessary, for judgment.That was added by 1944 C.R. 125.The Rule may stem from C.O.O.X r.15.\n\nDefined Terms\n\nmaking reference to evidence.Some of it repeated allegations already in the amended amended statement of claim.Nor could the plaintiff amend the statement of claim a third time to add those matters:Jordan v.\n\nstruck out a reply for a host of reasons:ibid.\n\n*other grds2004 ABQB 655, 365 AR 1, but Court of Appeal was revd other grds and King's Benchrestd 2008 SCC 14, 372 NR 239. 4The proposed Reply did not identify real issues or facilitate efficient resolution, and instead obscured issues\n\ndefendant, file, plaintiff, pleading, rules 3.62(3) (responding to an amended pleading);3.67(2) (close of pleadings);13.3 (calculating\n\nby making general statements of no cogency, and going into argument and hypothetical future events, and\n\n2The C.P.E., Chapter 14, Part A.4, discusses when a formal reply must be filed. 3R.3.62(4);Lameman v.R. (Papaschase I.B.No.136 v.R.)2006 ABCA 392, 404 AR 349 (at ¶ 64),revg\n\nRelated Provisions time);13.10 (contents of reply) Before about 1965, Alberta lawyers used to file replies and joinders which merely denied the last opposing pleading and joined issue;but usually in later years, they have no longer bothered. Alberta Rules generally make it optional whether to reply to the previous pleading of the other party. Only a statement of defence is needed (against a statement of claim, a counterclaim or a\n\nthird party notice) to prevent default judgment.Even then, R.13.12 presumes that all the facts in the previous pleading are denied.If one does not file alaterpleading within the time set to do so (such as a reply to a defence), then it is presumed that there is a mere denial and that \"issue is joined,\" i.e., the pleadings are closed.If one may wish to file a Reply or the like, one should get an express agreement (or order) to hold open the time to do so. Where an amended statement\n\nof defence is filed, that re-opens the time to file a Reply. An appeal over amendments to the pleadings does not keep pleadings open. After almost 4 years, the court would not give leave to the plaintiff to file a late Reply, no evidence having been given to explain the delay.\n\n*Demand for Notice by Defendant*",
+      "operative_text_raw": "3.33(1) A plaintiff may file a reply to a statement of defence.*(2) If the plaintiff files a reply, the reply must*(a)be in Form 12,and*(b)comply with the rules about pleadings in Part 13 [Technical Rules],*Division 3 [Pleadings].\n*(3)The plaintiff must file the reply and serve it on the defendant within 10 days*after service of the statement of defence on the plaintiff.\n*A.-G.Can.(M) 2017 ABQB 293, JCC 1201 10180 (Apr 27). 5Quite similar to previous 1968 R.146.It came from 1914 R.161 (amended) which allowed the judge to dispense with service and did not say a motion was necessary, for judgment.That was added by 1944 C.R. 125.The Rule may stem from C.O.O.X r.15.",
+      "operative_text_sha256": "36e21bad93aa05a6c5b7ee5eccdbd283746056e153d515dc8f14b6fffa13a1c8",
+      "defined_terms": "making reference to evidence.Some of it repeated allegations already in the amended amended statement of claim.Nor could the plaintiff amend the statement of claim a third time to add those matters:Jordan v. struck out a reply for a host of reasons:ibid. *other grds2004 ABQB 655, 365 AR 1, but Court of Appeal was revd other grds and King's Benchrestd 2008 SCC 14, 372 NR 239. 4The proposed Reply did not identify real issues or facilitate efficient resolution, and instead obscured issues defendant, file, plaintiff, pleading, rules 3.62(3) (responding to an amended pleading);3.67(2) (close of pleadings);13.3 (calculating by making general statements of no cogency, and going into argument and hypothetical future events, and 2The C.P.E., Chapter 14, Part A.4, discusses when a formal reply must be filed. 3R.3.62(4);Lameman v.R. (Papaschase I.B.No.136 v.R.)2006 ABCA 392, 404 AR 349 (at ¶ 64),revg",
+      "related_provisions": "time);13.10 (contents of reply)",
+      "commentary": "Before about 1965, Alberta lawyers used to file replies and joinders which merely denied the last opposing pleading and joined issue;but usually in later years, they have no longer bothered. Alberta Rules generally make it optional whether to reply to the previous pleading of the other party. Only a statement of defence is needed (against a statement of claim, a counterclaim or a\n\nthird party notice) to prevent default judgment.Even then, R.13.12 presumes that all the facts in the previous pleading are denied.If one does not file alaterpleading within the time set to do so (such as a reply to a defence), then it is presumed that there is a mere denial and that \"issue is joined,\" i.e., the pleadings are closed.If one may wish to file a Reply or the like, one should get an express agreement (or order) to hold open the time to do so. Where an amended statement\n\nof defence is filed, that re-opens the time to file a Reply. An appeal over amendments to the pleadings does not keep pleadings open. After almost 4 years, the court would not give leave to the plaintiff to file a late Reply, no evidence having been given to explain the delay.\n\n*Demand for Notice by Defendant*",
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -103,9 +103,45 @@
   },
   "comparison_vs_official": {
     "BOOK_A": {
-      "status": "NORMALIZATION_ONLY_DIFFERENCE",
-      "similarity": 1.0,
-      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.5896,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "defence. (2)",
+          "carrier": "defence.(2)"
+        },
+        {
+          "op": "replace",
+          "official": "must (a) be",
+          "carrier": "must(a)be"
+        },
+        {
+          "op": "replace",
+          "official": "12, and (b) comply",
+          "carrier": "12,and(b)comply"
+        },
+        {
+          "op": "replace",
+          "official": "13, division",
+          "carrier": "13,division"
+        },
+        {
+          "op": "replace",
+          "official": "(3) the",
+          "carrier": "(3)the"
+        },
+        {
+          "op": "replace",
+          "official": "days after",
+          "carrier": "daysafter"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "a.-g.can.(m) 2017 abqb 293, jcc 1201 10180 (apr 27). 5quite similar to previous 1968 r.146.it came from 1914 r.161 (amended) which allowed the judge to dispense with service and did not say a motion was necessary, for judgment.that was added by 1944 c.r. 125.the rule may stem from c.o.o.x r.15."
+        }
+      ],
       "version_identity": "SAME_VERSION_PROVEN"
     },
     "BOOK_B": {
@@ -159,7 +195,7 @@
       }
     },
     "pairwise_vs_official": {
-      "BOOK_A": "NORMALIZATION_ONLY_DIFFERENCE",
+      "BOOK_A": "WORDING_DIFFERENCE",
       "BOOK_B": "EXACT_MATCH",
       "BOOK_C": "WORDING_DIFFERENCE"
     },
@@ -169,7 +205,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "edad31d192cd392740b5ceaf7487b01b2ff58619cd864099f7ad86919d23f3e2",
+        "text_sha256": "36e21bad93aa05a6c5b7ee5eccdbd283746056e153d515dc8f14b6fffa13a1c8",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -221,7 +257,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "e7e8a798aa8eed5d228930af599ebcc013b78c0e9e4b134f73f6fd6159edc521"
+    "gate_artifact_sha256": "798d64625b080d43fdf3f1534ee64b3a1698ca3ce98daf6a8bab77f1d9261dcc"
   },
   "information_notes": [],
   "dedupe_log": [

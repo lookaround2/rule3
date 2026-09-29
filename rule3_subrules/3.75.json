@@ -42,11 +42,11 @@
     },
     "BOOK_A": {
       "title": "Adding,Removing or Substituting Parties to Originating Application",
-      "operative_text_raw": "3.75(1) In an action started by originating application no party or person may be*added or substituted as a party to the action except in accordance with this rule.*(2)On application of a party or person,the Court may order that a person be*added or substituted as a party to the action,\n*(a)in the case of a person to be added or substituted as an originating*applicant,if consent of the person proposed to be added or*substituted is filed with the application;",
-      "operative_text_sha256": "fab8d8d295ac3318dbb2ed255575c9f3d50c75e3e4129b4cfe8db82267e0355b",
-      "defined_terms": null,
-      "related_provisions": null,
-      "commentary": "1Quite similar to previous 1968 R.39.It came from 1914 R.29, and 1944 C.R.62, as amended by Alta.Reg. 35/60.They came from English O.16 r.13 enacted 1925 (#1). 2Quite similar to previous 1968 R.688.It came from 1968 R.687 which was the same as C.R.1057, enacted by Alta.Reg.438/59.cf.C.R.1058; enacted ditto.\n\n*(b)in the case of an application to add or substitute a person as a*respondent,or to remove or correct the name of a party,if the Court*is satisfied the order should be made.\n*(3)The Court may not make an order under this rule if prejudice would result*for a party that could not be remedied by a costs award,an adjournment or the*imposition of terms. Defined Terms costs award, Court, defendant, file, order, party Related Provisions\n\n3.2 (how to start an action); 3.62 (amending a pleading) *Action to beTakenWhen Defendant or Respondent Added*",
+      "operative_text_raw": "3.75(1) In an action started by originating application no party or person may be*added or substituted as a party to the action except in accordance with this rule.*(2)On application of a party or person,the Court may order that a person be*added or substituted as a party to the action,\n*(a)in the case of a person to be added or substituted as an originating*applicant,if consent of the person proposed to be added or*substituted is filed with the application;\n1Quite similar to previous 1968 R.39.It came from 1914 R.29, and 1944 C.R.62, as amended by Alta.Reg. 35/60.They came from English O.16 r.13 enacted 1925 (#1). 2Quite similar to previous 1968 R.688.It came from 1968 R.687 which was the same as C.R.1057, enacted by Alta.Reg.438/59.cf.C.R.1058; enacted ditto.\n*(b)in the case of an application to add or substitute a person as a*respondent,or to remove or correct the name of a party,if the Court*is satisfied the order should be made.\n*(3)The Court may not make an order under this rule if prejudice would result*for a party that could not be remedied by a costs award,an adjournment or the*imposition of terms.",
+      "operative_text_sha256": "972c7fb327893687cd09125ec54495e384cc8bed90e39a71b2d3d4cc1a1cf64e",
+      "defined_terms": "costs award, Court, defendant, file, order, party",
+      "related_provisions": "3.2 (how to start an action); 3.62 (amending a pleading) *Action to beTakenWhen Defendant or Respondent Added*",
+      "commentary": null,
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -117,7 +117,7 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.6009,
+      "similarity": 0.7214,
       "differences": [
         {
           "op": "replace",
@@ -155,9 +155,44 @@
           "carrier": "orsubstituted"
         },
         {
-          "op": "delete",
-          "official": "(b) in the case of an application to add or substitute a person as a respondent, or to remove or correct the name of a party, if the court is satisfied the order should be made. (3) the court may not make an order under this rule if prejudice would result for a party that could not be remedied by a costs award, an adjournment or the imposition of terms.",
-          "carrier": ""
+          "op": "replace",
+          "official": "(b) in",
+          "carrier": "1quite similar to previous 1968 r.39.it came from 1914 r.29, and 1944 c.r.62, as amended by alta.reg. 35/60.they came from english o.16 r.13 enacted 1925 (#1). 2quite similar to previous 1968 r.688.it came from 1968 r.687 which was the same as c.r.1057, enacted by alta.reg.438/59.cf.c.r.1058; enacted ditto. (b)in"
+        },
+        {
+          "op": "replace",
+          "official": "a respondent, or",
+          "carrier": "arespondent,or"
+        },
+        {
+          "op": "replace",
+          "official": "party, if",
+          "carrier": "party,if"
+        },
+        {
+          "op": "replace",
+          "official": "court is",
+          "carrier": "courtis"
+        },
+        {
+          "op": "replace",
+          "official": "(3) the",
+          "carrier": "(3)the"
+        },
+        {
+          "op": "replace",
+          "official": "result for",
+          "carrier": "resultfor"
+        },
+        {
+          "op": "replace",
+          "official": "award, an",
+          "carrier": "award,an"
+        },
+        {
+          "op": "replace",
+          "official": "the imposition",
+          "carrier": "theimposition"
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -216,7 +251,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "fab8d8d295ac3318dbb2ed255575c9f3d50c75e3e4129b4cfe8db82267e0355b",
+        "text_sha256": "972c7fb327893687cd09125ec54495e384cc8bed90e39a71b2d3d4cc1a1cf64e",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -269,7 +304,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "1cab1997ca34ae242c13161bb347519399b8b2b014d74bb86802725c72b660e4"
+    "gate_artifact_sha256": "d8a206aa460d2199a55715ad320dd6bd4daf22fb7905bb21c8bf20b7537d1d42"
   },
   "information_notes": [],
   "dedupe_log": [

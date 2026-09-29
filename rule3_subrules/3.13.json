@@ -41,11 +41,11 @@
     },
     "BOOK_A": {
       "title": "Questioning on Affidavit and QuestioningWitnesses",
-      "operative_text_raw": "3.13(1)The following persons may be questioned by a party adverse in interest:*(a)a person who makes an affidavit in support of an originating\n*application;",
-      "operative_text_sha256": "edf7e03a943e9eea8b4a93575b41e16927153c422942877c43afc2a2b90b9332",
-      "defined_terms": null,
-      "related_provisions": null,
-      "commentary": "1Quite similar to previous 1968 R.314.It came from theChancery Procedure Act1852, s.38.OR s.40? Cf. English Chancery Order of 5 February 1861, R.XIX.Cf.1883 O.37 r.20; O.38 r.1;and cf.Judic.Ord.rr.282, 293.1968 R.314(1), (2) were virtually identical to 1914 R.382, and 1944 C.R.360. 2Quite similar to previous 1968 R.266.It came fromChancery Procedure Act1852 (15 & 16Vict) s.40; cf. Common Law Procedure Act1854 ss.47, 48.Rearranged somewhat from 1914 R.384, but substantially the same.Cf.Judic.Ord.rr.284, 285;1883 O.37 rr.20, 22.Came from 1944 C.R.317.Cf.C.O.O.XIX r.3.\n\n3Holden (Village) v. Sen2019 ABQB 472, JCE 1503 12322 (Jan 21) (¶'s 54-56). 4Re Metanczuk2024 ABKB 270, JCC B201 716395 (May 13) (¶'s 50-61).\n\n*(b)a person who makes an affidavit in response;\n*(c)a person who makes an affidavit in reply to a response.\n*1*(2)Subject to rule 3.21 [Limit on questioning],a person may be questioned*under oath as a witness for thepurpose of obtaining a transcript of the person's*evidence for use at the hearing of an originating application.*2*(3)A party may question a person whom the party is entitled to question under\n*this rule by serving on the person an appointment for questioning.*(4)Rules 6.16 [Contents of appointment notice] to 6.20 [Form of questioning**and transcript] and 6.38 [Requiring attendance for questioning] apply for the*purposes of this rule.*(5)The questioning party must file the transcript of the questioning. Defined Terms\n\nfile, party Related Provisions 3.21 (questioning on judicial review);6.7 (questioning on affidavits);6.8 (questioning a witness before hearing);12.25 (transcripts optional in family law) On cross-examination on affidavits, see R.6.8n.On examinations to obtain evidence on a pending application, see R.6.20n.\n\nA non-affiant can be examined to get a transcript to use at an application, if Rr.6.16-6.20 are observed. On the court using more or less\"inherent\", or vaguely worded statutory, powers to order examination of a witness by a trustee in bankruptcy, to get necessary information, see the *Metanczukcase.\n*Originating Application Evidence (OtherThan Judicial Review)*",
+      "operative_text_raw": "3.13(1)The following persons may be questioned by a party adverse in interest:*(a)a person who makes an affidavit in support of an originating\n*application;\n1Quite similar to previous 1968 R.314.It came from theChancery Procedure Act1852, s.38.OR s.40? Cf. English Chancery Order of 5 February 1861, R.XIX.Cf.1883 O.37 r.20; O.38 r.1;and cf.Judic.Ord.rr.282, 293.1968 R.314(1), (2) were virtually identical to 1914 R.382, and 1944 C.R.360. 2Quite similar to previous 1968 R.266.It came fromChancery Procedure Act1852 (15 & 16Vict) s.40; cf. Common Law Procedure Act1854 ss.47, 48.Rearranged somewhat from 1914 R.384, but substantially the same.Cf.Judic.Ord.rr.284, 285;1883 O.37 rr.20, 22.Came from 1944 C.R.317.Cf.C.O.O.XIX r.3.\n3Holden (Village) v. Sen2019 ABQB 472, JCE 1503 12322 (Jan 21) (¶'s 54-56). 4Re Metanczuk2024 ABKB 270, JCC B201 716395 (May 13) (¶'s 50-61).\n*(b)a person who makes an affidavit in response;\n*(c)a person who makes an affidavit in reply to a response.\n*1*(2)Subject to rule 3.21 [Limit on questioning],a person may be questioned*under oath as a witness for thepurpose of obtaining a transcript of the person's*evidence for use at the hearing of an originating application.*2*(3)A party may question a person whom the party is entitled to question under\n*this rule by serving on the person an appointment for questioning.*(4)Rules 6.16 [Contents of appointment notice] to 6.20 [Form of questioning**and transcript] and 6.38 [Requiring attendance for questioning] apply for the*purposes of this rule.*(5)The questioning party must file the transcript of the questioning.",
+      "operative_text_sha256": "5a527fdd8168ab5b79e097b62818364fc76c835d6da0fa5fac4a77a917744c53",
+      "defined_terms": "file, party",
+      "related_provisions": "3.21 (questioning on judicial review);6.7 (questioning on affidavits);6.8 (questioning a witness before hearing);12.25 (transcripts optional in family law)",
+      "commentary": "On cross-examination on affidavits, see R.6.8n.On examinations to obtain evidence on a pending application, see R.6.20n.\n\nA non-affiant can be examined to get a transcript to use at an application, if Rr.6.16-6.20 are observed. On the court using more or less\"inherent\", or vaguely worded statutory, powers to order examination of a witness by a trustee in bankruptcy, to get necessary information, see the *Metanczukcase.\n*Originating Application Evidence (OtherThan Judicial Review)*",
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -115,7 +115,7 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.2692,
+      "similarity": 0.5903,
       "differences": [
         {
           "op": "replace",
@@ -128,9 +128,59 @@
           "carrier": "interest:(a)a"
         },
         {
-          "op": "delete",
-          "official": "(b) a person who makes an affidavit in response; (c) a person who makes an affidavit in reply to a response. (2) subject to rule 3.21, a person may be questioned under oath as a witness for the purpose of obtaining a transcript of the person's evidence for use at the hearing of an originating application. (3) a party may question a person whom the party is entitled to question under this rule by serving on the person an appointment for questioning. (4) rules 6.16 to 6.20 and 6.38 apply for the purposes of this rule. (5) the questioning party must file the transcript of the questioning.",
-          "carrier": ""
+          "op": "replace",
+          "official": "(b) a",
+          "carrier": "1quite similar to previous 1968 r.314.it came from thechancery procedure act1852, s.38.or s.40? cf. english chancery order of 5 february 1861, r.xix.cf.1883 o.37 r.20; o.38 r.1;and cf.judic.ord.rr.282, 293.1968 r.314(1), (2) were virtually identical to 1914 r.382, and 1944 c.r.360. 2quite similar to previous 1968 r.266.it came fromchancery procedure act1852 (15 & 16vict) s.40; cf. common law procedure act1854 ss.47, 48.rearranged somewhat from 1914 r.384, but substantially the same.cf.judic.ord.rr.284, 285;1883 o.37 rr.20, 22.came from 1944 c.r.317.cf.c.o.o.xix r.3. 3holden (village) v. sen2019 abqb 472, jce 1503 12322 (jan 21) (¶'s 54-56). 4re metanczuk2024 abkb 270, jcc b201 716395 (may 13) (¶'s 50-61). (b)a"
+        },
+        {
+          "op": "replace",
+          "official": "(c) a",
+          "carrier": "(c)a"
+        },
+        {
+          "op": "replace",
+          "official": "(2) subject",
+          "carrier": "1(2)subject"
+        },
+        {
+          "op": "replace",
+          "official": "3.21, a",
+          "carrier": "3.21,a"
+        },
+        {
+          "op": "replace",
+          "official": "questioned under",
+          "carrier": "questionedunder"
+        },
+        {
+          "op": "replace",
+          "official": "the purpose",
+          "carrier": "thepurpose"
+        },
+        {
+          "op": "replace",
+          "official": "person's evidence",
+          "carrier": "person'sevidence"
+        },
+        {
+          "op": "replace",
+          "official": "application. (3) a",
+          "carrier": "application.2(3)a"
+        },
+        {
+          "op": "replace",
+          "official": "questioning. (4) rules",
+          "carrier": "questioning.(4)rules"
+        },
+        {
+          "op": "replace",
+          "official": "the purposes",
+          "carrier": "thepurposes"
+        },
+        {
+          "op": "replace",
+          "official": "rule. (5) the",
+          "carrier": "rule.(5)the"
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -190,7 +240,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "edf7e03a943e9eea8b4a93575b41e16927153c422942877c43afc2a2b90b9332",
+        "text_sha256": "5a527fdd8168ab5b79e097b62818364fc76c835d6da0fa5fac4a77a917744c53",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -242,7 +292,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "8e18febbbd69b0c8cc2ef3de02e730edf6e0850dd5fe6a2d3062ea988a61afb4"
+    "gate_artifact_sha256": "11e39f2e5aa8a98cbf26017264e78b707ccc717753ec9ebebaadf3c72c2c2b84"
   },
   "information_notes": [],
   "dedupe_log": [

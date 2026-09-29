@@ -39,11 +39,11 @@
     },
     "BOOK_A": {
       "title": "Third Party Defendant's Options",
-      "operative_text_raw": "3.47 A third party defendant may do one or more of the following:*(a)apply to the Court to set aside service in accordance with rule 11.31*[Setting aside service];*(b)apply to the Court for an order under rule 3.68 [Court options to deal**with significant deficiencies] with respect to the third party claim;\n*(c)apply to the Court for an order under rule 3.68 [Court options to deal**with significant deficiencies] with respect to the plaintiff's statement*of claim;*(d)file a statement of defence or demand for notice. APierringeragreement must have an indemnity clause or covenant by the plaintiff, and it cannot be merely implied.An agreement required, and was conditional on, removing all the",
-      "operative_text_sha256": "cefb56bc27a1b507a227529d00ce34c8ffec71abb4df79febd9f5ef5556a7597",
-      "defined_terms": null,
+      "operative_text_raw": "3.47 A third party defendant may do one or more of the following:*(a)apply to the Court to set aside service in accordance with rule 11.31*[Setting aside service];*(b)apply to the Court for an order under rule 3.68 [Court options to deal**with significant deficiencies] with respect to the third party claim;\n*(c)apply to the Court for an order under rule 3.68 [Court options to deal**with significant deficiencies] with respect to the plaintiff's statement*of claim;*(d)file a statement of defence or demand for notice. APierringeragreement must have an indemnity clause or covenant by the plaintiff, and it cannot be merely implied.An agreement required, and was conditional on, removing all the\ndefendants but one, by court order.The remaining defendants, not parties to the agreement, could not be compelled by it to do anything.The application to remove parties was refused.The notices of contribution and indemnity stood.",
+      "operative_text_sha256": "9f19561395a48709b38211eb86c87799be9962f0750a91a79272354507a2055c",
+      "defined_terms": "Court, file, order, third party defendant *Plaintiff's Options*",
       "related_provisions": null,
-      "commentary": "defendants but one, by court order.The remaining defendants, not parties to the agreement, could not be compelled by it to do anything.The application to remove parties was refused.The notices of contribution and indemnity stood. Defined Terms Court, file, order, third party defendant\n\n*Plaintiff's Options*",
+      "commentary": null,
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -103,7 +103,7 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.7317,
+      "similarity": 0.6061,
       "differences": [
         {
           "op": "replace",
@@ -128,7 +128,7 @@
         {
           "op": "insert",
           "official": "",
-          "carrier": "apierringeragreement must have an indemnity clause or covenant by the plaintiff, and it cannot be merely implied.an agreement required, and was conditional on, removing all the"
+          "carrier": "apierringeragreement must have an indemnity clause or covenant by the plaintiff, and it cannot be merely implied.an agreement required, and was conditional on, removing all the defendants but one, by court order.the remaining defendants, not parties to the agreement, could not be compelled by it to do anything.the application to remove parties was refused.the notices of contribution and indemnity stood."
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -188,7 +188,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "cefb56bc27a1b507a227529d00ce34c8ffec71abb4df79febd9f5ef5556a7597",
+        "text_sha256": "9f19561395a48709b38211eb86c87799be9962f0750a91a79272354507a2055c",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -239,7 +239,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "3fe6df29272ca4386964fe8481052a2e573547e71bb6138ffd5e9211cb1c0b25"
+    "gate_artifact_sha256": "5b775b0ec633bdf266e8cb02957dfba69b652be47578412d381deb7f6a991101"
   },
   "information_notes": [],
   "dedupe_log": [

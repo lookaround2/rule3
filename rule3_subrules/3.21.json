@@ -39,11 +39,11 @@
     },
     "BOOK_A": {
       "title": "Limit on Questioning",
-      "operative_text_raw": "3.21 On an originating application for judicial review,no person may be*questioned as a witness for the purpose of obtaining a transcript for use at the\n*hearing without the Court's permission.",
-      "operative_text_sha256": "afc0149180a3eba5524e1dc538998a3c28ce6bf39fc5221dba9bd152c2b00600",
-      "defined_terms": null,
-      "related_provisions": null,
-      "commentary": "witness under R.3.21 can be asked to produce records which are specific and well-defined and shown to be relevant.Not to fish.If a document is relevant, previous drafts of it are not necessarily relevant:Robertson *v.Wasylyshen (Edm.Police Service) (#9)2004 ABQB 243, 355 AR 281.See also R.3.22n.,infra.See*Apotex v.R., R.3.22n.,infra. 2Bergman v.Innisfree (Vill.)2020 ABQB 661, JCStP 1814 00364 (Oct 29) (¶'s 37-49);M?tis Nation of Alta. *Assn.&c. v.R. (Alta.)2021 ABQB 282, JCE 2003 19580 (Apr 12) (¶'s 86-99).\nDefined Terms\n\nCourt Related Provisions 6.8 (questioning of a witness before hearing) Presumably R.3.21 is read as if there were a comma after\"at the hearing\". Judicial review is conducted on the existing record, and allowing discovery or oral evidence is exceptional.\n\n*Evidence on Judicial Review*",
+      "operative_text_raw": "3.21 On an originating application for judicial review,no person may be*questioned as a witness for the purpose of obtaining a transcript for use at the\n*hearing without the Court's permission.\nwitness under R.3.21 can be asked to produce records which are specific and well-defined and shown to be relevant.Not to fish.If a document is relevant, previous drafts of it are not necessarily relevant:Robertson *v.Wasylyshen (Edm.Police Service) (#9)2004 ABQB 243, 355 AR 281.See also R.3.22n.,infra.See*Apotex v.R., R.3.22n.,infra. 2Bergman v.Innisfree (Vill.)2020 ABQB 661, JCStP 1814 00364 (Oct 29) (¶'s 37-49);M?tis Nation of Alta. *Assn.&c. v.R. (Alta.)2021 ABQB 282, JCE 2003 19580 (Apr 12) (¶'s 86-99).",
+      "operative_text_sha256": "d0c739a48134ca0bfff18d9be4e626cbb208f57932b08e803ca185d1b6cf491d",
+      "defined_terms": "Court",
+      "related_provisions": "6.8 (questioning of a witness before hearing)",
+      "commentary": "Presumably R.3.21 is read as if there were a comma after\"at the hearing\". Judicial review is conducted on the existing record, and allowing discovery or oral evidence is exceptional.\n\n*Evidence on Judicial Review*",
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -97,9 +97,25 @@
   },
   "comparison_vs_official": {
     "BOOK_A": {
-      "status": "NORMALIZATION_ONLY_DIFFERENCE",
-      "similarity": 1.0,
-      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.406,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "review, no",
+          "carrier": "review,no"
+        },
+        {
+          "op": "replace",
+          "official": "be questioned",
+          "carrier": "bequestioned"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "witness under r.3.21 can be asked to produce records which are specific and well-defined and shown to be relevant.not to fish.if a document is relevant, previous drafts of it are not necessarily relevant:robertson v.wasylyshen (edm.police service) (#9)2004 abqb 243, 355 ar 281.see also r.3.22n.,infra.seeapotex v.r., r.3.22n.,infra. 2bergman v.innisfree (vill.)2020 abqb 661, jcstp 1814 00364 (oct 29) (¶'s 37-49);m?tis nation of alta. assn.&c. v.r. (alta.)2021 abqb 282, jce 2003 19580 (apr 12) (¶'s 86-99)."
+        }
+      ],
       "version_identity": "SAME_VERSION_PROVEN"
     },
     "BOOK_B": {
@@ -146,17 +162,17 @@
       }
     },
     "pairwise_vs_official": {
-      "BOOK_A": "NORMALIZATION_ONLY_DIFFERENCE",
+      "BOOK_A": "WORDING_DIFFERENCE",
       "BOOK_B": "EXACT_MATCH",
       "BOOK_C": "EXACT_MATCH"
     },
-    "result": "THREE_BOOK_SOURCE_RECONCILED",
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
     "independent_origin_count": 4,
     "carriers": {
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "afc0149180a3eba5524e1dc538998a3c28ce6bf39fc5221dba9bd152c2b00600",
+        "text_sha256": "d0c739a48134ca0bfff18d9be4e626cbb208f57932b08e803ca185d1b6cf491d",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -208,7 +224,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "5492339941ee183827d5ce12a01e17e6cb606f98548dda0981550096a236dfa7"
+    "gate_artifact_sha256": "e5d8fa458b74f1ae5af2c3d3c863431f1726bb114c953f63b31a509df96ecb35"
   },
   "information_notes": [],
   "dedupe_log": [

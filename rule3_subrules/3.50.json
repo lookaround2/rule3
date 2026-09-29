@@ -41,11 +41,11 @@
     },
     "BOOK_A": {
       "title": "Demand for Notice byThird Party Defendant",
-      "operative_text_raw": "3.50(1) A demand for notice by a third party defendant must be in Form 18.*(2)If a third party defendant files a demand for notice, the third party defendant*must file it and serve it on each of the other parties within the applicable time*after service of the third party claim on the third party defendant.\n*(3)The applicable time is*(a)20 days if service is effected in Alberta,",
-      "operative_text_sha256": "12dafc39bc0b3c471351be28af038be3b06f51d43cd6490e8bbb989a79717b37",
-      "defined_terms": null,
-      "related_provisions": null,
-      "commentary": "1Quite similar to previous 1968 R.71(3).It came (via 1944 C.R.84) from 1914 R.52.Cf.Judic.Ord.r.61, Eng. O.16A r.5. 2Quite similar to previous 1968 R.71(4).It came from 1944 C.R.84.Cf.Judic.Ord. r.61, Eng.O.16A r.5. \n*(b)one month if service is effected outside Alberta but in Canada,and\n*(c)2 months if service is effected outside Canada.\nDefined Terms file, third party defendant Related Provisions 3.34 (demand for notice) *Effect of Demand for Notice*",
+      "operative_text_raw": "3.50(1) A demand for notice by a third party defendant must be in Form 18.*(2)If a third party defendant files a demand for notice, the third party defendant*must file it and serve it on each of the other parties within the applicable time*after service of the third party claim on the third party defendant.\n*(3)The applicable time is*(a)20 days if service is effected in Alberta,\n1Quite similar to previous 1968 R.71(3).It came (via 1944 C.R.84) from 1914 R.52.Cf.Judic.Ord.r.61, Eng. O.16A r.5. 2Quite similar to previous 1968 R.71(4).It came from 1944 C.R.84.Cf.Judic.Ord. r.61, Eng.O.16A r.5. \n*(b)one month if service is effected outside Alberta but in Canada,and\n*(c)2 months if service is effected outside Canada.",
+      "operative_text_sha256": "bb66199d634b9b982db73af9601a6bf5adfac500ed4075565eca1d35d5e0ff02",
+      "defined_terms": "file, third party defendant",
+      "related_provisions": "3.34 (demand for notice) *Effect of Demand for Notice*",
+      "commentary": null,
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -94,7 +94,7 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.7547,
+      "similarity": 0.7343,
       "differences": [
         {
           "op": "replace",
@@ -122,9 +122,14 @@
           "carrier": "is(a)20"
         },
         {
-          "op": "delete",
-          "official": "(b) one month if service is effected outside alberta but in canada, and (c) 2 months if service is effected outside canada.",
-          "carrier": ""
+          "op": "replace",
+          "official": "(b) one",
+          "carrier": "1quite similar to previous 1968 r.71(3).it came (via 1944 c.r.84) from 1914 r.52.cf.judic.ord.r.61, eng. o.16a r.5. 2quite similar to previous 1968 r.71(4).it came from 1944 c.r.84.cf.judic.ord. r.61, eng.o.16a r.5. (b)one"
+        },
+        {
+          "op": "replace",
+          "official": "canada, and (c) 2",
+          "carrier": "canada,and (c)2"
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -183,7 +188,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "12dafc39bc0b3c471351be28af038be3b06f51d43cd6490e8bbb989a79717b37",
+        "text_sha256": "bb66199d634b9b982db73af9601a6bf5adfac500ed4075565eca1d35d5e0ff02",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -235,7 +240,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "5c052673bcc2e88ffd02195b3ca47b98c161a090f472318527c86066227dfdc3"
+    "gate_artifact_sha256": "126e55799e76149884692324bc982a33f477dd9915e88e31da5692c9f739351b"
   },
   "information_notes": [],
   "dedupe_log": [

@@ -30,6 +30,11 @@ BUILDER DIFFERENCES FROM PART 2 (read before trusting a status)
    4. Book B: edition year is not printed in the Part 3 files; the builder uses the latest case year cited (2025).
    5. Book A "defined_terms" is a new field (the "Defined Terms" line under Information Note).
    6. All MANUAL_* tables start empty.
+   7. Book B: when the source prints a rule's text twice (heading repeated across a page/file break: seen at 3.4 and 3.12) the parser keeps
+      one copy and lists the skipped paragraph ids in sources.BOOK_B.duplicate_rule_text_paragraphs_skipped (added in the 3.4 pass).
+   8. Book A: when a rule has no amendment bracket, its text now ends at the first 'Information Note' / 'Defined Terms' / 'Related Provisions'
+      heading (before, at the first blank line, which page breaks put inside the rule text). Result: rule text can hold page-end footnote blocks,
+      so text notes keep them verbatim. Changed 3.4 and 25 other files; every rule is re-read in its own pass.
 
 BUILD RESULT (before any manual review): pairwise statuses vs official over 231 comparisons -
    EXACT_MATCH 88, NORMALIZATION_ONLY_DIFFERENCE 45, WORDING_DIFFERENCE 74, CARRIER_MISSING_TEXT 18,

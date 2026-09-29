@@ -42,11 +42,11 @@
     },
     "BOOK_A": {
       "title": "Application of Rules toThird Party Claims",
-      "operative_text_raw": "3.55 Except when the context or these rules otherwise provide,a rule that applies*to or in respect of*(a)a plaintiff applies equally to or in respect of a third party plaintiff,\n*(b)a defendant applies equally to or in respect of a third party defendant,*and*(c)a pleading related to a claim made by a statement of claim applies*equally to or in respect of a pleading related to a third party claim.",
-      "operative_text_sha256": "1ebde37cb49d98a31ed880d67626de349a97b91bc77c730e52f44d244d987038",
-      "defined_terms": null,
+      "operative_text_raw": "3.55 Except when the context or these rules otherwise provide,a rule that applies*to or in respect of*(a)a plaintiff applies equally to or in respect of a third party plaintiff,\n*(b)a defendant applies equally to or in respect of a third party defendant,*and*(c)a pleading related to a claim made by a statement of claim applies*equally to or in respect of a pleading related to a third party claim.\n2See furtherC.D.I.C. v.Prisco(CA) [1998] 3 WWR 256, 206 AR 290. 3Stolk v. 382779 Alta.2002 ABQB 360, 16 Constr LR(3d) 319 (contract excluded duty pleaded);MacKay v. *Farm Bus.Consult.2006 ABCA 316, 397 AR 301. 4Tollestrupv.Tollestrup(CA 1995) 178 AR 158.Only in special circumstances?Dechant v.McKechnie *Agy.(M) 1999 ABQB 734, 253 AR 14.Special circumstances were found, inCantafio v.St. Hilaire1999 ABQB 686, 249 AR 172.\n5Al Scherbarth Prof.Corp.v. Clarica Life Ins.Co.(M) 2002 ABQB 52, 308 AR 197.One registering a mortgage under thePersonal Property Security Actowes no duty to later buyers to be correct and careful: *Rebel HeartWater Hauling v. Southside Equip.Sales2003 ABQB 226, 337 AR 286. 6Agrium v. Chubb Ins.Co. of Can.2002 ABQB 495, 318 AR 355.See other cases under R.3.45's commentary,supra. 7Wenzel (Grey) v.Desanti2011 ABCA 226, 46 Alta LR(5th) 421.\n8Can.Trustco Mtge. Co.v.Karpa (#2)2001 ABQB 734, 302 AR 173. 9A.-G.Can. v.Prefontaine(M) 2009 ABQB 330. 10Breen v. Foremost Ind.2022 ABQB 478, 56 Alta LR(7th) 478 (¶'s 22-41).\n1Some older brief precedent documents for wording a third party notice are thus dangerous.On the tests for striking one out, see the C.P.E., Chapter 26, esp.Part E.For an example, see below.",
+      "operative_text_sha256": "b4075854b25929f5efdbe453e248e557e9c2847bc1c63eda286f4f454c4e28f3",
+      "defined_terms": "defendant, plaintiff, pleading, rules, third party defendant, third party plaintiff A third party notice is a pleading, and must recite facts giving a cause of action, just as a statement of claim must. Part of a third party notice raising a claim outside the limitation period shouldbe \"struck.\" Another part shown by affidavit to be hopeless should be struck too. Third party notices can be summarily dismissed. But it takes a clear case to strike out a third party notice. A third party notice can be struck out if it does not disclose a cause of action by the defendant against the third party. The tests would be those under R.3.68.Presumably the court would also strike it out if it violated R.3.45 and no time extension were given. A grant of summary judgment, even on a third party notice, is entitled to considerable deference on appeal. The Rules on formal offers and double costs to successful defendants who beat their own offers, apply to third party notices and offers by third parties. Case law on whether a third party can counterclaim is unclear, but if he can, he has to name the person issuing the third party notice as a defendant by counterclaim.A counterclaim was struck for want of that. This Rule still appears not to allow an amendment to a counterclaimto add an extra plaintiff by counterclaim so far completely unrelated to the lawsuit. On costs, see R.3.46 n. *Subdivision 7 Counterclaims *Right to Counterclaim *",
       "related_provisions": null,
-      "commentary": "2See furtherC.D.I.C. v.Prisco(CA) [1998] 3 WWR 256, 206 AR 290. 3Stolk v. 382779 Alta.2002 ABQB 360, 16 Constr LR(3d) 319 (contract excluded duty pleaded);MacKay v. *Farm Bus.Consult.2006 ABCA 316, 397 AR 301. 4Tollestrupv.Tollestrup(CA 1995) 178 AR 158.Only in special circumstances?Dechant v.McKechnie *Agy.(M) 1999 ABQB 734, 253 AR 14.Special circumstances were found, inCantafio v.St. Hilaire1999 ABQB 686, 249 AR 172.\n\n5Al Scherbarth Prof.Corp.v. Clarica Life Ins.Co.(M) 2002 ABQB 52, 308 AR 197.One registering a mortgage under thePersonal Property Security Actowes no duty to later buyers to be correct and careful: *Rebel HeartWater Hauling v. Southside Equip.Sales2003 ABQB 226, 337 AR 286. 6Agrium v. Chubb Ins.Co. of Can.2002 ABQB 495, 318 AR 355.See other cases under R.3.45's commentary,supra. 7Wenzel (Grey) v.Desanti2011 ABCA 226, 46 Alta LR(5th) 421.\n\n8Can.Trustco Mtge. Co.v.Karpa (#2)2001 ABQB 734, 302 AR 173. 9A.-G.Can. v.Prefontaine(M) 2009 ABQB 330. 10Breen v. Foremost Ind.2022 ABQB 478, 56 Alta LR(7th) 478 (¶'s 22-41).\n\n1Some older brief precedent documents for wording a third party notice are thus dangerous.On the tests for striking one out, see the C.P.E., Chapter 26, esp.Part E.For an example, see below.\n\nDefined Terms\n\ndefendant, plaintiff, pleading, rules, third party defendant, third party plaintiff\n\nA third party notice is a pleading, and must recite facts giving a cause of action, just as a statement of claim must. Part of a third party notice raising a claim outside the limitation period shouldbe \"struck.\" Another part shown by affidavit to be hopeless should be struck too. Third party notices can be summarily dismissed. But it takes a clear case to strike out a third party\n\nnotice. A third party notice can be struck out if it does not disclose a cause of action by the defendant against the third party. The tests would be those under R.3.68.Presumably the court would also\n\nstrike it out if it violated R.3.45 and no time extension were given. A grant of summary judgment, even on a third party notice, is entitled to considerable deference on appeal. The Rules on formal offers and double costs to successful defendants who beat their own offers, apply to third party notices and offers by third parties.\n\nCase law on whether a third party can counterclaim is unclear, but if he can, he has to name the person issuing the third party notice as a defendant by counterclaim.A counterclaim was struck for want of that. This Rule still appears not to allow an amendment to a counterclaimto add an extra plaintiff\n\nby counterclaim so far completely unrelated to the lawsuit. On costs, see R.3.46 n. *Subdivision 7 Counterclaims *Right to Counterclaim\n*",
+      "commentary": null,
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -94,9 +94,45 @@
   },
   "comparison_vs_official": {
     "BOOK_A": {
-      "status": "NORMALIZATION_ONLY_DIFFERENCE",
-      "similarity": 1.0,
-      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.3727,
+      "differences": [
+        {
+          "op": "replace",
+          "official": "provide, a",
+          "carrier": "provide,a"
+        },
+        {
+          "op": "replace",
+          "official": "applies to",
+          "carrier": "appliesto"
+        },
+        {
+          "op": "replace",
+          "official": "of (a) a",
+          "carrier": "of(a)a"
+        },
+        {
+          "op": "replace",
+          "official": "(b) a",
+          "carrier": "(b)a"
+        },
+        {
+          "op": "replace",
+          "official": "defendant, and (c) a",
+          "carrier": "defendant,and(c)a"
+        },
+        {
+          "op": "replace",
+          "official": "applies equally",
+          "carrier": "appliesequally"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "2see furtherc.d.i.c. v.prisco(ca) 3 wwr 256, 206 ar 290. 3stolk v. 382779 alta.2002 abqb 360, 16 constr lr(3d) 319 (contract excluded duty pleaded);mackay v. farm bus.consult.2006 abca 316, 397 ar 301. 4tollestrupv.tollestrup(ca 1995) 178 ar 158.only in special circumstances?dechant v.mckechnie agy.(m) 1999 abqb 734, 253 ar 14.special circumstances were found, incantafio v.st. hilaire1999 abqb 686, 249 ar 172. 5al scherbarth prof.corp.v. clarica life ins.co.(m) 2002 abqb 52, 308 ar 197.one registering a mortgage under thepersonal property security actowes no duty to later buyers to be correct and careful: rebel heartwater hauling v. southside equip.sales2003 abqb 226, 337 ar 286. 6agrium v. chubb ins.co. of can.2002 abqb 495, 318 ar 355.see other cases under r.3.45's commentary,supra. 7wenzel (grey) v.desanti2011 abca 226, 46 alta lr(5th) 421. 8can.trustco mtge. co.v.karpa (#2)2001 abqb 734, 302 ar 173. 9a.-g.can. v.prefontaine(m) 2009 abqb 330. 10breen v. foremost ind.2022 abqb 478, 56 alta lr(7th) 478 (¶'s 22-41). 1some older brief precedent documents for wording a third party notice are thus dangerous.on the tests for striking one out, see the c.p.e., chapter 26, esp.part e.for an example, see below."
+        }
+      ],
       "version_identity": "SAME_VERSION_PROVEN"
     },
     "BOOK_B": {
@@ -143,17 +179,17 @@
       }
     },
     "pairwise_vs_official": {
-      "BOOK_A": "NORMALIZATION_ONLY_DIFFERENCE",
+      "BOOK_A": "WORDING_DIFFERENCE",
       "BOOK_B": "EXACT_MATCH",
       "BOOK_C": "EXACT_MATCH"
     },
-    "result": "THREE_BOOK_SOURCE_RECONCILED",
+    "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
     "independent_origin_count": 4,
     "carriers": {
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "1ebde37cb49d98a31ed880d67626de349a97b91bc77c730e52f44d244d987038",
+        "text_sha256": "b4075854b25929f5efdbe453e248e557e9c2847bc1c63eda286f4f454c4e28f3",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -206,7 +242,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "4cb5b723463f5ae8b239384d0e0bc8f2293e38ed58738c59976601c14f33181d"
+    "gate_artifact_sha256": "c3cc9d4ddf39e219eeeca78825a835710953ea4062026eeb0f4ffa7bacdfa583"
   },
   "information_notes": [],
   "dedupe_log": [

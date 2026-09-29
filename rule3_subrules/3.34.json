@@ -40,11 +40,11 @@
     },
     "BOOK_A": {
       "title": "Demand for Notice by Defendant",
-      "operative_text_raw": "3.34(1) If the defendant files a demand for notice,the demand must be in Form*13.*(2)The defendant must file the demand for notice and serve it on the plaintiff*within the applicable time after service of the statement of claim on the defendant.\n*(3)The applicable time is*(a)20 days if service is effected in Alberta,*(b)one month if service is effected outside Alberta but in Canada,and*(c)2 months if service is effected outside Canada.*(4)If the defendant files a demand for notice and serves it on the plaintiff,the*defendant must be served with notice of any application or proceeding in which\n*the defendant is named as respondent,but filing and service of the notice does*not give the defendant a right to contest liability.*5 1For a general discussion of replies, seeC.H.S.v.Dir.of ChildWelfare (#1)2006 ABQB 241.Thatcase",
-      "operative_text_sha256": "7e617c0bee50c41dffe260028b9f31ae27f730f6a94e9dbba54f7511178749a0",
-      "defined_terms": null,
-      "related_provisions": null,
-      "commentary": "2Quite similar to previous 1968 R.329.It came from a quite similar 1944 C.R.377, which had origins outside Alberta, in Sask.R. 351;1883 O.41 rr.9, 10;the Debtors Act 1869 s.24;H.T.1853 rr.156, 157.The 1960 amendment added paragraph (b) to 1944 C.R.377. *(5)If a defendant files a demand for notice and serves it on the plaintiff,the*defendant may subsequently file a statement of defence only with the Court's*permission.\n*(6)Judgment or an order may be given against a defendant who has filed and\n*Assce. Co.v. Pocklington(M) [1985] AUD 769.\n*(b)notice of the application is served on the defendant.\n1As was done where the mortgagor's equity turned negative and a deficiency judgment loomed, inDom. Life\n\n*served a demand for notice only if*(a)the plaintiff applies to the Court for judgment or an order,and Defined Terms Court, defendant, file, judgment, order, plaintiff Related Provisions 3.49(3) (time to defend third party claim);3.51 (demand for notice by third party defendant);\n\n12.11 (defence and demand for notice in family law);12.12 (time for service in family law litigation);13.3, 13.4 (calculating time) England and some provinces (not Alberta) start a suit with a writ of summons requiring the defendant to file only a simple appearance document to prevent default judgment at that stage. Alberta's partial equivalent to the appearance is the demand for notice (formerly \"demand of notice\").It is used in Alberta only by someone who has no defence to liability, but wants notice of\n\nlater proceedings, such as an application for judgment.It prevents default judgment by the Clerk. A demand for notice does not give the right to contest liability (unless the court later allows the defendant to withdraw the demand and substitute a statement of defence ).A defendant who does not file and serve a statement of defence admits liability.The demand for notice is common where the only dispute will be about the timing and terms of the relief, especially in foreclosures.\n\nIt could be used in a damage action where the only issue is assessing the amount of damages, but defendants even in such actions often file a statement of defence. A demand for notice is a virtual invitation to the plaintiff to move for summary judgment (which is what a foreclosure order nisi/sale is). *Judgment or Order by Agreement*",
+      "operative_text_raw": "3.34(1) If the defendant files a demand for notice,the demand must be in Form*13.*(2)The defendant must file the demand for notice and serve it on the plaintiff*within the applicable time after service of the statement of claim on the defendant.\n*(3)The applicable time is*(a)20 days if service is effected in Alberta,*(b)one month if service is effected outside Alberta but in Canada,and*(c)2 months if service is effected outside Canada.*(4)If the defendant files a demand for notice and serves it on the plaintiff,the*defendant must be served with notice of any application or proceeding in which\n*the defendant is named as respondent,but filing and service of the notice does*not give the defendant a right to contest liability.*5 1For a general discussion of replies, seeC.H.S.v.Dir.of ChildWelfare (#1)2006 ABQB 241.Thatcase\n2Quite similar to previous 1968 R.329.It came from a quite similar 1944 C.R.377, which had origins outside Alberta, in Sask.R. 351;1883 O.41 rr.9, 10;the Debtors Act 1869 s.24;H.T.1853 rr.156, 157.The 1960 amendment added paragraph (b) to 1944 C.R.377. *(5)If a defendant files a demand for notice and serves it on the plaintiff,the*defendant may subsequently file a statement of defence only with the Court's*permission.\n*(6)Judgment or an order may be given against a defendant who has filed and\n*Assce. Co.v. Pocklington(M) [1985] AUD 769.\n*(b)notice of the application is served on the defendant.\n1As was done where the mortgagor's equity turned negative and a deficiency judgment loomed, inDom. Life\n*served a demand for notice only if*(a)the plaintiff applies to the Court for judgment or an order,and",
+      "operative_text_sha256": "f18baca4ccaebadacdf1c7bbb707f0075e2509a094f31f01561d8575ce89e265",
+      "defined_terms": "Court, defendant, file, judgment, order, plaintiff",
+      "related_provisions": "3.49(3) (time to defend third party claim);3.51 (demand for notice by third party defendant); 12.11 (defence and demand for notice in family law);12.12 (time for service in family law litigation);13.3, 13.4 (calculating time)",
+      "commentary": "England and some provinces (not Alberta) start a suit with a writ of summons requiring the defendant to file only a simple appearance document to prevent default judgment at that stage. Alberta's partial equivalent to the appearance is the demand for notice (formerly \"demand of notice\").It is used in Alberta only by someone who has no defence to liability, but wants notice of\n\nlater proceedings, such as an application for judgment.It prevents default judgment by the Clerk. A demand for notice does not give the right to contest liability (unless the court later allows the defendant to withdraw the demand and substitute a statement of defence ).A defendant who does not file and serve a statement of defence admits liability.The demand for notice is common where the only dispute will be about the timing and terms of the relief, especially in foreclosures.\n\nIt could be used in a damage action where the only issue is assessing the amount of damages, but defendants even in such actions often file a statement of defence. A demand for notice is a virtual invitation to the plaintiff to move for summary judgment (which is what a foreclosure order nisi/sale is). *Judgment or Order by Agreement*",
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -114,7 +114,7 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.6265,
+      "similarity": 0.6667,
       "differences": [
         {
           "op": "replace",
@@ -174,17 +174,32 @@
         {
           "op": "replace",
           "official": "liability. (5) if",
-          "carrier": "liability.5 1for"
+          "carrier": "liability.5 1for a general discussion of replies, seec.h.s.v.dir.of childwelfare (#1)2006 abqb 241.thatcase 2quite similar to previous 1968 r.329.it came from a quite similar 1944 c.r.377, which had origins outside alberta, in sask.r. 351;1883 o.41 rr.9, 10;the debtors act 1869 s.24;h.t.1853 rr.156, 157.the 1960 amendment added paragraph (b) to 1944 c.r.377. (5)if"
         },
         {
           "op": "replace",
-          "official": "defendant files a demand for notice and serves it on the plaintiff, the defendant may subsequently file a statement",
-          "carrier": "general discussion"
+          "official": "plaintiff, the defendant",
+          "carrier": "plaintiff,thedefendant"
         },
         {
           "op": "replace",
-          "official": "defence only with the court's permission. (6) judgment or an order may be given against a defendant who has filed and served a demand for notice only if (a) the plaintiff applies to the court for judgment or an order, and (b) notice of the application is served on the defendant.",
-          "carrier": "replies, seec.h.s.v.dir.of childwelfare (#1)2006 abqb 241.thatcase"
+          "official": "court's permission. (6) judgment",
+          "carrier": "court'spermission. (6)judgment"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "assce. co.v. pocklington(m) aud 769. (b)notice of the application is served on the defendant. 1as was done where the mortgagor's equity turned negative and a deficiency judgment loomed, indom. life"
+        },
+        {
+          "op": "replace",
+          "official": "if (a) the",
+          "carrier": "if(a)the"
+        },
+        {
+          "op": "replace",
+          "official": "order, and (b) notice of the application is served on the defendant.",
+          "carrier": "order,and"
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -244,7 +259,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "7e617c0bee50c41dffe260028b9f31ae27f730f6a94e9dbba54f7511178749a0",
+        "text_sha256": "f18baca4ccaebadacdf1c7bbb707f0075e2509a094f31f01561d8575ce89e265",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -297,7 +312,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "2400cff0b1dcd57fec86717f6203c37b15efd71084dd5879caa67783b198de0b"
+    "gate_artifact_sha256": "d091983432f7d8d442d054fc1eaa0024207f5bb70244a7e98c042f8067b6145d"
   },
   "information_notes": [],
   "dedupe_log": [

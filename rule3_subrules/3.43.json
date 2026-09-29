@@ -35,11 +35,11 @@
     },
     "BOOK_A": {
       "title": "How to Make Claim Against Co-defendant",
-      "operative_text_raw": "3.43(1) If a defendant claims a contribution or indemnity,or both,against a co-*defendant under theTort-feasors Actor theContributory Negligence Act,*(a)the defendant may file and serve on a co-defendant a notice in Form\n*15 claiming a remedy under either or both of those Acts,",
-      "operative_text_sha256": "aa439e91717119d176377f1089eb54ae0096a817e8b26cf759e3f22047e6c93c",
-      "defined_terms": null,
-      "related_provisions": null,
-      "commentary": "*Propak Sys.,supra. 4Tang v.Labrocca1999 ABQB 832, 75 Alta LR(3d) 80. 5Spartek Sys. v.Brown2014 ABQB 526, JCRD 1010 00250 (Aug 25). 6Scotia Mtge. Corp.v. Moshkati2019 ABQB 267, JCC 0901 0 1915 (¶'s 74-81).\n\n*(b)neither the defendant nor the co-defendant need file a pleading in*respect of a claim or defence under those Acts unless the Court*otherwise orders, and\n2Amoco Can.Petr. v.Propak Sys.2001 ABCA 110, 281 AR 186. 3Angeltvedt v. Lawes(CA1997) 196 AR 64, which mayaffirm(M 1994) 164 AR 201;Amoco Can.Petr. v.\n\n1Quite similar to previous 1968 R.77, new in 1968.Came from English O.16A r.12, later O.16 r.8.\n\n*(c)a third party claim need not be filed and served on the co-defendant.*(2)The notice claiming contribution must be filed and served on the co-defendant*within 20 days after the date onwhich the defendant files the statement of*defence or demand for notice.*(3)A claim under subrule (1) must be determined at the trial of the plaintiff's*claim against the defendant,or if there is no trial, as directed by the Court.\n*1 Defined Terms claim, Court, defendant, file, plaintiff, pleading, remedy Related Provisions 3.44 (third party claims) A defendant wishing indemnity or contribution from a co-defendant can issue a third party\n\nnotice against him or her.But if they are both defendants and the claim over is within theTort- Feasors Actor theContributory Negligence Act, a simple written notice instead will suffice.The notice traditionally does not recite facts.Its effect seems to be much the same as a third party notice. The court would not allow a 5-year time extension to issue a R.3.43 notice.\n\nSome cases discuss problems with such claims among defendants where one defendant settles with the plaintiff. A notice under R.3.43 makes those parties\"adverse\"for discovery purposes. The usual law extends to releases and settlements, so they can bar liability and so bar a claim\n\nfor contribution among tortfeasors. Does a notice to co-defendant survive discontinuance of the main suit, so a judge used R.1.4 to order the plaintiff not to discontinue without leave. *Subdivision 6\nThird Party Claims *WhenThird Party Claim May be Filed*",
+      "operative_text_raw": "3.43(1) If a defendant claims a contribution or indemnity,or both,against a co-*defendant under theTort-feasors Actor theContributory Negligence Act,*(a)the defendant may file and serve on a co-defendant a notice in Form\n*15 claiming a remedy under either or both of those Acts,\n*Propak Sys.,supra. 4Tang v.Labrocca1999 ABQB 832, 75 Alta LR(3d) 80. 5Spartek Sys. v.Brown2014 ABQB 526, JCRD 1010 00250 (Aug 25). 6Scotia Mtge. Corp.v. Moshkati2019 ABQB 267, JCC 0901 0 1915 (¶'s 74-81).\n*(b)neither the defendant nor the co-defendant need file a pleading in*respect of a claim or defence under those Acts unless the Court*otherwise orders, and\n2Amoco Can.Petr. v.Propak Sys.2001 ABCA 110, 281 AR 186. 3Angeltvedt v. Lawes(CA1997) 196 AR 64, which mayaffirm(M 1994) 164 AR 201;Amoco Can.Petr. v.\n1Quite similar to previous 1968 R.77, new in 1968.Came from English O.16A r.12, later O.16 r.8.\n*(c)a third party claim need not be filed and served on the co-defendant.*(2)The notice claiming contribution must be filed and served on the co-defendant*within 20 days after the date onwhich the defendant files the statement of*defence or demand for notice.*(3)A claim under subrule (1) must be determined at the trial of the plaintiff's*claim against the defendant,or if there is no trial, as directed by the Court.\n*1",
+      "operative_text_sha256": "3d87ee7c9e01594e282dd9ed4f30884640e156780cc96542f17642166cddaa71",
+      "defined_terms": "claim, Court, defendant, file, plaintiff, pleading, remedy",
+      "related_provisions": "3.44 (third party claims) A defendant wishing indemnity or contribution from a co-defendant can issue a third party notice against him or her.But if they are both defendants and the claim over is within theTort- Feasors Actor theContributory Negligence Act, a simple written notice instead will suffice.The notice traditionally does not recite facts.Its effect seems to be much the same as a third party notice. The court would not allow a 5-year time extension to issue a R.3.43 notice. Some cases discuss problems with such claims among defendants where one defendant settles with the plaintiff. A notice under R.3.43 makes those parties\"adverse\"for discovery purposes. The usual law extends to releases and settlements, so they can bar liability and so bar a claim for contribution among tortfeasors. Does a notice to co-defendant survive discontinuance of the main suit, so a judge used R.1.4 to order the plaintiff not to discontinue without leave. *Subdivision 6 Third Party Claims *WhenThird Party Claim May be Filed*",
+      "commentary": null,
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -99,7 +99,7 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.3646,
+      "similarity": 0.6441,
       "differences": [
         {
           "op": "replace",
@@ -117,9 +117,64 @@
           "carrier": "act,(a)the"
         },
         {
-          "op": "delete",
-          "official": "(b) neither the defendant nor the co-defendant need file a pleading in respect of a claim or defence under those acts unless the court otherwise orders, and (c) a third party claim need not be filed and served on the co-defendant. (2) the notice claiming contribution must be filed and served on the co-defendant within 20 days after the date on which the defendant files the statement of defence or demand for notice. (3) a claim under subrule (1) must be determined at the trial of the plaintiff's claim against the defendant, or if there is no trial, as directed by the court.",
-          "carrier": ""
+          "op": "replace",
+          "official": "(b) neither",
+          "carrier": "propak sys.,supra. 4tang v.labrocca1999 abqb 832, 75 alta lr(3d) 80. 5spartek sys. v.brown2014 abqb 526, jcrd 1010 00250 (aug 25). 6scotia mtge. corp.v. moshkati2019 abqb 267, jcc 0901 0 1915 (¶'s 74-81). (b)neither"
+        },
+        {
+          "op": "replace",
+          "official": "in respect",
+          "carrier": "inrespect"
+        },
+        {
+          "op": "replace",
+          "official": "court otherwise",
+          "carrier": "courtotherwise"
+        },
+        {
+          "op": "replace",
+          "official": "(c) a",
+          "carrier": "2amoco can.petr. v.propak sys.2001 abca 110, 281 ar 186. 3angeltvedt v. lawes(ca1997) 196 ar 64, which mayaffirm(m 1994) 164 ar 201;amoco can.petr. v. 1quite similar to previous 1968 r.77, new in 1968.came from english o.16a r.12, later o.16 r.8. (c)a"
+        },
+        {
+          "op": "replace",
+          "official": "co-defendant. (2) the",
+          "carrier": "co-defendant.(2)the"
+        },
+        {
+          "op": "replace",
+          "official": "co-defendant within",
+          "carrier": "co-defendantwithin"
+        },
+        {
+          "op": "replace",
+          "official": "on which",
+          "carrier": "onwhich"
+        },
+        {
+          "op": "replace",
+          "official": "of defence",
+          "carrier": "ofdefence"
+        },
+        {
+          "op": "replace",
+          "official": "notice. (3) a",
+          "carrier": "notice.(3)a"
+        },
+        {
+          "op": "replace",
+          "official": "plaintiff's claim",
+          "carrier": "plaintiff'sclaim"
+        },
+        {
+          "op": "replace",
+          "official": "defendant, or",
+          "carrier": "defendant,or"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "1"
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -200,7 +255,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "aa439e91717119d176377f1089eb54ae0096a817e8b26cf759e3f22047e6c93c",
+        "text_sha256": "3d87ee7c9e01594e282dd9ed4f30884640e156780cc96542f17642166cddaa71",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -252,7 +307,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "eb1cc094aee8ece19a319dfee1ed757e7a260b5201bd3daf4ee754721ed0aef7"
+    "gate_artifact_sha256": "1dba72bf0c969b92aebbb8cdc139e717bd6414c692d3000086aee8aeae411536"
   },
   "information_notes": [],
   "dedupe_log": [

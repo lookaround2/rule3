@@ -39,11 +39,11 @@
     },
     "BOOK_A": {
       "title": "Application of Statement of Claim Rules to Originating Applications",
-      "operative_text_raw": "3.12 At any time in an action started by originating application the Court may, on*application,direct that all or any rules applying to an action started by statement*of claim apply to the action started by originating application.",
-      "operative_text_sha256": "7f0b245ebee8e5c4c59ac576bc0ec9a05124c7926b43f09557d058e8e7b4d888",
-      "defined_terms": null,
-      "related_provisions": null,
-      "commentary": "before:Singh v.Kaler2017 ABCA 275, [2018] 3 WWR 284 (¶'s 65-70). 7See further the C.P.E., Chapter 33, Part I. 8Simonelli v. RockyView (M.D.)2004 ABQB 45, 350 AR 286 (¶'s 46-57).\n\n2Trial of an issue was ordered where the judicial review matter was complex and would require expert\n\n1Newell (Cty.) v. Dola2003 ABCA 371, 6 MPLR(4th) 292. evidence andoral history evidence:AthabascaTribal Council v.Min. of Env'l.Protection1998 ABQB 879, 233 AR 97;cf.Anderson v. R.2006 ABCA 158, 384 AR 371.See alsoCdn. Natural Res.v.Encana *Oil & Gas P'ship.2008 ABCA 267, 440 AR 338. 3Mathai v. George(M) 2018 ABQB 51, JCE 1703 09296 (Jan 22). 4Smith v. R.2004 ABQB 711.\n\n5On a contested will case, seeRe Serdahely Est.2002 ABQB 10, 309 AR 370. 6And so the suit was begun long before this new \"statement\", and limitation periods stopped running long\n\nInformation Note See also rule 3.10 [Application of Part 4 and Part 5].\n\nDefined Terms court, rules Related Provisions 1.7(2) (Rules fill gaps by analogy);3.2(4) (wrong form of action) Legislation expressly letting a municipality have a summary hearing for an injunction does not mandate that procedure, and if the evidence conflicts and there are credibility issues, it is\n\nappropriate to hold a hearing with evidence. There are many situations in which the court should direct trial of an issue. But at a late stage, absent any significant conflict of facts, and absent an order for other procedures, neither more pleadings, nor discovery, nor trial is proper.A special chambers\n\napplication should be held on the merits. The mere fact that the claim is for a declaration of constitutional rights does not give the respondent the right to have the Originating Application converted into an orthodox suit by statement of claim.\n\nThe procedure to follow to try an issue is not well known.The court should either itself define the precise questions to be tried, or should direct the exchange of pleadings.And it should direct who has the onus of proof. If the court directs pleadings, then the party who has the onus of proof should file a document called\"Statement of the Applicant's Claim\".This isnota statement of claim, does not start a new proceeding, uses the action number of the existing suit (Originating\n\nApplication), and there is no fee for filing it. It has no notice to defendant at the back, but otherwise alleges facts much the way that a statement of claim would.Its prayer for relief may be somewhat different.And at the end it does not say that it was issued, and the Clerk does not sign or seal it. By analogy, pleadings in an Originating Application should be deemed closed on the date of\n\nthe original scheduled hearing, and so if the material raised an extra issue, it also was properly before the court. *Questioning on Affidavit and QuestioningWitnesses*",
+      "operative_text_raw": "3.12 At any time in an action started by originating application the Court may, on*application,direct that all or any rules applying to an action started by statement*of claim apply to the action started by originating application.\nbefore:Singh v.Kaler2017 ABCA 275, [2018] 3 WWR 284 (¶'s 65-70). 7See further the C.P.E., Chapter 33, Part I. 8Simonelli v. RockyView (M.D.)2004 ABQB 45, 350 AR 286 (¶'s 46-57).\n2Trial of an issue was ordered where the judicial review matter was complex and would require expert\n1Newell (Cty.) v. Dola2003 ABCA 371, 6 MPLR(4th) 292. evidence andoral history evidence:AthabascaTribal Council v.Min. of Env'l.Protection1998 ABQB 879, 233 AR 97;cf.Anderson v. R.2006 ABCA 158, 384 AR 371.See alsoCdn. Natural Res.v.Encana *Oil & Gas P'ship.2008 ABCA 267, 440 AR 338. 3Mathai v. George(M) 2018 ABQB 51, JCE 1703 09296 (Jan 22). 4Smith v. R.2004 ABQB 711.\n5On a contested will case, seeRe Serdahely Est.2002 ABQB 10, 309 AR 370. 6And so the suit was begun long before this new \"statement\", and limitation periods stopped running long",
+      "operative_text_sha256": "6a28af8f43384443ef4e62f6b2b3e73700f279a4974a00a97515d751b457d719",
+      "defined_terms": "court, rules",
+      "related_provisions": "1.7(2) (Rules fill gaps by analogy);3.2(4) (wrong form of action)",
+      "commentary": "Legislation expressly letting a municipality have a summary hearing for an injunction does not mandate that procedure, and if the evidence conflicts and there are credibility issues, it is\n\nappropriate to hold a hearing with evidence. There are many situations in which the court should direct trial of an issue. But at a late stage, absent any significant conflict of facts, and absent an order for other procedures, neither more pleadings, nor discovery, nor trial is proper.A special chambers\n\napplication should be held on the merits. The mere fact that the claim is for a declaration of constitutional rights does not give the respondent the right to have the Originating Application converted into an orthodox suit by statement of claim.\n\nThe procedure to follow to try an issue is not well known.The court should either itself define the precise questions to be tried, or should direct the exchange of pleadings.And it should direct who has the onus of proof. If the court directs pleadings, then the party who has the onus of proof should file a document called\"Statement of the Applicant's Claim\".This isnota statement of claim, does not start a new proceeding, uses the action number of the existing suit (Originating\n\nApplication), and there is no fee for filing it. It has no notice to defendant at the back, but otherwise alleges facts much the way that a statement of claim would.Its prayer for relief may be somewhat different.And at the end it does not say that it was issued, and the Clerk does not sign or seal it. By analogy, pleadings in an Originating Application should be deemed closed on the date of\n\nthe original scheduled hearing, and so if the material raised an extra issue, it also was properly before the court. *Questioning on Affidavit and QuestioningWitnesses*",
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -60,7 +60,7 @@
     },
     "BOOK_B": {
       "title": "Application of statement of claim rules to originating applications",
-      "operative_text_raw": "At any time in an action started by originating application the Court may, on application, direct that all or any rules applying to an action started by statement of claim apply to the action started by originating application.\nAt any time in an action started by originating application the Court may, on application, direct that all or any rules applying to an action started by statement of claim apply to the action started by originating application.",
+      "operative_text_raw": null,
       "commentary": [
         {
           "section": "3.12:1",
@@ -80,7 +80,11 @@
           "rule3_part01_document.json"
         ]
       },
-      "operative_text_sha256": "0a405a6ba48b4b92b3ecd5f5d383126a1faa8b87bb1472d3c19d02198ea99ed9"
+      "duplicate_rule_text_paragraphs_skipped": [
+        "part3_part_3_court_actions_034"
+      ],
+      "operative_text_sha256": "94f10fcd91c4c2af40c3eceb62950bce67d144da09dc831ef0772f60032ecf9f",
+      "operative_text_note": "same as official operative text (EXACT_MATCH); see operative_text_sha256"
     },
     "BOOK_C": {
       "title": "Application of statement of claim rules to originating applications",
@@ -105,21 +109,30 @@
   },
   "comparison_vs_official": {
     "BOOK_A": {
-      "status": "NORMALIZATION_ONLY_DIFFERENCE",
-      "similarity": 1.0,
-      "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
-    },
-    "BOOK_B": {
-      "status": "CARRIER_HAS_EXTRA_TEXT",
-      "similarity": 0.6667,
+      "status": "WORDING_DIFFERENCE",
+      "similarity": 0.322,
       "differences": [
+        {
+          "op": "replace",
+          "official": "on application, direct",
+          "carrier": "onapplication,direct"
+        },
+        {
+          "op": "replace",
+          "official": "statement of",
+          "carrier": "statementof"
+        },
         {
           "op": "insert",
           "official": "",
-          "carrier": "at any time in an action started by originating application the court may, on application, direct that all or any rules applying to an action started by statement of claim apply to the action started by originating application."
+          "carrier": "before:singh v.kaler2017 abca 275, 3 wwr 284 (¶'s 65-70). 7see further the c.p.e., chapter 33, part i. 8simonelli v. rockyview (m.d.)2004 abqb 45, 350 ar 286 (¶'s 46-57). 2trial of an issue was ordered where the judicial review matter was complex and would require expert 1newell (cty.) v. dola2003 abca 371, 6 mplr(4th) 292. evidence andoral history evidence:athabascatribal council v.min. of env'l.protection1998 abqb 879, 233 ar 97;cf.anderson v. r.2006 abca 158, 384 ar 371.see alsocdn. natural res.v.encana oil & gas p'ship.2008 abca 267, 440 ar 338. 3mathai v. george(m) 2018 abqb 51, jce 1703 09296 (jan 22). 4smith v. r.2004 abqb 711. 5on a contested will case, seere serdahely est.2002 abqb 10, 309 ar 370. 6and so the suit was begun long before this new \"statement\", and limitation periods stopped running long"
         }
       ],
+      "version_identity": "SAME_VERSION_PROVEN"
+    },
+    "BOOK_B": {
+      "status": "EXACT_MATCH",
+      "similarity": 1.0,
       "version_identity": "SAME_VERSION_PROVEN"
     },
     "BOOK_C": {
@@ -161,8 +174,8 @@
       }
     },
     "pairwise_vs_official": {
-      "BOOK_A": "NORMALIZATION_ONLY_DIFFERENCE",
-      "BOOK_B": "CARRIER_HAS_EXTRA_TEXT",
+      "BOOK_A": "WORDING_DIFFERENCE",
+      "BOOK_B": "EXACT_MATCH",
       "BOOK_C": "EXACT_MATCH"
     },
     "result": "SOURCE_CARRIER_DEFECT_INDEPENDENTLY_CLOSED",
@@ -171,7 +184,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "7f0b245ebee8e5c4c59ac576bc0ec9a05124c7926b43f09557d058e8e7b4d888",
+        "text_sha256": "6a28af8f43384443ef4e62f6b2b3e73700f279a4974a00a97515d751b457d719",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -189,7 +202,7 @@
       "BOOK_B": {
         "carrier_id": "BOOK_B",
         "artifact_sha256": "fed0ad20f21351d7ad49e0ee26a7052ca11f7435f7c24199d996779af9707977",
-        "text_sha256": "0a405a6ba48b4b92b3ecd5f5d383126a1faa8b87bb1472d3c19d02198ea99ed9",
+        "text_sha256": "94f10fcd91c4c2af40c3eceb62950bce67d144da09dc831ef0772f60032ecf9f",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-b-fradsham",
         "locator": {
@@ -223,9 +236,15 @@
         }
       }
     },
-    "gate_artifact_sha256": "8683edc17ad020488136cf022cf6fdc2f5d16607215f672fc6a86d8e140bf49d"
+    "gate_artifact_sha256": "d322e881f3f283fed1bd6f82744b4c8af762af38d77b0b3f04b4a4a28d71bbeb"
   },
   "information_notes": [
+    {
+      "text": "See also rule 3.10 [Application of Part 4 and Part 5].",
+      "carriers": [
+        "BOOK_A"
+      ]
+    },
     {
       "text": "See also rule 3.10 .\n[Application of Part  Patrus v. Alberta (Workers’ Compensation Board, Appeals Commission), [2011] A.J. No. 1346, and Part 5]",
       "carriers": [
@@ -234,6 +253,7 @@
     }
   ],
   "dedupe_log": [
+    "3.12 BOOK_B: operative text dropped (EXACT_MATCH)",
     "3.12 BOOK_C: operative text dropped (EXACT_MATCH)",
     "3.12 BOOK_C commentary sentence split dropped",
     "3.12 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"

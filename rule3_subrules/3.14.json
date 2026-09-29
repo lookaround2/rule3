@@ -37,11 +37,11 @@
     },
     "BOOK_A": {
       "title": "Originating Application Evidence (OtherThan Judicial Review)",
-      "operative_text_raw": "3.14(1)When making a decision about an originating application,other than an*originating application for judicial review,the Court may consider the following*evidence only:*(a)affidavit evidence,including an affidavit by an expert;\n*(b)a transcript referred to in rule 3.13 [Questioning on an affidavit and**questioning witnesses];*(c)if Part 5 [Disclosure of Information] applies by agreement of the*parties or order of the Court to the originating application, the*transcript evidence or answers to questions,or both, under that Part*that may be used under rule 5.31 [Use of transcript and answers to\n**written questions];",
-      "operative_text_sha256": "2e5ff0b4443b6858aae8a601c9066c545e2267abd5858c7785f2209ef4f07e14",
-      "defined_terms": null,
-      "related_provisions": null,
-      "commentary": "3Campbell v. Chief Electoral Officer2018 ABQB 248, JCE 1703 07561/3 (Mar 29) (¶'s 39-45). 4Jacobson v. Newell (Cty.)2021 ABQB 505, JCE 2103 00316 (Jun 30) (¶'s 32 ff.). 5Quite similar to previous 1987 Rr.753.03, 753.04.They were first enacted in 1987. *(d)an admissible record disclosed in an affidavit;\n1Baralot Int.Corp. v.Rundle Dev. Co-op.2008 ABCA 103, 429 AR 64. 2Amack v.AW Hldg. Corp.2014 ABQB 92, [2014] AR Uned 168.Is there then deliberative privilege?\n\n*(e)anything permitted by any other rule or by an enactment;*(f)evidence taken in any other action, but only if the party proposing to*submit the evidence gives each of the other parties 5 days'or more*notice of that party's intention and obtains the Court's permission to*submit the evidence;*(g)with the Court's permission,oral evidence,which if permitted must\n*be given in the same manner as at trial.*(2)An affidavit or other evidence that is used or referred to at a hearing by*the respondent,or by the originating applicant in response to the respondent,*and that has not previously been filed in the action must be filed as soon as*practicable after the hearing. Defined Terms\n\nCourt, enactment, expert, party, record Related Provisions 3.13 (questioning on an affidavit) A respondent objecting to the short time for an (originating) application has a duty to tell the judge of its objection, and that it wants an adjournment to cross-examine on an affidavit.It is too late to wait until the judge has decided the motion.\n\nAfter a report to the court by a court-appointed Inspector of a company, the court should not order his disclosure of back-up documents used to compile his report.He should not become an information-gathering tool for any party, especially if non-parties could suffer from disclosure. If there are confidentiality provisions in the legislation, the Record for appeal can omit personal\n\ninformation not relevant or material, such as telephone numbers or maybe names of witnesses interviewed.But it cannot delete the substance of complaints or interviews.Nor delete the name of the complainant. Materials in a legal brief, not sworn to by any affidavit, are not evidence.Nor should the book of authorities contain materials not in the record nor verified by affidavit.\n\n*Subdivision 2 Additional Rules Specific to Originating Applications for Judicial Review *Originating Application for Judicial Review*",
+      "operative_text_raw": "3.14(1)When making a decision about an originating application,other than an*originating application for judicial review,the Court may consider the following*evidence only:*(a)affidavit evidence,including an affidavit by an expert;\n*(b)a transcript referred to in rule 3.13 [Questioning on an affidavit and**questioning witnesses];*(c)if Part 5 [Disclosure of Information] applies by agreement of the*parties or order of the Court to the originating application, the*transcript evidence or answers to questions,or both, under that Part*that may be used under rule 5.31 [Use of transcript and answers to\n**written questions];\n3Campbell v. Chief Electoral Officer2018 ABQB 248, JCE 1703 07561/3 (Mar 29) (¶'s 39-45). 4Jacobson v. Newell (Cty.)2021 ABQB 505, JCE 2103 00316 (Jun 30) (¶'s 32 ff.). 5Quite similar to previous 1987 Rr.753.03, 753.04.They were first enacted in 1987. *(d)an admissible record disclosed in an affidavit;\n1Baralot Int.Corp. v.Rundle Dev. Co-op.2008 ABCA 103, 429 AR 64. 2Amack v.AW Hldg. Corp.2014 ABQB 92, [2014] AR Uned 168.Is there then deliberative privilege?\n*(e)anything permitted by any other rule or by an enactment;*(f)evidence taken in any other action, but only if the party proposing to*submit the evidence gives each of the other parties 5 days'or more*notice of that party's intention and obtains the Court's permission to*submit the evidence;*(g)with the Court's permission,oral evidence,which if permitted must\n*be given in the same manner as at trial.*(2)An affidavit or other evidence that is used or referred to at a hearing by*the respondent,or by the originating applicant in response to the respondent,*and that has not previously been filed in the action must be filed as soon as*practicable after the hearing.",
+      "operative_text_sha256": "a8dd01b57457a075a1d8e59eb896598f5c44cf3bc3a1a95053bf9838e544a66b",
+      "defined_terms": "Court, enactment, expert, party, record",
+      "related_provisions": "3.13 (questioning on an affidavit) A respondent objecting to the short time for an (originating) application has a duty to tell the judge of its objection, and that it wants an adjournment to cross-examine on an affidavit.It is too late to wait until the judge has decided the motion. After a report to the court by a court-appointed Inspector of a company, the court should not order his disclosure of back-up documents used to compile his report.He should not become an information-gathering tool for any party, especially if non-parties could suffer from disclosure. If there are confidentiality provisions in the legislation, the Record for appeal can omit personal information not relevant or material, such as telephone numbers or maybe names of witnesses interviewed.But it cannot delete the substance of complaints or interviews.Nor delete the name of the complainant. Materials in a legal brief, not sworn to by any affidavit, are not evidence.Nor should the book of authorities contain materials not in the record nor verified by affidavit. *Subdivision 2 Additional Rules Specific to Originating Applications for Judicial Review *Originating Application for Judicial Review*",
+      "commentary": null,
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -89,7 +89,7 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.3796,
+      "similarity": 0.6577,
       "differences": [
         {
           "op": "replace",
@@ -147,9 +147,64 @@
           "carrier": "partthat"
         },
         {
-          "op": "delete",
-          "official": "(d) an admissible record disclosed in an affidavit; (e) anything permitted by any other rule or by an enactment; (f) evidence taken in any other action, but only if the party proposing to submit the evidence gives each of the other parties 5 days' or more notice of that party's intention and obtains the court's permission to submit the evidence; (g) with the court's permission, oral evidence, which if permitted must be given in the same manner as at trial. (2) an affidavit or other evidence that is used or referred to at a hearing by the respondent, or by the originating applicant in response to the respondent, and that has not previously been filed in the action must be filed as soon as practicable after the hearing.",
-          "carrier": ""
+          "op": "replace",
+          "official": "(d) an",
+          "carrier": "3campbell v. chief electoral officer2018 abqb 248, jce 1703 07561/3 (mar 29) (¶'s 39-45). 4jacobson v. newell (cty.)2021 abqb 505, jce 2103 00316 (jun 30) (¶'s 32 ff.). 5quite similar to previous 1987 rr.753.03, 753.04.they were first enacted in 1987. (d)an"
+        },
+        {
+          "op": "replace",
+          "official": "(e) anything",
+          "carrier": "1baralot int.corp. v.rundle dev. co-op.2008 abca 103, 429 ar 64. 2amack v.aw hldg. corp.2014 abqb 92, ar uned 168.is there then deliberative privilege? (e)anything"
+        },
+        {
+          "op": "replace",
+          "official": "enactment; (f) evidence",
+          "carrier": "enactment;(f)evidence"
+        },
+        {
+          "op": "replace",
+          "official": "to submit",
+          "carrier": "tosubmit"
+        },
+        {
+          "op": "replace",
+          "official": "days' or more notice",
+          "carrier": "days'or morenotice"
+        },
+        {
+          "op": "replace",
+          "official": "to submit",
+          "carrier": "tosubmit"
+        },
+        {
+          "op": "replace",
+          "official": "evidence; (g) with",
+          "carrier": "evidence;(g)with"
+        },
+        {
+          "op": "replace",
+          "official": "permission, oral evidence, which",
+          "carrier": "permission,oral evidence,which"
+        },
+        {
+          "op": "replace",
+          "official": "trial. (2) an",
+          "carrier": "trial.(2)an"
+        },
+        {
+          "op": "replace",
+          "official": "by the respondent, or",
+          "carrier": "bythe respondent,or"
+        },
+        {
+          "op": "replace",
+          "official": "respondent, and",
+          "carrier": "respondent,and"
+        },
+        {
+          "op": "replace",
+          "official": "as practicable",
+          "carrier": "aspracticable"
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -215,7 +270,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "2e5ff0b4443b6858aae8a601c9066c545e2267abd5858c7785f2209ef4f07e14",
+        "text_sha256": "a8dd01b57457a075a1d8e59eb896598f5c44cf3bc3a1a95053bf9838e544a66b",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -267,7 +322,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "a75df798a4bceb5ba576693daed8d72e3320a39253b998e505aec10ab9d4cbc0"
+    "gate_artifact_sha256": "5342ccbc5c7043ddead8cc6a51481cd122cbaa9a745da2dd47320e1e741b240e"
   },
   "information_notes": [],
   "dedupe_log": [

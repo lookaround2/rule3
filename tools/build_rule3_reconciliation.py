@@ -285,7 +285,11 @@ def parse_book_a() -> tuple[dict, dict]:
         if m:
             op_end = m.end()
         else:
-            cut = [seg.find(x) for x in ("Information Note", "Defined Terms", "Related Provisions", "\n\n") if seg.find(x) > 0]
+            # no amendment bracket: the rule text ends at the first section heading; a blank line is only the fallback
+            # (page breaks and column breaks put blank lines inside the rule text)
+            cut = [seg.find(x) for x in ("Information Note", "Defined Terms", "Related Provisions") if seg.find(x) > 0]
+            if not cut:
+                cut = [seg.find("\n\n")] if seg.find("\n\n") > 0 else []
             op_end = min(cut) if cut else len(seg)
         op, rest = seg[:op_end].strip(), seg[op_end:].strip()
         info = defined = related = None
@@ -370,6 +374,12 @@ def parse_book_b() -> tuple[dict, dict]:
         o = out[cur]
         o["paragraph_ids"].append(p["paragraph_id"]); o["locator"]["files"].add(fname)
         if mode == "rule":
+            # the extraction sometimes prints a rule's text twice (heading repeated across a page/file break): keep one copy, log the skip
+            o.setdefault("_rule_paras", [])
+            if len(t) > 40 and t in o["_rule_paras"]:
+                o.setdefault("duplicate_rule_text_paragraphs_skipped", []).append(p["paragraph_id"])
+                continue
+            o["_rule_paras"].append(t)
             o["operative_text_raw"] = (o["operative_text_raw"] + "\n" + t).strip()
         elif o["commentary"]:
             o["commentary"][-1]["text"] += "\n" + t
@@ -383,6 +393,7 @@ def parse_book_b() -> tuple[dict, dict]:
             o["operative_text_raw"] = o["operative_text_raw"][: m.start()].rstrip()
         o["operative_text_sha256"] = sha_text(o["operative_text_raw"])
         o["locator"]["files"] = sorted(o["locator"]["files"])
+        o.pop("_rule_paras", None)
     edition_year = str(max(years)) if years else None
     return out, {"edition_header": "Alberta Rules of Court, The Honourable Justice Allan A. Fradsham (Part 3 files carry no edition year; header text found only in some files)",
                  "edition_year": edition_year,
@@ -487,6 +498,14 @@ def _sim(x: str, y: str) -> float:
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.4": {"BOOK_A": "same wording as official 3.4(1)-(6) (read by eye) except the bracket label '[Determining the appropriate judicial centre]' (after "
+                       "'rule 3.3'), missing spaces, '*' line marks and the footnote marker '1' after (6)(c). No amendment bracket; the official text lists no "
+                       "amendment for 3.4. No substantive difference. The raw text also held the p.3-21 footnote block, kept here verbatim: "
+                       "'1Quite similar to previous 1981 R.237(c), first enacted by Alta.Reg.313/81.It was probably designed to move foreclosure actions to "
+                       "the smaller judicial centres when the land is located there.' (footnote 1, history of 3.4) and '2Quite similar to previous 1968 R.12.It "
+                       "came from 1944 C.R.14.Cf.Ont.1897 R.132.See further on the history,Pac.Inv.& Dev.v.Wood Buffalo (R.M.)2017 ABQB 469, JC FtMcM 1713 0016 "
+                       "(Jul 26).' Footnote 2 is the history note of rule 3.5, not of 3.4: its marker '2' is printed after 3.5's text (line 464) and Book B's "
+                       "3.3 commentary calls 3.5 'similar to previous Rule 12'."},
     "3.3": {"BOOK_A": "same wording as official 3.3(1)-(3) (read by eye) except missing spaces, '*' line marks and the footnote marker '1' printed after "
                        "subrule (3). No amending regulation on either side (the official text carries none for 3.3). No substantive difference."},
     "3.2": {"BOOK_A": "same wording as official 3.2(1)-(6) (read by eye) except: editorial bracket labels '[Determining the appropriate "
@@ -516,15 +535,29 @@ MANUAL_SEE_ALSO = {
         "BOOK_B other Parts and BOOK_C (all rule*_part*.json and all Book C page files searched for 'rule 3.2', 'R.3.2', '[Rule 3.2' and 'label' forms): BOOK_B rule 12.16 text ('Despite rule 3.2(1)...') and BOOK_B rule 1.5 commentary (§ 1.5:1, quoting Kwadrans v. Kwadrans, 2023 ABCA 203, para 35: 'The general rule 1.5 should not be invoked if there is a specific rule that addresses the issue in question, here being rule 3.2(6)'). BOOK_C rule 12.16 (file 541-560): text 'Despite rule 3.2(1)' and commentary 'rule 12.16 overrides the requirement in rule 3.2(1) that an action be commenced only by statement of claim, originating notice, or notice of appeal' (citing Blackburn v. Boucher 2018 ABQB 509 para 25 and Karas v. Mongeon 2018 ABQB 149 paras 22-23) - the wording 'originating notice' is the same as in the Karas quotation; official 3.2(1)(b) says 'originating application'.",
     ],
     "3.3": ["Official text (searched for 'rule 3.3', 'rules 3.3', lists such as 'and 3.3', line-wrapped forms and form headings '[Rule 3.3]'): 3.2(1) ('determined under rule 3.3'), 3.4(1) ('Despite rule 3.3, if possession of land is claimed ...') and 15.13 ('The coming into force of rules 3.3 and 3.4 does not operate to require an existing proceeding to be carried on in a different judicial centre ...'); no form heading names 3.3. By subject: 3.5 (transfer of action), 3.6 (where an action is carried on; 3.6(2) place of hearing or trial), 3.7 (post-judgment transfer), 14.8(5) and 14.84 (place of filing appeals) and the Appendix definition of 'judicial centre' (the office of the Court in Calgary, ...).",
-            "BOOK_A other Parts and Part 3 (all combined*.txt searched, line-wrapped forms included; pages from the page markers): R.15.13 (p.15-9, text 'rules 3.3 and 3.4' and related provision '3.3 (venue)'; official 15.13 confirms the text); R.10.49 note (p.10-140, line 7485) 'Rule 3.3 requires commencement in the judicial centre specified, without waiting for the defendant to complain. The court can transfer the suit ... with costs under R.10.49' (the same sentence as in 3.3 p.3-20 with R.10.47; see the 3.3 flag); R.13.15 information note (p.13-72, line 3750) 'The appropriate judicial centre is determined under rule 3.3 [Determining the appropriate judicial centre] and rule 3.4 [Claim for possession of land]' (both titles match the official); R.13.12 checklist (see FLAG). Inside Part 3: 3.2(1) text (p.3-4); 3.4 text (p.3-20, 'Despite rule 3.3 [Determining the appropriate judicial centre]') and related provision '3.3 (determining the appropriate judicial centre)' (p.3-21, line 463); notes at p.3-22 (lines 475 and 489: 'Rule 3.3 creates a presumption that the location R.3.3 dictates is the suitable one'; 'Rule 3.3 does not allow a chambers judge to pick the place of trial on wide or ...') and p.3-23 (line 521: 'Rule 3.3 prevents abusive choice of a plainly unsuitable court-house') - the rule each of these three belongs to is not yet checked (3.4/3.5 area).",
+            "BOOK_A other Parts and Part 3 (all combined*.txt searched, line-wrapped forms included; pages from the page markers): R.15.13 (p.15-9, text 'rules 3.3 and 3.4' and related provision '3.3 (venue)'; official 15.13 confirms the text); R.10.49 note (p.10-140, line 7485) 'Rule 3.3 requires commencement in the judicial centre specified, without waiting for the defendant to complain. The court can transfer the suit ... with costs under R.10.49' (the same sentence as in 3.3 p.3-20 with R.10.47; see the 3.3 flag); R.13.15 information note (p.13-72, line 3750) 'The appropriate judicial centre is determined under rule 3.3 [Determining the appropriate judicial centre] and rule 3.4 [Claim for possession of land]' (both titles match the official); R.13.12 checklist (see FLAG). Inside Part 3: 3.2(1) text (p.3-4); 3.4 text (p.3-20, 'Despite rule 3.3 [Determining the appropriate judicial centre]') and related provision '3.3 (determining the appropriate judicial centre)' (p.3-21, line 463); notes at p.3-22 (lines 475 and 489: 'Rule 3.3 creates a presumption that the location R.3.3 dictates is the suitable one'; 'Rule 3.3 does not allow a chambers judge to pick the place of trial on wide or ...') and p.3-23 (line 521: 'Rule 3.3 prevents abusive choice of a plainly unsuitable court-house') - the first two are in 3.5's note (under the running head R.3.5), the third in 3.6's note (it opens 'Different Rules and tests apply to three different questions'); corrected/settled in the 3.4 pass.",
             "FLAG on BOOK_A R.13.12 (p.13-66, lines 3475-3477, checklist for a statement of claim): '2. Is the Judicial Centre selected by the statement of claim suitable? Should one move to change it? (Rr.3.3, 3.36)'. Official 3.36 is 'Judgment in default of defence and noting in default'; the transfer rules are 3.4 and 3.5. The sources do not say which number was meant. In the same checklist '1. Is the place of trial suggested in the Statement of Claim acceptable? (R.3.3)' is consistent with 3.3.",
             "BOOK_B: one commentary section (§ 3.3:1) with one numbered part ('1. Old Cases Apply to R. 3.3(2)'), ending at Odland para 13. Its list of what rule 3.3 requires (Odland para 7, i-iv: r 3.3(1)(a), (1)(b), (2), (3)) and the quoted paragraphs match the official 3.3 subrules; the rule 3.5 it mentions ('similar to previous Rule 12') is 'Transfer of action' in the official text.",
-            "Cross-book links: 325303 Alberta Ltd. v. Prime Property Management, 2011 ABQB 817, 531 AR 204 (BOOK_B 3.3 commentary; BOOK_A p.3-19 fn 2 and p.3-20 fn 5 'supra'); Apache Canada Ltd. v. Johnson, 2005 ABCA 71, 363 AR 100 (BOOK_B; BOOK_A p.3-19 fn 4, p.3-20 fn 4 'supra'); Odland v. Odland, 2017 ABCA 397 (BOOK_B 3.3 and 3.4 commentary; BOOK_A p.3-19 fn 6; BOOK_C 3.4); Lim v. Young 2004 ABQB 489, 360 AR 277 (BOOK_B inside the Apache quotation; BOOK_A p.3-20 fn 1); Nat. Hldg. v. Blair, 2009 ABQB 351 (BOOK_A only: p.3-19 fn 5, p.3-20 fn 1 and 3). BOOK_A 'Calgary cannot be the proper judicial centre if both parties reside in Edmonton' matches Odland paras 12-13 in BOOK_B; BOOK_A 'the place in R.3.3 is presumed correct' matches Odland (onus on the defendant if the plaintiff complied with 3.3, on the plaintiff if not). BOOK_B rule text = official and BOOK_C rule text = official (both read by eye); the amendment note in BOOK_C ('Alta. Reg. 124/2010, r. 3.3 effective November 1, 2010') and the absence of one in BOOK_A and BOOK_B agree with the official text, which lists no amendment.",
+            "Cross-book links: 325303 Alberta Ltd. v. Prime Property Management, 2011 ABQB 817, 531 AR 204 (BOOK_B 3.3 commentary; BOOK_A p.3-19 fn 2 and p.3-20 fn 5 'supra'); Apache Canada Ltd. v. Johnson, 2005 ABCA 71, 363 AR 100 (BOOK_B; BOOK_A p.3-19 fn 4, p.3-20 fn 4 'supra'); Odland v. Odland, 2017 ABCA 397 (BOOK_B 3.3 and 3.5 commentary; BOOK_A p.3-19 fn 6 and p.3-22 fn 2; BOOK_C 3.5); Lim v. Young 2004 ABQB 489, 360 AR 277 (BOOK_B inside the Apache quotation; BOOK_A p.3-20 fn 1); Nat. Hldg. v. Blair, 2009 ABQB 351 (BOOK_A only: p.3-19 fn 5, p.3-20 fn 1 and 3). BOOK_A 'Calgary cannot be the proper judicial centre if both parties reside in Edmonton' matches Odland paras 12-13 in BOOK_B; BOOK_A 'the place in R.3.3 is presumed correct' matches Odland (onus on the defendant if the plaintiff complied with 3.3, on the plaintiff if not). BOOK_B rule text = official and BOOK_C rule text = official (both read by eye); the amendment note in BOOK_C ('Alta. Reg. 124/2010, r. 3.3 effective November 1, 2010') and the absence of one in BOOK_A and BOOK_B agree with the official text, which lists no amendment.",
             
-        "BOOK_B and BOOK_C other Parts (all Book B files and all Book C page files searched): BOOK_B rule 15.13 text and BOOK_C rule 15.13 (file 721-740) 'The coming into force of rules 3.3 and 3.4 does not operate to require an existing proceeding to be carried on in a different judicial centre ...'; BOOK_B 3.4 commentary quotes Odland v. Odland para 19 ('rule 3.3 operates much like a presumption'); BOOK_C 3.4 commentary cites Regular v. Regular 2016 ABQB 570 para 5 and Odland for the same point ('Rule 3.3 operates \"much like a presumption\"'); BOOK_C's 3.4 entry also has the running head 'R. 3.3 50' inside 3.4(1)(b) (to note in the 3.4 pass). BOOK_C 3.2 commentary says the originating application may be used only where 'the requirements of rule 3.3(2) are met' - flagged under 3.2 (the exceptions are in 3.2(2)).",
+        "BOOK_B and BOOK_C other Parts (all Book B files and all Book C page files searched): BOOK_B rule 15.13 text and BOOK_C rule 15.13 (file 721-740) 'The coming into force of rules 3.3 and 3.4 does not operate to require an existing proceeding to be carried on in a different judicial centre ...'; BOOK_B 3.5 commentary (§ 3.5:1) quotes Odland v. Odland para 19 ('rule 3.3 operates much like a presumption'); BOOK_C's 3.5 entry cites Regular v. Regular 2016 ABQB 570 para 5 and Odland for the same point ('Rule 3.3 operates \"much like a presumption\"') [corrected in the 3.4 pass: an earlier version of this note put both under 3.4]; BOOK_C's 3.4 entry also has the running head 'R. 3.3 50' inside 3.4(1)(b) (to note in the 3.4 pass). BOOK_C 3.2 commentary says the originating application may be used only where 'the requirements of rule 3.3(2) are met' - flagged under 3.2 (the exceptions are in 3.2(2)).",
+    ],
+    "3.4": ["Official text (searched for 'rule 3.4', 'rules 3.3 and 3.4', lists, line-wrapped forms and form headings): 3.6(1)(b) ('if the action is transferred in accordance with rule 3.4 or rule 3.5'), 15.13 ('rules 3.3 and 3.4') and Form 6, headed '[Rule 3.4]': its notice to the plaintiff says the court clerk transfers the action 'unless these facts as stated by the defendant(s) are incorrect, the pleadings in this action have closed, or one of the exceptions ... applies', warns that the clerk will transfer if the plaintiff does not respond 'within 10 days of service', and its notice to the clerk lists exceptions (a)-(c) that mirror 3.4(6)(a)-(c) plus '(d) an objection has been filed under rule 3.4(4)'. Also fee item 3.4 of Schedule B (rule 13.x fee waiver) is not this rule. By subject: 3.5 (transfer of action), 3.6, 3.67 ('Close of pleadings', named in the information note; 3.4(3)(a) requires the request before close of pleadings), Appendix definitions of the Defined Terms.",
+            "BOOK_A other Parts and Part 3 (all combined*.txt searched, line-wrapped forms included; page markers checked): R.13.15 information note p.13-72 'rule 3.4 [Claim for possession of land]' (title matches official); R.9.30 (p.9-74, line 3841) and R.9.37 (p.9-89, line 4612) related provisions '3.4 (venue)' - a short paraphrase of 'Claim for possession of land' (the rule moves a possession-of-land action to the centre closest to the land); R.15.13 (p.15-9); 3.3 related provision '3.4 (claimingland)' (p.3-19, line 413); 3.5 note p.3-22 line 500 '(subject to claims for possession of land to R.3.4)'; 3.6(1)(b) text p.3-23 'rule 3.4 [Claim for possession of land]'. FLAG on BOOK_A 3.5 related provision '3.4(2) (transfer of action where land claimed)' (p.3-21, line 466): official 3.4(2) says what the request must contain (the centre to which the action is to be transferred, and the reason); the label describes rule 3.4 as a whole. Book A R.13.x fee text 'item 1 or 3.4 respectively of Schedule B' (p.13-99, line 5141) is fee item 3.4, not this rule.",
+            "BOOK_B and BOOK_C other Parts (all Book B files and all Book C page files searched, JSON text only): BOOK_B 3.6(1)(b) ('transferred in accordance with rule 3.4 or rule 3.5') and 15.13; BOOK_C 15.13. The other hits for '3.4' in B and C (rule 13.x fee waiver 'under item 1 or 3.4 respectively of Schedule B') are fee item 3.4, not this rule. Neither book has a commentary that cites 3.4 by number.",
+            
+        "Cross-book: Pac. Inv. & Dev. v. Wood Buffalo (R.M.), 2017 ABQB 469 appears in BOOK_A p.3-19 fn 1 (3.3) and p.3-21 fn 2 (3.5's history note); Regular v. Regular 2016 ABQB 570 and Behiels v. Tibu belong to 3.5 (BOOK_C's 3.5 entry and BOOK_A p.3-22 fn 3, fn 8), not to 3.4. Book B's source prints the 3.4 rule text twice (paragraphs part3_part_3_court_actions_012 and _014, identical, 1,601 characters, headings repeated); the builder now keeps one copy and logs the skipped paragraph; the text equals the official 3.4.",
     ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.4": "Book A has no commentary for 3.4: after the related provisions the text of 3.5 follows at once (p.3-21, line 463; the title '*Transfer of "
+           "Action*' printed there is 3.5's and ends the built related-provisions field); the notes on pp.3-22 to 3-23 are under the running head R.3.5 "
+           "and, from line 521, R.3.6. Read in full: rule text, footnotes 1-2 (p.3-21; two footnotes on that page; see the text note for whose they are), "
+           "information note 'Close of pleadings is a time determined under rule 3.67 [Close of pleadings]' (official 3.67 is 'Close of pleadings'), "
+           "Defined Terms 'Court, court clerk, defendant, file, judicial centre, order, pleading' (the Appendix defines each), and Related Provisions "
+           "'3.3 (determining the appropriate judicial centre); 3.5 (transfer of an action)' (both match the official titles). Footnote 1 says the rule "
+           "'was probably designed to move foreclosure actions to the smaller judicial centres'; a conjecture, no source. The 3.5 related provision "
+           "'3.4(2) (transfer of action where land claimed)' is flagged under see_also.",
     "3.3": "Read in full, pp.3-19 to 3-20. (1) Title and footnotes: the Book A title 'Determining the Appropriate Judicial Centre' (p.3-19 line 406) and "
            "footnotes 2-6 of this commentary (lines 404-407) are printed BEFORE the rule text and so sit at the end of the built 3.2 commentary (see the 3.2 "
            "flag); footnote 1 (history: 'Quite similar to previous 1996 R.6.1, first enacted by Alta.Reg.243/96 ...', line 421) follows the text; p.3-19 has "
@@ -548,7 +581,7 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
            "(a) if it would be unreasonable for the action to be carried on where it is, or (b) at the request of the parties; a defendant's right to have "
            "an action moved by request (Form 6) is in 3.4 and only for claims for possession of land. The same page says (p.3-20 fn 7) that the rule 'is not "
            "mandatory, and the judge has a discretion'. "
-           "(6) File number of Pac. Inv. & Dev. v. Wood Buffalo (R.M.) 2017 ABQB 469: p.3-19 fn 1 prints 'JC FtMcM 1713 00116', 3.4's fn 2 (p.3-21) prints "
+           "(6) File number of Pac. Inv. & Dev. v. Wood Buffalo (R.M.) 2017 ABQB 469: p.3-19 fn 1 prints 'JC FtMcM 1713 00116', footnote 2 on p.3-21 (3.5's history note: its marker '2' is printed after 3.5's text) prints "
            "'JC FtMcM 1713 0016'; which is right is not shown. "
            "(7) Statements of law without a source in the repository (not checked): residence is fixed when the action starts; poverty is no ground to move "
            "a suit; exclusive King's Bench jurisdiction over consolidating arbitrations (last paragraph). The Defined Terms line (Court, judicial centre, "
@@ -595,6 +628,27 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.4": {
+        "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): subrule (1) stops after 'to the Alberta residence "
+                          "of' - the words 'a defendant, a defendant may, by making a request in Form 6, require the court clerk in the judicial centre in "
+                          "which the action is located to transfer the action to the judicial centre that is closest, by road, to the land or the Alberta "
+                          "residence of that defendant.' are missing and the running head 'R. 3.3 50' stands in their place; in (4) the number '10' is missing "
+                          "('must file an objection within [ ] days') and this text stands there: 'Regular v. Regular, [2016] A.J. No. 1042, 2016 ABQB 570 at "
+                          "para. 9 (Alta. Q.B.); the factors were considered and applied at length in a case where both plaintiff and plaintiff by "
+                          "counterclaim had proposed Edmonton as place of trial; but many years later, after plaintiff had discontinued claim and plaintiff by "
+                          "counterclaim had moved to Calgary, plaintiff by counterclaim sought a change of venue: , Behiels v. Tibu'. Subrules (2), (3), (5) and "
+                          "(6) equal the official text; the amendment note agrees (no amending regulation).",
+        "drop_citations": "Regular v. Regular, 2016 ABQB 570 (para. 9) is not a 3.4 authority: it stands where the number '10' is lost in 3.4(4), the text "
+                          "beside it is about a change of venue ('sought a change of venue: , Behiels v. Tibu'), Book C's own 3.5 entry cites Regular (paras. 5 "
+                          "and 6) for onus and the test, and Book A cites Regular and Behiels v. Tibu (2024 ABKB 12) in its 3.5 notes (p.3-22 fn 3 and fn 8). "
+                          "Displaced from 3.5; the text is kept in the rule-text note.",
+        "drop_note_variant": "same words as Book A's information note; only the bracket label '[Close of pleadings]' is moved after the full stop ('rule 3.67 "
+                             ".\n[Close of pleadings]'); not retained.",
+        "commentary_flag": "the sentence agrees with Form 6 ('without the need to file an application': the request is made in Form 6), but it says the "
+                           "defendant can 'force a plaintiff to litigate ... in the judicial centre closest to the land'; official 3.4(1) lets the defendant "
+                           "name the centre closest to the land or the one closest to the defendant's Alberta residence, the transfer follows only if no "
+                           "objection is filed within 10 days (3.4(4)-(5)), and 3.4(6) lists exceptions. Books A and B have no 3.4 commentary to compare.",
+    },
     "3.3": {"commentary_flag": "the sentences that the rule 'has nothing to do with determining the appropriate forum in the face of competing "
                                "jurisdictions' and that the justices of the Court of King's Bench 'have jurisdiction over the entirety of the province' "
                                "are not in the official 3.3 text and are not repeated in Books A or B (both read for 3.3); not checked against any source "

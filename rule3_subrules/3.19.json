@@ -39,11 +39,11 @@
     },
     "BOOK_A": {
       "title": "Sending in Certified Record of Proceedings",
-      "operative_text_raw": "3.19(1) On receipt of an originating application for judicial review and a notice in\n*accordance with rule 3.18 [Notice to obtain record of proceedings],the person*or body named in the notice must, as soon as practicable,*(a)comply with the notice and send to the court clerk a certified record*of proceedings in Form 9,or*(b)provide in Form 9 a written explanation why the notice cannot be*complied with or fully complied with.",
-      "operative_text_sha256": "c728c4d8df17851df1b986b68e317e7e6bf67fc2a597f92498efdaa993f30283",
-      "defined_terms": null,
+      "operative_text_raw": "3.19(1) On receipt of an originating application for judicial review and a notice in\n*accordance with rule 3.18 [Notice to obtain record of proceedings],the person*or body named in the notice must, as soon as practicable,*(a)comply with the notice and send to the court clerk a certified record*of proceedings in Form 9,or*(b)provide in Form 9 a written explanation why the notice cannot be*complied with or fully complied with.\n5C.U.P.E.v. Montreal (City)[1997] 1 SCR 793, 210 NR 101. 6Dhillon v. Gen.Faculty Council of the Univ.of Alta.1999 ABQB 635, 17 Admin LR(3d) 16. 7Pritchard v. Ont.Human Rts.Comm.(CA 2003) 167 OAC 356,affd2004 SCC 31, [2004] 1 SCR 809. 8See the C.P.E., Chapter 79, Part Q.2.There is an extended discussion both of deliberative privilege, and how to handle contested privilege claims for a return, inIMS Health Can.v.Info.& Privacy Comm'r.2005 ABCA 325, 376 AR 336.\n9Johnson v. Appeals Comm.ofW.C.B.2011 ABCA 345, 515 AR 373 (¶'s 9-10). \n*(2)The certified record of proceedings sent to the court clerk under this rule*constitutes part of the court file of the originating application.*the record of proceedings,the Court may order any or all of the following:\n2003 ABQB 551, 336 AR 1.But on notes made by an arbitrator, cf.Jamani v. Subway Franchise Sys.of\n1Quite similar to previous 1987 R.753.13.It stemmed from 1914 Rr.827, 828;and 1944 C.R.865, 866; and Ont.Rr.1292-3 (1897, 1928).Quite similar to 1968 R.744. 2See the C.P.E., Chapter 79, Part Q.4.The return should include any internal policy of the tribunal that applied to the decision under review:WBA Mgmt.Socy. (W. Brewers Assn.) v.Beverage Container Mgmt.Bd. *Can.2008 ABQB 438, 62 CPC(6th) 127.On the mechanics, see the C.P.E., Chapter 79, Part Q.2, 3. 3Dechant v.Law Socy. of Alta.2001 ABCA 284,affg and adopting(Alta 23 Oct '01) JDE 4803 116674.\n4See the C.P.E., Chapter 79, Part Q.2.\n*(3)If the Court is not satisfied with the explanation for not sending all or part of*(a)the person or body to provide a better explanation;*(b)the person or body to send a certified copy of a record to be sent to*the court clerk;*(c)the person or body to take any other action the Court considers*appropriate.\n*1",
+      "operative_text_sha256": "fe7a1e6aeeceff50973ff28947241718d77ae9ce90ea8e78efe1b8893e2b31f3",
+      "defined_terms": "Court, court clerk, prescribed form This is about how to comply with R.3.18. The tribunal has to send up the original of its complete record.The tribunal must send all papers in its return under R.3.19, and destroy none. There is no requirement to put the certified copy (\"return\") in sworn form, but it should be certified.How the contents are organized is a housekeeping matter for the King's Bench judge in charge, and a Court of Appeal should not interfere with that question. Nor to Rule 3.19 does not require the tribunal to create and file written reasons, if none exist. create a verbatim transcript from a statutory tribunal, and affidavits can be used to show whether there was evidence of something. The return need not contain papers subject to solicitor-client privilege, even if they were before the tribunal when it decided whether or not any legal opinion in these papers is correct. A tribunal has\"deliberative\"secrecy for the content of and substance of its decision making and deliberations, but not for the formal process which it established to ensure consistency. Where a tribunal learns that judicial review of its decision is pending, it should not of its own motion give a reconsideration as a way of producing additional reasons to shore up its original reasons. 1Caron v.Alta. Human Rts.& Citizenship Comm.2007 ABQB 200, 426 AR 370. 2TransAlta Generation P'ship. v.Balancing Pool etc.2012 ABQB 2, 73 Alta LR(5th) 189 (¶'s 58-59) (quoting this book). 3Quite similar to previous 1987 R.753.14, new in 1987. 4Patterson v. Alta.Dental Assn.2004 ABQB 210, 355 AR 116. 5Calg.Police Service Chief v.Info.& Privacy Comm'r.2018 ABCA 114, 30 Admin LR(6th) 45. Despite the statutory right to communicate with Alberta courts in French, and to get an interpreter, neither the tribunal being reviewed, nor the opponent before that tribunal, need translate their files into French for the applicant. A body need not file a Record for judicial review, if the body is not subject to judicial review. *Other CircumstancesWhen Record of Proceedings May Be Required*",
       "related_provisions": null,
-      "commentary": "5C.U.P.E.v. Montreal (City)[1997] 1 SCR 793, 210 NR 101. 6Dhillon v. Gen.Faculty Council of the Univ.of Alta.1999 ABQB 635, 17 Admin LR(3d) 16. 7Pritchard v. Ont.Human Rts.Comm.(CA 2003) 167 OAC 356,affd2004 SCC 31, [2004] 1 SCR 809. 8See the C.P.E., Chapter 79, Part Q.2.There is an extended discussion both of deliberative privilege, and how to handle contested privilege claims for a return, inIMS Health Can.v.Info.& Privacy Comm'r.2005 ABCA 325, 376 AR 336.\n\n9Johnson v. Appeals Comm.ofW.C.B.2011 ABCA 345, 515 AR 373 (¶'s 9-10). \n*(2)The certified record of proceedings sent to the court clerk under this rule*constitutes part of the court file of the originating application.*the record of proceedings,the Court may order any or all of the following:\n2003 ABQB 551, 336 AR 1.But on notes made by an arbitrator, cf.Jamani v. Subway Franchise Sys.of\n\n1Quite similar to previous 1987 R.753.13.It stemmed from 1914 Rr.827, 828;and 1944 C.R.865, 866; and Ont.Rr.1292-3 (1897, 1928).Quite similar to 1968 R.744. 2See the C.P.E., Chapter 79, Part Q.4.The return should include any internal policy of the tribunal that applied to the decision under review:WBA Mgmt.Socy. (W. Brewers Assn.) v.Beverage Container Mgmt.Bd. *Can.2008 ABQB 438, 62 CPC(6th) 127.On the mechanics, see the C.P.E., Chapter 79, Part Q.2, 3. 3Dechant v.Law Socy. of Alta.2001 ABCA 284,affg and adopting(Alta 23 Oct '01) JDE 4803 116674.\n\n4See the C.P.E., Chapter 79, Part Q.2.\n\n*(3)If the Court is not satisfied with the explanation for not sending all or part of*(a)the person or body to provide a better explanation;*(b)the person or body to send a certified copy of a record to be sent to*the court clerk;*(c)the person or body to take any other action the Court considers*appropriate.\n*1 Defined Terms Court, court clerk, prescribed form This is about how to comply with R.3.18. The tribunal has to send up the original of its complete record.The tribunal must send all papers in its return under R.3.19, and destroy none.\n\nThere is no requirement to put the certified copy (\"return\") in sworn form, but it should be certified.How the contents are organized is a housekeeping matter for the King's Bench judge in charge, and a Court of Appeal should not interfere with that question. Nor to Rule 3.19 does not require the tribunal to create and file written reasons, if none exist.\n\ncreate a verbatim transcript from a statutory tribunal, and affidavits can be used to show whether there was evidence of something. The return need not contain papers subject to solicitor-client privilege, even if they were\n\nbefore the tribunal when it decided whether or not any legal opinion in these papers is correct. A tribunal has\"deliberative\"secrecy for the content of and substance of its decision making and deliberations, but not for the formal process which it established to ensure consistency. Where a tribunal learns that judicial review of its decision is pending, it should not of its own\n\nmotion give a reconsideration as a way of producing additional reasons to shore up its original reasons.\n\n1Caron v.Alta. Human Rts.& Citizenship Comm.2007 ABQB 200, 426 AR 370. 2TransAlta Generation P'ship. v.Balancing Pool etc.2012 ABQB 2, 73 Alta LR(5th) 189 (¶'s 58-59) (quoting this book). 3Quite similar to previous 1987 R.753.14, new in 1987. 4Patterson v. Alta.Dental Assn.2004 ABQB 210, 355 AR 116. 5Calg.Police Service Chief v.Info.& Privacy Comm'r.2018 ABCA 114, 30 Admin LR(6th) 45.\n\nDespite the statutory right to communicate with Alberta courts in French, and to get an interpreter, neither the tribunal being reviewed, nor the opponent before that tribunal, need translate their files into French for the applicant. A body need not file a Record for judicial review, if the body is not subject to judicial review.\n\n*Other CircumstancesWhen Record of Proceedings May Be Required*",
+      "commentary": null,
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -104,7 +104,7 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.4846,
+      "similarity": 0.4732,
       "differences": [
         {
           "op": "replace",
@@ -132,9 +132,49 @@
           "carrier": "becomplied"
         },
         {
-          "op": "delete",
-          "official": "(2) the certified record of proceedings sent to the court clerk under this rule constitutes part of the court file of the originating application. (3) if the court is not satisfied with the explanation for not sending all or part of the record of proceedings, the court may order any or all of the following: (a) the person or body to provide a better explanation; (b) the person or body to send a certified copy of a record to the court clerk; (c) the person or body to take any other action the court considers appropriate.",
-          "carrier": ""
+          "op": "replace",
+          "official": "(2)",
+          "carrier": "5c.u.p.e.v. montreal (city) 1 scr 793, 210 nr 101. 6dhillon v. gen.faculty council of"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "univ.of alta.1999 abqb 635, 17 admin lr(3d) 16. 7pritchard v. ont.human rts.comm.(ca 2003) 167 oac 356,affd2004 scc 31, 1 scr 809. 8see the c.p.e., chapter 79, part q.2.there is an extended discussion both of deliberative privilege, and how to handle contested privilege claims for a return, inims health can.v.info.& privacy comm'r.2005 abca 325, 376 ar 336. 9johnson v. appeals comm.ofw.c.b.2011 abca 345, 515 ar 373 (¶'s 9-10). (2)the"
+        },
+        {
+          "op": "replace",
+          "official": "rule constitutes",
+          "carrier": "ruleconstitutes"
+        },
+        {
+          "op": "replace",
+          "official": "application. (3) if",
+          "carrier": "application.the record of proceedings,the court may order any or all of the following: 2003 abqb 551, 336 ar 1.but on notes made by an arbitrator, cf.jamani v. subway franchise sys.of 1quite similar to previous 1987 r.753.13.it stemmed from 1914 rr.827, 828;and 1944 c.r.865, 866; and ont.rr.1292-3 (1897, 1928).quite similar to 1968 r.744. 2see the c.p.e., chapter 79, part q.4.the return should include any internal policy of the tribunal that applied to the decision under review:wba mgmt.socy. (w. brewers assn.) v.beverage container mgmt.bd. can.2008 abqb 438, 62 cpc(6th) 127.on the mechanics, see the c.p.e., chapter 79, part q.2, 3. 3dechant v.law socy. of alta.2001 abca 284,affg and adopting(alta 23 oct '01) jde 4803 116674. 4see the c.p.e., chapter 79, part q.2. (3)if"
+        },
+        {
+          "op": "replace",
+          "official": "of the record of proceedings, the court may order any or all of the following: (a) the",
+          "carrier": "of(a)the"
+        },
+        {
+          "op": "replace",
+          "official": "explanation; (b) the",
+          "carrier": "explanation;(b)the"
+        },
+        {
+          "op": "replace",
+          "official": "the",
+          "carrier": "be sent tothe"
+        },
+        {
+          "op": "replace",
+          "official": "clerk; (c) the",
+          "carrier": "clerk;(c)the"
+        },
+        {
+          "op": "replace",
+          "official": "considers appropriate.",
+          "carrier": "considersappropriate. 1"
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -194,7 +234,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "c728c4d8df17851df1b986b68e317e7e6bf67fc2a597f92498efdaa993f30283",
+        "text_sha256": "fe7a1e6aeeceff50973ff28947241718d77ae9ce90ea8e78efe1b8893e2b31f3",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -246,7 +286,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "e36de2130b93802741c37de29d5f58696f725df4e0f3ea05aa6a23ff7bc93352"
+    "gate_artifact_sha256": "bb11c8691457dd3e6a1217b86e0e758ff65bc529a7b6980be267b6870889b46d"
   },
   "information_notes": [],
   "dedupe_log": [

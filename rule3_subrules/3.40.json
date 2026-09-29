@@ -39,11 +39,11 @@
     },
     "BOOK_A": {
       "title": null,
-      "operative_text_raw": "3.40 If judgment is entered against some but not all defendants under*(a)rule 3.36 [Judgment in default of defence and noting in default],**default],\n1Quite similar to previous 1968 R.148(2), 149(2).It came from part of 1944 C.R.113.Similar to 1914 R.153.",
-      "operative_text_sha256": "cb26a7ce5132a32b09e24ce98c57be0d38cc28284c76ff3f0a0b01c37b6c9f1b",
-      "defined_terms": null,
+      "operative_text_raw": "3.40 If judgment is entered against some but not all defendants under*(a)rule 3.36 [Judgment in default of defence and noting in default],**default],\n1Quite similar to previous 1968 R.148(2), 149(2).It came from part of 1944 C.R.113.Similar to 1914 R.153.\n2And a judgment against one joint tortfeasor barred any later judgment against the other tortfeasor:Longmore\nCf.Eng.O.3 r.6 (am.Jan.1902).\n*(b)rule 3.37 [Application for judgment against defendant noted in\n*(c)rule 3.38 [Judgment for recovery of property],or*(d)rule 3.39 [Judgment for debt or liquidated demand],*the plaintiff may continue the action in respect of any defendant against whom*judgment is not entered.*1",
+      "operative_text_sha256": "8f44b3db114e4f22c873300c67d51bf1da07bd3be70665341e2d1b2915805c3c",
+      "defined_terms": "defendant, judgment, plaintiff What if some defendants defend and others do not? Rules 3.37, 3.38 and 3.39 expressly allow the plaintiff to enter default judgment against those who did not defend, and then go on with the lawsuit against those who did.That may not have been possible at common law, but this subrule presumably reverses that.Rule 15.2(1) means that the 2010 Rules apply if after default judgment against one defendant the suit continued against other defendants. However, there is a large exception to R.3.40.New Rr.3.39 and 3.40 make doubtful the old rule that one cannot take judgment against the principal and his agent, and that taking judgment against one bars judgment against the other.But that rule of election still holds if the two are only alternatively liable. One can use R.3.40 only if the defendants are concurrently liable, e.g., if they have signed a joint and several note, or one is a debtor and the other the guarantor (or they are sued in one statement of claim for different debts).If two defendants arealternativelyliable, a plaintiff who signs judgment against one elects to abandon the claim against the other.One example of such alternative liability is (or was) when principal and agent are the two defendants. Another common (overlapping) example is a case where it is not clear whether the goods were bought by the business corporation or by the individual who seemed to be the proprietor.Where two people could only bealternativelyliable to pay the money, taking judgment against one bars a claim against the other.The court should itself refuse judgment against both.Taking judgment against the mortgagor necessarily asserted that the monies which he had paid to a third person were not paid on account of the mortgage, and so barred a claim against the payee to account for them;merger is not the reason, the causes of action being different. If default judgment is given against two defendants who are not alternately liable, and one gets it opened up, the plaintiff has not elected to take judgment against one, and the one who opened up is not thereby freed of liability.Especially if the contract says that liability is joint and several. 1Quite similar to previous 1996 R.686(6), (7), first enacted by Alta.Reg.3/96. 2Gauthier v. Starr2016 ABQB 213, 86 CPC(7th) 348 (¶ 13). *When No Defence is Filed in Foreclosure Action *",
       "related_provisions": null,
-      "commentary": "2And a judgment against one joint tortfeasor barred any later judgment against the other tortfeasor:Longmore\n\nCf.Eng.O.3 r.6 (am.Jan.1902).\n\n*(b)rule 3.37 [Application for judgment against defendant noted in\n*(c)rule 3.38 [Judgment for recovery of property],or*(d)rule 3.39 [Judgment for debt or liquidated demand],*the plaintiff may continue the action in respect of any defendant against whom*judgment is not entered.*1 Defined Terms\n\ndefendant, judgment, plaintiff What if some defendants defend and others do not? Rules 3.37, 3.38 and 3.39 expressly allow the plaintiff to enter default judgment against those who did not defend, and then go on with the lawsuit against those who did.That may not have been possible at common law, but this subrule presumably reverses that.Rule 15.2(1) means that the 2010 Rules apply if after default judgment\n\nagainst one defendant the suit continued against other defendants. However, there is a large exception to R.3.40.New Rr.3.39 and 3.40 make doubtful the old rule that one cannot take judgment against the principal and his agent, and that taking judgment against one bars judgment against the other.But that rule of election still holds if the two are only alternatively liable. One can use R.3.40 only if the defendants are concurrently liable, e.g., if\n\nthey have signed a joint and several note, or one is a debtor and the other the guarantor (or they are sued in one statement of claim for different debts).If two defendants arealternativelyliable, a plaintiff who signs judgment against one elects to abandon the claim against the other.One example of such alternative liability is (or was) when principal and agent are the two defendants. Another common (overlapping) example is a case where it is not clear whether the goods were\n\nbought by the business corporation or by the individual who seemed to be the proprietor.Where two people could only bealternativelyliable to pay the money, taking judgment against one bars a claim against the other.The court should itself refuse judgment against both.Taking judgment against the mortgagor necessarily asserted that the monies which he had paid to a third person were not paid on account of the mortgage, and so barred a claim against the payee to account for them;merger is not the reason, the causes of action being different.\n\nIf default judgment is given against two defendants who are not alternately liable, and one gets it opened up, the plaintiff has not elected to take judgment against one, and the one who opened up is not thereby freed of liability.Especially if the contract says that liability is joint and several.\n\n1Quite similar to previous 1996 R.686(6), (7), first enacted by Alta.Reg.3/96. 2Gauthier v. Starr2016 ABQB 213, 86 CPC(7th) 348 (¶ 13). \n*When No Defence is Filed in Foreclosure Action\n*",
+      "commentary": null,
       "footnotes": [],
       "footnotes_note": "not split out: this extraction prints footnotes as unmarked text inside the page (see commentary); nothing was dropped",
       "locator": {
@@ -98,17 +98,27 @@
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
-      "similarity": 0.3188,
+      "similarity": 0.4571,
       "differences": [
         {
           "op": "replace",
-          "official": "under (a) rule 3.36, (b) rule 3.37, (c) rule 3.38, or (d) rule 3.39, the plaintiff may continue the action in respect",
-          "carrier": "under(a)rule 3.36,default], 1quite similar to previous 1968 r.148(2), 149(2).it came from part"
+          "official": "under (a) rule 3.36, (b) rule 3.37, (c) rule 3.38, or (d) rule 3.39,",
+          "carrier": "under(a)rule 3.36,default], 1quite similar to previous 1968 r.148(2), 149(2).it came from part of 1944 c.r.113.similar to 1914 r.153. 2and a judgment against one joint tortfeasor barred any later judgment against"
+        },
+        {
+          "op": "insert",
+          "official": "",
+          "carrier": "other tortfeasor:longmore cf.eng.o.3 r.6 (am.jan.1902). (b)rule 3.37,or(d)rule 3.39,the"
         },
         {
           "op": "replace",
-          "official": "any defendant against whom judgment is not entered.",
-          "carrier": "1944 c.r.113.similar to 1914 r.153."
+          "official": "whom judgment",
+          "carrier": "whomjudgment"
+        },
+        {
+          "op": "replace",
+          "official": "entered.",
+          "carrier": "entered.1"
         }
       ],
       "version_identity": "SAME_VERSION_PROVEN"
@@ -168,7 +178,7 @@
       "BOOK_A": {
         "carrier_id": "BOOK_A",
         "artifact_sha256": "16214cc2f0c2b8d2684f682a170e09cd102b5ebef506114d5b163752edde81de",
-        "text_sha256": "cb26a7ce5132a32b09e24ce98c57be0d38cc28284c76ff3f0a0b01c37b6c9f1b",
+        "text_sha256": "8f44b3db114e4f22c873300c67d51bf1da07bd3be70665341e2d1b2915805c3c",
         "source_role": "ANNOTATED_RULES",
         "origin_id": "book-a-annotated-part3",
         "locator": {
@@ -220,7 +230,7 @@
         }
       }
     },
-    "gate_artifact_sha256": "03dab6dee0123cdc04db098978710f4e338baba13cf5cb8eab28da1872f9da93"
+    "gate_artifact_sha256": "7e67b4bd0e3a9bc810a3460fa7fcb49ae92ee7213057a893aca471bd1795b843"
   },
   "information_notes": [],
   "dedupe_log": [
