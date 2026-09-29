@@ -498,6 +498,10 @@ def _sim(x: str, y: str) -> float:
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.5": {"BOOK_A": "same wording as official 3.5 (read by eye) except missing spaces, '*' line marks, the title and number run together ('3.5The Court') "
+                       "and the footnote marker '2' after clause (b). No amendment bracket; the official text lists no amendment for 3.5. No substantive "
+                       "difference. This rule's history footnote (p.3-21 fn 2, 'Quite similar to previous 1968 R.12 ...') is printed inside the built text "
+                       "of 3.4 and is kept verbatim in the 3.4 text note."},
     "3.4": {"BOOK_A": "same wording as official 3.4(1)-(6) (read by eye) except the bracket label '[Determining the appropriate judicial centre]' (after "
                        "'rule 3.3'), missing spaces, '*' line marks and the footnote marker '1' after (6)(c). No amendment bracket; the official text lists no "
                        "amendment for 3.4. No substantive difference. The raw text also held the p.3-21 footnote block, kept here verbatim: "
@@ -548,8 +552,41 @@ MANUAL_SEE_ALSO = {
             
         "Cross-book: Pac. Inv. & Dev. v. Wood Buffalo (R.M.), 2017 ABQB 469 appears in BOOK_A p.3-19 fn 1 (3.3) and p.3-21 fn 2 (3.5's history note); Regular v. Regular 2016 ABQB 570 and Behiels v. Tibu belong to 3.5 (BOOK_C's 3.5 entry and BOOK_A p.3-22 fn 3, fn 8), not to 3.4. Book B's source prints the 3.4 rule text twice (paragraphs part3_part_3_court_actions_012 and _014, identical, 1,601 characters, headings repeated); the builder now keeps one copy and logs the skipped paragraph; the text equals the official 3.4.",
     ],
+    "3.5": ["Official text (searched for 'rule 3.5', 'rules 3.4 and 3.5', lists, line-wrapped forms and form headings): only 3.6(1)(b) ('if the action is transferred in accordance with rule 3.4 or rule 3.5, continued in the judicial centre to which the action is transferred') and the table of contents; no form heading names 3.5. By subject: 3.3 (appropriate judicial centre), 3.4 (transfer by request, land), 3.6, 3.7 (temporary transfer after judgment), 1.4(2) (procedural orders) and the Appendix definition of 'judicial centre'.",
+            "Other books (all Book A files, all Book B files, all Book C page files searched; line-wrapped forms included): no Book A file outside Part 3 cites 3.5 (no 'R.3.5', 'rule 3.5' or '3.5 (label)' in Parts 1, 2, 4-15); in Part 3 it is cited in 3.3 (p.3-19 lines 413, 415, 419; p.3-20 fn 7 'See R.3.5'), in 3.4's related provisions (p.3-21, line 463), in 3.6's text (p.3-23, line 518) and note (line 523: 'R.3.5 lets the court change the judicial centre at any time'). Notes at p.3-22 lines 475 and 489 ('Rule 3.3 creates a presumption ...'; 'Rule 3.3 does not allow a chambers judge to pick the place of trial on wide or vague grounds') are in this rule's note; the sentence at p.3-23 line 521 ('Rule 3.3 prevents abusive choice ...') is in 3.6's. BOOK_C: 3.6(1)(b) text only. BOOK_B: 3.6(1)(b) and the 3.26 list above.",
+            "BOOK_B: one commentary section (§ 3.5:1) with five numbered parts printed 1 Venue for Application, 2 Onus of Proof and Balance of Convenience, 3 Procedure, 4 Location of Counsel's Office, 5 'Unreasonable' - no gap. BOOK_B rule text = official; no amendment note on either side. BOOK_B rule 3.26 commentary (rule3_part03_document.json, after the 3.26 heading) lists '3.5 (transfer an action)' among rules that do not mention affidavits but whose applications would need affidavit evidence.",
+            
+        "Cross-book links (same decisions in more than one book): Odland v. Odland 2017 ABCA 397 (BOOK_B paras. 19-22, 24; BOOK_C; BOOK_A fn 2, fn 5, fn 8 and p.3-19 fn 6); Regular v. Regular 2016 ABQB 570 (BOOK_B, quoted at paras. 5-9; BOOK_C; BOOK_A fn 3 and 8); Behiels v. Tibu 2024 ABKB 12 (BOOK_A fn 3, 4, 7, 9-13; BOOK_B 'See also: Behiels v. Tibu, 2024 ABKB 12 for a review of the law'; BOOK_C prints only the name); Sobeys Capital Inc. v. Gulf & Pacific Equities Corp. 2018 ABQB 151 (BOOK_A fn 3; BOOK_C, name in pieces); Pac. Inv. & Dev. v. Wood Buffalo (R.M.) 2017 ABQB 469 (BOOK_A; BOOK_B 'Pacific Investments' inside Odland); Christensen v. Proprietary Industries 2002 ABQB 97, Wickstrom v. Wetter 2007 ABQB 402, Schafer v. Lenhardt 1998 ABCA 47, Silver Springs Oil Recovery v. UMA Eng. 2004 ABQB 942, C.S. v. A.J. 2004 ABQB 73 (BOOK_B in Regular para 7; BOOK_A; C.S. v. A.J. is at BOOK_A p.3-24 fn 2); Siver v. Siver 2010 ABQB 755 (BOOK_B in Regular paras. 6-9; BOOK_A p.3-23 line 525, in the note on 3.6: 'There is a curious decision, using instead a lax almost subjective test'); Keaton v. Keaton 2017 ABQB 429 (BOOK_B in Odland para 22; BOOK_A p.3-24 fn 1 and p.3-4). BOOK_B's Regular para 5 cites Abou-Morad v. Aboumourad 2015 ABQB 584 and 325303 Alberta v. Prime Property Management 2011 ABQB 817 (both also in BOOK_A p.3-19/3-20, note 3.3). BOOK_A p.3-22 'An application under this Rule is brought in the judicial centre in which the proceedings were commenced' matches BOOK_B section 1 (Royal Trust Corp. of Canada v. Fillo).",
+    ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.5": "Read in full, pp.3-22 to 3-23 (lines 473-515). (1) Extraction: columns are out of order and words are split across paragraphs (e.g. "
+           "'the respondent's financial resources (inter' ... 'alia) are'; 'The test in R.3.5(2) is' ... '\"unreasonable\", and case law differs on how strict a "
+           "test that should be'); footnotes are not split out. Page 3-22 has footnotes 1-13: 1 Lund (2017) 56 Alta LRev 429 (#4) ('See an article' is the "
+           "first line of the commentary); 2 Odland v. Odland 2017 ABCA 397; 3 Regular v. Regular infra, Behiels v. Tibu 2024 ABKB 12 (para. 8), Sobeys "
+           "Cap. Inc. v. Gulf & Pac. Eq. Corp. 2018 ABQB 151; 4 Behiels (para. 64); 5 Odland supra, Pac. Inv. v. Wood Buffalo supra, ibid; 6 'See n.7 "
+           "below'; 7 Behiels (para. 15(7)); 8 Regular 2016 ABQB 570, 46 Alta LR(6th) 385, Odland supra, Pac. Inv. & Dev. v. Wood Buffalo supra; "
+           "9 Behiels (para. 16); 10 Behiels (paras. 30-31, 38); 11 Behiels (para. 51; printed early, line 481); 12 Behiels (para. 61); 13 Schafer v. "
+           "Lenhardt 1998 ABCA 47, Silver Springs v. UMA Eng. (#2), J.T.A. v. D.G.K. 2001 ABQB 612, Behiels (para. 12). Page 3-23 has footnotes 1-6 for the "
+           "last two paragraphs of 3.5 and the note on 3.6: footnote 4 ('Quite similar to previous 1968 R.715, 716 ...') is 3.6's history note (its marker "
+           "is printed after 3.6's text, line 519); which rule owns footnotes 2, 3, 5 and 6 (Christensen supra; Oleynik v. Univ. of Calg. 2011 ABCA 281; "
+           "Ferguson v. Rubik 2002 ABQB 779; Min. of Justice v. Mohamed 2018 ABQB 897) is not shown, and they are the last lines of the built 3.5 commentary, "
+           "followed by 3.6's title. "
+           "(2) p.3-22 line 487: 'The test in R.3.5(2)' - official 3.5 has no subrule (2); the test is in clause (a) ('unreasonable'). "
+           "(3) p.3-23 line 513: 'If one litigant lives outside the province, then the other litigant probably has a right to have the proceedings "
+           "transferred to the city where it and its counsel are' - official 3.5 says the Court 'may order' a transfer, and the same note says the location "
+           "of counsel is 'not an important factor' (line 477) and 'not a significant factor' (line 493); Book B (Odland para 22, Regular para 8) says "
+           "the location of counsel is not decisive. The book does not reconcile them. "
+           "(4) Related Provisions has one entry, '3.4(2) (transfer of action where land claimed)': official 3.4(2) is what a request must contain; the label "
+           "describes rule 3.4 as a whole. 3.3 is not listed although the note relies on it (see 3.3's list, which names 3.5). "
+           "(5) supra/infra: Regular infra (fn 3) -> fn 8; Behiels (fn 4, 7, 9-12 supra) -> fn 3 (2024 ABKB 12); Odland supra (fn 5, 8) -> fn 2; Pac. Inv. supra "
+           "(fn 5, 8) -> p.3-19 fn 1 and p.3-21 fn 2 (2017 ABQB 469); Wickstrom v. Wetter supra (fn 13 text) -> line 485 (2007 ABQB 402, 419 AR 393); "
+           "Christensen v. Proprietary Ind. supra p.3-23 fn 2 -> p.3-23 fn 1 (2002 ABQB 97, 309 AR 201, line 525). The Silver Springs Oil Recovery v. UMA "
+           "Eng. (#2) citation is split: '2004' at line 500 and 'ABQB 942' at line 485 (Book B, Regular para 7, gives 2004 ABQB 942). "
+           "(6) Statements without a source in the repository (not checked): a suit can be transferred after most discoveries but before trial; the court may "
+           "decline to transfer until after a summary judgment is dealt with; the summary of an unnamed case (plaintiff's officer in Texas, defendants in "
+           "Calgary, Red Deer majority). The history footnote (p.3-21 fn 2: previous 1968 R.12) agrees with Book B's quotation 'Rule 3.5 (which is similar to "
+           "previous Rule 12)'. Defined Terms 'Court, judicial centre' match the Appendix.",
     "3.4": "Book A has no commentary for 3.4: after the related provisions the text of 3.5 follows at once (p.3-21, line 463; the title '*Transfer of "
            "Action*' printed there is 3.5's and ends the built related-provisions field); the notes on pp.3-22 to 3-23 are under the running head R.3.5 "
            "and, from line 521, R.3.6. Read in full: rule text, footnotes 1-2 (p.3-21; two footnotes on that page; see the text note for whose they are), "
@@ -628,6 +665,28 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.5": {
+        "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): it stops after clause (a) ('... in which it is "
+                          "located, or') and clause (b) 'at the request of the parties.' is missing; the rest equals the official text. Amendment note agrees "
+                          "(no amending regulation).",
+        "citation_names": {"2018 ABQB 151": "Sobeys Capital Inc. v. Gulf & Pacific Equities Corp."},
+        "citation_notes": {"2018 ABQB 151": "printed in pieces: 'Odland v. Odland Sobeys , [2017] A.J. No. 1265, 2017 ABCA 397 paras. 20-23 (Alta. C.A.); and Inc. v. Gulf "
+                                            "& Pacific Equities Corp., [2018] A.J. No. 231, 2018 ABQB 151 at paras. 3-19' and 'Odland v. Odland Sobeys , ... ; Capital Inc. v. "
+                                            "Gulf & Pacific Equities Corp., [2018] A.J. No. 231, 2018 ABQB 151 at paras. 13-25'; the name is assembled from those pieces. "
+                                            "Book A prints 'Sobeys Cap.Inc.v.Gulf & Pac.Eq.Corp. 2018 ABQB 151, JCC 1601 00082 (Feb 28)' (p.3-22 fn 3).",
+                           "2016 ABQB 570": "Regular v. Regular; the 'Behiels v. Tibu' name printed after 'sought a change of venue:' has no citation here (Book A: 2024 ABKB 12; "
+                                            "Book B names it in Odland para 22's follow-on sentence).",
+                           "2017 ABCA 397": "Odland v. Odland; also in Book A p.3-19 fn 6 and p.3-22 fn 2, and quoted in Book B (paras. 19-24)"},
+        "commentary_flag": "(1) 'Test for unreasonableness': 'the current judicial centre is unreasonable in the sense of being arbitrary or irrational ... "
+                           "Regular ... para. 6, endorsed in Odland ... paras. 20-23' - Book B's quotations show that Regular para 6 describes the Siver v. Siver "
+                           "plain-meaning line, that Regular para 7 says the weight of authority is a balance-of-convenience test, and that Odland para 20 says "
+                           "'We endorse the approach that reasonableness is determined on the balance of convenience'; the endorsement claimed here does not match "
+                           "those quotations (not adjudicated). (2) The passage 'the factors were considered and applied at length in a case where ... sought a "
+                           "change of venue: , Behiels v. Tibu' is also printed, displaced, in Book C's 3.4 text (dropped there). (3) The commentary ends "
+                           "'The location of counsel is not a decisive factor' with no full stop or citation (Book B, Odland para 22: 'Generally, the location of "
+                           "counsel is not a decisive factor: Pacific Investments at para 38; Regular at para 8'). The factor list (a)-(e) plus the two lesser "
+                           "factors (pre-trial motions, assets) agrees with Regular para 9 as quoted in Book B (a)-(g).",
+    },
     "3.4": {
         "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): subrule (1) stops after 'to the Alberta residence "
                           "of' - the words 'a defendant, a defendant may, by making a request in Form 6, require the court clerk in the judicial centre in "
@@ -641,7 +700,8 @@ MANUAL_BOOK_C = {
         "drop_citations": "Regular v. Regular, 2016 ABQB 570 (para. 9) is not a 3.4 authority: it stands where the number '10' is lost in 3.4(4), the text "
                           "beside it is about a change of venue ('sought a change of venue: , Behiels v. Tibu'), Book C's own 3.5 entry cites Regular (paras. 5 "
                           "and 6) for onus and the test, and Book A cites Regular and Behiels v. Tibu (2024 ABKB 12) in its 3.5 notes (p.3-22 fn 3 and fn 8). "
-                          "Displaced from 3.5; the text is kept in the rule-text note.",
+                          "Displaced from 3.5: Book C's 3.5 entry prints the same sentence (Regular at para. 9 ... 'sought a change of venue: , Behiels v. Tibu'), "
+                          "which confirms the home. The text is kept in the rule-text note.",
         "drop_note_variant": "same words as Book A's information note; only the bracket label '[Close of pleadings]' is moved after the full stop ('rule 3.67 "
                              ".\n[Close of pleadings]'); not retained.",
         "commentary_flag": "the sentence agrees with Form 6 ('without the need to file an application': the request is made in Form 6), but it says the "
