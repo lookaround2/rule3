@@ -498,6 +498,10 @@ def _sim(x: str, y: str) -> float:
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.7": {"BOOK_A": "same wording as official 3.7(1)-(2) (read by eye) except missing spaces and '*' line marks; the title is printed 'Post-judgmentTransfer of Action'. "
+                       "No amendment bracket; the official text lists no amendment for 3.7. No substantive difference. This rule's history footnote is "
+                       "presumably p.3-24 fn 3 ('Quite similar to previous 1968 R.405. It was new in 1968.'), which is printed in the built 3.6 commentary and "
+                       "kept verbatim there; the book does not show which of the two rules it belongs to."},
     "3.6": {"BOOK_A": "same wording as official 3.6(1)-(2) (read by eye) except: bracket labels '[Claim for possession of land]' (after 'rule 3.4') and "
                        "'[Transfer of an action]' (after 'rule 3.5'), missing spaces, '*' line marks, the footnote marker '4' after (2), and one word in (1)(b): "
                        "'continued in that judicial centre to which the action is transferred' where the official text says 'continued in the judicial centre to "
@@ -570,8 +574,22 @@ MANUAL_SEE_ALSO = {
             
         "Cross-book: the venue-change authorities that BOOK_B gives under 3.5 are used by BOOK_A under 3.6 as well: Siver v. Siver 2010 ABQB 755 (BOOK_A p.3-23 line 525, 'a curious decision, using instead a lax almost subjective test'; BOOK_B 3.5 commentary, Regular paras. 6-9), Keaton v. Keaton 2017 ABQB 429 (BOOK_A p.3-24 fn 1 and p.3-4 fn 6; BOOK_B 3.5, Odland para 22), C.S. v. A.J. 2004 ABQB 73 (BOOK_A p.3-24 fn 2; BOOK_B 3.5, Regular para 7), Silver Springs v. UMA Eng. and Christensen v. Proprietary Industries (BOOK_A; BOOK_B 3.5, Regular). Hansraj v. Ao: BOOK_A cites 2002 ABQB 772 (#2), affd on this point 2004 ABCA 223; BOOK_B cites 2004 ABCA 223 in its rule 1.5 commentary ('Time Requirements of the Rule'), so it is the same appeal cited for a different point.",
     ],
+    "3.7": ["Official text (searched for 'rule 3.7', 'rules 3.6 and 3.7', lists, line-wrapped forms and form headings): no other official rule cites 3.7 by number and no form heading names it. By subject: 3.4-3.6 (transfer and place of action), Part 9 (9.5 entry of judgments and orders; enforcement rules 9.17-9.29 that BOOK_A links to 3.7), 3.37 (named in BOOK_A R.9.17's related provisions with 3.7), Appendix definitions of judgment, judgment creditor, judicial centre and order.",
+            "BOOK_A statements about 3.7 (all combined*.txt searched, line-wrapped forms included; pages from the page markers): R.9.5 note p.9-16 (line 710) and R.9.17 note p.9-50 (line 2618): 'Rule 3.7 [Post-judgment transfer of action] permits a judgment creditor to apply to the Court, on notice to each of the other parties, for a temporary transfer of the action to a different judicial centre for purposes of an application to enforce the judgment or order' (title matches the official; official 3.7(1) says the creditor 'may request' a temporary transfer and 3.7(2) speaks of 'an order granting' it, so 'apply to the Court' is a paraphrase); R.9.20 note p.9-63 (line 3314): 'Rule 3.7 allows enforcement other than by writ to take place at a different judicial centre' - 'other than by writ' is not in the official 3.7, which speaks of 'an application to enforce the judgment or order' (FLAG: gloss). Related provisions: R.9.17 p.9-50 (line 2623) and R.9.20 p.9-62 (line 3282) '3.7 (venue of enforcement proceedings)', R.9.29 p.9-73 (line 3780) '3.7 (venue of enforcement)' - short paraphrases; R.13.41 note p.13-103 (line 5292) lists 3.7 among rules that 'seem to require filing' (official 3.7(2): the order 'must be filed in the judicial centre from which the action has temporarily been transferred'; consistent). FLAG: R.13.44 (p.13-104) pointer 'Rr.3.7 n. J' (see the Book A flag).",
+            
+        "BOOK_B: rule text only (paragraph part3_part_3_court_actions_022), equal to the official 3.7, no commentary, no amendment note on either side; BOOK_B's next paragraph is the running head 'Part 3. Court Actions Division 2. Actions Started by Originating Application Subdivision 1. General Rules'. BOOK_C: rule text and amendment note ('Alta. Reg. 124/2010, r. 3.7 effective November 1, 2010') agree with the official text; one 'General Principles' paragraph (flagged); its information note is garbled (see BOOK_C note). No Book B or Book C file cites 3.7 by number.",
+    ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.7": "Read in full, p.3-24 (lines 542-545): rule text, information note, defined terms, related provision; no commentary. The built related-provisions "
+           "field runs on into 'DIVISION 2 ACTIONS STARTED BY ORIGINATING APPLICATION *Subdivision 1 General Rules *Originating Applications and associated "
+           "evidence*': these are headings printed after this rule (they match the official Division 2 'Actions Started by Originating Application', "
+           "Subdivision 1 'General Rules' and the title of 3.8) and are not 3.7 material. Information note 'For enforcement of judgments and orders see Part 9 "
+           "[Judgments and Orders]' - official Part 9 is 'Judgments and Orders'; related provision '9.5 (entry of judgments and orders)' - official 9.5 is "
+           "'Entry of judgments and orders'; Defined Terms 'judgment, judgment creditor, judicial centre, order' - the Appendix defines each. "
+           "Pointer from elsewhere: R.13.44 (p.13-104, line 5365) says 'On backlogs in accepting documents submitted for filing, see Rr.3.7 n. J, and 13.41 n.'; "
+           "Book A has no note at 3.7 and no Part J in its 3.2 note (headings A-D), so the pointer lands on nothing in the file (the backlog passage is in "
+           "R.13.41's note, p.13-102, lines 5269-5271).",
     "3.6": "Read in full, p.3-23 (from line 517) to p.3-24 (line 540). (1) Footnotes: p.3-23 has footnotes 1-6 shared with 3.5 (see the 3.5 flag); this "
            "rule's own are fn 1 (line 525: Christensen v. Proprietary Ind. 2002 ABQB 97, 309 AR 201; Silver Springs v. UMA Eng. supra; Hansraj v. Ao (#2) 2002 "
            "ABQB 772, 314 AR 283, affd on this point 2004 ABCA 223, 354 AR 91; C.S. v. A.J. infra; Behiels v. Tibu supra (paras. 12, 15(5), 15(6)); the text "
@@ -699,6 +717,17 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.7": {
+        "drop_c_note": "garbled copy of Book A's information note ('For enforcement of judgments and orders see Part 9 [Judgments and Orders]'): the number '9' is "
+                       "lost and this text stands in its place: 'Odland v. Odland Sobeys , [2017] A.J. No. 1265, 2017 ABCA 397 at paras. 19-23 (Alta. C.A.); Capital "
+                       "Inc. v. Gulf & Pacific Equities Corp., [2018] A.J. No. 231, 2018 ABQB 151 at paras. 13-25 (Alta. Q.B.); and , [2016] A.J. No. 1042, 2016 ABQB "
+                       "570 at para. 7 (Alta. Q.B.). Regular v. Regular'. These are the citations and paragraph numbers that Book C prints in its 3.5 commentary "
+                       "('Balance of Convenience Test'), so the text is displaced 3.5 material; not retained here.",
+        "commentary_flag": "'It allows the judgment creditor, if required, to move the action to the judicial centre in which the enforcement is to take place': official "
+                           "3.7(1) says the judgment creditor 'may request' (on notice to the other parties) a temporary transfer 'to a different judicial centre for "
+                           "purposes of an application to enforce the judgment or order'; it does not say the centre is the one where enforcement will take place. "
+                           "Books A and B have no 3.7 commentary to compare.",
+    },
     "3.6": {
         "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): in (1) the words '(b) if the action is transferred in "
                           "accordance with rule 3.4 [Claim for possession of land]' are missing, and the label '[Transfer of an action]' stands before 'or rule 3.5 ,'; "
