@@ -36,7 +36,7 @@
     },
     "BOOK_A": {
       "title": "Close of Pleadings",
-      "operative_text_raw": "3.67(1)This rule applies to pleadings between the following:\n*(a)a plaintiff and a defendant;*(b)a plaintiff-by-counterclaim and a defendant-by-counterclaim;*(c)a third party plaintiff and a third party defendant;*(d)a plaintiff and a third party defendant.*(2) Pleadings close when*(a)a reply is filed and served by a plaintiff,plaintiff-by-counterclaim or\n*third party plaintiff,as the case may be,or*(b)the time for filing and serving a reply expires,*whichever is earlier.*8*(3)The close of pleadings against one party represents the close of pleadings*against all parties to that pleading.\n*9",
+      "operative_text_raw": null,
       "operative_text_sha256": "3c015eef4f0ee4eb62cb6320dd193503e4f949131de4c4a1cdf27295f8a09847",
       "defined_terms": "defendant, file, party, plaintiff, pleading, third party defendant, third party plaintiff",
       "related_provisions": "3.33(3) (time for reply);3.62 (amendments);3.65 (amendments by order)",
@@ -53,7 +53,9 @@
           517088,
           518784
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.67(1)-(3) (read by eye) except: the text is printed in pieces (p.3-159 lines 4725-4728); the title in title case ('Close of Pleadings', printed before the rule number); missing spaces; '*' line marks; the footnote markers '8' (after (2)) and '9' (after (3)). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The history footnotes matching the markers '8' and '9' ('Quite similar to previous 1968 Rr.102, 103. 1914 R.107 and 1944 C.R.101 were fairly similar. Cf.Judic.Ord. r.107 as amended. Cf.Ont.R.25.05, and English O.18 rr.14, 20 (1962), formerly 1883 O.27 r.13.', printed twice) are in the built 3.66 record (defined_terms).",
+      "commentary_review_flag": "Read in full, p.3-159 (line 4725) to p.3-160 (line 4740): rule text (in pieces), Information Note, Defined Terms 'defendant, file, party, plaintiff, pleading, third party defendant, third party plaintiff' (the Appendix defines each), Related Provisions '3.33(3) (time for reply); 3.62 (amendments); 3.65 (amendments by order)' and 'See also R.3.62n.'; no other note. The built record: the information note (kept as a Book A carrier; it also holds footnotes 1 and 2 of p.3-160: '1Quite similar to previous 1968 R.129(1). It came from 1944 C.Rr.184, 186, and 187, and from 1914 Rr.252, 254, 255, and from Judic.Ord.Rr.127 and 156. See 1883 O.19 r.27, O.25 r.4, and O.38 r.11.' and '2Quite similar to previous 1968 R.307. It came from an abbreviated version of 1914 Rr.252 and 253 (which covered pleadings too) ...' - these are histories of the NEXT rule, 3.68, printed after the running head 'R.3.68(1)'), the Defined Terms and Related Provisions, and the commentary field ('See also R.3.62n.', the Division 5 heading and the title of 3.68); nothing dropped. (1) Information Note: 'rule 3.33 [Reply to a defence] requires the plaintiff's reply to be filed and served on the defendant within 10 days after service of the statement of defence on the plaintiff' agrees with official 3.33 (official 3.33(3) has the 10 days, checked in the 3.33 pass); 'See also rule 3.54(2) [Plaintiff's reply to third party defence]' - the label is the official 3.54 title (with a straight apostrophe). (2) Related Provisions: '3.33(3) (time for reply)' agrees with 3.33(3); '3.62 (amendments)' and '3.65 (amendments by order)' are shortened labels of the official titles 'Amending pleading' and 'Permission of Court to amendment before or after close of pleadings'. (3) History: the markers '8' (after 3.67(2)) and '9' (after 3.67(3)) point to the footnotes '1968 Rr.102, 103 ...' that are printed twice in the built 3.66 record; the footnotes 1-2 of p.3-160 are 3.68's. (4) Pointers to 3.67: Book A p.3-21 (line 461) 'Close of pleadings is a time determined under rule 3.67 [Close of pleadings]' (3.4 information note; title matches); p.3-83 (line 2249) '3.67(2) (close of pleadings)'; p.3-135 (line 3823), p.3-137 (line 3877), p.3-161 (line 4765) '3.67 (close of pleadings)' (related provisions of other rules); p.3-158 (line 4697) '*Semble R.3.67 used to cover all costs of amendment' (see the 3.66 flag); R.4 p.4-6 (lines 224-228) 'Close of pleadings (referred to in subrule (1)(a)) is a time determined under rule 3.67' and related provision '3.67 (close of pleadings)'; Book C's 101-120 file prints the same 3.4 pointer."
     },
     "BOOK_B": {
       "title": "Close of pleadings",
@@ -73,19 +75,21 @@
     "BOOK_C": {
       "title": "Close of pleadings",
       "division_heading": null,
-      "operative_text_raw": "(1) This rule applies to pleadings between the following:\n(a) a plaintiff and a defendant;\n(b) a plaintiff-by-counterclaim and a defendant-by-counterclaim;\n(c) a third party plaintiff and a third party defendant;\n(d) a plaintiff and a third party defendant.\n(2) Pleadings close when (a) a reply is filed and served by a plaintiff, plaintiff-by-counterclaim or third party plaintiff, as the case may be, or (b) the time for filing and serving a reply expires, whichever is earlier.\n(3) The close of pleadings against one party represents the close of pleadings against all parties to that pleading.",
+      "operative_text_raw": null,
       "operative_text_sha256": "bfc2adfb97360975750b572fa2c6f7c19ded2ba6c1ae3db0017dc5009dfe452b",
       "citations": [],
       "commentary": [
         {
           "topic": "General Principles",
           "text": "Close of pleadings is very important. It is the point when all of the issues in the action are framed. It is the starting point for the need for leave of the court or consent of all parties to amend pleadings pursuant to rule 3.62. Pleadings close when any one of the enumerated parties serves a reply, or the time for filing and serving a reply ( Hislop v. Murray, [2012] AWLD 4638, 219 ACWS (3d) 248 at para. 22 (Alta. Q.B. (Master)). days from receipt of the statement of defence) expires, whichever is earlier. Importantly, the close of pleadings against one party is the close of pleadings against all parties to that particular pleading.",
-          "citations": []
+          "citations": [],
+          "review_flag": "(1) Both the information note and the commentary have the number '10' lost in '(10 days from receipt of the statement of defence)' and the citation 'Hislop v. Murray, [2012] AWLD 4638, 219 ACWS (3d) 248 at para. 22 (Alta. Q.B. (Master)).' printed in its place ('within  Hislop v. Murray ... days after service'; 'the time for filing and serving a reply ( Hislop v. Murray ... days from receipt of the statement of defence) expires'); Book A prints '10 days'. The Hislop citation is not in Book A (combined rule3.txt searched for 'Hislop'); it is also in Book B's rule2_part02_document.json (a Rule 2 commentary; not opened here). The label '[Reply to a defence]' is displaced after 'plaintiff's reply to be'. (2) The commentary agrees with official 3.67(2)-(3) ('Pleadings close when any one of the enumerated parties serves a reply, or the time ... expires, whichever is earlier'; 'the close of pleadings against one party is the close of pleadings against all parties to that particular pleading'); 'the starting point for the need for leave of the court or consent of all parties to amend pleadings pursuant to rule 3.62' agrees with 3.62(1)(a)-(c). (3) A second commentary paragraph (350 characters) about rule 4.4 is in this entry (the parser made a second entry with the title '[Close of pleadings].' and empty text; the builder merged it): 'Rule 4.4(1) compels parties in standard actions to: close pleadings; disclose information under Part 5; attempt one of the dispute resolution processes described in rule 4.16(1) (unless the requirement is waived by the court); and apply for a trial date within a reasonable time. ... Rule 4.4(2) permits' - it is cut off; it agrees with official 4.4(1)(a)-(d) ('close of pleadings; disclosure of information under Part 5; at least one of the dispute resolution processes described in rule 4.16(1), unless the requirement is waived by the Court; application for a trial date', 'within a reasonable time considering the nature of the action'). (4) The information note: Book C's copy is a garbled copy of Book A's (label and citation displaced); the builder kept both."
         },
         {
           "topic": "General Principles",
           "text": "Rule 4.4(1) compels parties in standard actions to: close pleadings; disclose information under Part 5; attempt one of the dispute resolution processes described in rule 4.16(1) (unless the requirement is waived by the court); and apply for a trial date within a reasonable time. These are the usual steps required in all actions. Rule 4.4(2) permits",
-          "citations": []
+          "citations": [],
+          "review_flag": "(1) Both the information note and the commentary have the number '10' lost in '(10 days from receipt of the statement of defence)' and the citation 'Hislop v. Murray, [2012] AWLD 4638, 219 ACWS (3d) 248 at para. 22 (Alta. Q.B. (Master)).' printed in its place ('within  Hislop v. Murray ... days after service'; 'the time for filing and serving a reply ( Hislop v. Murray ... days from receipt of the statement of defence) expires'); Book A prints '10 days'. The Hislop citation is not in Book A (combined rule3.txt searched for 'Hislop'); it is also in Book B's rule2_part02_document.json (a Rule 2 commentary; not opened here). The label '[Reply to a defence]' is displaced after 'plaintiff's reply to be'. (2) The commentary agrees with official 3.67(2)-(3) ('Pleadings close when any one of the enumerated parties serves a reply, or the time ... expires, whichever is earlier'; 'the close of pleadings against one party is the close of pleadings against all parties to that particular pleading'); 'the starting point for the need for leave of the court or consent of all parties to amend pleadings pursuant to rule 3.62' agrees with 3.62(1)(a)-(c). (3) A second commentary paragraph (350 characters) about rule 4.4 is in this entry (the parser made a second entry with the title '[Close of pleadings].' and empty text; the builder merged it): 'Rule 4.4(1) compels parties in standard actions to: close pleadings; disclose information under Part 5; attempt one of the dispute resolution processes described in rule 4.16(1) (unless the requirement is waived by the court); and apply for a trial date within a reasonable time. ... Rule 4.4(2) permits' - it is cut off; it agrees with official 4.4(1)(a)-(d) ('close of pleadings; disclosure of information under Part 5; at least one of the dispute resolution processes described in rule 4.16(1), unless the requirement is waived by the Court; application for a trial date', 'within a reasonable time considering the nature of the action'). (4) The information note: Book C's copy is a garbled copy of Book A's (label and citation displaced); the builder kept both."
         }
       ],
       "misattributed_entries": [],
@@ -106,86 +110,16 @@
           "role": "merged into it",
           "rule_text_of_merged_entry": null
         }
-      ]
+      ],
+      "operative_text_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; subrule (1)(b) has a line break inside 'plaintiff-by-counterclaim'. The amendment note '[Alta. Reg. 124/2010, r. 3.67 effective November 1, 2010 (Alta. Gaz. August 14, 2010]' lacks the closing parenthesis before ']' and agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 161-180 file for this entry."
     }
   },
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.7241,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "(1) this",
-          "carrier": "(1)this"
-        },
-        {
-          "op": "replace",
-          "official": "(a) a",
-          "carrier": "(a)a"
-        },
-        {
-          "op": "replace",
-          "official": "defendant; (b) a",
-          "carrier": "defendant;(b)a"
-        },
-        {
-          "op": "replace",
-          "official": "defendant-by-counterclaim; (c) a",
-          "carrier": "defendant-by-counterclaim;(c)a"
-        },
-        {
-          "op": "replace",
-          "official": "defendant; (d) a",
-          "carrier": "defendant;(d)a"
-        },
-        {
-          "op": "replace",
-          "official": "defendant. (2)",
-          "carrier": "defendant.(2)"
-        },
-        {
-          "op": "replace",
-          "official": "when (a) a",
-          "carrier": "when(a)a"
-        },
-        {
-          "op": "replace",
-          "official": "plaintiff, plaintiff-by- counterclaim",
-          "carrier": "plaintiff,plaintiff-by-counterclaim"
-        },
-        {
-          "op": "replace",
-          "official": "plaintiff, as",
-          "carrier": "plaintiff,as"
-        },
-        {
-          "op": "replace",
-          "official": "be, or (b) the",
-          "carrier": "be,or(b)the"
-        },
-        {
-          "op": "replace",
-          "official": "expires, whichever",
-          "carrier": "expires,whichever"
-        },
-        {
-          "op": "replace",
-          "official": "earlier. (3) the",
-          "carrier": "earlier.8(3)the"
-        },
-        {
-          "op": "replace",
-          "official": "pleadings against",
-          "carrier": "pleadingsagainst"
-        },
-        {
-          "op": "insert",
-          "official": "",
-          "carrier": "9"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.67(1)-(3) (read by eye) except: the text is printed in pieces (p.3-159 lines 4725-4728); the title in title case ('Close of Pleadings', printed before the rule number); missing spaces; '*' line marks; the footnote markers '8' (after (2)) and '9' (after (3)). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The history footnotes matching the markers '8' and '9' ('Quite similar to previous 1968 Rr.102, 103. 1914 R.107 and 1944 C.R.101 were fairly similar. Cf.Judic.Ord. r.107 as amended. Cf.Ont.R.25.05, and English O.18 rr.14, 20 (1962), formerly 1883 O.27 r.13.', printed twice) are in the built 3.66 record (defined_terms)."
     },
     "BOOK_B": {
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
@@ -197,7 +131,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; subrule (1)(b) has a line break inside 'plaintiff-by-counterclaim'. The amendment note '[Alta. Reg. 124/2010, r. 3.67 effective November 1, 2010 (Alta. Gaz. August 14, 2010]' lacks the closing parenthesis before ']' and agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 161-180 file for this entry."
     }
   },
   "three_book_gate": {
@@ -314,6 +249,8 @@
   "dedupe_log": [
     "3.67 BOOK_C commentary sentence split dropped",
     "3.67 BOOK_C commentary sentence split dropped",
-    "3.67 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.67 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.67 BOOK_A: raw text dropped, differences editorial only (manual review)",
+    "3.67 BOOK_C: raw text dropped, differences editorial only (manual review)"
   ]
 }
