@@ -40,7 +40,7 @@
     },
     "BOOK_A": {
       "title": "Demand for Notice by Defendant",
-      "operative_text_raw": "3.34(1) If the defendant files a demand for notice,the demand must be in Form*13.*(2)The defendant must file the demand for notice and serve it on the plaintiff*within the applicable time after service of the statement of claim on the defendant.\n*(3)The applicable time is*(a)20 days if service is effected in Alberta,*(b)one month if service is effected outside Alberta but in Canada,and*(c)2 months if service is effected outside Canada.*(4)If the defendant files a demand for notice and serves it on the plaintiff,the*defendant must be served with notice of any application or proceeding in which\n*the defendant is named as respondent,but filing and service of the notice does*not give the defendant a right to contest liability.*5 1For a general discussion of replies, seeC.H.S.v.Dir.of ChildWelfare (#1)2006 ABQB 241.Thatcase\n2Quite similar to previous 1968 R.329.It came from a quite similar 1944 C.R.377, which had origins outside Alberta, in Sask.R. 351;1883 O.41 rr.9, 10;the Debtors Act 1869 s.24;H.T.1853 rr.156, 157.The 1960 amendment added paragraph (b) to 1944 C.R.377. *(5)If a defendant files a demand for notice and serves it on the plaintiff,the*defendant may subsequently file a statement of defence only with the Court's*permission.\n*(6)Judgment or an order may be given against a defendant who has filed and\n*Assce. Co.v. Pocklington(M) [1985] AUD 769.\n*(b)notice of the application is served on the defendant.\n1As was done where the mortgagor's equity turned negative and a deficiency judgment loomed, inDom. Life\n*served a demand for notice only if*(a)the plaintiff applies to the Court for judgment or an order,and",
+      "operative_text_raw": null,
       "operative_text_sha256": "f18baca4ccaebadacdf1c7bbb707f0075e2509a094f31f01561d8575ce89e265",
       "defined_terms": "Court, defendant, file, judgment, order, plaintiff",
       "related_provisions": "3.49(3) (time to defend third party claim);3.51 (demand for notice by third party defendant); 12.11 (defence and demand for notice in family law);12.12 (time for service in family law litigation);13.3, 13.4 (calculating time)",
@@ -57,7 +57,9 @@
           264951,
           268104
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.34(1)-(6) (read by eye) except: (5) 'Court's' with a straight apostrophe; (6) is printed in pieces out of order ('(6)Judgment or an order may be given against a defendant who has filed and' at p.3-84 line 2272, then '(b)notice of the application is served on the defendant.' at line 2274, then 'served a demand for notice only if (a) the plaintiff applies to the Court for judgment or an order, and' at line 2277) - read as the official; the title in title case ('Demand for Notice by Defendant'), missing spaces and '*' line marks, and the footnote marker '5' after (4). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The dropped raw text also held footnote blocks and fragments printed between the subrules, kept here verbatim because Book A's footnotes are not split out: '1For a general discussion of replies, seeC.H.S.v.Dir.of ChildWelfare (#1)2006 ABQB 241.Thatcase 2Quite similar to previous 1968 R.329.It came from a quite similar 1944 C.R.377, which had origins outside Alberta, in Sask.R. 351;1883 O.41 rr.9, 10;the Debtors Act 1869 s.24;H.T.1853 rr.156, 157.The 1960 amendment added paragraph (b) to 1944 C.R.377. Assce. Co.v. Pocklington(M) [1985] AUD 769. 1As was done where the mortgagor's equity turned negative and a deficiency judgment loomed, inDom. Life' (footnote 1 'For a general discussion of replies ...' is a note to 3.33 and continues 'That case ...' elsewhere; footnote 2 is the history 'Quite similar to previous 1968 R.329 ...' (its '1960 amendment added paragraph (b)' matches (6)(b)); the history footnote 5 ('Quite similar to previous 1968 R.146 ...') is printed in the built 3.33 record; the last fragment belongs to the note on foreclosures).",
+      "commentary_review_flag": "Read in full, p.3-83 (line 2261) to p.3-84 (line 2283): rule text, Defined Terms 'Court, defendant, file, judgment, order, plaintiff' (the Appendix defines each; 'judgment' line 40830), Related Provisions and the note (three paragraphs), with footnotes as printed. The built record: defined_terms, related_provisions (225 characters) and the commentary field (1,201 characters: the note, then the title of 3.35 'Judgment or Order by Agreement'); the rule-text field held the footnote blocks (kept in the text note); nothing dropped except those noted. (1) Related Provisions: '3.49(3) (time to defend third party claim)' agrees with official 3.49(3) (the applicable time: 20 days / one month / 2 months for a third party defendant's statement of defence); '3.51 (demand for notice by third party defendant)' (official title of 3.51 'Effect of demand for notice'); '12.11 (defence and demand for notice in family law)' (official 'Statement of defence, counterclaim and demand for notice'); '12.12 (time for service in family law litigation)' (official 'Time for service of documents filed under rule 12.11'); '13.3, 13.4 (calculating time)' (official 'Counting days', 'Counting months and years'). (2) Statements read against the official text: 'A demand for notice does not give the right to contest liability (unless the court later allows the defendant to withdraw the demand and substitute a statement of defence)' agrees with 3.34(4) and (5) (a statement of defence only with the Court's permission) and with Book B's part 4 (Bell v. Grande Mountain Apartments: leave); 'It prevents default judgment by the Clerk' agrees in substance with 3.34(6) (judgment only on application with notice to the defendant); 'A defendant who does not file and serve a statement of defence admits liability' is not in 3.34 (see 3.36, not read here); 'formerly \"demand of notice\"' agrees with Book B's quotations ('Demand of Notice'); the description of England and other provinces (writ of summons, appearance) is not in the Rules. (3) History: footnote 5 (1968 R.146 ...) is in the 3.33 record; footnote 2 (1968 R.329; 1944 C.R.377; Sask.R. 351; 1883 O.41 rr.9, 10; Debtors Act 1869 s.24; H.T.1853 rr.156, 157; 'The 1960 amendment added paragraph (b) to 1944 C.R.377') is in the text note; Book B refers to 'the motion required by R. 146' and to R. 158 (noting in default). (4) Other rules' pointers to this rule: Book A's R.12 note (combined_rule12.txt p.12-13, line 546) prints 'a demand for notice in Form 13 in accordance with rule 3.34 [Claim for possession of land]', but the official title of 3.34 is 'Demand for notice by defendant' ('Claim for possession of land' is the title of 3.4; the R.12 note at p.12-15 line 650 gives the label correctly as '[Demand for notice by defendant]'); the R.12 related provisions '3.34 (demand for notice)' and '3.34 (time for service of demand for notice)' agree with 3.34; the 3.51 record (p.3-122, lines 3454-3458) has 'Related Provisions 3.34 (demand for notice)'; the 3.30 information note names 3.34 with the correct title. (5) Footnote 1 'Dom. Life Assce. Co. v. Pocklington (M) [1985] AUD 769' ('As was done where the mortgagor's equity turned negative and a deficiency judgment loomed') and 'C.H.S. v. Dir. of Child Welfare (#1) 2006 ABQB 241' as printed; statements of law and cases were not checked."
     },
     "BOOK_B": {
       "title": "Demand for notice by defendant",
@@ -95,13 +97,15 @@
           "citations": [
             {
               "neutral_citation": "2016 ABQB 8",
-              "style_of_cause": "An action in which a demand for notice is filed is partially defended. Swain v. McLachlan"
+              "style_of_cause": "Swain v. McLachlan",
+              "note": "printed 'Swain v. McLachlan, [2016] A.J. No. 9, 2016 ABQB 8 at para. 10 (Alta. Q.B. (Master))' twice: the built name began with the sentence before it"
             },
             {
               "neutral_citation": "2018 ABCA 327",
               "style_of_cause": "Richardson v. Richardson"
             }
-          ]
+          ],
+          "review_flag": "(1) The commentary agrees with official 3.34(4)-(5) and with Book A and Book B: 'An action in which a demand for notice is filed is partially defended' (Swain v. McLachlan, 2016 ABQB 8, para. 10 (Master)); 'A defendant who files a demand for notice, in essence, admits liability' and 'cannot contest liability; however, he or she is entitled to notice of any application or proceeding' (Richardson v. Richardson, 2018 ABCA 327, para. 8) agree with 3.34(4). (2) The third paragraph breaks off: 'Accordingly, the plaintiff' is followed directly by the next paragraph 'A demand for notice is suited for use in rare, special circumstances. Most frequently, it is filed in response to mortgage foreclosure actions.' - the words that complete 'Accordingly, the plaintiff ...' (a page break in the source) are not in the file. (3) 'Most frequently, it is filed in response to mortgage foreclosure actions' agrees with Book A ('common where the only dispute will be about the timing and terms of the relief, especially in foreclosures'). (4) Rule text: in (3) Book C prints 'The applicable time is, (a) 20 days ...' with a comma after 'is' (not in the official text); the rest equals the official text."
         }
       ],
       "misattributed_entries": [],
@@ -115,94 +119,8 @@
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.6667,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "notice, the",
-          "carrier": "notice,the"
-        },
-        {
-          "op": "replace",
-          "official": "form 13. (2) the",
-          "carrier": "form13.(2)the"
-        },
-        {
-          "op": "replace",
-          "official": "plaintiff within",
-          "carrier": "plaintiffwithin"
-        },
-        {
-          "op": "replace",
-          "official": "(3) the",
-          "carrier": "(3)the"
-        },
-        {
-          "op": "replace",
-          "official": "is (a) 20",
-          "carrier": "is(a)20"
-        },
-        {
-          "op": "replace",
-          "official": "alberta, (b) one",
-          "carrier": "alberta,(b)one"
-        },
-        {
-          "op": "replace",
-          "official": "canada, and (c) 2",
-          "carrier": "canada,and(c)2"
-        },
-        {
-          "op": "replace",
-          "official": "canada. (4) if",
-          "carrier": "canada.(4)if"
-        },
-        {
-          "op": "replace",
-          "official": "plaintiff, the defendant",
-          "carrier": "plaintiff,thedefendant"
-        },
-        {
-          "op": "replace",
-          "official": "respondent, but",
-          "carrier": "respondent,but"
-        },
-        {
-          "op": "replace",
-          "official": "does not",
-          "carrier": "doesnot"
-        },
-        {
-          "op": "replace",
-          "official": "liability. (5) if",
-          "carrier": "liability.5 1for a general discussion of replies, seec.h.s.v.dir.of childwelfare (#1)2006 abqb 241.thatcase 2quite similar to previous 1968 r.329.it came from a quite similar 1944 c.r.377, which had origins outside alberta, in sask.r. 351;1883 o.41 rr.9, 10;the debtors act 1869 s.24;h.t.1853 rr.156, 157.the 1960 amendment added paragraph (b) to 1944 c.r.377. (5)if"
-        },
-        {
-          "op": "replace",
-          "official": "plaintiff, the defendant",
-          "carrier": "plaintiff,thedefendant"
-        },
-        {
-          "op": "replace",
-          "official": "court's permission. (6) judgment",
-          "carrier": "court'spermission. (6)judgment"
-        },
-        {
-          "op": "insert",
-          "official": "",
-          "carrier": "assce. co.v. pocklington(m) aud 769. (b)notice of the application is served on the defendant. 1as was done where the mortgagor's equity turned negative and a deficiency judgment loomed, indom. life"
-        },
-        {
-          "op": "replace",
-          "official": "if (a) the",
-          "carrier": "if(a)the"
-        },
-        {
-          "op": "replace",
-          "official": "order, and (b) notice of the application is served on the defendant.",
-          "carrier": "order,and"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.34(1)-(6) (read by eye) except: (5) 'Court's' with a straight apostrophe; (6) is printed in pieces out of order ('(6)Judgment or an order may be given against a defendant who has filed and' at p.3-84 line 2272, then '(b)notice of the application is served on the defendant.' at line 2274, then 'served a demand for notice only if (a) the plaintiff applies to the Court for judgment or an order, and' at line 2277) - read as the official; the title in title case ('Demand for Notice by Defendant'), missing spaces and '*' line marks, and the footnote marker '5' after (4). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The dropped raw text also held footnote blocks and fragments printed between the subrules, kept here verbatim because Book A's footnotes are not split out: '1For a general discussion of replies, seeC.H.S.v.Dir.of ChildWelfare (#1)2006 ABQB 241.Thatcase 2Quite similar to previous 1968 R.329.It came from a quite similar 1944 C.R.377, which had origins outside Alberta, in Sask.R. 351;1883 O.41 rr.9, 10;the Debtors Act 1869 s.24;H.T.1853 rr.156, 157.The 1960 amendment added paragraph (b) to 1944 C.R.377. Assce. Co.v. Pocklington(M) [1985] AUD 769. 1As was done where the mortgagor's equity turned negative and a deficiency judgment loomed, inDom. Life' (footnote 1 'For a general discussion of replies ...' is a note to 3.33 and continues 'That case ...' elsewhere; footnote 2 is the history 'Quite similar to previous 1968 R.329 ...' (its '1960 amendment added paragraph (b)' matches (6)(b)); the history footnote 5 ('Quite similar to previous 1968 R.146 ...') is printed in the built 3.33 record; the last fragment belongs to the note on foreclosures)."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -315,11 +233,17 @@
     "gate_artifact_sha256": "d091983432f7d8d442d054fc1eaa0024207f5bb70244a7e98c042f8067b6145d"
   },
   "information_notes": [],
+  "see_also": [
+    "BOOK_B and BOOK_C other Parts (all files searched): BOOK_B rule12_part01_document.json (12.11(2) text and the later subrule with 'in accordance with rule 3.34'); no other Book B or Book C file cites 3.34 by number. BOOK_B 3.34: rule text (rule3_part03_document.json paragraph part3_part_3_court_actions_028) EXACT_MATCH with the official; no amendment note; one commentary section 'Commentary § 3.34:1' (4,249 characters, READ IN FULL): four numbered parts, no gap: 1 Amendment Rules Govern Withdrawal of Demand of Notice (Canada Permanent Trust Co. v. King Art Developments Ltd. (1984), 52 A.R. 139 (C.A.)), 2 Purpose of Demand of Notice (Stone v. Vulcan Municipal Hospital District, [1930] 1 W.W.R. 839; Lupkoski v. Lupkoski, [1974] 3 W.W.R. 377 (Alta. C.A.)), 3 Effect of Demand of Notice (the admission of liability; the amount may still be disputed), 4 Right of Defendant (the motion 'required by R. 146'; Bell v. Grande Mountain Apartments (1983), 29 Alta. L.R. (2d) 270 (Q.B.): leave to replace the demand with a statement of defence, by analogy to former R. 158). All four parts are decisions under the former Rules (R. 146, R. 158; 'demand of notice') and are read with the present 3.34(4)-(6) only where noted in Book A's and Book C's flags; part 4 agrees with 3.34(5) (permission needed). BOOK_C 3.34: rule text NORMALIZATION_ONLY_DIFFERENCE (a comma after 'is' in (3); noted); amendment note agrees with the official; commentary kept with a flag.",
+    "BOOK_A other Parts and Part 3 (all combined*.txt searched, line-wrapped forms included; pages from the markers): 3.30 information note p.3-80 (line 2179) 'rule 3.34 [Demand for notice by defendant]' and related provision (line 2181) '3.34 (demand for notice)'; 3.51 record p.3-122 (lines 3454-3458) 'Related Provisions 3.34 (demand for notice)'; combined_rule12.txt p.12-13 (line 546) 'rule 3.34 [Claim for possession of land]' (wrong label: see the flag), p.12-13 (line 565) '3.34 (demand for notice)', p.12-14 (line 602) '3.34 (time for service of demand for notice)', p.12-15 (line 650) 'rule 3.34 [Demand for notice by defendant]' (correct); combined_rule13.txt p.13-65 (line 3417) checklist 'Is it safe to seek a time extension for filing the defence? (Rr.3.34(1), 3.33(3), 13.5(1)'; p.3-95 (line 2618, a note in a later rule) 'That is usually 20 days: see Rr.3.31 and 3.34'.",
+    "OFFICIAL text (searched for 'rule 3.34', 'rules 3.34', lists, line-wrapped forms and form headings): Part 12 rules (12.11(2): 'the defendant must file a demand for notice in Form 13 in accordance with rule 3.34'; a later Part 12 subrule (7) with the same words) and Form 13, headed '[Rules 3.34, 12.11(2) and 12.121(7)]' (3.34(1) names Form 13). By subject (read): 3.30 (defendant's options), 3.31 (statement of defence), 3.35 (judgment or order by agreement), 3.36 (judgment in default and noting in default), 3.49(3) and 3.51 (third party defendant's time and demand for notice), 13.3 and 13.4 (counting time)."
+  ],
   "dedupe_log": [
     "3.34 BOOK_B: operative text dropped (EXACT_MATCH)",
     "3.34 BOOK_C citation context dropped (2016 ABQB 8): verbatim in kept text",
     "3.34 BOOK_C citation context dropped (2018 ABCA 327): verbatim in kept text",
     "3.34 BOOK_C commentary sentence split dropped",
-    "3.34 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.34 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.34 BOOK_A: raw text dropped, differences editorial only (manual review)"
   ]
 }
