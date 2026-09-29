@@ -39,7 +39,7 @@
     },
     "BOOK_A": {
       "title": "Court Options to DealWith Significant Deficiencies",
-      "operative_text_raw": "3.68(1) If the circumstances warrant and a condition under subrule (2) applies,*the Court may order one or more of the following:\n*(a)that all or any part of a claim or defence be struck out;*(b)that a commencement document or pleading be amended or set*aside;*(c)that judgment or an order be entered;*(d)that an action,an application or a proceeding be stayed.*(2)The conditions for the order are one or more of the following:\n*(a)the Court has no jurisdiction;*(b)a commencement document or pleading discloses no reasonable*claim or defence to a claim;*(c)a commencement document or pleading is frivolous,irrelevant or*improper;*(d)a commencement document or pleading constitutes an abuse of\n*process;*(e)an irregularity in a commencement document or pleading is so*prejudicial to the claim that it is sufficient to defeat the claim.*1*(3)No evidence may be submitted on an application made on the basis of the*condition set out in subrule (2)(b).\n*(4)The court may*(a)strike out all or part of an affidavit that contains frivolous,irrelevant*or improper information;*2*(b)strike out all or any pleadings if a party without sufficient cause does*not\n*(i)serve an affidavit of records in accordance with rule 5.5*[When an affidavit of records must be served],\n3Olson Lemons v. Kearl2012 ABQB 95 (Feb 9) (quoting this book);Ernst v. EnCana Corp.2014 ABQB 672, 598 AR 331 (¶ 26) (ditto).Note on the subject of striking out generally, C.P.E., Chapter 26; Abrams and McGuinness,Canadian Civil Procedure Law, 393-9 (2008). 4This whole passage is quoted with approval, inDonaldson v.Farrell (#2),supra(¶ 24). 5 SeedictainWong v. Smith(M 16 May '06) JDE 0303 18922. 6Tanar v.Outokumpu,infra;Edwards v.Fisher2010 ABQB 594 (Sep 21) (¶ 16).\n7 Cf.574095 Alta.v.Hamilton Bros.Expl. Co.2003 ABCA 34, 320 AR 351.\n*(ii)comply with rule 5.10 [Subsequent disclosure of records],or\nabsence of a cause of action, new R.3.68 adds the word \"reasonable\" not found in 1968 R.129, but that just\n1Donaldson v. Farrell (#1),infra(¶ 30);Donaldson v. Farrell (#1)2011 ABQB 11 (Jan 7) (¶'s 28, 30); *Wong v. Leung(M) 2011 ABQB 687, 530 AR 76 (Nov 9) (¶ 18);Martin v. Gen.Teamsters Local U.No.*3622011 ABQB 412, [2011] AR Uned 484 (Jun 29) (¶'s 5-7);Lameman (Beaver L. Cree Nation) v.R. (Alta.& Can.) 2012 ABQB 195, 537 AR 357, 66 Alta LR(5th) 136,affd2013 ABCA 148, 553 AR 44.On vexatious litigants, cf.Wong v. Leung(M) 2011 ABQB 688, [2011] ARTBEd NO.086 (Nov 9) (¶ 17).But one case applies the new receptiveness to summary judgment, to striking out pleadings:Goodswimmer\n*(Sturgeon L.I.B.) v. A.-G.Can.2016 ABQB 384, JCE 9703 06332 (Jul 8) (¶'s 233-36).When speaking of codifies the case law, and does not change the test:1400467 Alta. v.Adderley2014 ABQB 85, 585 AR 149. 2Paraniuk v. Pierce2018 ABQB 1015, JCE 1503 05933 (Dec 13);Harun-ar-Rashid v. R.C.M.P.2019 ABQB 54, JCC 1703 24106 (Jan 23).\n*(iii)comply with an order under rule 5.11 [Order for a record to be\n**produced].",
+      "operative_text_raw": null,
       "operative_text_sha256": "3ed82c838b908bd55154a8361d61aaa4c7eea0db4304caa1da2914f4b1e013b2",
       "defined_terms": "claim, commencement document, Court, judgment, order, party, pleading, record",
       "related_provisions": "1.4(2)(h) (stays);3.42 (no noting in default);3.47-48 (third party claims);3.61 (particulars); 3.62 (amending pleadings without leave);3.64 (striking amendments);3.65 (amending pleadings with leave);3.67 (close of pleadings); 3.74 (changing parties);10.51(1)(d)(ii) (stays for contempt);13.13 (requirements for all documents);13.19 (requirements for affidavits); 14.74 (summary disposition of appeals) *A.Aims and Practicalities*1.New Rules The 2010 Rules of Court have not changed the test set by previous case law for striking out. On the test, see further Part D.2 below. However, the courts have adopted a new\"culture shift\" for summary judgment (on which see R.7.3n).So it has been suggested that similarly, courts should become more willing to strike out pleadings, though the test is still the same:a reasonable prospect of the pleading (and the case alleged in it) succeeding. This new culture is not entirely irrelevant, but one must be careful. Summary judgment is a decision on evidence;striking out is about unilateral unsworn claims, ignoring all possible evidence. *2.Drawbacks More time and money is wasted over this Rule than any other. There are two reasons for that. (a)",
@@ -56,7 +56,9 @@
           518784,
           743329
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.68(1)-(4) (read by eye) except: the text is printed in pieces with footnote and note fragments between them (p.3-160 lines 4740-4745; p.3-161 lines 4756, 4763-4764); '(4) The court may' with a lower-case 'court' (official 'The Court may'); the bracket labels '[When an affidavit of records must be served]' after 'rule 5.5' (official 5.5 title 'When affidavit of records must be served': 'an' added), '[Subsequent disclosure of records]' after 'rule 5.10' (matches) and '[Order for a record to be produced]' after 'rule 5.11' (official 5.11 title 'Order for record to be produced': 'a' added); the title in title case ('Court Options to Deal With Significant Deficiencies', printed after the Division 5 heading); missing spaces; '*' line marks; the footnote markers '1' (after (2)(e)) and '2' (after (4)(a)). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The dropped raw text also held footnote and note fragments printed between the pieces, kept here verbatim because Book A's footnotes are not split out and these fragments exist nowhere else in the packet: '3Olson Lemons v. Kearl2012 ABQB 95 (Feb 9) (quoting this book);Ernst v. EnCana Corp.2014 ABQB 672, 598 AR 331 (¶ 26) (ditto).Note on the subject of striking out generally, C.P.E., Chapter 26; Abrams and McGuinness,Canadian Civil Procedure Law, 393-9 (2008). 4This whole passage is quoted with approval, inDonaldson v.Farrell (#2),supra(¶ 24). 5 SeedictainWong v. Smith(M 16 May '06) JDE 0303 18922. 6Tanar v.Outokumpu,infra;Edwards v.Fisher2010 ABQB 594 (Sep 21) (¶ 16). 7 Cf.574095 Alta.v.Hamilton Bros.Expl. Co.2003 ABCA 34, 320 AR 351. absence of a cause of action, new R.3.68 adds the word \"reasonable\" not found in 1968 R.129, but that just 1Donaldson v. Farrell (#1),infra(¶ 30);Donaldson v. Farrell (#1)2011 ABQB 11 (Jan 7) (¶'s 28, 30); *Wong v. Leung(M) 2011 ABQB 687, 530 AR 76 (Nov 9) (¶ 18);Martin v. Gen.Teamsters Local U.No.*3622011 ABQB 412, [2011] AR Uned 484 (Jun 29) (¶'s 5-7);Lameman (Beaver L. Cree Nation) v.R. (Alta.& Can.) 2012 ABQB 195, 537 AR 357, 66 Alta LR(5th) 136,affd2013 ABCA 148, 553 AR 44.On vexatious litigants, cf.Wong v. Leung(M) 2011 ABQB 688, [2011] ARTBEd NO.086 (Nov 9) (¶ 17).But one case applies the new receptiveness to summary judgment, to striking out pleadings:Goodswimmer (Sturgeon L.I.B.) v. A.-G.Can.2016 ABQB 384, JCE 9703 06332 (Jul 8) (¶'s 233-36).When speaking of codifies the case law, and does not change the test:1400467 Alta. v.Adderley2014 ABQB 85, 585 AR 149. 2Paraniuk v. Pierce2018 ABQB 1015, JCE 1503 05933 (Dec 13);Harun-ar-Rashid v. R.C.M.P.2019 ABQB 54, JCC 1703 24106 (Jan 23).' (fns 3-7 of p.3-161, the fragment 'absence of a cause of action, new R.3.68 adds the word \"reasonable\" not found in 1968 R.129, but that just' with its continuation printed in the note, footnotes 1-2 of the next page, and the tail of a note sentence 'When speaking of codifies the case law, and does not change the test'). The history footnotes 1 ('Quite similar to previous 1968 R.129(1). It came from 1944 C.Rr.184, 186, and 187 ...') and 2 ('Quite similar to previous 1968 R.307 ...') matching the markers are printed at p.3-160 line 4735 in the built 3.67 record.",
+      "commentary_review_flag": "Read p.3-160 (line 4740) to p.3-219 (line 7119): rule text (in pieces), Defined Terms 'claim, commencement document, Court, judgment, order, party, pleading, record' (the Appendix defines each), Related Provisions '1.4(2)(h) (stays); 3.42 (no noting in default); 3.47-48 (third party claims); 3.61 (particulars); 3.62 (amending pleadings without leave); 3.64 (striking amendments); 3.65 (amending pleadings with leave); 3.67 (close of pleadings); 3.74 (changing parties); 10.51(1)(d)(ii) (stays for contempt); 13.13 (requirements for all documents); 13.19 (requirements for affidavits); 14.74 (summary disposition of appeals)' and a very long note (220,284 characters): A Aims and Practicalities (1 New Rules, 2 Drawbacks, 3 When Worthwhile to Apply to Strike, 4 Miscellaneous); B Procedure (1 Scope, 2 Assume Facts, 3 Curable Flaws in Pleading, 4 Lack of Particulars, 5 Prayer for Relief, 6 Appeal, 7 Who Applies and When, 8 Miscellaneous); C Vexatious Litigants (1 Tests, 2 Procedure for Abusive Litigants, 3 Appeals, 4 Remedies, 5 Examples); D No Cause of Action (1 Principles, 2 The Test, 3 Factual Element, 4 Bad Claims); E No Jurisdiction (1 General, 2 Collateral Attack, 3 Labor Relations, 4 Miscellaneous); F Res Judicata (1-8: introduction, what should have been raised, privity, issue estoppel, exceptions, functus officio, previous decisions by other tribunals, miscellaneous); G Staying the Action (1 General Rule, 2 Miscellaneous); H Affidavits (1 No Evidence Allowed in Some Cases, 2 Court Records, 3 Inadmissible Types of Evidence, 4 Procedure); with footnotes as printed. READING RECORD: the first 104,000 characters of the note (A, B, C and the start of D) were read in full; the remaining 116,000 characters (D to H) were read in filtered form - footnote lines carrying three or more report citations were left out of the reading (about 60,000 characters of prose were read: 0-52,000 of the filtered text, and its last 8,000 characters) - and every rule pointer in the whole note was extracted and checked against the official titles. Case citations and statements of law in the note were not checked. The built record: the whole note is in the commentary field (220,284 characters, nothing dropped) and ends with the heading 'Division 6', 'Subdivision 1 Joining and Separating Claims and Parties' and 'Joining Claims' and pieces of the next rule's note (3.69's history footnotes 8-9: '8 ... r.1, pt.Judic.Ord.r.79, 1914 R.11, and 1944 C.R.44' and '9Quite similar to previous 1968 R.47's beginning. It came from 1914 R.25; from 1944 C.R.58; Judic.Ord.r. 30; Eng.O.16 r.5.'); defined_terms and related_provisions hold the two lines; the raw-text field held the rule text and fragments (kept in the text note). The extraction interleaves columns and footnotes on pp.3-161 to 3-219 (page numbers such as '3-162', '3-173', '3-174', '3-193', '3-196', '3-203', '3-209', '3-217', '3-219' are printed inside the text; footnotes 11, 12 and 13 are printed as '[Footnote N continued from prior page]'); the wording is kept as printed and the order of the pieces was not repaired. (1) Text labels: '[When an affidavit of records must be served]' and '[Order for a record to be produced]' add 'an' and 'a' to the official 5.5 and 5.11 titles; '[Subsequent disclosure of records]' matches 5.10. (2) Related Provisions labels are shortened or paraphrased against the official titles: 3.42 'Limitation on when judgment or noting in default may occur'; 3.47-48 'Third party defendant's options' / 'Plaintiff's options'; 3.61 'Request for particulars'; 3.62 'Amending pleading'; 3.64 'Time limit for application to disallow amendment to pleading'; 3.65 'Permission of Court to amendment before or after close of pleadings'; 3.74 'Adding, removing or substituting parties after close of pleadings'; 13.13 'Requirements for all filed documents'; 14.74 'Application to dismiss an appeal' (Book A '(summary disposition of appeals)'); 1.4(2)(h) 'adjourn or stay ...' agrees. (3) Rule pointers in the note read against the official text: 'R.3.68(3)(a)' (three places: the Court of Appeal 'has considered R.3.68(3)(a) generally'; 'offended R.3.68(3)(a)') - official 3.68(3) has no paragraph (a) (3.68(3): 'No evidence may be submitted on an application made on the basis of the condition set out in subrule (2)(b)'); 'R.3.68(2)(b)', '(c)', '(d)', '(1)(a)', '(4)' land; 'a summary dismissal motion under R.1.4(2)(e), 4.22, 7.3, 12.47' - official 1.4(2)(e) is 'impose terms, conditions and time limits', 4.22 is 'Considerations for security for costs order' and 12.47 is 'Incoming interjurisdictional applications to obtain, vary, suspend or ...', so only 7.3 ('Application and decision') is a summary judgment rule; 'Rr.1.4(2)(h), 3.68' (stays) agrees; 'R.13.10 forbids a new ground of claim or new cause of action in a Reply' - official 13.10 is 'Pleadings: specific requirements for replies' (not re-read here); 'R.3.69n.' for standing and 'R.11.25 n.C', 'Rr.2.6, 11.25, 11.26' for forum land on rules with those numbers; 'R.1.3n.' (five places) lands on official 1.3 'General authority of the Court to provide remedies'; 'R.10.49(1) (fine of $1000)' lands on 10.49 'Penalty for contravening rules'; 'now being Rr.10.30 and 9.14' land on 10.30 'When costs award may be made' and 9.14 'Further or other order after judgment or order entered'; 'R.9.12', 'R.9.13', 'R.3.72' and 'R.4.33' land. (4) Statements compared with Book B: Book B's first commentary part quotes this book's own passage from Donaldson v. Farrell 2011 ABQB 11 para 24 (quoting 'Alberta Civil Procedure Handbook (Edmonton: 2010, vol.1) at p. 3-100 & 3-101 on Rule 3.68(3)': 'More time and money is wasted over this Rule than any other ... Rarely is there a fatal flaw which falls within R. 3.68 ...'); those words agree with Book A's A.2 'Drawbacks' and A.1 'New Rules' (the 2010 Rules 'have not changed the test'), and with Donaldson at para 30 as quoted in Book B ('I do not see that the new rules have modified or lessened the test for striking out pleadings'); Book A's D.2 test ('any reasonable prospect that the claim will succeed'; the facts pleaded are assumed true, but not bald assertions or speculation) agrees with Book B's parts 2 and 3.68(2) part 2 (Alberta Adolescent Recovery Centre v. CBC 2012 ABQB 48; Rudichuk v. Genesis Land Dev. 2019 ABQB 132; Clark v. Hunka 2017 ABCA 346; G.H. v. Alcock 2013 ABCA 24; Hunt v. Carey Canada; Imperial Tobacco); Book A's 'Lack of Particulars' (remedy is particulars, not striking out) agrees with Book B's Fullowha / Master Funduk passages; Book A's cross-application rules (amend first) agree with Book B's Hur v. 726913 para 27 and Riccioni v. Law Society; Book A's Res Judicata part (five relevant matters; cause of action estoppel vs merger; Sherwood Steel v. Odyssey 2014 ABCA 320) agrees with Book B's 3.68(2)(d) part 9 and Sherwood Steel quotation in the 3.65 commentary; Book A's C Vexatious Litigants part has no counterpart in Book B except McLelland v. McLelland 2021 ABCA 102 (Book B part 11 Abuse of Process). Book B's parts on withdrawing an affidavit (Ariss v. Ariss) and striking materials from the court record (Bennett v. NE2 Canada 2024 ABKB 695) have partial counterparts in Book A's H Affidavits (no reference to Ariss or Bennett: not searched by name beyond this reading). (5) History: fns 1 (1968 R.129(1); 1944 C.Rr.184, 186, 187; 1914 Rr.252, 254, 255; Judic.Ord.Rr.127, 156; 1883 O.19 r.27, O.25 r.4, O.38 r.11) and 2 (1968 R.307; 1914 Rr.252, 253; 1944 C.Rr.184, 185; Judic.Ord.r.127; Eng.1883 O.38 r.1; Ont. 1897 R.297; C.O.O.XXXV r.60) are this rule's (markers after (2)(e) and (4)(a)); they are printed at p.3-160 line 4735 in the built 3.67 record. The note also says 'new R.3.68 adds the word \"reasonable\" not found in 1968 R.129, but that just codifies the case law, and does not change the test'; official 3.68(2)(b) reads 'discloses no reasonable claim or defence to a claim'. (6) Other rules' pointers to 3.68 are many (3.42, 3.47, 3.48, 3.61, 3.62, 3.64-3.67, 3.69, 3.72, 3.74, 4.31, 5.x, 7.3, 9.x, 11.x, 13.x, 14.75 etc.); those of 3.42, 3.47, 3.48, 3.61, 3.64 were checked in their own passes; the others were not traced here. The Book A pointer at p.3-161 (line 4765) '3.68' related provisions is this record's own."
     },
     "BOOK_B": {
       "title": "Court options to deal with significant deficiencies",
@@ -110,7 +112,7 @@
     "BOOK_C": {
       "title": "Court options to deal with significant deficiencies",
       "division_heading": null,
-      "operative_text_raw": "(1) If the circum- stances warrant and a condition under subrule (2) applies, the Court may order one or more of the following:\n(a) that all or any part of a claim or defence be struck out;\n(b) that a commencement document or pleading be amended or set aside;\n(c) that judgment or an order be entered;\n(d) that an action, an application or a proceeding be stayed.\n(2) The conditions for the order are one or more of the following:\n(a) the Court has no jurisdiction;\n(b) a commencement document or pleading discloses no reasonable claim or defence to a claim;\n(c) a commencement document or pleading is frivolous, irrelevant or improper;\n(d) a commencement document or pleading constitutes an abuse of process;\n(e) an irregularity in a commencement document or pleading is so prejudicial to the claim that it is sufficient to defeat the claim.\n(3) No evidence may be submitted on an application made on the basis of the condition set out in subrule (2)(b).\n(4) The Court may (a) strike out all or part of an affidavit that contains frivolous, irrelevant or improper information;\n(b) strike out all or any pleadings if a party without sufficient cause does not (i) serve an affidavit of records in accordance with rule 5.5 [When an affidavit of records must be served], (ii) comply with rule 5.10 , or [Subsequent disclosure of records]\n(iii) comply with an order under rule 5.11 [Order for a record to be produced].",
+      "operative_text_raw": null,
       "operative_text_sha256": "28846d2ceb0f9d67b76066febf7b59759437cd3868da578f428f0d11d3005f4e",
       "citations": [],
       "commentary": [
@@ -124,168 +126,66 @@
             },
             {
               "neutral_citation": "2023 ABCA 268",
-              "style_of_cause": "Quaye v. Law Society of Alberta"
+              "style_of_cause": "Parenteau v. Spencer",
+              "note": "printed 'Parenteau v. Spencer, [2023] A.J. No. 988, 2023 ABCA 268 at para. 9 (Alta. C.A.)'; the built style of cause repeated 'Quaye v. Law Society of Alberta'"
             },
             {
               "neutral_citation": "2021 ABCA 16",
-              "style_of_cause": "The plaintiff is entitled to a broad reading of the pleadings. PricewaterhouseCoopers Inc. v. Perpetual Energy Inc."
+              "style_of_cause": "PricewaterhouseCoopers Inc. v. Perpetual Energy Inc.",
+              "note": "the built style of cause began with the words 'The plaintiff is entitled to a broad reading of the pleadings.'; printed '[2021] A.J. No. 84, 2021 ABCA 16 at para. 74'"
             },
             {
               "neutral_citation": "2012 ABQB 48",
-              "style_of_cause": "A.J. Alberta Adolescent Recovery Centre v. Canadian Broadcasting Corp. No. 61"
+              "style_of_cause": "Alberta Adolescent Recovery Centre v. Canadian Broadcasting Corp.",
+              "note": "the built style of cause began with 'A.J.' and ended with 'No. 61'; printed 'Alberta Adolescent Recovery Centre v. Canadian Broadcasting Corp., [2012] A.J. No. 61, 2012 ABQB 48 at para. 25' with the name displaced before the report cite"
             },
             {
               "neutral_citation": "2019 ABQB 54",
-              "style_of_cause": "Harun-ar-Rashid v. Canada"
+              "style_of_cause": "Harun-ar-Rashid v. Canada (Royal Canadian Mounted Police)"
             },
             {
               "neutral_citation": "2022 ABCA 180",
-              "style_of_cause": "Rana v. Baker Gay v. Alberta"
+              "style_of_cause": "Rana v. Baker",
+              "note": "printed 'Rana v. Baker Gay v. Alberta (Workers’ , [2022] A.J. No. 632, 2022 ABCA 180 at para. 8': the citation is attributed here to Rana v. Baker; the words 'Compensation Board)' and the citation of Gay v. Alberta (Workers' Compensation Board) are not in the file"
             },
             {
               "neutral_citation": "2014 ABCA 285",
-              "style_of_cause": "Ernst v. EnCana Corp. sub nom. Ernst v. Alberta"
+              "style_of_cause": "Ernst v. EnCana Corp. sub nom. Ernst v. Alberta (Energy Resources Conservation Board)",
+              "note": "printed '[2014] A.J. No. 975, ( Ernst v. EnCana Corp. sub nom. Ernst v. Alberta (Energy Resources Conservation Board) ... ) 2014 ABCA 285 at paras. 13-' - the paragraph numbers are lost"
             },
             {
               "neutral_citation": "2013 ABCA 148",
-              "style_of_cause": "ABCA 285 at paras. 13- Hislop v. Murray"
+              "style_of_cause": "Lameman v. Alberta",
+              "note": "printed 'Lameman v. Alberta ..., [2013] A.J. No. 370, 2013 ABCA 148 at para.' - the paragraph number is lost and 'Hislop v. Murray ...' is printed in its place; the built style of cause was 'ABCA 285 at paras. 13- Hislop v. Murray'"
             },
             {
               "neutral_citation": "2015 ABQB 138",
-              "style_of_cause": "PricewaterhouseCoopers Inc. v. Perpetual Energy Inc."
+              "style_of_cause": "Davenport Homes Ltd. v. Cassin",
+              "note": "printed 'Davenport Homes Ltd. v. Cassin, [2015] A.J. No. 238, 2015 ABQB 138 at para. 17'; the built style of cause was the neighbouring PricewaterhouseCoopers name"
+            },
+            {
+              "neutral_citation": "2017 ABQB 684",
+              "style_of_cause": "Al-Ghamdi v. Alberta",
+              "note": "printed 'Al-Ghamdi v. Alberta , [2017] A.J. No. 1218, 2017 ABQB 684 at paras. 101-125 (Alta. Q.B.)' with '2017' and 'ABQB 684' split by the name; not captured by the parser; Book B quotes Al-Ghamdi v. Alberta 2017 ABQB 684 at paras 119-120, 262"
             }
-          ]
+          ],
+          "review_flag": "(1) The commentary is cut off in mid-citation ('for a more recent summary, see , Green Theme Design Ltd. v. 0974016 B.C. Ltd.' - no citation, no pinpoint, no closing) after 2,266 characters; the rest is not in the file. (2) Words and numbers are displaced or lost in the second paragraph: the paragraph starts '3.68(3), no evidence is permitted ...' (words such as 'Under rule' lost); the case names are displaced from their citations ('Rana v. Baker Gay v. Alberta (Workers’ , [2022] A.J. No. 632, 2022 ABCA 180 at para. 8' - the citation is Rana v. Baker's, and the rest of the name of Gay v. Alberta (Workers' Compensation Board) and its citation are not printed; Book B's Gay v. Alberta (Workers' Compensation Board) is 2023 ABCA 351); 'Ernst v. EnCana Corp. sub nom. Ernst v. Alberta (Energy Resources Conservation Board) ... [2014] A.J. No. 975, 2014 ABCA 285 at paras. 13-' (the paragraph numbers are lost); 'Lameman v. Alberta ... [2013] A.J. No. 370, 2013 ABCA 148 at para.' (the paragraph number is lost); 'Al-Ghamdi v. Alberta [2017] A.J. No. 1218, 2017 ABQB 684 at paras. 101-125' is printed with '2017' and 'ABQB 684' split by the name; 'Essential R. v. Imperial Tobacco Canada Ltd. (S.C.C.)' has no citation (Book A and Book B cite Knight v. Imperial Tobacco 2011 SCC 42 for the test). (3) The citation 'Hislop v. Murray, [2012] AWLD 4638, 219 ACWS (3d) 248 at para. 22/23 (Alta. Q.B. (Master))' is printed twice inside these citation strings, exactly where numbers are missing; it is also printed in Book C's 3.67 entry (in the same 161-180 file, 11 occurrences in all in the 3.67 and 3.68 entries); it is not in Book A (combined rule3.txt searched for 'Hislop') and its role is not settled here (see the 3.67 flag). (4) The statements agree with official 3.68(1)-(3), with Book A's note (the plaintiff is entitled to a broad reading; bare assertions are not enough) and with Book B's quotations (Quaye v. Law Society 2021 ABCA 167 para 13; PricewaterhouseCoopers v. Perpetual Energy 2021 ABCA 16 paras 68-74; Alberta Adolescent Recovery Centre v. CBC 2012 ABQB 48 para 25-29). (5) The builder's citation list for this commentary contains wrongly attached names (2023 ABCA 268 named 'Quaye v. Law Society of Alberta'; 2013 ABCA 148 named 'ABCA 285 at paras. 13- Hislop v. Murray'; 2015 ABQB 138 named 'PricewaterhouseCoopers Inc. v. Perpetual Energy Inc.'; 2021 ABCA 16 and 2012 ABQB 48 with words of the neighbouring text in the name); the names are rebuilt below."
         }
       ],
       "misattributed_entries": [],
       "locator": {
         "file": "161-180_3_67 to 4_7.json",
         "source_file": "161-180_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; 'circum- stances' is split by a line-break hyphen in (1); the bracket labels of rules 5.5 and 5.11 are printed as in Book A, and the label of rule 5.10 is displaced after ', or' ('(ii) comply with rule 5.10 , or [Subsequent disclosure of records]'). The amendment note '[Alta. Reg. 124/2010, r. 3.68 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 161-180 file for this entry."
     }
   },
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.4916,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "applies, the",
-          "carrier": "applies,the"
-        },
-        {
-          "op": "replace",
-          "official": "(a) that",
-          "carrier": "(a)that"
-        },
-        {
-          "op": "replace",
-          "official": "out; (b) that",
-          "carrier": "out;(b)that"
-        },
-        {
-          "op": "replace",
-          "official": "set aside; (c) that",
-          "carrier": "setaside;(c)that"
-        },
-        {
-          "op": "replace",
-          "official": "entered; (d) that",
-          "carrier": "entered;(d)that"
-        },
-        {
-          "op": "replace",
-          "official": "action, an",
-          "carrier": "action,an"
-        },
-        {
-          "op": "replace",
-          "official": "stayed. (2) the",
-          "carrier": "stayed.(2)the"
-        },
-        {
-          "op": "replace",
-          "official": "(a) the",
-          "carrier": "(a)the"
-        },
-        {
-          "op": "replace",
-          "official": "jurisdiction; (b) a",
-          "carrier": "jurisdiction;(b)a"
-        },
-        {
-          "op": "replace",
-          "official": "reasonable claim",
-          "carrier": "reasonableclaim"
-        },
-        {
-          "op": "replace",
-          "official": "claim; (c) a",
-          "carrier": "claim;(c)a"
-        },
-        {
-          "op": "replace",
-          "official": "frivolous, irrelevant or improper; (d) a",
-          "carrier": "frivolous,irrelevant orimproper;(d)a"
-        },
-        {
-          "op": "replace",
-          "official": "process; (e) an",
-          "carrier": "process;(e)an"
-        },
-        {
-          "op": "replace",
-          "official": "so prejudicial",
-          "carrier": "soprejudicial"
-        },
-        {
-          "op": "replace",
-          "official": "claim. (3) no",
-          "carrier": "claim.1(3)no"
-        },
-        {
-          "op": "replace",
-          "official": "the condition",
-          "carrier": "thecondition"
-        },
-        {
-          "op": "replace",
-          "official": "(4) the",
-          "carrier": "(4)the"
-        },
-        {
-          "op": "replace",
-          "official": "may (a) strike",
-          "carrier": "may(a)strike"
-        },
-        {
-          "op": "replace",
-          "official": "frivolous, irrelevant or",
-          "carrier": "frivolous,irrelevantor"
-        },
-        {
-          "op": "replace",
-          "official": "information; (b) strike",
-          "carrier": "information;2(b)strike"
-        },
-        {
-          "op": "replace",
-          "official": "does not (i) serve",
-          "carrier": "doesnot (i)serve"
-        },
-        {
-          "op": "replace",
-          "official": "(ii) comply",
-          "carrier": "3olson lemons v. kearl2012 abqb 95 (feb 9) (quoting this book);ernst v. encana corp.2014 abqb 672, 598 ar 331 (¶ 26) (ditto).note on the subject of striking out generally, c.p.e., chapter 26; abrams and mcguinness,canadian civil procedure law, 393-9 (2008). 4this whole passage is quoted with approval, indonaldson v.farrell (#2),supra(¶ 24). 5 seedictainwong v. smith(m 16 may '06) jde 0303 18922. 6tanar v.outokumpu,infra;edwards v.fisher2010 abqb 594 (sep 21) (¶ 16). 7 cf.574095 alta.v.hamilton bros.expl. co.2003 abca 34, 320 ar 351. (ii)comply"
-        },
-        {
-          "op": "replace",
-          "official": "5.10, or (iii) comply",
-          "carrier": "5.10,or absence of a cause of action, new r.3.68 adds the word \"reasonable\" not found in 1968 r.129, but that just 1donaldson v. farrell (#1),infra(¶ 30);donaldson v. farrell (#1)2011 abqb 11 (jan 7) (¶'s 28, 30); wong v. leung(m) 2011 abqb 687, 530 ar 76 (nov 9) (¶ 18);martin v. gen.teamsters local u.no.3622011 abqb 412, ar uned 484 (jun 29) (¶'s 5-7);lameman (beaver l. cree nation) v.r. (alta.& can.) 2012 abqb 195, 537 ar 357, 66 alta lr(5th) 136,affd2013 abca 148, 553 ar 44.on vexatious litigants, cf.wong v. leung(m) 2011 abqb 688, artbed no.086 (nov 9) (¶ 17).but one case applies the new receptiveness to summary judgment, to striking out pleadings:goodswimmer (sturgeon l.i.b.) v. a.-g.can.2016 abqb 384, jce 9703 06332 (jul 8) (¶'s 233-36).when speaking of codifies the case law, and does not change the test:1400467 alta. v.adderley2014 abqb 85, 585 ar 149. 2paraniuk v. pierce2018 abqb 1015, jce 1503 05933 (dec 13);harun-ar-rashid v. r.c.m.p.2019 abqb 54, jcc 1703 24106 (jan 23). (iii)comply"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.68(1)-(4) (read by eye) except: the text is printed in pieces with footnote and note fragments between them (p.3-160 lines 4740-4745; p.3-161 lines 4756, 4763-4764); '(4) The court may' with a lower-case 'court' (official 'The Court may'); the bracket labels '[When an affidavit of records must be served]' after 'rule 5.5' (official 5.5 title 'When affidavit of records must be served': 'an' added), '[Subsequent disclosure of records]' after 'rule 5.10' (matches) and '[Order for a record to be produced]' after 'rule 5.11' (official 5.11 title 'Order for record to be produced': 'a' added); the title in title case ('Court Options to Deal With Significant Deficiencies', printed after the Division 5 heading); missing spaces; '*' line marks; the footnote markers '1' (after (2)(e)) and '2' (after (4)(a)). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The dropped raw text also held footnote and note fragments printed between the pieces, kept here verbatim because Book A's footnotes are not split out and these fragments exist nowhere else in the packet: '3Olson Lemons v. Kearl2012 ABQB 95 (Feb 9) (quoting this book);Ernst v. EnCana Corp.2014 ABQB 672, 598 AR 331 (¶ 26) (ditto).Note on the subject of striking out generally, C.P.E., Chapter 26; Abrams and McGuinness,Canadian Civil Procedure Law, 393-9 (2008). 4This whole passage is quoted with approval, inDonaldson v.Farrell (#2),supra(¶ 24). 5 SeedictainWong v. Smith(M 16 May '06) JDE 0303 18922. 6Tanar v.Outokumpu,infra;Edwards v.Fisher2010 ABQB 594 (Sep 21) (¶ 16). 7 Cf.574095 Alta.v.Hamilton Bros.Expl. Co.2003 ABCA 34, 320 AR 351. absence of a cause of action, new R.3.68 adds the word \"reasonable\" not found in 1968 R.129, but that just 1Donaldson v. Farrell (#1),infra(¶ 30);Donaldson v. Farrell (#1)2011 ABQB 11 (Jan 7) (¶'s 28, 30); *Wong v. Leung(M) 2011 ABQB 687, 530 AR 76 (Nov 9) (¶ 18);Martin v. Gen.Teamsters Local U.No.*3622011 ABQB 412, [2011] AR Uned 484 (Jun 29) (¶'s 5-7);Lameman (Beaver L. Cree Nation) v.R. (Alta.& Can.) 2012 ABQB 195, 537 AR 357, 66 Alta LR(5th) 136,affd2013 ABCA 148, 553 AR 44.On vexatious litigants, cf.Wong v. Leung(M) 2011 ABQB 688, [2011] ARTBEd NO.086 (Nov 9) (¶ 17).But one case applies the new receptiveness to summary judgment, to striking out pleadings:Goodswimmer (Sturgeon L.I.B.) v. A.-G.Can.2016 ABQB 384, JCE 9703 06332 (Jul 8) (¶'s 233-36).When speaking of codifies the case law, and does not change the test:1400467 Alta. v.Adderley2014 ABQB 85, 585 AR 149. 2Paraniuk v. Pierce2018 ABQB 1015, JCE 1503 05933 (Dec 13);Harun-ar-Rashid v. R.C.M.P.2019 ABQB 54, JCC 1703 24106 (Jan 23).' (fns 3-7 of p.3-161, the fragment 'absence of a cause of action, new R.3.68 adds the word \"reasonable\" not found in 1968 R.129, but that just' with its continuation printed in the note, footnotes 1-2 of the next page, and the tail of a note sentence 'When speaking of codifies the case law, and does not change the test'). The history footnotes 1 ('Quite similar to previous 1968 R.129(1). It came from 1944 C.Rr.184, 186, and 187 ...') and 2 ('Quite similar to previous 1968 R.307 ...') matching the markers are printed at p.3-160 line 4735 in the built 3.67 record."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -296,7 +196,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; 'circum- stances' is split by a line-break hyphen in (1); the bracket labels of rules 5.5 and 5.11 are printed as in Book A, and the label of rule 5.10 is displaced after ', or' ('(ii) comply with rule 5.10 , or [Subsequent disclosure of records]'). The amendment note '[Alta. Reg. 124/2010, r. 3.68 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 161-180 file for this entry."
     }
   },
   "three_book_gate": {
@@ -412,6 +313,8 @@
     "3.68 BOOK_C citation context dropped (2013 ABCA 148): verbatim in kept text",
     "3.68 BOOK_C citation context dropped (2015 ABQB 138): verbatim in kept text",
     "3.68 BOOK_C commentary sentence split dropped",
-    "3.68 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.68 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.68 BOOK_A: raw text dropped, differences editorial only (manual review)",
+    "3.68 BOOK_C: raw text dropped, differences editorial only (manual review)"
   ]
 }
