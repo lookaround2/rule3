@@ -41,7 +41,7 @@
     },
     "BOOK_A": {
       "title": "Questioning on Affidavit and QuestioningWitnesses",
-      "operative_text_raw": "3.13(1)The following persons may be questioned by a party adverse in interest:*(a)a person who makes an affidavit in support of an originating\n*application;\n1Quite similar to previous 1968 R.314.It came from theChancery Procedure Act1852, s.38.OR s.40? Cf. English Chancery Order of 5 February 1861, R.XIX.Cf.1883 O.37 r.20; O.38 r.1;and cf.Judic.Ord.rr.282, 293.1968 R.314(1), (2) were virtually identical to 1914 R.382, and 1944 C.R.360. 2Quite similar to previous 1968 R.266.It came fromChancery Procedure Act1852 (15 & 16Vict) s.40; cf. Common Law Procedure Act1854 ss.47, 48.Rearranged somewhat from 1914 R.384, but substantially the same.Cf.Judic.Ord.rr.284, 285;1883 O.37 rr.20, 22.Came from 1944 C.R.317.Cf.C.O.O.XIX r.3.\n3Holden (Village) v. Sen2019 ABQB 472, JCE 1503 12322 (Jan 21) (¶'s 54-56). 4Re Metanczuk2024 ABKB 270, JCC B201 716395 (May 13) (¶'s 50-61).\n*(b)a person who makes an affidavit in response;\n*(c)a person who makes an affidavit in reply to a response.\n*1*(2)Subject to rule 3.21 [Limit on questioning],a person may be questioned*under oath as a witness for thepurpose of obtaining a transcript of the person's*evidence for use at the hearing of an originating application.*2*(3)A party may question a person whom the party is entitled to question under\n*this rule by serving on the person an appointment for questioning.*(4)Rules 6.16 [Contents of appointment notice] to 6.20 [Form of questioning**and transcript] and 6.38 [Requiring attendance for questioning] apply for the*purposes of this rule.*(5)The questioning party must file the transcript of the questioning.",
+      "operative_text_raw": null,
       "operative_text_sha256": "5a527fdd8168ab5b79e097b62818364fc76c835d6da0fa5fac4a77a917744c53",
       "defined_terms": "file, party",
       "related_provisions": "3.21 (questioning on judicial review);6.7 (questioning on affidavits);6.8 (questioning a witness before hearing);12.25 (transcripts optional in family law)",
@@ -58,7 +58,9 @@
           87807,
           90095
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.13(1)-(5) (read by eye) except bracket labels '[Limit on questioning]' (3.21), '[Contents of appointment notice]' (6.16; the official title is 'Contents of notice of appointment'), '[Form of questioning and transcript]' (6.20) and '[Requiring attendance for questioning]' (6.38), missing spaces, '*' line marks and the footnote markers '1' (after (1)) and '2' (after (2)). No amendment bracket; the official text lists no amendment for 3.13. No substantive difference. The raw text also held the p.3-31 footnote block, kept here verbatim: '1Quite similar to previous 1968 R.314.It came from theChancery Procedure Act1852, s.38.OR s.40? Cf. English Chancery Order of 5 February 1861, R.XIX.Cf.1883 O.37 r.20; O.38 r.1;and cf.Judic.Ord.rr.282, 293.1968 R.314(1), (2) were virtually identical to 1914 R.382, and 1944 C.R.360. 2Quite similar to previous 1968 R.266.It came fromChancery Procedure Act1852 (15 & 16Vict) s.40; cf. Common Law Procedure Act1854 ss.47, 48.Rearranged somewhat from 1914 R.384, but substantially the same.Cf.Judic.Ord.rr.284, 285;1883 O.37 rr.20, 22.Came from 1944 C.R.317.Cf.C.O.O.XIX r.3. 3Holden (Village) v. Sen2019 ABQB 472, JCE 1503 12322 (Jan 21) (¶'s 54-56). 4Re Metanczuk2024 ABKB 270, JCC B201 716395 (May 13) (¶'s 50-61).'",
+      "commentary_review_flag": "Read in full, p.3-30 (line 698) to p.3-31 (line 718): rule text, footnotes 1-4 (kept in the text note), defined terms, related provisions and a short note; the built commentary ends with the title of 3.14. (1) Labels read against the official titles: '[Contents of appointment notice]' - official 6.16 is 'Contents of notice of appointment'; the other brackets (3.21 'Limit on questioning', 6.20 'Form of questioning and transcript', 6.38 'Requiring attendance for questioning') match. Book A elsewhere names this rule 'Questioning on an affidavit and questioning witnesses' (in its 3.14 text and R.12.25's quotation) where the official title is 'Questioning on affidavit and questioning witnesses'. (2) Related Provisions: '3.21 (questioning on judicial review)' - official 3.21 is 'Limit on questioning' (its scope to be read in the 3.21 pass); '6.7 (questioning on affidavits)' - official 6.7 'Questioning on affidavit in support, response and reply to application'; '6.8 (questioning a witness before hearing)' - official 6.8 'Questioning witness before hearing'; '12.25 (transcripts optional in family law)' - official 12.25 'Exception to rule 3.13(5)' (the transcript need not be filed if the parties agree; agrees). (3) Note: 'A non-affiant can be examined to get a transcript to use at an application, if Rr.6.16-6.20 are observed' agrees with official 3.13(2)-(4). Pointers 'On cross-examination on affidavits, see R.6.8n.' and 'On examinations to obtain evidence on a pending application, see R.6.20n.' (to be checked in Part 6). The note cites the 'Metanczuk case' (Re Metanczuk 2024 ABKB 270, fn 4) for a court using inherent or vaguely worded statutory powers to order examination of a witness by a trustee in bankruptcy (statement of law without a source in the repository; not checked). Holden (Village) v. Sen 2019 ABQB 472 (fn 3) is also cited in 3.8 (p.3-26 fn 1). (4) Book A says little on the scope of questioning; Book B has a long commentary on it (see_also)."
     },
     "BOOK_B": {
       "title": "Questioning on affidavit and questioning witnesses",
@@ -86,7 +88,7 @@
     "BOOK_C": {
       "title": "Questioning on affidavit and questioning witnesses",
       "division_heading": "Division 2 – ACTIONS STARTED BY ORIGINATING APPLICATION",
-      "operative_text_raw": "(1) The following persons may be questioned by a party adverse in interest:\n(a) a person who makes an affidavit in support of an originating application;\n(b) a person who makes an affidavit in response;\n(c) a person who makes an affidavit in reply to a response.\n(2) Subject to rule 3.21 , a person may be questioned [Limit on questioning] under oath as a witness for the purpose of obtaining a transcript of the person’s evidence for use at the hearing of an originating application.\n(3) A party may question a person whom the party is entitled to question under this rule by serving on the person an appointment for questioning.\n(4) Rules 6.16 to 6.20 [Contents of appointment notice]\n[Form of questioning and transcript]\n[Requiring attendance for questioning] and 6.38 apply for the purposes of this rule.\n(5) The questioning party must file the transcript of the questioning.",
+      "operative_text_raw": null,
       "operative_text_sha256": "2215c25b708d379e3e79bbec1c394d4b18d1b30c4694f4ccf50ec5522bfa49e7",
       "citations": [],
       "commentary": [
@@ -101,89 +103,35 @@
             {
               "neutral_citation": "2013 ABQB 492",
               "style_of_cause": "Precision Drilling Canada Ltd. v. Yangarra Resources Ltd."
+            },
+            {
+              "neutral_citation": "2000 ABQB 814",
+              "style_of_cause": "Colortech Painting and Decorating Ltd. v. Toh",
+              "note": "printed as 'citing , [2000] A.J. No. 1345, 2000 ABQB Colortech Painting and Decorating Ltd. v. Toh': the name is displaced and the number after '2000 ABQB' is lost; the number 814 is taken from Book B (Colortech Painting and Decorating Ltd. v. Toh, 2000 ABQB 814, 276 A.R. 262, quoted in its 3.13 commentary)"
+            },
+            {
+              "neutral_citation": null,
+              "style_of_cause": "Trizec Equities Ltd. v. Ellis-Don Management Services Ltd.",
+              "note": "printed as 'citing , [1996] A.J. No. 699, 37 Alta. L.R. (3d) 442 at para. 15 (Alta. Q.B.)' with the name displaced ('Trizec Equities Ltd. v. Ellis-Don Management Services Ltd. No. 699' splits '[1996] A.J.' and 'No. 699'); no neutral citation is printed"
             }
-          ]
+          ],
+          "review_flag": "(1) 'the transcript must be filed (rule 6.20(5)(b))' agrees with official 6.20(5)(b) ('file the transcript unless the Court otherwise orders') and 3.13(5); official 12.25 lets the parties agree it need not be filed. (2) The citations 'Colortech Painting and Decorating Ltd. v. Toh' and 'Trizec Equities Ltd. v. Ellis-Don Management Services Ltd.' are printed in pieces (see the citation notes). (3) The last paragraph stops at 'this is subject to the overriding discretion of the court to determine whether a question should be'; Book B's quotation of International Securities Group v. Alberta (Securities Commission), 2011 ABQB 737, para 19, ends the same thought 'to determine whether a question should be answered'. (4) The quoted passage 'issues relevant to the application are not confined to the four corners of the affidavit' agrees with the Colortech / Leahy summary in Book B's commentary."
         }
       ],
       "misattributed_entries": [],
       "locator": {
         "file": "101-120_2_28 to 3_18.json",
         "source_file": "101-120_revised.md"
-      }
+      },
+      "operative_text_note": "same wording as official 3.13(1)-(5) (read by eye) except the bracket labels after 'rule 3.21' ('[Limit on questioning]') and after 'Rules 6.16 to 6.20' ('[Contents of appointment notice] [Form of questioning and transcript] [Requiring attendance for questioning]'); amendment note agrees (no amending regulation)."
     }
   },
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.5903,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "(1) the",
-          "carrier": "(1)the"
-        },
-        {
-          "op": "replace",
-          "official": "interest: (a) a",
-          "carrier": "interest:(a)a"
-        },
-        {
-          "op": "replace",
-          "official": "(b) a",
-          "carrier": "1quite similar to previous 1968 r.314.it came from thechancery procedure act1852, s.38.or s.40? cf. english chancery order of 5 february 1861, r.xix.cf.1883 o.37 r.20; o.38 r.1;and cf.judic.ord.rr.282, 293.1968 r.314(1), (2) were virtually identical to 1914 r.382, and 1944 c.r.360. 2quite similar to previous 1968 r.266.it came fromchancery procedure act1852 (15 & 16vict) s.40; cf. common law procedure act1854 ss.47, 48.rearranged somewhat from 1914 r.384, but substantially the same.cf.judic.ord.rr.284, 285;1883 o.37 rr.20, 22.came from 1944 c.r.317.cf.c.o.o.xix r.3. 3holden (village) v. sen2019 abqb 472, jce 1503 12322 (jan 21) (¶'s 54-56). 4re metanczuk2024 abkb 270, jcc b201 716395 (may 13) (¶'s 50-61). (b)a"
-        },
-        {
-          "op": "replace",
-          "official": "(c) a",
-          "carrier": "(c)a"
-        },
-        {
-          "op": "replace",
-          "official": "(2) subject",
-          "carrier": "1(2)subject"
-        },
-        {
-          "op": "replace",
-          "official": "3.21, a",
-          "carrier": "3.21,a"
-        },
-        {
-          "op": "replace",
-          "official": "questioned under",
-          "carrier": "questionedunder"
-        },
-        {
-          "op": "replace",
-          "official": "the purpose",
-          "carrier": "thepurpose"
-        },
-        {
-          "op": "replace",
-          "official": "person's evidence",
-          "carrier": "person'sevidence"
-        },
-        {
-          "op": "replace",
-          "official": "application. (3) a",
-          "carrier": "application.2(3)a"
-        },
-        {
-          "op": "replace",
-          "official": "questioning. (4) rules",
-          "carrier": "questioning.(4)rules"
-        },
-        {
-          "op": "replace",
-          "official": "the purposes",
-          "carrier": "thepurposes"
-        },
-        {
-          "op": "replace",
-          "official": "rule. (5) the",
-          "carrier": "rule.(5)the"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.13(1)-(5) (read by eye) except bracket labels '[Limit on questioning]' (3.21), '[Contents of appointment notice]' (6.16; the official title is 'Contents of notice of appointment'), '[Form of questioning and transcript]' (6.20) and '[Requiring attendance for questioning]' (6.38), missing spaces, '*' line marks and the footnote markers '1' (after (1)) and '2' (after (2)). No amendment bracket; the official text lists no amendment for 3.13. No substantive difference. The raw text also held the p.3-31 footnote block, kept here verbatim: '1Quite similar to previous 1968 R.314.It came from theChancery Procedure Act1852, s.38.OR s.40? Cf. English Chancery Order of 5 February 1861, R.XIX.Cf.1883 O.37 r.20; O.38 r.1;and cf.Judic.Ord.rr.282, 293.1968 R.314(1), (2) were virtually identical to 1914 R.382, and 1944 C.R.360. 2Quite similar to previous 1968 R.266.It came fromChancery Procedure Act1852 (15 & 16Vict) s.40; cf. Common Law Procedure Act1854 ss.47, 48.Rearranged somewhat from 1914 R.384, but substantially the same.Cf.Judic.Ord.rr.284, 285;1883 O.37 rr.20, 22.Came from 1944 C.R.317.Cf.C.O.O.XIX r.3. 3Holden (Village) v. Sen2019 ABQB 472, JCE 1503 12322 (Jan 21) (¶'s 54-56). 4Re Metanczuk2024 ABKB 270, JCC B201 716395 (May 13) (¶'s 50-61).'"
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -194,7 +142,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.13(1)-(5) (read by eye) except the bracket labels after 'rule 3.21' ('[Limit on questioning]') and after 'Rules 6.16 to 6.20' ('[Contents of appointment notice] [Form of questioning and transcript] [Requiring attendance for questioning]'); amendment note agrees (no amending regulation)."
     }
   },
   "three_book_gate": {
@@ -295,11 +244,19 @@
     "gate_artifact_sha256": "11e39f2e5aa8a98cbf26017264e78b707ccc717753ec9ebebaadf3c72c2c2b84"
   },
   "information_notes": [],
+  "see_also": [
+    "Official text (searched for 'rule 3.13', lists, line-wrapped forms and form headings): 3.14(1)(b) ('a transcript referred to in rule 3.13') and 12.25 ('Exception to rule 3.13(5)': the questioning party need not file the transcript if the parties agree). No form heading names 3.13. By subject: 3.21 (limit on questioning), 6.7 and 6.8 (questioning on affidavit; witness before hearing), 6.16-6.20 and 6.38 (appointment, allowance, lawyer's responsibilities, interpreter, form of questioning and transcript, requiring attendance), 5.11(2)(b) (cross-examination on affidavit of records), 3.8(2) and 13.18-13.19 (affidavits).",
+    "BOOK_A other Parts and Part 3 (all combined*.txt; pages from the markers; rule numbers from the text): 3.14 text p.3-31 (line 719, '[b] a transcript referred to in rule 3.13') and related provision p.3-32 (line 734) '3.13 (questioning on an affidavit)'; R.5.11 related p.5-71 (lines 3776-3777) '3.13 (cross-examination on affidavits)' and its note (line 3783) 'Rules 3.13 and 5.11(2)(b) also allow one to cross-examine on an affidavit of records' (official 5.11(2)(b): the Court may permit cross-examination on the original and any subsequent affidavit of records; agrees); R.5.17 note p.5-92 (line 4940) 'examination in chief for a pending application (now R.3.13(2))'; R.6.7 related p.6-62 (line 3263) and R.6.8 related p.6-70 (line 3740) '3.13 (questioning re originating applications)'; R.6.11 checklist p.6-92 (line 4895) 'motion: Rr.3.13, 6.7, 6.8, 6.11(1)(b), 6.20 (either side may use)'; R.12.25 p.12-23 (title 'Exception to Rule 3.13(5)' and text); R.13.41 note p.13-103 (line 5292) lists 3.13 among rules that 'seem to require filing' (official 3.13(5): the questioning party must file the transcript).",
+    "BOOK_B and BOOK_C other Parts (all files searched): BOOK_B rule12_part01_document.json (12.25 'Exception to rule 3.13(5)' and its text); BOOK_B rule5_part08_document.json (a commentary under 5.25, paragraph part5_part_5_disclosure_of_information_022: 'Rule 3.13 ... governs who counsel may question on an affidavit for an Originating Application. In his commentary on this rule, Judge Fradsham notes that the examination under this rule may be \"as searching and thorough\" as examination on discovery; however, it must not \"extend to matters wholly immaterial and irrelevant to the affidavit\": Judge Allan A Fradsham, Alberta Rules of Court Annotated 2019 (Toronto: Thomson Reuters, 2018) at 119' - the wording matches this rule's BOOK_B commentary, which confirms that BOOK_B is Fradsham's annotation); BOOK_C file 561-580 (12.25). BOOK_C 3.14 text 'a transcript referred to in rule 3.13' is in 3.14.",
+    "BOOK_B: read in full (one section, § 3.13:1, 35,149 characters). Six numbered parts, no gap: 1 Scope of Examination (with (i) Generally and (ii) When affiant is a non-party), 2 Cross-examination on Statutory Declaration Exhibited to Affidavit, 3 Duty to Inform, 4 Withdrawal of an Affidavit (under which the text prints (i) Right to cross-examine, (ii) Effect of inability to cross-examine, (iii) Filing one's own affidavit not required), 5 Loss of Right to Cross-examine Due to Delay, 6 Failure to File Undertakings. It quotes the former rules (R.314(1)-(2), 311, 312 and 305(3) as numbered in the 1968 Rules) and decisions under them (College Brand Clothes v. Brown, Ed Miller Sales v. Caterpillar, Dy-Reyes v. Carina Holdings 2000 ABQB 386, Colortech v. Toh 2000 ABQB 814, Alberta Treasury Branches v. Leahy, International Securities Group v. Alberta (Securities Commission) 2011 ABQB 737, CRC-Evans Pipeline v. O.J. Pipelines, R.O.M. Construction v. Heeley, Becker v. Alberta 2000 ABCA 329, Point on the Bow Development, Fech v. Lewington 2022 ABCA 154, Hoda v. Hoda 2021 ABCA 122, Reference re Firearms Act 1998 ABCA 306); none of these is compared with the current 3.13 text (the current rule names the persons who may be questioned, the transcript and rules 6.16-6.20). Fech v. Lewington quotes 'Stevenson & Cote, Alberta Civil Procedure Handbook (Edmonton: Juriliber, 1999) at 226'. BOOK_B's rule text = official; no amendment note on either side."
+  ],
   "dedupe_log": [
     "3.13 BOOK_B: operative text dropped (EXACT_MATCH)",
     "3.13 BOOK_C citation context dropped (2019 ABQB 106): verbatim in kept text",
     "3.13 BOOK_C citation context dropped (2013 ABQB 492): verbatim in kept text",
     "3.13 BOOK_C commentary sentence split dropped",
-    "3.13 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.13 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.13 BOOK_A: raw text dropped, differences editorial only (manual review)",
+    "3.13 BOOK_C: raw text dropped, differences editorial only (manual review)"
   ]
 }
