@@ -39,7 +39,7 @@
     },
     "BOOK_A": {
       "title": null,
-      "operative_text_raw": "3.45 A third party claim must*(a)be in Form 16,*(b)comply with the rules about pleadings in Part 13 [Technical Rules],\n*Division 3 [Pleadings],*(c)be filed and served on the plaintiff and the third party defendant,*whether or not the third party defendant is already a party to the*action,*(i)within 6 months after the date on which the defendant filed a*statement of defence or demand for notice,and\n*(ii)before judgment is entered against the defendant or the*defendant is noted in default,*4*and*(d)be accompanied,when it is served on the third party defendant,with*a copy of the statement of claim served on the defendant.",
+      "operative_text_raw": null,
       "operative_text_sha256": "32ffbaf4b769f2760609129ea7ec9717fd5efae70653372b09011c204f7bc194",
       "defined_terms": "claim, defendant, file, judgment, party, plaintiff, pleading, rules, third party defendant",
       "related_provisions": "13.5 (extending time)",
@@ -56,7 +56,9 @@
           367606,
           379217
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.45(a)-(d) (read by eye) except: the bracket labels '[Technical Rules]' after 'Part 13' and '[Pleadings]' after 'Division 3' (both match the official headings); the text is printed in pieces (p.3-115 lines 3249-3251); the title in title case ('Form of Third Party Claim'); missing spaces; '*' line marks; the footnote marker '4' after (c)(ii). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. No footnote block is inside the raw text. The history footnote 4 ('Quite similar to previous 1968 R.66(4). It came from 1944 C.R.81 (last part). Until a 1981 amendment (Alta. Reg.313/81), the third party notice had to be filed at or before the time of filing of the statement of defence; after that, the defendant who defended had six more months.') is printed at p.3-115 line 3238 in the built 3.44 record.",
+      "commentary_review_flag": "Read p.3-115 (line 3249) to p.3-118 (line 3373): rule text (in pieces), Defined Terms 'claim, defendant, file, judgment, party, plaintiff, pleading, rules, third party defendant' (the Appendix defines each; 'third party defendant' line 41117), Related Provisions '13.5 (extending time)', and a note in two parts (A Generally; B Time Issues: 1 Extension Possible, 2 Evidence), with footnotes as printed; the note is skimmed for structure and for every pointer to the Rules, not case by case. The built record: the note is in the commentary field (10,837 characters, nothing dropped), ending with the title and first words of 3.46 ('Third Party Defendant Becomes Party', 3.46(1)(a)) and 3.46's first footnote pieces; the raw-text field holds only the rule text; the history footnote 4 is in the 3.44 record. The extraction interleaves the columns and footnotes on pp.3-116 to 3-118, so most sentences are split across lines that are not adjacent (e.g. 'The test for such a time extension is fairly lax. Prejudice is less important' / 'Prejudice is relevant. if the delay is longer, ...'); the wording is kept as printed and the order of the pieces was not repaired. (1) Related Provisions: '13.5 (extending time)' (official 13.5 is 'Variation of time periods'). Pointer: 'See R.3.55 n.below' (line 3271; official 3.55 is 'Application of rules to third party claims'; the 3.55 note was not opened here). (2) Statements read against the official text and Book B: 'The time limits in R.3.45 are not limitation periods, and can be extended by the court under R.13.5' agrees with official 13.5 and Book B (Nelson v. Condo. Corp. 0013187 2019 ABQB 426 [49]: 'The 6-month time period in Rule 3.45 can be extended in the discretion of the Court; Rule 13.5'; the rule13 annotation quoted at Book B's R.13); 'Sworn evidence is necessary to get a significant time extension' agrees with Lister v. Calgary (Book B: 'Evidence must be proper admissible evidence such as an affidavit'); 'Prejudice is less important if the delay is longer' and 'the longer the delay ... more emphasis on the excuse' agree with Book B's Hein v. Barrett principles 3-4 and Flight v. Dillon; '10- and 14-month delays were excused because of a credible explanation: Alliance v. Franklin' agrees with Hughes J. at para 499 (approx. 10-14 months is relatively short, Alliance para 11); 'A request ... 7 years after he filed his defence, invites dismissal' agrees with Hein v. Barrett (Book B: leave refused for a seven-year delay); 'air of reality' (Kwik-Kopy; LaBell v. Jo) agrees with Book B para 500; 'That is not needed in Alberta if the third party notice is filed and served in time' agrees with 3.45(c)(i) (6 months, no leave). (3) Citation differences (not resolved): Kwik-Kopy Ptg. Can. Corp. v. Skoreiko is '(M) 2002 ABQB 644' (p.3-115 fn 2, line 3238) and '2002 ABQB 835, 324 AR 126' (line 3322) in Book A; Book B prints 'Kwik-Kopy Printing Canada Corp. v. Skoreik (2002), 324 A.R. 126 (Q.B.)' (Watson J., no neutral cite); Nelson v. Condo. Corp. No. 0013187 2019 ABQB 426, JCC 1401 04043 is dated '(Jan 7)' at line 3263 and '(Jun 7)' at line 3320; 'Cdn. Natural Res. v. Arcelormittal Tubular Prod. Roman 2013 ABCA 279, 556 AR 188' (line 3263) is a different decision from the 2013 ABCA 87 that Book B and Book A line 7010 give as the affirming decision of 2012 ABQB 679; Book B prints Builders Holdings v. Gasland Properties as '2001 ABQB 823, 306 A.R. 163' in its own text and '2001 ABCA 823, 306 AR 163' inside the Hughes J. quotation (Book A: 2001 ABQB 823). (4) Other rules' pointers to 3.45: Book A p.3-81 (line 2201) 'the time to serve a third party notice is set by R.3.45' (in the 3.31 or 3.32 note); p.3-124 (lines 3488, 3502) 'See other cases under R.3.45's commentary, supra' and 'strike it out if it violated R.3.45 and no time extension were given' (a note of a later rule; lands on notes B); R.13 p.13-22 (line 1110) and p.13-66 (line 3491) 'Diarize the deadline for issuing a Third Party Notice (R.3.45(c))'; the official Form 16 '[Rule 3.45]' agrees. Book B's R.13 annotation (rule13_part01_anno.json) 'Rule 3.45(c)(i) requires ... [18] The Court has the discretion to extend the time period under rule 3.45(c)(i) ... rule 13.5(2) and (3)' and Book C's R.13 'An order pursuant to rule 13.52 can extend the time limits in rule 3.45.102' ('13.52' and '3.45.102' - a footnote number appears to be run into each number; not confirmed against the page) agree with 3.45(c)(i) and 13.5. (5) The very large body of cases and practice statements in the note (limitation periods, Insurance Act 'third party by order', Pierringer agreements) was not checked."
     },
     "BOOK_B": {
       "title": "Form of third party claim",
@@ -84,7 +86,7 @@
     "BOOK_C": {
       "title": "Form of third party claim",
       "division_heading": null,
-      "operative_text_raw": "A third party claim must (a) be in Form 16, (b) comply with the rules about pleadings in Part 13 [Technical Rules], Division 3 , [Pleadings]\n(c) be filed and served on the plaintiff and the third party defendant, whether or not the third party defendant is already a party to the action, (i) within 6 months after the date on which the defendant filed a statement of defence or demand for notice, and (ii) before judgment is entered against the defendant or the defendant is noted in default, and (d) be accompanied, when it is served on the third party defendant, with a copy of the statement of claim served on the defendant.",
+      "operative_text_raw": null,
       "operative_text_sha256": "b0ac52acccc29d673907d24d1f7241b8c6ee68abe73dd467c8ab7393cc498ca3",
       "citations": [],
       "commentary": [
@@ -94,7 +96,8 @@
           "citations": [
             {
               "neutral_citation": "2024 ABKB 428",
-              "style_of_cause": "H2 Canmore Apartments LP v. Cormode"
+              "style_of_cause": "H2 Canmore Apartments LP v. Cormode & Dickson Construction Edmonton Ltd.",
+              "note": "the built style of cause stopped at 'H2 Canmore Apartments LP v. Cormode'; the printed name is 'H2 Canmore Apartments LP v. Cormode & Dickson Construction Edmonton Ltd.' (paras. 20-21 and 23-24)"
             },
             {
               "neutral_citation": "2014 ABQB 644",
@@ -102,75 +105,27 @@
             },
             {
               "neutral_citation": "2008 ABQB 495",
-              "style_of_cause": null
+              "style_of_cause": "Condominium Corp. No. 9813678 v. Statesman Corp.",
+              "note": "the printed name 'Condominium Corp. No. 9813678 v. Statesman Corp.' is displaced into the paragraph before the citation (printed '; , Condominium Corp. No. 9813678 v. Statesman Corp.'); the built style of cause was empty; the citation is '[2008] A.J. No. 904, 2008 ABQB 495 at para. 46 (Alta. Q.B.)'"
             }
-          ]
+          ],
+          "review_flag": "(1) The commentary agrees with official 3.45 and Book B: 'six months after the date on which the defendant ... filed a statement of defence or a demand for notice and before judgment is entered against the defendant or the defendant is noted in default' equals 3.45(c)(i)-(ii); 'A third party claim is to be drafted as any other pleading' agrees with 3.45(b); the factors 'inordinate delay, no credible or reasonable excuse and prejudice' (Condominium Plan 9812082 v. Battistella 2014 ABQB 644 para. 15) and 'air of reality' agree with Book B's quotations (Nelson [49]; Hughes J. paras 497-500). (2) The last paragraph is cut off: 'Where the delay in advancing a third party claim is short, the primary focus of the application is on the excuse offered and the prejudice suffered. The requirement to explain the delay [2008] A.J. No. 904, 2008 ABQB 495 at para. 46 (Alta. Q.B.).' - the sentence 'The requirement to explain the delay' has no ending, and the case name of the citation ('Condominium Corp. No. 9813678 v. Statesman Corp.') is displaced into the paragraph before it ('; , Condominium Corp. No. 9813678 v. Statesman Corp.'). Book A p.3-118 (line 3344) prints 'Lack of an explanation (despite little prejudice) was fatal, in Condo. Corp. No. 9813678 v. Statesman Corp. 2008 ABQB 495, 450 AR 289'. (3) H2 Canmore Apartments LP v. Cormode & Dickson Construction Edmonton Ltd., 2024 ABKB 428 is not in Book A (searched combined rule3.txt) or Book B's rule3_part files (searched by file name: the only files with 'H2 Canmore' are Book C 141-160 and 501-520 and Book B rule10_part10). (4) The commentary is Book C's only commentary for 3.45 and has no heading other than 'General Principles'."
         }
       ],
       "misattributed_entries": [],
       "locator": {
         "file": "141-160_3_44 to 3_66.json",
         "source_file": "141-160_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; the bracket labels '[Technical Rules]' and '[Pleadings]' are printed as in Book A but the second is displaced after 'Division 3 ,' ('Division 3 , [Pleadings]') and the line break falls after it; no other difference. The amendment note '[Alta. Reg. 124/2010, r. 3.45 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 141-160 file for this entry."
     }
   },
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.78,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "must (a) be",
-          "carrier": "must(a)be"
-        },
-        {
-          "op": "replace",
-          "official": "16, (b) comply",
-          "carrier": "16,(b)comply"
-        },
-        {
-          "op": "replace",
-          "official": "3, (c) be",
-          "carrier": "3,(c)be"
-        },
-        {
-          "op": "replace",
-          "official": "defendant, whether",
-          "carrier": "defendant,whether"
-        },
-        {
-          "op": "replace",
-          "official": "the action, (i) within",
-          "carrier": "theaction,(i)within"
-        },
-        {
-          "op": "replace",
-          "official": "a statement",
-          "carrier": "astatement"
-        },
-        {
-          "op": "replace",
-          "official": "notice, and (ii) before",
-          "carrier": "notice,and (ii)before"
-        },
-        {
-          "op": "replace",
-          "official": "the defendant",
-          "carrier": "thedefendant"
-        },
-        {
-          "op": "replace",
-          "official": "default, and (d) be accompanied, when",
-          "carrier": "default,4and(d)be accompanied,when"
-        },
-        {
-          "op": "replace",
-          "official": "defendant, with a",
-          "carrier": "defendant,witha"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.45(a)-(d) (read by eye) except: the bracket labels '[Technical Rules]' after 'Part 13' and '[Pleadings]' after 'Division 3' (both match the official headings); the text is printed in pieces (p.3-115 lines 3249-3251); the title in title case ('Form of Third Party Claim'); missing spaces; '*' line marks; the footnote marker '4' after (c)(ii). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. No footnote block is inside the raw text. The history footnote 4 ('Quite similar to previous 1968 R.66(4). It came from 1944 C.R.81 (last part). Until a 1981 amendment (Alta. Reg.313/81), the third party notice had to be filed at or before the time of filing of the statement of defence; after that, the defendant who defended had six more months.') is printed at p.3-115 line 3238 in the built 3.44 record."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -181,7 +136,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; the bracket labels '[Technical Rules]' and '[Pleadings]' are printed as in Book A but the second is displaced after 'Division 3 ,' ('Division 3 , [Pleadings]') and the line break falls after it; no other difference. The amendment note '[Alta. Reg. 124/2010, r. 3.45 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 141-160 file for this entry."
     }
   },
   "three_book_gate": {
@@ -288,6 +244,8 @@
     "3.45 BOOK_C citation context dropped (2014 ABQB 644): verbatim in kept text",
     "3.45 BOOK_C citation context dropped (2008 ABQB 495): verbatim in kept text",
     "3.45 BOOK_C commentary sentence split dropped",
-    "3.45 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.45 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.45 BOOK_A: raw text dropped, differences editorial only (manual review)",
+    "3.45 BOOK_C: raw text dropped, differences editorial only (manual review)"
   ]
 }
