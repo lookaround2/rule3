@@ -39,7 +39,7 @@
     },
     "BOOK_A": {
       "title": "Application of Rules to Counterclaims",
-      "operative_text_raw": "3.60(1) Except when the context or these rules otherwise provide,a rule that*applies to or in respect of*(a)a plaintiff applies equally to or in respect of a plaintiff-by- counterclaim*and a third party plaintiff-by-counterclaim,*(b)a defendant applies equally to or in respect of a defendant-by-\n*counterclaim and a third party defendant-by-counterclaim,and*(c)a pleading related to a claim made by statement of claim applies*equally to or in respect of a pleading related to a counterclaim.*(2)If the defendant-by-counterclaim does not file a statement of defence or*demand for notice in respect of a counterclaim,a judgment on the counterclaim*may be obtained only with the Court's permission after notice of the application\n*has been served on the defendant-by-counterclaim.*10",
+      "operative_text_raw": null,
       "operative_text_sha256": "3e15fb67dfbc91abff851bd6e080b1eb3467217928410bb19d2e9a071bd41d8a",
       "defined_terms": "claim, Court, defendant, judgment, plaintiff, pleading, rules",
       "related_provisions": "3.58 (counterclaim an independent action)",
@@ -56,7 +56,9 @@
           413240,
           415323
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.60(1)-(2) (read by eye) except: the text is printed in pieces (p.3-130 lines 3696-3698); soft line breaks in 'plaintiff-by- counterclaim' and 'defendant-by-' / 'counterclaim'; straight apostrophe in 'Court's' in (2); the title in title case ('Application of Rules to Counterclaims', printed before the rule number); missing spaces; '*' line marks; the footnote marker '10' after (2). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The history footnote 10 ('Quite similar to previous 1968 R.155. It came from 1944 C.R.120. Cf. 1883 O.23 r.2.') matching the marker is printed at p.3-130 line 3681 in the built 3.59 record.",
+      "commentary_review_flag": "Read in full, p.3-130 (lines 3696-3698): rule text (in pieces), Defined Terms 'claim, Court, defendant, judgment, plaintiff, pleading, rules' (the Appendix defines each), Related Provisions '3.58 (counterclaim an independent action)'; no Information Note and no note of its own. The built record: defined_terms and related_provisions; the commentary field holds only pieces of the NEXT rule's note (3.61: the heading 'DIVISION 4 REQUEST FOR PARTICULARS, AMENDMENTS TO PLEADINGS AND CLOSE OF PLEADINGS', 'Request for Particulars', footnotes 1-4 (Wesley v. R. 2009 ABQB 418, Dow Chem. v. Nova Chem. 2007 ABQB 463, Aptomax, Bowal v. Faculty Assn. of the Univ. of Calg., Cooper v. Hennan 2005 ABQB 709) and note fragments); nothing dropped. (1) Related Provisions: '3.58 (counterclaim an independent action)' - official 3.58 is 'Status of counterclaim' (paraphrase). (2) History: fn 10 (1968 R.155; 1944 C.R.120; 1883 O.23 r.2) is this rule's (marker '10' after (2)); it is printed in the 3.59 record. (3) Book A prints no commentary for 3.60, Book B prints none (rule text only); Book C's commentary (255 characters, complete: judgment in default of a statement of defence under a counterclaim 'may only be obtained upon notice of application for judgment served on the defendant-by-counterclaim') agrees with 3.60(2). (4) Pointers to 3.60: R.12 p.12-76 (line 3620) 'Rule 3.60(2) [Application of rules to counterclaims]' (title matches); R.7 p.7-35 (line 1863) 'see Rr.3.58 and 3.60'; the 3.58 related provision '3.60 (application of Rules)'; the official Form 21 heading names 3.57 not 3.60."
     },
     "BOOK_B": {
       "title": "Application of rules to counterclaims",
@@ -76,7 +78,7 @@
     "BOOK_C": {
       "title": "Application of rules to counterclaims",
       "division_heading": null,
-      "operative_text_raw": "(1) Except when the context or these rules otherwise provide, a rule that applies to or in respect of (a) a plaintiff applies equally to or in respect of a plaintiff-by- counterclaim and a third party plaintiff-by-counterclaim, (b) a defendant applies equally to or in respect of a defendant-by- counterclaim and a third party defendant-by-counterclaim, and (c) a pleading related to a claim made by statement of claim applies equally to or in respect of a pleading related to a counterclaim.\n(2) If the defendant-by-counterclaim does not file a statement of defence or demand for notice in respect of a counterclaim, a judgment on the counterclaim may be obtained only with the Court’s permission after notice of the applica- tion has been served on the defendant-by-counterclaim.",
+      "operative_text_raw": null,
       "operative_text_sha256": "332a90d735e88e6b6da1121d635f2e9363c59ad6fcfacc02bf2e6458d0d168dc",
       "citations": [],
       "commentary": [
@@ -90,81 +92,16 @@
       "locator": {
         "file": "141-160_3_44 to 3_66.json",
         "source_file": "141-160_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; line-break hyphens are kept in 'plaintiff-by- counterclaim', 'defendant-by- counterclaim' and 'applica- tion' (for 'application'). The amendment note '[Alta. Reg. 124/2010, r. 3.60 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 141-160 file for this entry."
     }
   },
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.8085,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "provide, a",
-          "carrier": "provide,a"
-        },
-        {
-          "op": "replace",
-          "official": "that applies",
-          "carrier": "thatapplies"
-        },
-        {
-          "op": "replace",
-          "official": "of (a) a",
-          "carrier": "of(a)a"
-        },
-        {
-          "op": "replace",
-          "official": "counterclaim and",
-          "carrier": "counterclaimand"
-        },
-        {
-          "op": "replace",
-          "official": "plaintiff-by-counterclaim, (b) a",
-          "carrier": "plaintiff-by-counterclaim,(b)a"
-        },
-        {
-          "op": "replace",
-          "official": "defendant- by-counterclaim",
-          "carrier": "defendant-by- counterclaim"
-        },
-        {
-          "op": "replace",
-          "official": "defendant-by- counterclaim, and (c) a",
-          "carrier": "defendant-by-counterclaim,and(c)a"
-        },
-        {
-          "op": "replace",
-          "official": "applies equally",
-          "carrier": "appliesequally"
-        },
-        {
-          "op": "replace",
-          "official": "counterclaim. (2) if",
-          "carrier": "counterclaim.(2)if"
-        },
-        {
-          "op": "replace",
-          "official": "or demand",
-          "carrier": "ordemand"
-        },
-        {
-          "op": "replace",
-          "official": "counterclaim, a",
-          "carrier": "counterclaim,a"
-        },
-        {
-          "op": "replace",
-          "official": "counterclaim may",
-          "carrier": "counterclaimmay"
-        },
-        {
-          "op": "replace",
-          "official": "defendant-by-counterclaim.",
-          "carrier": "defendant-by-counterclaim.10"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.60(1)-(2) (read by eye) except: the text is printed in pieces (p.3-130 lines 3696-3698); soft line breaks in 'plaintiff-by- counterclaim' and 'defendant-by-' / 'counterclaim'; straight apostrophe in 'Court's' in (2); the title in title case ('Application of Rules to Counterclaims', printed before the rule number); missing spaces; '*' line marks; the footnote marker '10' after (2). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The history footnote 10 ('Quite similar to previous 1968 R.155. It came from 1944 C.R.120. Cf. 1883 O.23 r.2.') matching the marker is printed at p.3-130 line 3681 in the built 3.59 record."
     },
     "BOOK_B": {
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
@@ -176,7 +113,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text; line-break hyphens are kept in 'plaintiff-by- counterclaim', 'defendant-by- counterclaim' and 'applica- tion' (for 'application'). The amendment note '[Alta. Reg. 124/2010, r. 3.60 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 141-160 file for this entry."
     }
   },
   "three_book_gate": {
@@ -279,6 +217,8 @@
   "information_notes": [],
   "dedupe_log": [
     "3.60 BOOK_C commentary sentence split dropped",
-    "3.60 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.60 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.60 BOOK_A: raw text dropped, differences editorial only (manual review)",
+    "3.60 BOOK_C: raw text dropped, differences editorial only (manual review)"
   ]
 }
