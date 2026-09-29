@@ -39,7 +39,7 @@
     },
     "BOOK_A": {
       "title": "Plaintiff's Options",
-      "operative_text_raw": "3.48 A plaintiff in an action in which a third party claim is filed may apply to*the Court for an order under rule3.68 [Court options to deal with significant**deficiencies] with respect to the third party claim.",
+      "operative_text_raw": null,
       "operative_text_sha256": "cb4437c4582f2afc1606c55d763747db4d16ac8155905a16f5ad9d53319f5fb9",
       "defined_terms": "Court, file, order, plaintiff",
       "related_provisions": "3.55 (status of parties on third party claims) *Third Party Statement of Defence and Additional Options*",
@@ -55,7 +55,9 @@
           384935,
           385316
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.48 (read by eye) except: the bracket label '[Court options to deal with significant deficiencies]' after 'rule 3.68' (matches the official 3.68 title); 'rule3.68' with the space missing; the title in title case ('Plaintiff's Options', straight apostrophe, printed before the rule number); '*' line marks. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No footnote marker. No substantive difference.",
+      "commentary_review_flag": "Read in full, p.3-120 (lines 3419-3421): rule text, Defined Terms 'Court, file, order, plaintiff' (the Appendix defines each), Related Provisions '3.55 (status of parties on third party claims)'; no Information Note and no note of its own. The built record: defined_terms, related_provisions (with the heading of 3.49 'Third Party Statement of Defence and Additional Options' after it); commentary is empty; nothing dropped. (1) Related Provisions: '3.55 (status of parties on third party claims)' - the official title of 3.55 is 'Application of rules to third party claims'; the label is not the official title (its content was not re-read here). (2) Book A prints no commentary for 3.48; Book B prints none (rule text only, no commentary paragraph); Book C's commentary is complete (see its flag). (3) Pointers to 3.48: Book A p.3-161 (line 4765) '3.47-48 (third party claims)' in the related provisions of a rule not identified here; the cross-reference helper found no other pointer in the official text or in Book A, B or C."
     },
     "BOOK_B": {
       "title": "Plaintiff's options",
@@ -76,7 +78,7 @@
     "BOOK_C": {
       "title": "Plaintiff’s options",
       "division_heading": null,
-      "operative_text_raw": "A plaintiff in an action in which a third party claim is filed may apply to the Court for an order under rule 3.68 [Court options to deal with significant deficiencies] with respect to the third party claim.",
+      "operative_text_raw": null,
       "operative_text_sha256": "32b17fb37afbfae781b4265ea213256576092aad85c68532c5d2bab2d14c2111",
       "citations": [],
       "commentary": [
@@ -90,7 +92,8 @@
       "locator": {
         "file": "141-160_3_44 to 3_66.json",
         "source_file": "141-160_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text, with the bracket label '[Court options to deal with significant deficiencies]' as printed in Book A. The amendment note '[Alta. Reg. 124/2010, r. 3.48 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 141-160 file for this entry."
     }
   },
   "comparison_vs_official": {
@@ -98,7 +101,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.48 (read by eye) except: the bracket label '[Court options to deal with significant deficiencies]' after 'rule 3.68' (matches the official 3.68 title); 'rule3.68' with the space missing; the title in title case ('Plaintiff's Options', straight apostrophe, printed before the rule number); '*' line marks. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No footnote marker. No substantive difference."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -109,7 +113,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "Book C's rule text is dropped, differences editorial only (read by eye against the official text): the words equal the official text, with the bracket label '[Court options to deal with significant deficiencies]' as printed in Book A. The amendment note '[Alta. Reg. 124/2010, r. 3.48 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). The Division heading is not printed in Book C's 141-160 file for this entry."
     }
   },
   "three_book_gate": {
@@ -212,6 +217,8 @@
   "dedupe_log": [
     "3.48 BOOK_B: operative text dropped (EXACT_MATCH)",
     "3.48 BOOK_C commentary sentence split dropped",
-    "3.48 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.48 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.48 BOOK_A: raw text dropped, differences editorial only (manual review)",
+    "3.48 BOOK_C: raw text dropped, differences editorial only (manual review)"
   ]
 }
