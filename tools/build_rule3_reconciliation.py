@@ -508,6 +508,10 @@ MANUAL_BOOK_B_SPLIT = {
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.9": {"BOOK_A": "same wording as official 3.9 (read by eye) except the bracket label '[Originating application for judicial review]' (after 'rule 3.15(5)'), "
+                       "missing spaces, '*' line marks and the footnote marker '6' after the text. No amendment bracket; the official text lists no amendment for 3.9. "
+                       "No substantive difference. This rule's history footnote 6 ('Quite similar to previous 1968 R.310 ...') is printed at the top of p.3-26 inside "
+                       "the built 3.8 commentary and is kept verbatim there."},
     "3.8": {"BOOK_A": "same wording as official 3.8(1)-(2) (read by eye) except missing spaces, '*' line marks and the footnote markers '3' (after (1)(d)) and '1' (after "
                        "(2)(b)). No amendment bracket; the official text lists no amendment for 3.8. No substantive difference. The raw text also held the p.3-25 "
                        "footnote block (footnotes 1-7 of that page), kept here verbatim: '1Quite similar to previous 1968 R.305(1).It came from 1914 R.416 and 1944 "
@@ -605,8 +609,32 @@ MANUAL_SEE_ALSO = {
             
         "BOOK_B other Parts and BOOK_C (all Book B files and all Book C page files searched): BOOK_B rule 12.x text (rule12_part01_document.json) and BOOK_C (file 561-580) repeat the official wording that cites 3.8(1) and 3.8(2) (rules 12.26, 12.27, 12.30, 12.33); BOOK_B rule15_part02_document.json (paragraph part15_address_038, a Hague Convention practice notice, item 15) says the party seeking the return of a child 'must file an Originating Application (Form 7) pursuant to Rule 3.8'. The 3.2 information notes in Book A and Book C name 3.8 with its title (see the 3.2 review note).",
     ],
+    "3.9": ["Official text (searched for 'rule 3.9', 'rules 3.9 and ...', lists, line-wrapped forms and form headings): 12.26(3) ('Despite rules 3.9 and 12.44(1)(b), the filed documents referred to in subrule (1) must be served on the respondent ...') and 12.27(3) ('Despite rule 3.9, the originating application to vary a custody order ...'); the other hit is the running page header 'Rule 3.9'. No form heading names 3.9. By subject: 3.8, 3.11, 3.15(2) and 3.15(5), 6.3(3) (file and serve at least 5 days before), 11.4 (methods of service), 13.3 (counting days), 1.5(5).",
+            "Cross-book: Thompson v. Procrane 2016 ABCA 71 paras. 9-10 is cited in BOOK_A's 3.9 note (p.3-27 fn 7); BOOK_C's 3.2 information note has a Procrane para. 9 citation where '13' is lost - 3.9 is a candidate home for that citation (same case, paras. 9-10), but no source says so. Regular v. Regular (BOOK_C, para. 9 passage) is displaced in BOOK_C's 3.9 rule text and information note (home 3.5). Patrus v. Alberta (Workers' Compensation Board, Appeals Commission) [2011] A.J. No. 1346 stands displaced in BOOK_C's 3.9 commentary (3.10 material) and in its 3.12 information note; BOOK_A cites Patrus v. W.C.B. 2014 ABCA 117, 572 AR 250 at p.3-5 fn 3 (3.2), a different decision.",
+            "BOOK_A other Parts and Part 3 (all combined*.txt; pages from the markers; rule numbers from the text): R.11.3 related p.11-6 '3.9 (time to serve originating application)'; R.13.3 note p.13-18 'Rule 3.9 [Service of originating application and evidence] requires certain documents to be filed and served on parties 10 days or more before the date scheduled for hearing the application' (agrees with official 3.9); R.9.44 related p.9-93 '3.9 (service of originating application)'; R.6.2 time table p.6-12 (lines 525, 550) 'Originating Applications 10 days (R.3.9) See various limitations statutes and R.3.15(2)' and 'Judicial review to set aside a decision or act 10 days (Rr.3.9 and 3.15)' (the second row cites 3.15, whose official 3.15(2) period is 6 months for filing and serving; the table's layout is not reliable); R.6.3 fn p.6-15 'See R.3.9.'; R.12.26 p.12-24 and R.12.27 p.12-27 quote 'Despite rule 3.9 [...]'; the 3.11 note p.3-29 (line 662) 'On order of filing and service, see R.3.9n.' (lands: 3.9's note says filing and service is sequential, file then serve). FLAG on BOOK_A R.4.30 related provision '3.9 (defence of tender)' (p.4-71, line 3664): the same note says 'Rule 13.9 [Defence of tender] sets out the conditions for a defence of tender before action', and official 13.9 is 'Defence of tender'; official 3.9 is service of an originating application, so '3.9' there looks like 13.9 (evidence: the note's own text).",
+            
+        "BOOK_B and BOOK_C other Parts (all files searched): BOOK_B rule12_part01_document.json (12.26(3) 'Despite rules 3.9 and 12.44(1)(b)' and 12.27(3) 'Despite rule 3.9') and rule14_part04_document.json (13.3 note: 'Counting backwards ... Rule 3.9 requires certain documents ... 10 days or more before the hearing'); BOOK_C files 561-580 (12.27(3)) and 601-620 (13.3, same counting-backwards sentence). BOOK_B has no 3.9 commentary (rule text only).",
+    ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.9": "Read in full, p.3-26 (line 586) to p.3-27 (line 616). (1) Footnotes: this rule's history footnote 6 and footnotes 7-9 (Tartal v. Human Rts. Comm'n 2023 ABKB 381 "
+           "paras. 48-51; Tartal supra paras. 52 ff.; Re Can.N. Grp. infra) are printed at the top of p.3-26, inside the built 3.8 commentary (see the 3.8 flag). Page 3-27 has "
+           "footnotes 1-8: 1 Re Can.N. Grp. infra; 2 Re Can. N. Group 2017 ABQB 550, JCE 1703 12327 (Sep 11) (paras. 61-67); 3 and 4 Tartal supra (paras. 52-60; 61-74); "
+           "5 L.C. v. R. (Alta.) 2011 ABQB 12, 509 AR 43; 6 Baker v. Baker 2012 ABQB 296, [2012] AR Uned 340 (May 8); 7 Thompson v. Procrane 2016 ABCA 71, [2016] AJ #237 "
+           "(paras. 9-10); 8 Morrison v. Galvanic Applied Sci. (M) 2017 ABQB 514, JCC 1301 11717 (Aug 22). supra/infra resolve (Re Can.N. Grp. infra -> p.3-27 fn 2; Tartal "
+           "supra -> p.3-26 fn 7, 2023 ABKB 381). "
+           "(2) Extraction: columns are interleaved and sentences are split across the page break (e.g. 'Hearing an originating application originally returnable less than 10 "
+           "days later, but deliberately' at line 598 ends 'adjourned and actually held outside the 10 days, is not a nullity' at line 614; 'nor' ... 'require such details "
+           "for valid service'). The last sentence, 'This Rule shows that Originating Applications are supposed to move swiftly and makes it easier to dismiss them for "
+           "non-prosecution' (line 616), is printed just before 3.10's title; whether it belongs to 3.9 or 3.10 is not shown. "
+           "(3) Statements read against the official text: 'The requirement to serve in R.3.15(2) is substantive' and the 6-month period agree with official 3.15(2) "
+           "('filed and served within 6 months ... and rule 13.5 does not apply to this time period'); 'Rr.1.5(5) and 3.15(2) expressly bar extending the limitation period' "
+           "agrees with official 1.5(5) (the Court must not cure ... if that would extend a period it is prohibited from extending); 'Rule 6.3 says that the applicant must "
+           "file and serve, but it does not say in what order' agrees with official 6.3(3). "
+           "(4) Related Provisions and notes: '11.4 (method of service)' - official 11.4 'Methods of service in Alberta'; '13.3 (counting time)' - official 13.3 'Counting "
+           "days'; the information note names Part 11 [Service of Documents] (official Part 11 title); Defined Terms 'file, party' (Appendix defines both). "
+           "(5) Statements of law without a source in the repository (not checked): the Canada Revenue Agency bulletin passage, insolvency legislation and reopening a "
+           "decision, that late filing or service cannot be 'cured', the 'directly affected' rule, and the hearing held outside the 10 days not being a nullity.",
     "3.8": "Read in full, p.3-24 (line 547) to p.3-26 (line 586). (1) Footnotes: p.3-25 has 1-7 (kept in the text note); p.3-26 has 9. Footnotes 1-5 there "
            "belong to this note (1 Imp. Finishing v. Moderno Homes 2019 ABQB 64 para. 64; 2 Kissel v. Rocky View (Cty.) 2020 ABQB 406 para. 63; 3 Harco Hldg. "
            "2000 v. M.B. (M) 2010 ABQB 442, 500 AR 258; 4 ANC v. Min. of Agric. paras. 84-87; 5 Condo. Corp. No. 0210494 v. Rotzang 2024 ABKB 111 paras. 33-34); "
@@ -767,6 +795,30 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.9": {
+        "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): the number '10' before 'days or more before the date scheduled for "
+                          "hearing' is lost and this text stands in its place: 'Regular v. Regular, [2016] A.J. No. 1042, 2016 ABQB 570 at para. 9 (Alta. Q.B.); the factors were "
+                          "considered and applied at length in a case where both plaintiff and plaintiff by counterclaim had proposed Edmonton as place of trial; but many years "
+                          "later, after plaintiff had discontinued claim and plaintiff by counterclaim had moved to Calgary, plaintiff by counterclaim sought a change of venue: , "
+                          "Behiels v. Tibu'; the bracket label '[Originating application for judicial review]' is printed after 'rule 3.15(5) , an'. The rest equals the official "
+                          "text; the amendment note agrees (no amending regulation).",
+        "drop_citations": "Regular v. Regular, 2016 ABQB 570 (para. 9) is not a 3.9 authority: it stands where the number '10' is lost, the passage is the one Book C also prints "
+                          "in its 3.5 commentary ('Balance of Convenience Test') and, displaced, in its 3.4 text; the text is kept in the rule-text note.",
+        "drop_c_note": "garbled copy of Book A's information note ('Service of documents is dealt with in Part 11 [Service of Documents]'): the number '11' is lost and this "
+                       "text stands in its place: 'Regular v. Regular, [2016] A.J. No. 1042, 2016 ABQB 570 at para. 9 (Alta. Q.B.).' (the same displaced 3.5 passage); not retained.",
+        "commentary_flag": "The first commentary item opens with 3.9's own sentences ('As a commencement document, a respondent is given more time to respond to an originating "
+                           "application than an interlocutory application under Part [number lost; Regular v. Regular ... para. 5 stands there] of the Rules. Note that this timing "
+                           "can be abridged by the court pursuant to its powers under rule [number lost]') and then runs on into rule 3.10's material: its rule text ('... [Managing "
+                           "Litigation] rules 4.1, 4.2(a) ... and (d) and 4.36 apply, with all necessary modifications, to actions started by originating application unless the Court "
+                           "otherwise orders'), its amendment note ('r. 3.10 effective November 1, 2010 ... Alta. Reg. 122/2012, s. 3; Alta. Reg. 23/2021, s. 2 effective March 1, "
+                           "2021') and its information note ('See also rule 3.12 ... Typically, an action started by originating application will not require the same kind of "
+                           "management ...'). The second item ('The court can, by order, or the parties may agree that the discovery ... the parts of Part [Patrus v. Alberta "
+                           "(Workers' Compensation Board, Appeals Commission), [2011] A.J. No. 1346, stands there] that apply to such actions are: do * Division 2 - ACTIONS STARTED "
+                           "BY ORIGINATING APPLICATION') is 3.10 commentary. Book C has no separate 3.10 entry, so its 3.10 material is here; nothing was dropped (to be handled in "
+                           "the 3.10 pass). The first two sentences agree with official 3.9 (10 days) and 6.3(3) (5 days for an ordinary application).",
+        "citation_names": {"2016 ABQB 570": "Regular v. Regular"},
+        "citation_notes": {"2016 ABQB 570": "displaced 3.5 case (para. 5): it stands where a Part number is lost ('under Part [ ] of the Rules'); Book C's 3.5 entry cites Regular for onus"},
+    },
     "3.8": {"drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): it holds subrule (1)(a)-(d) only; subrule (2) "
                               "('If an affidavit is filed to support an originating application, the affidavit must be confined to ...') is not in the file, "
                               "and no amendment note and no commentary are printed for 3.8. The Division heading printed for it ('Division 2 - ACTIONS STARTED BY "
