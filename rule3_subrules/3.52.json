@@ -37,7 +37,7 @@
     },
     "BOOK_A": {
       "title": "Consequences of Not FilingThird Party Statement of Defence",
-      "operative_text_raw": "3.52(1) If a third party defendant does not file a statement of defence disputing*the liability of the defendant to the plaintiff,the third party defendant admits the*validity of any judgment that the plaintiff obtains against the defendant,whether*obtained by agreement or otherwise.\n*1*(2)If a third party defendant does not file a statement of defence disputing the*third party defendant's liability to the third party plaintiff under the third party*claim,the third party defendant admits liability to the extent claimed in the third*party claim.*2",
+      "operative_text_raw": null,
       "operative_text_sha256": "3fa550b12af54c9a6ae53cd7dd610c3fefe4c3af4874b437f432f16c79f1c362",
       "defined_terms": "file, judgment, plaintiff, third party defendant, third party plaintiff",
       "related_provisions": "3.31 (statement of defence)",
@@ -54,7 +54,9 @@
           389297,
           390175
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.52(1)-(2) (read by eye) except: the text is printed in two pieces (p.3-122 lines 3458 and 3459); straight apostrophe in 'defendant's' in (2); the title in title case ('Consequences of Not Filing Third Party Statement of Defence', printed before the rule number); missing spaces; '*' line marks; the footnote markers '1' (after (1), before '(2)') and '2' (after (2)). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The history footnotes 1 ('Quite similar to previous 1968 R.71(3). It came (via 1944 C.R.84) from 1914 R.52. Cf. Judic. Ord. r.61, Eng. O.16A r.5.') and 2 ('Quite similar to previous 1968 R.71(4). It came from 1944 C.R.84. Cf. Judic. Ord. r.61, Eng. O.16A r.5.') matching these markers are printed at p.3-122 line 3451 and are in the built 3.50 record.",
+      "commentary_review_flag": "Read in full, p.3-122 (lines 3458-3460): rule text (two pieces), Defined Terms 'file, judgment, plaintiff, third party defendant, third party plaintiff' (the Appendix defines each), Related Provisions '3.31 (statement of defence)' (matches the official 3.31 title); no Information Note and no note of its own. The built record: defined_terms and related_provisions; the commentary field holds only the history footnote 1 of the NEXT rule, 3.53 ('Quite similar to previous 1968 R.74. It came from English O.16A, rr.6, 12, and Judic.Ord.rr 63, 168. Like 1914 R.54 (first sentence), and 1944 C.R.86.'; p.3-123 line 3467; its marker '1' follows 3.53(2), line 3471) and the heading of 3.53 'Judgment Against Third Party Defendant'; nothing dropped. (1) History: this rule's own history footnotes 1 (1968 R.71(3), 1944 C.R.84, 1914 R.52) and 2 (1968 R.71(4), 1944 C.R.84) are in the built 3.50 record (markers after (1) and (2) here). (2) Book A prints no commentary for 3.52; Book B prints none (rule text only) and Book C prints none; Book B's 3.47 commentary (Herr v. Herr etc.) does not discuss 3.52. (3) Pointers to 3.52: none found by the cross-reference helper (official, all Book A, B, C files) other than the rule's own table-of-contents line."
     },
     "BOOK_B": {
       "title": "Consequences of not filing third party statement of defence",
@@ -75,7 +77,7 @@
     "BOOK_C": {
       "title": "Consequences of not filing third party statement of defence",
       "division_heading": null,
-      "operative_text_raw": "(1) If a third party defendant does not file a statement of defence disputing the liability of the defendant to the plaintiff, the third party defendant admits the validity of any judgment that the plaintiff obtains against the defendant, whether obtained by agreement or otherwise.\n(2) If a third party defendant does not file a statement of defence disputing the third party defendant’s liability to the third party plaintiff under the third",
+      "operative_text_raw": null,
       "operative_text_sha256": "b2001dec8ded2da6e19b411b685b617d32dd9208601a8248086f51d10c364e9e",
       "citations": [],
       "commentary": [],
@@ -83,56 +85,16 @@
       "locator": {
         "file": "141-160_3_44 to 3_66.json",
         "source_file": "141-160_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): subrule (1) equals the official text; (2) breaks off after 'disputing the third party defendant's liability to the third party plaintiff under the third' (the page end); the rest of (2) ('party claim, the third party defendant admits liability to the extent claimed in the third party claim.') is missing. No amendment note (official 'AR 124/2010' only) and no commentary are printed for 3.52 in Book C."
     }
   },
   "comparison_vs_official": {
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.8333,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "disputing the",
-          "carrier": "disputingthe"
-        },
-        {
-          "op": "replace",
-          "official": "plaintiff, the",
-          "carrier": "plaintiff,the"
-        },
-        {
-          "op": "replace",
-          "official": "the validity",
-          "carrier": "thevalidity"
-        },
-        {
-          "op": "replace",
-          "official": "defendant, whether obtained",
-          "carrier": "defendant,whetherobtained"
-        },
-        {
-          "op": "replace",
-          "official": "(2) if",
-          "carrier": "1(2)if"
-        },
-        {
-          "op": "replace",
-          "official": "the third",
-          "carrier": "thethird"
-        },
-        {
-          "op": "replace",
-          "official": "party claim, the",
-          "carrier": "partyclaim,the"
-        },
-        {
-          "op": "replace",
-          "official": "third party claim.",
-          "carrier": "thirdparty claim.2"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.52(1)-(2) (read by eye) except: the text is printed in two pieces (p.3-122 lines 3458 and 3459); straight apostrophe in 'defendant's' in (2); the title in title case ('Consequences of Not Filing Third Party Statement of Defence', printed before the rule number); missing spaces; '*' line marks; the footnote markers '1' (after (1), before '(2)') and '2' (after (2)). No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The history footnotes 1 ('Quite similar to previous 1968 R.71(3). It came (via 1944 C.R.84) from 1914 R.52. Cf. Judic. Ord. r.61, Eng. O.16A r.5.') and 2 ('Quite similar to previous 1968 R.71(4). It came from 1944 C.R.84. Cf. Judic. Ord. r.61, Eng. O.16A r.5.') matching these markers are printed at p.3-122 line 3451 and are in the built 3.50 record."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -142,14 +104,8 @@
     "BOOK_C": {
       "status": "CARRIER_MISSING_TEXT",
       "similarity": 0.8944,
-      "differences": [
-        {
-          "op": "delete",
-          "official": "party claim, the third party defendant admits liability to the extent claimed in the third party claim.",
-          "carrier": ""
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): subrule (1) equals the official text; (2) breaks off after 'disputing the third party defendant's liability to the third party plaintiff under the third' (the page end); the rest of (2) ('party claim, the third party defendant admits liability to the extent claimed in the third party claim.') is missing. No amendment note (official 'AR 124/2010' only) and no commentary are printed for 3.52 in Book C."
     }
   },
   "three_book_gate": {
@@ -251,6 +207,8 @@
   },
   "information_notes": [],
   "dedupe_log": [
-    "3.52 BOOK_B: operative text dropped (EXACT_MATCH)"
+    "3.52 BOOK_B: operative text dropped (EXACT_MATCH)",
+    "3.52 BOOK_A: raw text dropped, differences editorial only (manual review)",
+    "3.52 BOOK_C: raw text dropped, differences editorial only (manual review)"
   ]
 }
