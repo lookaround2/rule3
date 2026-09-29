@@ -42,7 +42,7 @@
     },
     "BOOK_A": {
       "title": "Adding,Removing or Substituting Parties to Originating Application",
-      "operative_text_raw": "3.75(1) In an action started by originating application no party or person may be*added or substituted as a party to the action except in accordance with this rule.*(2)On application of a party or person,the Court may order that a person be*added or substituted as a party to the action,\n*(a)in the case of a person to be added or substituted as an originating*applicant,if consent of the person proposed to be added or*substituted is filed with the application;\n1Quite similar to previous 1968 R.39.It came from 1914 R.29, and 1944 C.R.62, as amended by Alta.Reg. 35/60.They came from English O.16 r.13 enacted 1925 (#1). 2Quite similar to previous 1968 R.688.It came from 1968 R.687 which was the same as C.R.1057, enacted by Alta.Reg.438/59.cf.C.R.1058; enacted ditto.\n*(b)in the case of an application to add or substitute a person as a*respondent,or to remove or correct the name of a party,if the Court*is satisfied the order should be made.\n*(3)The Court may not make an order under this rule if prejudice would result*for a party that could not be remedied by a costs award,an adjournment or the*imposition of terms.",
+      "operative_text_raw": null,
       "operative_text_sha256": "972c7fb327893687cd09125ec54495e384cc8bed90e39a71b2d3d4cc1a1cf64e",
       "defined_terms": "costs award, Court, defendant, file, order, party",
       "related_provisions": "3.2 (how to start an action); 3.62 (amending a pleading) *Action to beTakenWhen Defendant or Respondent Added*",
@@ -59,7 +59,9 @@
           828514,
           829835
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.75(1)-(3) (read by eye); differences are editorial only: the text is printed in pieces ((1) and the lead-in of (2) at p.3-244 line 8059, (a) at line 8060, (b) at line 8069, (3) at line 8070); the title in title case ('Adding, Removing or Substituting Parties to Originating Application', printed before (1) at line 8059); missing spaces and '*' line marks. No footnote marker is printed in the 3.75 text. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No wording difference. The dropped raw text also held a footnote block printed between (a) and (b) (p.3-245 line 8067), kept here verbatim because Book A's footnotes are not split out: '1Quite similar to previous 1968 R.39.It came from 1914 R.29, and 1944 C.R.62, as amended by Alta.Reg. 35/60.They came from English O.16 r.13 enacted 1925 (#1). 2Quite similar to previous 1968 R.688.It came from 1968 R.687 which was the same as C.R.1057, enacted by Alta.Reg.438/59.cf.C.R.1058; enacted ditto.' These are NOT 3.75's history: footnote 1 (1968 R.39; 1914 R.29; 1944 C.R.62; English O.16 r.13) has its marker '1' after 3.76(2)(b) (p.3-245, line 8073) and footnote 2 (1968 R.688; 1968 R.687; C.R.1057) has its marker '2' after 3.77 (p.3-245, line 8078); they are 3.76's and 3.77's history footnotes (to be read with those rules), so Book A prints no history footnote for 3.75.",
+      "commentary_review_flag": "Read in full, p.3-244 (line 8059) to p.3-245 (line 8072): rule text (in pieces), Defined Terms 'costs award, Court, defendant, file, order, party' and Related Provisions '3.2 (how to start an action); 3.62 (amending a pleading)'; Book A prints no Information Note and no note of its own for 3.75 (the commentary on changing parties follows 3.74: A-H, read in the 3.74 pass). The built record: defined_terms and related_provisions (the Related Provisions line ends with the title 'Action to be Taken When Defendant or Respondent Added' of 3.76, printed at line 8072); the raw-text field held the rule text and one footnote block (kept in the text note); no commentary field. (1) Related Provisions: '3.2 (how to start an action)' agrees with the official title of 3.2 ('How to start an action'); '3.62 (amending a pleading)' (official 3.62 'Amending pleading' - 'a' added). (2) History footnotes: the block printed at p.3-245 line 8067 (footnotes 1 and 2, '1968 R.39 ...' and '1968 R.688 ...') is 3.76's and 3.77's by the markers ('1' after 3.76(2)(b), '2' after 3.77), not 3.75's (see the text note). (3) Pointers to this rule: Book A's own text prints the page header 'R.3.75(3)' (p.3-245) and 'R.3.75(1)' in a header at p.3-244 line 8021; no other Book A rule file names 3.75 (searched combined rule3.txt, combined_rule2.txt to combined_rule15.txt, combined rule1.txt, Alberta_Rules_of_Court.txt for '3.75'); Book B's R.4 commentary (rule4_part06_document.json) sends the reader to 'the annotation \"Limitations\" under R. 3.75' (Book B's 3.75 commentary part 6 has that heading). (4) The 3.73 pointer 'Commentary on changing parties is found after R.3.74' lands on the 3.74 note (read in the 3.74 pass); the 3.74 record carries the Book A commentary that applies to both 3.74 and 3.75."
     },
     "BOOK_B": {
       "title": "Adding, removing or substituting parties to originating application",
@@ -101,9 +103,11 @@
             },
             {
               "neutral_citation": "2017 ABQB 695",
-              "style_of_cause": "Prosper Petroleum Ltd. v. Alberta"
+              "style_of_cause": "McIver v. Alberta (Ethics Commissioner)",
+              "note": "printed 'see also , [2017] A.J. No. 1214, 2017 ABQB 695 (Alta. McIver v. Alberta (Ethics Commissioner) Q.B.) starting at para. 9': the case name is displaced inside the parenthesis; the built name repeated the case before it (Prosper Petroleum Ltd. v. Alberta, 2020 ABQB 128)"
             }
-          ]
+          ],
+          "review_flag": "(1) Rule text equals the official text (EXACT_MATCH); the amendment note '[Alta. Reg. 124/2010, r. 3.75 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). (2) The commentary (881 characters, two paragraphs, heading 'General Principles') is complete: 'Case law has imported the test from Former Rule 38(3) ... This second case involves a two-part test: (a) whether the applicant has a legal interest in the outcome of the proceedings ... and (b) whether it is \"just and convenient\" to add the person, or whether the interest of the person would not be adequately protected ...' with Prosper Petroleum Ltd. v. Alberta, 2020 ABQB 128 at paras. 7-11 and McIver v. Alberta (Ethics Commissioner), 2017 ABQB 695 starting at para. 9. It concerns adding a respondent (3.75(2)(b), judicial review) and agrees in substance with Book B's part 2 (Amon/Amoco 'directly affect the intervenor in the enjoyment of its legal rights'), part 7 (Royal Bank v. Page Petroleum and Pancanadian: two-part test, 'just and convenient'; McIver 2017 ABQB 695 para 32 principles) and with Book A's 3.74 note (Legal Tests (a) and (c), 'Rules 14.57 and 3.74 ... direct significant legal interest'). The words 'This second case involves' refer to a first case that is not printed (the paragraph begins with 'Case law', so the sentence 'the first ...' is missing or the word 'case' is a slip). (3) The McIver pinpoint 'starting at para. 9' is not the paragraph in Book B's quotation (para 32 is Eamon J.'s summary of principles); Prosper Petroleum 2020 ABQB 128 is in no other file (searched all root *.json and *.txt; rule14_part04_document.json has Prosper Petroleum 2020 ABCA 85, a different decision). (4) The place of this commentary is 3.75 as printed; it was first seen in the 3.74 pass, where it was considered for 3.74 and left with 3.75 because it deals with adding a respondent to an originating application."
         }
       ],
       "misattributed_entries": [],
@@ -118,84 +122,8 @@
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.7214,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "be added",
-          "carrier": "beadded"
-        },
-        {
-          "op": "replace",
-          "official": "rule. (2) on",
-          "carrier": "rule.(2)on"
-        },
-        {
-          "op": "replace",
-          "official": "person, the",
-          "carrier": "person,the"
-        },
-        {
-          "op": "replace",
-          "official": "be added",
-          "carrier": "beadded"
-        },
-        {
-          "op": "replace",
-          "official": "(a) in",
-          "carrier": "(a)in"
-        },
-        {
-          "op": "replace",
-          "official": "originating applicant, if",
-          "carrier": "originatingapplicant,if"
-        },
-        {
-          "op": "replace",
-          "official": "or substituted",
-          "carrier": "orsubstituted"
-        },
-        {
-          "op": "replace",
-          "official": "(b) in",
-          "carrier": "1quite similar to previous 1968 r.39.it came from 1914 r.29, and 1944 c.r.62, as amended by alta.reg. 35/60.they came from english o.16 r.13 enacted 1925 (#1). 2quite similar to previous 1968 r.688.it came from 1968 r.687 which was the same as c.r.1057, enacted by alta.reg.438/59.cf.c.r.1058; enacted ditto. (b)in"
-        },
-        {
-          "op": "replace",
-          "official": "a respondent, or",
-          "carrier": "arespondent,or"
-        },
-        {
-          "op": "replace",
-          "official": "party, if",
-          "carrier": "party,if"
-        },
-        {
-          "op": "replace",
-          "official": "court is",
-          "carrier": "courtis"
-        },
-        {
-          "op": "replace",
-          "official": "(3) the",
-          "carrier": "(3)the"
-        },
-        {
-          "op": "replace",
-          "official": "result for",
-          "carrier": "resultfor"
-        },
-        {
-          "op": "replace",
-          "official": "award, an",
-          "carrier": "award,an"
-        },
-        {
-          "op": "replace",
-          "official": "the imposition",
-          "carrier": "theimposition"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.75(1)-(3) (read by eye); differences are editorial only: the text is printed in pieces ((1) and the lead-in of (2) at p.3-244 line 8059, (a) at line 8060, (b) at line 8069, (3) at line 8070); the title in title case ('Adding, Removing or Substituting Parties to Originating Application', printed before (1) at line 8059); missing spaces and '*' line marks. No footnote marker is printed in the 3.75 text. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No wording difference. The dropped raw text also held a footnote block printed between (a) and (b) (p.3-245 line 8067), kept here verbatim because Book A's footnotes are not split out: '1Quite similar to previous 1968 R.39.It came from 1914 R.29, and 1944 C.R.62, as amended by Alta.Reg. 35/60.They came from English O.16 r.13 enacted 1925 (#1). 2Quite similar to previous 1968 R.688.It came from 1968 R.687 which was the same as C.R.1057, enacted by Alta.Reg.438/59.cf.C.R.1058; enacted ditto.' These are NOT 3.75's history: footnote 1 (1968 R.39; 1914 R.29; 1944 C.R.62; English O.16 r.13) has its marker '1' after 3.76(2)(b) (p.3-245, line 8073) and footnote 2 (1968 R.688; 1968 R.687; C.R.1057) has its marker '2' after 3.77 (p.3-245, line 8078); they are 3.76's and 3.77's history footnotes (to be read with those rules), so Book A prints no history footnote for 3.75."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -313,6 +241,7 @@
     "3.75 BOOK_C citation context dropped (2020 ABQB 128): verbatim in kept text",
     "3.75 BOOK_C citation context dropped (2017 ABQB 695): verbatim in kept text",
     "3.75 BOOK_C commentary sentence split dropped",
-    "3.75 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.75 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.75 BOOK_A: raw text dropped, differences editorial only (manual review)"
   ]
 }
