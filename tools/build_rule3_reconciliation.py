@@ -508,6 +508,13 @@ MANUAL_BOOK_B_SPLIT = {
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.14": {"BOOK_A": "same wording as official 3.14(1)(a)-(g) and (2) (read by eye) except: in (1)(c) Book A prints 'the transcript evidence or answers to questions, or both' where the "
+                        "official text says 'answers to written questions' ('written' missing); bracket labels '[Questioning on an affidavit and questioning witnesses]' (3.13; the official title "
+                        "is 'Questioning on affidavit and questioning witnesses'), '[Disclosure of Information]' (Part 5) and '[Use of transcript and answers to written questions]' (5.31, matches); the "
+                        "title in capitals; missing spaces and '*' line marks. No amendment bracket; the official text lists no amendment for 3.14. The raw text also held the p.3-32 footnote block "
+                        "(five footnotes), kept here verbatim: '3Campbell v. Chief Electoral Officer2018 ABQB 248, JCE 1703 07561/3 (Mar 29) (¶'s 39-45). 4Jacobson v. Newell (Cty.)2021 ABQB 505, "
+                        "JCE 2103 00316 (Jun 30) (¶'s 32 ff.). 5Quite similar to previous 1987 Rr.753.03, 753.04.They were first enacted in 1987. 1Baralot Int.Corp. v.Rundle Dev. Co-op.2008 "
+                        "ABCA 103, 429 AR 64. 2Amack v.AW Hldg. Corp.2014 ABQB 92, [2014] AR Uned 168.Is there then deliberative privilege?'"},
     "3.13": {"BOOK_A": "same wording as official 3.13(1)-(5) (read by eye) except bracket labels '[Limit on questioning]' (3.21), '[Contents of appointment notice]' (6.16; the official "
                         "title is 'Contents of notice of appointment'), '[Form of questioning and transcript]' (6.20) and '[Requiring attendance for questioning]' (6.38), missing spaces, "
                         "'*' line marks and the footnote markers '1' (after (1)) and '2' (after (2)). No amendment bracket; the official text lists no amendment for 3.13. No substantive "
@@ -655,8 +662,23 @@ MANUAL_SEE_ALSO = {
             
         "BOOK_B: read in full (one section, § 3.13:1, 35,149 characters). Six numbered parts, no gap: 1 Scope of Examination (with (i) Generally and (ii) When affiant is a non-party), 2 Cross-examination on Statutory Declaration Exhibited to Affidavit, 3 Duty to Inform, 4 Withdrawal of an Affidavit (under which the text prints (i) Right to cross-examine, (ii) Effect of inability to cross-examine, (iii) Filing one's own affidavit not required), 5 Loss of Right to Cross-examine Due to Delay, 6 Failure to File Undertakings. It quotes the former rules (R.314(1)-(2), 311, 312 and 305(3) as numbered in the 1968 Rules) and decisions under them (College Brand Clothes v. Brown, Ed Miller Sales v. Caterpillar, Dy-Reyes v. Carina Holdings 2000 ABQB 386, Colortech v. Toh 2000 ABQB 814, Alberta Treasury Branches v. Leahy, International Securities Group v. Alberta (Securities Commission) 2011 ABQB 737, CRC-Evans Pipeline v. O.J. Pipelines, R.O.M. Construction v. Heeley, Becker v. Alberta 2000 ABCA 329, Point on the Bow Development, Fech v. Lewington 2022 ABCA 154, Hoda v. Hoda 2021 ABCA 122, Reference re Firearms Act 1998 ABCA 306); none of these is compared with the current 3.13 text (the current rule names the persons who may be questioned, the transcript and rules 6.16-6.20). Fech v. Lewington quotes 'Stevenson & Cote, Alberta Civil Procedure Handbook (Edmonton: Juriliber, 1999) at 226'. BOOK_B's rule text = official; no amendment note on either side.",
     ],
+    "3.14": ["Official text (searched for 'rule 3.14', lists, line-wrapped forms and form headings): no other official rule cites 3.14 by number (the only hit is the running page header 'Rule 3.14'); no form heading names it. By subject: 6.11(1)-(2) (evidence at application hearings; the same list of evidence), 3.13 (transcript), 3.21 and 3.16-3.24 (judicial review, for which 3.14 does not apply), 5.31 (use of transcript and answers to written questions), 8.17(3) and 8.19 (evidence in other actions and proceedings).",
+            "BOOK_A other Parts and Part 3 (all combined*.txt; pages from the markers; rule numbers from the text): 3.18 note p.3-59 (line 1573) 'In a statutory appeal, with issues of redaction of confidential information, Rr.3.18 to 3.20 can be applied to R.3.14 by analogy under R.1.7'; R.6.11 checklists p.6-91 (line 4871) 'Live evidence (with leave of the judge): R.6.11(1)(g); cf. R.3.14(g)' [3.14(1)(g) as printed], p.6-92 (line 4900) 'Evidence from another suit with the same parties (with leave of the court): Rr.3.14(1), 6.11(1)(f), 8.17(3)' and (line 4923) 'cf. R.3.14(1)(a)' (official 3.14(1)(a), (f), (g) mirror 6.11(1)(a), (f), (g)); R.6.57 footnote p.6-167 (line 8749) 'the commentary on R.3.14 and 7.1'; R.7.1 related p.7-4 (line 79) '3.14 (deciding originating applications)' and its note (line 86) 'see also Rr.3.10n. and 3.14n.' (lands in this rule's note only loosely: the note is about evidence and a respondent's duty to say it wants an adjournment); R.8.17 related p.8-44 (line 2207) '3.14(1) (evidence on applications)' - official 3.14(1) is about originating applications other than judicial review (ordinary applications are 6.11(1)); R.8.19 related p.8-51 (line 2546) '3.14(1)(f) (evidence on originating applications)' (agrees).",
+            
+        "BOOK_B: rule text only (paragraph part3_part_3_court_actions_042), equal to the official 3.14; no commentary; no amendment note on either side; the next paragraph is the running head for Subdivision 2 (judicial review). BOOK_C: no other file cites 3.14 by number; BOOK_B: no other file cites it.",
+    ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.14": "Read in full, p.3-31 (line 718) to p.3-32 (line 740): rule text, five footnotes (kept in the text note), defined terms, related provision and a note of three paragraphs; the built "
+            "commentary ends with the Subdivision 2 heading and the title of 3.15 (they match the official Subdivision 2 'Additional Rules Specific to Originating Applications for Judicial Review'). "
+            "(1) Wording: (1)(c) omits 'written' before 'questions' (see the text note). (2) Defined Terms 'Court, enactment, expert, party, record': the Appendix defines each ('record' includes the "
+            "representation of or a record of any information, data or other thing ...). Related Provision '3.13 (questioning on an affidavit)' - official 3.13 is 'Questioning on affidavit and "
+            "questioning witnesses'. (3) The note: 'A respondent objecting to the short time for an (originating) application has a duty to tell the judge of its objection, and that it wants an "
+            "adjournment to cross-examine on an affidavit'; a report by a court-appointed Inspector of a company and disclosure of back-up documents; the Record for appeal and confidential "
+            "personal information; 'Materials in a legal brief, not sworn to by any affidavit, are not evidence. Nor should the book of authorities contain materials not in the record nor verified "
+            "by affidavit' - the last statement agrees with the closed list in official 3.14(1) ('may consider the following evidence only'); the others are statements of law without a source in "
+            "the repository (not checked). (4) Footnote 5 (history: 'Quite similar to previous 1987 Rr.753.03, 753.04. They were first enacted in 1987') and footnote 2 ('Is there then "
+            "deliberative privilege?', a question in the text of the note) are printed as shown.",
     "3.13": "Read in full, p.3-30 (line 698) to p.3-31 (line 718): rule text, footnotes 1-4 (kept in the text note), defined terms, related provisions and a short note; the built commentary "
             "ends with the title of 3.14. (1) Labels read against the official titles: '[Contents of appointment notice]' - official 6.16 is 'Contents of notice of appointment'; the other "
             "brackets (3.21 'Limit on questioning', 6.20 'Form of questioning and transcript', 6.38 'Requiring attendance for questioning') match. Book A elsewhere names this rule "
@@ -897,6 +919,8 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.14": {"drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): it holds the lead-in and (1)(a)-(b) only, ending with a displaced bracket label "
+                              "'[Disclosure of Information]' (Part 5, which belongs to (1)(c)); (1)(c)-(g) and subrule (2) are missing; no amendment note and no commentary are printed for 3.14."},
     "3.13": {
         "add_commentary_citations": [{"neutral_citation": "2000 ABQB 814", "style_of_cause": "Colortech Painting and Decorating Ltd. v. Toh",
                                       "note": "printed as 'citing , [2000] A.J. No. 1345, 2000 ABQB Colortech Painting and Decorating Ltd. v. Toh': the name is displaced and the number after '2000 ABQB' is lost; "
