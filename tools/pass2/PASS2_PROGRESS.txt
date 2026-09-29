@@ -13,3 +13,7 @@ Pending idea: 3.67/3.68 add that Hislop v. Murray [2012] AR Uned 494 is cited in
 Resume: python3 tools/build_rule3_reconciliation.py; python3 tools/pass2/chk.py N; read python3 tools/pass2/blk.py N; edit via tools/pass2/p2lib.py (Fix.rep / Fix.note / save).
 NOTE: scripts in tools/pass2 expect to be copied to /tmp/w (they import each other from /tmp/w and cache /tmp/w/norm.pkl). Rules 3.38-3.43 [2nd pass] lines written; continue from 3.44.
 Rules 3.44-3.57 [2nd pass] lines written; continue from 3.58.
+
+UPDATE: every rule 3.1-3.77 now has a [2nd pass] line in rule3_subrules/REVIEW_NOTES.txt (checked: none missing).
+Pass 2 found material errors in 3.12, 3.15, 3.16, 3.22, 3.34, 3.36, 3.69, 3.75 (all corrected) and a wording slip in 3.6; per the stopping rule a pass 3 (confirmation) is needed on the rules pass 2 changed.
+Limits: 3.9-3.77 were verified mainly by the automated lookups plus reading each first-pass block; statements of law, case content and the filtered part of 3.68 were not re-read.
