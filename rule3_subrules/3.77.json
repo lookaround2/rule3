@@ -39,7 +39,7 @@
     },
     "BOOK_A": {
       "title": "Subsequent Encumbrancers Not Parties in Foreclosure Action",
-      "operative_text_raw": "3.77 A plaintiff in a foreclosure action must not make any subsequent*encumbrancer a party to the claim unless possession is claimed from the\n*subsequent encumbrancer.*2",
+      "operative_text_raw": null,
       "operative_text_sha256": "197ae4f849b80b85801c6d9acbe7167b43934947a137d59793fa55df5c5617d2",
       "defined_terms": "claim, foreclosure action, party, plaintiff",
       "related_provisions": "3.41 (no defence in foreclosure);6.5 (notice in foreclosure actions); Part 9, Div.5 (foreclosure rules);11.23 (address for service in foreclosure)",
@@ -56,7 +56,9 @@
           830759,
           833750
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.77 (read by eye); differences are editorial only: the text is printed in two pieces ('3.77 A plaintiff ... unless possession is claimed from the' at p.3-245 line 8076, 'subsequent encumbrancer.' at line 8077); the title in title case ('Subsequent Encumbrancers Not Parties in Foreclosure Action', printed at line 8076 before the text, after the Related Provisions of 3.76); missing spaces and '*' line marks; the footnote marker '2' after the text. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No wording difference. This rule's history footnote 2 ('Quite similar to previous 1968 R.688. It came from 1968 R.687 which was the same as C.R.1057, enacted by Alta.Reg.438/59. cf.C.R.1058; enacted ditto.') is printed at p.3-245 line 8067 in the built 3.75 record (its marker '2' is here) and is kept there; the footnote 1 in the same block (1968 R.39) belongs to 3.76.",
+      "commentary_review_flag": "Read in full, p.3-245 (line 8076) to p.3-246 (line 8105): rule text, Information Note, Defined Terms 'claim, foreclosure action, party, plaintiff' and Related Provisions (the second Defined Terms / Related Provisions block, p.3-246 lines 8091-8097; the first block at line 8076 is 3.76's), the note (one run of paragraphs, without lettered headings) and footnotes 1-6 of p.3-246 as printed. The built record: the information note (Book A) runs together with footnotes 3-6 and 1-2 of p.3-246 (Gryckiewicz v. Ironside 2015 ABQB 284; Royal Bank v. Trang 2016 SCC 50; Beazer v. Tollestrup Est. 2017 ABCA 430; C.I.B.C. v. Mazepa 2020 ABQB 147; '1914 R.46, current R.3.77; Cummings (Caplink) v. Steinke & Co. Realty (Petra) 2015 ABCA 55, 599 AR 48 (¶'s 25-27)'; 'Cummings v. Steinke, supra (¶'s 29 ff.)') because the extraction prints those footnotes right after it - the printed information note is only the first sentence, 'In foreclosure actions, a notice of address for service may be filed and served under rule 11.24 [Notice of address for service in foreclosure actions]'; defined_terms and related_provisions hold the second block; the commentary field (1,602 characters) holds the note; nothing dropped except the raw text (text note). (1) Information Note: the label agrees with the official title of 11.24 ('Notice of address for service in foreclosure actions') and equals Book C's information note. (2) Related Provisions read against the official titles: '3.41 (no defence in foreclosure)' (official 'When no defence is filed in foreclosure action'); '6.5 (notice in foreclosure actions)' (official 'Notice of application in foreclosure action'); 'Part 9, Div.5 (foreclosure rules)' agrees with official Part 9 Division 5 'Foreclosure Actions'; '11.23 (address for service in foreclosure)' - official 11.23 is 'Additional service options in foreclosure actions', and the words 'address for service in foreclosure' are the title of 11.24 (the Information Note names 11.24 correctly), so the label does not describe 11.23. (3) Statements read against the official text and Book B: 'Alberta (unlike some other provinces) postpones questions of subsequent encumbrancers in a foreclosure suit, and they are not ordinarily to be made parties' agrees with 3.77 and with Book B's quotation of Canadian Pacific R. Co. v. Canadian Wheat Growing Co. (1919) in Caplink 2015 ABCA 55 para 25; '1914 R.46, current R.3.77' agrees with Book B's 'then rule 46 of the Alberta Rules of Court, 1914' (para 26); the history footnote 2 (1968 R.688, which came from 1968 R.687) agrees with Book B's 'Old R. 687' (para 27) and its Wasyl Holdings passage ('Rules 687 and 688'). The statements on limitation periods, part payment and acknowledgment, the privacy legislation (Trang) and the mortgagee's control of a foreclosure suit and 'cannot change the locks' are case-law statements, not in 3.77, and were not checked. (4) Pointers to this rule (searched combined rule3.txt, combined_rule2.txt to combined_rule15.txt, combined rule1.txt, Alberta_Rules_of_Court.txt for '3.77'): Book A's 3.41 Related Provisions (line 3089) '3.77 (subsequent encumbrancers)'; combined_rule11.txt line 1359 'rule 3.77 [Subsequent encumbrancers not parties in a foreclosure action]' ('a' added to the official title) and line 1363 '3.77 (subsequent encumbrancers)'; combined_rule6.txt line 2995 and combined_rule9.txt line 3842 (Related Provisions naming 3.77) and line 3924 'See the C.P.E., Chapter 78, Part O and R.3.77'; no rule file besides Book B's own 3.77 commentary names it. (5) The two decisions are named differently in Book A and Book B: 2015 ABCA 55 is 'Cummings (Caplink) v. Steinke & Co. Realty (Petra)' (Book A, 599 AR 48) and 'Caplink Financial Corp. v. Petra Corp.' (Book B, no AR cite); the other cases in the footnotes (Gryckiewicz, Trang 2016 SCC 50, Beazer, Mazepa) are only in Book A (searched Book B's rule3_part10_document.json and the Book C files). "
     },
     "BOOK_B": {
       "title": "Subsequent encumbrancers not parties in foreclosure action",
@@ -91,7 +93,8 @@
         {
           "topic": "Unnamed Encumbrancer",
           "text": "Under rule 3.77 “every encumbrancer on a property is effectively an unnamed party” to foreclosure proceedings. “[T]he rules do not require every encumbrancer to commence a separate action, because all of the claims are dealt with in the",
-          "citations": []
+          "citations": [],
+          "review_flag": "(1) Rule text equals the official text (EXACT_MATCH); the amendment note '[Alta. Reg. 124/2010, r. 3.77 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). The Information Note ('In foreclosure actions, a notice of address for service may be filed and served under rule 11.24 [Notice of address for service in foreclosure actions]') equals the first sentence of Book A's information note (the built record keeps both entries). (2) The commentary (heading 'Unnamed Encumbrancer', 236 characters) is cut off at the page end: 'Under rule 3.77 \"every encumbrancer on a property is effectively an unnamed party\" to foreclosure proceedings. \"[T]he rules do not require every encumbrancer to commence a separate action, because all of the claims are dealt with in the' - no citation is printed and the rest is not in the file. The idea (subsequent encumbrancers are not named, their claims are dealt with in the one foreclosure action) agrees with 3.77 and with Book A's 'postpones questions of subsequent encumbrancers'; the quoted words are in no other file (searched all root *.json and *.txt for 'effectively an unnamed party': none)."
         }
       ],
       "misattributed_entries": [],
@@ -106,19 +109,8 @@
     "BOOK_A": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.898,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "subsequent encumbrancer",
-          "carrier": "subsequentencumbrancer"
-        },
-        {
-          "op": "replace",
-          "official": "encumbrancer.",
-          "carrier": "encumbrancer.2"
-        }
-      ],
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.77 (read by eye); differences are editorial only: the text is printed in two pieces ('3.77 A plaintiff ... unless possession is claimed from the' at p.3-245 line 8076, 'subsequent encumbrancer.' at line 8077); the title in title case ('Subsequent Encumbrancers Not Parties in Foreclosure Action', printed at line 8076 before the text, after the Related Provisions of 3.76); missing spaces and '*' line marks; the footnote marker '2' after the text. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No wording difference. This rule's history footnote 2 ('Quite similar to previous 1968 R.688. It came from 1968 R.687 which was the same as C.R.1057, enacted by Alta.Reg.438/59. cf.C.R.1058; enacted ditto.') is printed at p.3-245 line 8067 in the built 3.75 record (its marker '2' is here) and is kept there; the footnote 1 in the same block (1968 R.39) belongs to 3.76."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -246,6 +238,7 @@
     "3.77 BOOK_B: operative text dropped (EXACT_MATCH)",
     "3.77 BOOK_C: operative text dropped (EXACT_MATCH)",
     "3.77 BOOK_C commentary sentence split dropped",
-    "3.77 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.77 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.77 BOOK_A: raw text dropped, differences editorial only (manual review)"
   ]
 }
