@@ -40,7 +40,7 @@
     },
     "BOOK_A": {
       "title": "Statement of Defence",
-      "operative_text_raw": "3.31(1) If a defendant files a statement of defence,the statement of defence must*(a)be in Form 11,and\n*(b)comply with the rules about pleadings in Part 13 [Technical Rules],*Division 3 [Pleadings].*(2)The defendant must file the statement of defence and serve it on the plaintiff*within the applicable time after service of the statement of claim.*(3)The applicable time is*(a)20 days if service is effected in Alberta,\n*(b)one month if service is effected outside Alberta but in Canada,and*(c)2 months if service is effected outside Canada.",
+      "operative_text_raw": null,
       "operative_text_sha256": "8b9b947ba453cb7917f81dafe5ef55a4e62f34da1457a30c76262990de6493ed",
       "defined_terms": "years]. defendant, file, plaintiff, pleading, rules",
       "related_provisions": "3.59 (defence of set-off);12.11 (defence and demand for notice in family law); 12.12 (time for service in family law litigation);13.3 (calculating time) A Ministerial Order 27/2020 extends many time limits for 75 days from March 17, 2020 to June 1, 2020, because of the Covid epidemic and its effect on courthouses.The Order has Parts 1 and 2, and has somewhat different effects in each.See notes to Rr.3.8 and 3.25.There is some general discussion of that Order in theO'Chiesecase. There are notices to the profession giving guidelines for email or digitally filed documents, and about mandatory email filing.Both are found in the\"News and Announcements\"part of the Court of King's Bench website. Any pleading must be filed and served within the deadlines set by statutes and Rules.In Alberta it is customary to file first any pleading after a statement of claim, then serve it.Statutory limitation of actions periods set the deadlines to issue a statement of claim.The time to serve a statement of claim is set by R.3.26, and the time to serve a third party notice is set by R.3.45. Usually the time to defend against a statement of claim or third party notice served within Alberta is 20 days, but one month to defend against a claim served outside Alberta, and 2 months if served outside Canada.Under Rr.13.3 and 13.4, one excludes the partial day at the beginning (i.e., the day of service) in computing these times.The times can be varied before or after they expire, under R.13.5.It is not hard to get most of these times extended, unless default judgment or the like has occurred in themeantime (for then evidence of merit is needed). But times set by statutes (and by a few express Rules) cannot be extended. It is very common for defence lawyers to get from the plaintiff's lawyers an agreed extension of time to file and serve a statement of defence.Indeed, lawyers for plaintiffs should not refuse such requests without good reason.The mere impatience of the plaintiff is not enough reason to refuse an extension. On the other hand, the defence must realize that it cannot take advantage of any times which expire during such an agreed extension. Since statements of claim are often served just before the limitation period expires, the defence solicitor should immediately carefully determine whether the right parties have been named, and whether the obvious causes of action have been pleaded. If they have not, a defence should be promptly drafted and served, without even seeking any extension of time to defend.That way the plaintiff cannot argue that any limitations defence have been waived. Oddly, the lawyers for both sides frequently do a very poor job of wording or recording agreed time extensions.Sometimes they do it by telephone with no written confirmation.Often letter writers become coy, and use very indirect language.Instead, one should write plainly:\"I ask that you extend the usual time for me to file and serve a defence\", or \"I promise not to note you in default without giving at least x days'written notice\", or similar words. 3Goodzeck Est.v. Goodzeck2019 NWTCA 4,Y #A1-AP-2019-000002 (one JA) (¶'s 9-10). 4Howard v.Dzineku2024 ABKB 79, JCE FL03 72431 (Feb 12) (¶'s 10-15);Kwadrans v. Kwadrans2023 ABCA 203, Calg 2201 00005 AC. A defendant or third party may defend before he or she is served, even after thetime for service has expired. 1B.M.v.Rogozinsky (#2)(M) 2014 ABQB 771, 603 AR 261. 2Alta.W. Mtge.Cap. Corp.v. 955492 Alta.(M) 2016 ABQB 641,JCC 0901 10328 (Nov 17) (¶'s 16-21).The defendant had had experienced legal advice in the meantime. A statement of defence must disclose an arguable ground of defence, to resist its being struck out. See further R.3.68n. The usual lax test for amendments to pleadings does not exist where a defendant wants to file a new statement of defence seven years after her previous one was struck, and wants to withdraw an admission in it, though the plaintiff gives evidence that the admission was true. On the Clerk accepting for filing a defective pleading, cf.theGoodzeckcase. A mere notice to attend does not commence a suit, so if there is an existing suit which is not about two issues, a notice toattend mentioning those two issues does not mean there is then an existing suit on those topics.The proceeding requested would have to wait until the plaintiff started an action on those two topics. *Additional Options for Defendant*",
@@ -57,7 +57,9 @@
           255800,
           261703
         ]
-      }
+      },
+      "operative_text_note": "same wording as official 3.31(1)-(3) (read by eye) except the bracket labels '[Technical Rules]' after 'Part 13' and '[Pleadings]' after 'Division 3' (both match the official headings), the title in title case ('Statement of Defence'), missing spaces and '*' line marks. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The Subdivision 3 heading was printed before the 3.30 title, not here.",
+      "commentary_review_flag": "Read in full, p.3-80 (line 2183) to p.3-82 (line 2228): rule text, two Information Note paragraphs, Defined Terms 'defendant, file, plaintiff, pleading, rules' (the Appendix defines each), Related Provisions and the note, with footnotes as printed. The built record: the information note for Book A holds the first Information Note, the p.3-81 footnotes 1-3 (O'Chiese F.N. v. DLA Piper (Can.) 2022 ABCA 197, 49 Alta LR(7th) 280; C.P.E. Chapter 17; ABP Technology v. Voyetra Turtle Beach [2022] EWCA Civ 594) and the start of the second Information Note, which is cut at the page break ('For how time is counted, see rule 13.3 [Counting days] and rule 13.4 [Counting months and'; its last word 'years].' is the first word of the defined_terms field); the Related Provisions and the whole note are in related_provisions (4,417 characters); the last piece is the title and text of 3.32 (line 2228). Nothing was dropped. (1) Titles in the Information Notes agree with the official text: 'Part 11 [Service of Documents]', 'rule 11.9(2) [Service on corporations]' (and the quoted lead-in 'Service is effected under this rule' is official 11.9(2)), 'rule 13.3 [Counting days]', 'rule 13.4 [Counting months and years]'. (2) Related Provisions labels are paraphrases of the official titles: '3.59 (defence of set-off)' (official 'Claiming set-off'), '12.11 (defence and demand for notice in family law)' (official 'Statement of defence, counterclaim and demand for notice'), '12.12 (time for service in family law litigation)' (official 'Time for service of documents filed under rule 12.11'), '13.3 (calculating time)' (official 'Counting days'). (3) Statements read against the official text: '20 days / one month / 2 months' agree with 3.31(3); 'Under Rr.13.3 and 13.4, one excludes the partial day at the beginning (i.e., the day of service)' agrees with 13.3 ('the date on which the event or activity occurs is not counted'); 'The times can be varied before or after they expire, under R.13.5' agrees with 13.5(2)-(3) ('whether or not the period has expired'); 'times set by statutes (and by a few express Rules) cannot be extended' - see 3.15(2), 3.26(3) and 3.27(2), which exclude 13.5; 'the time to serve a third party notice is set by R.3.45' agrees with 3.45(c) (filed and served within 6 months after the defendant filed a statement of defence or demand for notice, and before judgment or default); 'A defendant or third party may defend before he or she is served, even after the time for service has expired' agrees with Book B's part 3 (Martin v. Dukart); 'A statement of defence must disclose an arguable ground of defence, to resist its being struck out. See further R.3.68n.' - the pointer lands (3.68). (4) 'A Ministerial Order 27/2020 extends many time limits for 75 days from March 17, 2020 to June 1, 2020 ... See notes to Rr.3.8 and 3.25' (p.3-81, lines 2197-2199): the 75 days and the dates agree with the passage in the 3.15 note (p.3-48, lines 1226-1230); the order number is not in the official Rules; the 3.25 note and the 3.8 note do carry the digital-filing notices the passage links to. (5) Footnotes as printed: p.3-82 '3 Goodzeck Est. v. Goodzeck 2019 NWTCA 4', '4 Howard v. Dzineku 2024 ABKB 79 (Feb 12) (¶'s 10-15); Kwadrans v. Kwadrans 2023 ABCA 203', '1 B.M. v. Rogozinsky (#2) (M) 2014 ABQB 771, 603 AR 261', '2 Alta. W. Mtge. Cap. Corp. v. 955492 Alta. (M) 2016 ABQB 641'; 'O'Chiese F.N. v. DLA Piper (Can.) 2022 ABCA 197, 49 Alta LR(7th) 280' agrees with the 3.15 note. (6) Practice statements (agreed extensions, what to write in a letter, 'the defence solicitor should immediately carefully determine whether the right parties have been named') and the cases were not checked."
     },
     "BOOK_B": {
       "title": "Statement of defence",
@@ -85,7 +87,7 @@
     "BOOK_C": {
       "title": "Statement of defence",
       "division_heading": null,
-      "operative_text_raw": "(1) If a defendant files a statement of defence, the statement of defence must (a) be in Form 11, and (b) comply with the rules about pleadings in Part 13 [Technical Rules], Division  months. .\n[Pleadings]\n(2) The defendant must file the statement of defence and serve it on the plaintiff within the applicable time after service of the statement of claim.\n(3) The applicable time is (a) 20 days if service is effected in Alberta, (b) one month if service is effected outside Alberta but in Canada, and (c) 2 months if service is effected outside Canada.",
+      "operative_text_raw": null,
       "operative_text_sha256": "6e86b9b598ddcfb8f626b474b48d82dc14bc3b20e85e49c4d1a7c1f037b28ff4",
       "citations": [],
       "commentary": [],
@@ -93,7 +95,8 @@
       "locator": {
         "file": "121-140_3_19 to 3_43.json",
         "source_file": "121-140_revised.md"
-      }
+      },
+      "operative_text_note": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): in (1)(b) the words 'Division 3' print as 'Division  months. .' - the '3' is missing and 'months.' with an extra full stop stands in its place, followed by the bracket label '[Pleadings]' (the same fault is in Book C's 3.25(d)); the label '[Technical Rules]' follows 'Part 13'. Subrules (2) and (3) equal the official text. The amendment note '[Alta. Reg. 124/2010, r. 3.31 effective November 1, 2010 (Alta. Gaz. August 14, 2010)]' agrees with the official 'AR 124/2010' (no amending regulation). No commentary is printed for 3.31 in Book C."
     }
   },
   "comparison_vs_official": {
@@ -101,7 +104,8 @@
       "status": "NORMALIZATION_ONLY_DIFFERENCE",
       "similarity": 1.0,
       "basis": "equal when only letters and digits are compared (spacing, hyphenation and punctuation spacing differ)",
-      "version_identity": "SAME_VERSION_PROVEN"
+      "version_identity": "SAME_VERSION_PROVEN",
+      "review_note": "same wording as official 3.31(1)-(3) (read by eye) except the bracket labels '[Technical Rules]' after 'Part 13' and '[Pleadings]' after 'Division 3' (both match the official headings), the title in title case ('Statement of Defence'), missing spaces and '*' line marks. No amendment bracket; the official text lists only 'AR 124/2010' (no amending regulation). No substantive difference. The Subdivision 3 heading was printed before the 3.30 title, not here."
     },
     "BOOK_B": {
       "status": "EXACT_MATCH",
@@ -111,13 +115,6 @@
     "BOOK_C": {
       "status": "WORDING_DIFFERENCE",
       "similarity": 0.9894,
-      "differences": [
-        {
-          "op": "replace",
-          "official": "3.",
-          "carrier": "months.."
-        }
-      ],
       "version_identity": "SAME_VERSION_PROVEN"
     }
   },
@@ -223,18 +220,24 @@
     {
       "text": "The words\"service is effected\"link to the rules about service of documents in Part 11 [Service of Documents]. In those rules, various methods of service are described, each one describing the date service is effected.See rule 11.9(2) [Service on corporations] for an example of this;and note the lead-in words to rule 11.9(2) \"Service is effected under this rule \". 1O'Chiese F.N.v. DLA Piper (Can.)2022 ABCA 197, 49 Alta LR(7th) 280. 2See the C.P.E., Chapter 17, for example. 3A defendant cannot destroy the plaintiff's legitimate claim, or part of it, by intentionally not filing the statement of defence until the time to renew a patent or other right, has expired:ABP Technologyv. Voyetra Turtle *Beach[2022] EWCA Civ 594 (May 4). For how time is counted, see rule 13.3 [Counting days] and rule 13.4 [Counting months and",
       "carriers": [
-        "BOOK_A"
-      ]
-    },
-    {
-      "text": "The words “service is effected” link to the rules about service of documents in",
-      "carriers": [
+        "BOOK_A",
         "BOOK_C"
-      ]
+      ],
+      "carrier_defects": {
+        "BOOK_C": "truncated copy of Book A's first information note: Book C prints only 'The words \"service is effected\" link to the rules about service of documents in'; the rest of Book A's note ('Part 11 [Service of Documents]. In those rules, various methods of service are described ... See rule 11.9(2) [Service on corporations] ...') is not in the file (searched all Book C files for 'various methods of service': no hit). Book A's second information note ('For how time is counted, see rule 13.3 ... and rule 13.4 ...') has no counterpart in Book C."
+      }
     }
+  ],
+  "see_also": [
+    "BOOK_B and BOOK_C other Parts (all files searched): BOOK_B rule12_part01_document.json (12.11 text 'in accordance with rule 3.31' and its amending note 'Alta. Reg. 156/2019, s. 2(7)'; a later subrule (10)); rule3_part05_document.json (3.57 text 'under rule 3.31(2)'); no other Book B or Book C file cites 3.31 by number. BOOK_B 3.31: rule text (rule3_part03_document.json paragraph part3_part_3_court_actions_018) EXACT_MATCH with the official; no amendment note; one commentary section 'Commentary § 3.31:1' (3,213 characters, READ IN FULL): three numbered parts, no gap: 1 Effect of Late Delivery (Aldridge v. Dogwood Sales Agencies Ltd. (1958), 25 W.W.R. 591 (B.C.S.C.)), 2 One Cannot Deliver a Statement of Defence after Judgment (Alberta Treasury Branches v. Naber (1994), 161 A.R. 393 (Master)), 3 Filing Defence before Service of Claim (Martin v. Dukart (1997), 58 Alta. L.R. (3d) 171 (Master)); all three are decisions under earlier wording ('delivered', 'notice of motion for judgment') and are not compared with the present 3.31; part 3 agrees with Book A's 'A defendant or third party may defend before he or she is served'. BOOK_C 3.31: rule text WORDING_DIFFERENCE ('Division  months. .'; dropped with note); amendment note agrees with the official; information note truncated (dropped with note); no commentary.",
+    "BOOK_A other Parts and Part 3 (all combined*.txt searched, line-wrapped forms included; pages from the markers): p.3-95 (line 2618) 'That is usually 20 days: see Rr.3.31 and 3.34'; p.3-121 (line 3437) related provisions '3.31 (time to defend); 13.2 (calculating time)' and 'On the time to defend, see R.3.31' (official 13.2 is 'Application of these rules for calculating time'); p.3-122 (line 3460) '3.31 (statement of defence)'; p.3-126 (line 3553) 'statement of defence under rule 3.31(2) [Statement of defence]'; p.3-128 (line 3618) related provision '3.31 (form of defence)'; p.3-245 (lines 8074-8076) '3.31 [Statement of defence]' and related provision '3.31 (statement of defence)' (agree with the title); combined_rule12.txt p.12-13 (lines 532, 561-565), p.12-14 (lines 601-602), p.12-16 (line 669), p.12-20 (lines 862-863): '3.31 [Statement of defence]', '3.31 (defence)', '3.31 (time for service of defence)'; combined_rule13.txt p.13-17 (line 830) 'In rule 3.31(3)(a) [Statement of defence] the defendant must file and serve a statement of defence ...', p.13-66 (line 3490) checklist 'Note the deadline to serve the Statement of Defence (Rr.3.31-3.33)'; combined_rule4.txt p.4-3 (line 72) 'R.3.31 allows 20 days to file a defence'. Those other notes were not read in full in this pass.",
+    "OFFICIAL text (searched for 'rule 3.31', 'rules 3.31', lists, line-wrapped forms and form headings): 3.57 (counterclaim filed and served 'within the same time period that the plaintiff-by-counterclaim must file a statement of defence under rule 3.31(2)'), 3.76(2)(a) (a new defendant has the same time to serve a statement of defence 'as the defendant had under rule 3.31'), 12.11 (a defendant who wishes to oppose a statement of claim for unjust enrichment alone 'must file a statement of defence in Form 11 in accordance with rule 3.31', AR 124/2010 s12.11;156/2019) and the same words in a later Part 12 subrule (10); Form 11 is headed '[Rule 3.31]' (3.31(1)(a) names Form 11). By subject (read): 3.30(c), 3.32-3.34 (options; demand for notice), 3.33 (reply to defence), 3.45 (third party claim time), 3.56-3.59 (counterclaim, set-off), 13.3, 13.4, 13.5 (counting and varying time), 11.9 (service on corporations)."
   ],
   "dedupe_log": [
     "3.31 BOOK_B: operative text dropped (EXACT_MATCH)",
-    "3.31 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)"
+    "3.31 BOOK_C: rule text dropped (manual review)",
+    "3.31 BOOK_C information note dropped (manual review)",
+    "3.31 BOOK_C: amendment note moved to amendment_history.carrier_notes (was duplicated)",
+    "3.31 BOOK_A: raw text dropped, differences editorial only (manual review)"
   ]
 }
