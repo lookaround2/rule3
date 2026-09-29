@@ -30,6 +30,8 @@ BUILDER DIFFERENCES FROM PART 2 (read before trusting a status)
    4. Book B: edition year is not printed in the Part 3 files; the builder uses the latest case year cited (2025).
    5. Book A "defined_terms" is a new field (the "Defined Terms" line under Information Note).
    6. All MANUAL_* tables start empty.
+   6a. Book A identity (found in the 3.12 pass): Book A is very probably a later edition of Stevenson & Cote, Alberta Civil Procedure Handbook - Book B quotes
+      the Handbook 2017 (at 3-21) with the same wording as Book A's 3.12 note, and Book A calls itself 'this Handbook'. No file states the title or edition.
    7. Book B: when the source prints a rule's text twice (heading repeated across a page/file break: seen at 3.4 and 3.12) the parser keeps
       one copy and lists the skipped paragraph ids in sources.BOOK_B.duplicate_rule_text_paragraphs_skipped (added in the 3.4 pass).
    8. Book A: when a rule has no amendment bracket, its text now ends at the first 'Information Note' / 'Defined Terms' / 'Related Provisions'

@@ -508,6 +508,8 @@ MANUAL_BOOK_B_SPLIT = {
 MANUAL_NOTE_FLAGS = {
 }
 MANUAL_TEXT_NOTES = {
+    "3.12": {"BOOK_A": "same wording as official 3.12 (read by eye) except missing spaces and '*' line marks. No amendment bracket; the official text lists no amendment for 3.12. "
+                        "No substantive difference."},
     "3.11": {"BOOK_A": "same wording as official 3.11(1)-(3) (read by eye) except missing spaces, '*' line marks, the title in capitals and the footnote marker '3' after "
                         "(3)(b). No amendment bracket; the official text lists no amendment for 3.11. No substantive difference."},
     "3.10": {"BOOK_A": "same wording as official 3.10(1)-(2) (read by eye) except bracket labels '[Managing Litigation]' (Part 4), '[Disclosure of Information]' (Part 5), "
@@ -632,8 +634,35 @@ MANUAL_SEE_ALSO = {
             
         "BOOK_B and BOOK_C other Parts (all files searched): BOOK_B rule12_part01_document.json (12.26(4) 'Despite rule 3.11(1) and 12.44(2)'; 12.27(4) 'Despite rule 3.11(1)'); BOOK_C: no other file cites 3.11 (only its own 3.11 commentary 'Rule 3.11(3) makes it clear ...'). BOOK_B has no 3.11 commentary (rule text only, equal to the official 3.11).",
     ],
+    "3.12": ["Official text (searched for 'rule 3.12', lists, line-wrapped forms and form headings): no other official rule cites 3.12 by number (the only hit is the running page header 'Rule 3.12'); no form heading names it. By subject: 3.10 (Parts 4 and 5 do not apply to originating-application actions unless another rule, agreement or order provides), 3.13-3.14 (questioning and cross-examination on originating applications), 1.7(2) (rules applied by analogy), 3.2(6) (procedural order to correct and continue in another form), 7.3 (summary judgment, applied via 1.7(2) and 3.12 according to BOOK_A R.7.3), the Appendix definition of 'claim'.",
+            "BOOK_A other Parts and Part 3 (all combined*.txt; pages from the markers; rule numbers from the text): R.1.7 related p.1-33 (line 1624) '3.12 (action wrongly started by originating application)' - FLAG: official 3.12 lets the Court direct that statement-of-claim rules apply to an originating-application action; it says nothing about an action 'wrongly started'; 3.2 p.3-5 information note and related provision '3.12 (converting application to trial)' (flagged under 3.2) and p.3-6 (line 50) 'R.3.12 lets the court turn an Originating Application into a full-fledged suit'; R.4.2 note p.4-4 (line 138) 'rule 3.12 [Application of statement of claim rules to originating applications]' (title matches); R.7.1 note p.7-8 (line 314) 'See this book's annotation of R.3.12 and the description of a statement of the applicant's claim' (lands: this note); R.7.3 note p.7-41 (line 2160) 'Rule 7.3 applies (via Rr.1.7(2) and 3.12)' to a respondent to an Originating Application for judicial review; R.13.6 note p.13-37 (line 1896) 'an application under R.3.12 to permit filing a defence to the originating application'.",
+            
+        "BOOK_B: rule text printed twice in the source (headings 3.12_001, _002 and paragraphs _032, _034 identical; the builder keeps one copy); one commentary section (§ 3.12:1) headed 'Not a New Action' (unnumbered): Singh v. Kaler 2017 ABCA 275 paras. 66-69 - para 66 quotes rule 3.12 with capitals ('Originating Application'; official 'originating application'), para 67 quotes the Alberta Civil Procedure Handbook 2017 (Stevenson & Cote) at 3-21 (the passage in BOOK_A's 3.12 note), para 68 cites Canadian Gulf Oil Co v Crown Trust Co (Alta CA 1954). BOOK_A cites Singh v. Kaler at 3.12 fn 6 (paras. 65-70), 3.2 p.3-9 (line 116) and 3.2 p.3-17 fn 1 (paras. 62-64). No other Book B file cites 3.12; BOOK_C: 3.12's own entry, the 3.2 information note and the 4.2 information note (garbled 'See rule 3.10 [Application of statement of and rule 3.12 claim rules ...]', file 161-180).",
+    ],
 }
 MANUAL_BOOK_A_COMMENTARY_FLAGS = {
+    "3.12": "Read in full, p.3-29 (line 670) to p.3-30 (line 698). (1) Footnotes on p.3-30 (eight, printed among the paragraphs): 1 Newell (Cty.) v. Dola 2003 ABCA 371, 6 MPLR(4th) "
+            "292; 2 'Trial of an issue was ordered where the judicial review matter was complex and would require expert evidence and oral history evidence: Athabasca Tribal Council v. "
+            "Min. of Env'l. Protection 1998 ABQB 879, 233 AR 97; cf. Anderson v. R. 2006 ABCA 158, 384 AR 371. See also Cdn. Natural Res. v. Encana Oil & Gas P'ship. 2008 ABCA 267, 440 AR 338'; "
+            "3 Mathai v. George (M) 2018 ABQB 51, JCE 1703 09296 (Jan 22) (also 3.10 fn 1); 4 Smith v. R. 2004 ABQB 711 (also 3.2 p.3-11 fn 2); 5 'On a contested will case, see Re Serdahely Est. "
+            "2002 ABQB 10, 309 AR 370'; 6 'And so the suit was begun long before this new \"statement\", and limitation periods stopped running long before: Singh v. Kaler 2017 ABCA 275, "
+            "[2018] 3 WWR 284 (paras. 65-70)'; 7 'See further the C.P.E., Chapter 33, Part I'; 8 Simonelli v. Rocky View (M.D.) 2004 ABQB 45, 350 AR 286 (paras. 46-57). The built commentary "
+            "ends with the title of 3.13. "
+            "(2) Related Provisions read against the official text: '1.7(2) (Rules fill gaps by analogy)' agrees with official 1.7(2) ('These rules may be applied by analogy to any matter "
+            "arising that is not dealt with in these rules'); '3.2(4) (wrong form of action)' - the same 3.2(4)/3.2(6) mismatch flagged under 3.2 (official 3.2(4) fixes the form of an "
+            "appeal or reference; the wrong-form power is 3.2(6)). The information note ('See also rule 3.10 [Application of Part 4 and Part 5]') matches the official title of 3.10; "
+            "Defined Terms 'court, rules'. "
+            "(3) Identity of Book A: the passage 'If the court directs pleadings, then the party who has the onus of proof should file a document called \"Statement of the Applicant's "
+            "Claim\". This is not a statement of claim, does not start a new proceeding, uses the action number of the existing suit (Originating Application), and there is no fee for "
+            "filing it' (lines 694-696) is the passage that Book B quotes, in Singh v. Kaler 2017 ABCA 275 para 67, from 'the Alberta Civil Procedure Handbook 2017 (Stevenson & Cote "
+            "(Edmonton: Juriliber, 2017)) ... at 3-21'; Book A calls itself 'this Handbook' (p.3-22 fn 5; Part 12 and Part 14 footnotes) and 'this book' (R.7.1 note, p.7-8). Book A is "
+            "therefore very probably a later edition of that Handbook (its 3.12 page is 3-30); no file states the title or edition. "
+            "(4) Read with 3.2: this note says the 'Statement of the Applicant's Claim' 'does not start a new proceeding' and that a declaration of constitutional rights does not give the "
+            "respondent a right to have the Originating Application converted into an orthodox suit; 3.2's note (p.3-6) says 'R.3.12 lets the court turn an Originating Application into a "
+            "full-fledged suit' (flagged under 3.2 against official 3.12, which only lets the Court direct that statement-of-claim rules apply). "
+            "(5) Statements of law without a source in the repository (not checked): legislation letting a municipality have a summary hearing for an injunction does not mandate that "
+            "procedure; trial of an issue at a late stage; how pleadings in an Originating Application are deemed closed. The passage on the Statement of the Applicant's Claim is "
+            "supported by the Singh v. Kaler quotation in Book B.",
     "3.11": "Read in full, p.3-28 (line 634) to p.3-29 (line 670). (1) Defined Terms 'costs award, party' (the Appendix defines both) and Related Provisions '6.6 (late "
             "responses to application)': official 6.6 is 'Response and reply to application' - a near copy of 3.11 for ordinary applications; its subrule (3) deals with lack of "
             "reasonable notice (costs; no reliance without permission), so the label covers only 6.6(3). "
@@ -840,6 +869,16 @@ MANUAL_BOOK_A_COMMENTARY_FLAGS = {
 MANUAL_BOOK_A_FOOTNOTE_FLAGS = {
 }
 MANUAL_BOOK_C = {
+    "3.12": {
+        "drop_c_note": "garbled copy of Book A's information note ('See also rule 3.10 [Application of Part 4 and Part 5]'): the number '4' of 'Part 4' is lost and this text stands in "
+                       "its place: 'Patrus v. Alberta (Workers' Compensation Board, Appeals Commission), [2011] A.J. No. 1346,' (a displaced citation, home not shown; it also stands "
+                       "displaced in Book C's 3.9 commentary); the label is printed after 'rule 3.10 .'; not retained.",
+        "commentary_flag": "meaning reversed by garbling: 'This is a statement of claim and not does not start a new proceeding' - Book A and Book B (quoting the Handbook in Singh v. Kaler "
+                           "para 67) say 'This is not a statement of claim, does not start a new proceeding'. The first sentence ('In some cases, the court has not required that new "
+                           "pleadings be filed, but that the originating application stand as the statement of claim and commenced by way of originating application, the party who "
+                           "has the onus of proof should file a document called \"Statement of the Applicant's Claim\"') is scrambled and differs from Book A's wording; the text stops "
+                           "at 'it uses the action number of the existing suit (originating'.",
+    },
     "3.11": {
         "drop_rule_text": "Book C's rule text is dropped (official, Book A and Book B carry the whole text): subrule (2)(a) stops after 'serve the response affidavit or other evidence on "
                           "the respondent a' and the words 'reasonable time before the originating application is to be heard or considered, and (b) limit the response to replying to the "
